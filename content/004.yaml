@@ -1,0 +1,49 @@
+date: 2018-06-11
+preview: AR updates from WWDC
+overview: >
+  Apple announced a handful of AR-related features and updates this week at WWDC, showing strong support
+  for the future of augmented reality.
+signed: Jordan
+links:
+  - title: Apple Unveils ARKit 2, USDZ
+    url: https://www.apple.com/newsroom/2018/06/apple-unveils-arkit-2/
+    author: Apple
+    content: >
+      Apple announces the next iteration of [ARKit] at [WWDC 2018](https://www.apple.com/apple-events/june-2018/), featuring closer integration with iOS, session persistence, image detection, and a new AR scene format, [Pixar](https://www.pixar.com)'s USDZ. The new [USDZ format](https://graphics.pixar.com/usd/files/USDZFileFormatSpecification.pdf), a wrapper around Pixar's [USD](http://graphics.pixar.com/usd/docs/index.html) format, generated [many](https://twitter.com/auradeluxe/status/1004127479060049920) [predictions](https://twitter.com/Tojiro/status/1003840308478480384), [opinions](https://twitter.com/kentbye/status/1003821117440589826), [and](https://twitter.com/alexqgb/status/1003899315922718720) [responses](https://twitter.com/mattmiesnieks/status/1003732311173619713) on Twitter regarding USDZ's place in the ecosystem and on the web.
+  -
+    title: Apple Deprecates OpenGL, OpenCL
+    url: https://developer.apple.com/macos/whats-new/
+    author: Apple
+    content: >
+      Apple deprecates OpenGL and OpenCL, directing developers to use their proprietary graphics API, [Metal](https://developer.apple.com/metal/). Apple's Dean Jackson [tweets](https://twitter.com/grorgwork/status/1004074501313736704) that this does not change WebGL on Safari.
+  -
+    title: AR Quick Look in Safari
+    url: https://developer.apple.com/arkit/gallery/
+    author: Apple
+    content: >
+      Safari 12 features the ability to link to USDZ scenes from the web, intenting to Apple's 3D AR viewer. View WWDC's ["Integrating Apps and Content with AR Quick Look" video](https://developer.apple.com/videos/play/wwdc2018/603/) (16:30-20:00) to learn more about the web integration.
+  -
+    title: "Adobe's Project Aero"
+    url: https://www.adobe.com/products/projectaero.html
+    author: Adobe
+    content: >
+      Adobe announces their new AR authoring tool for developers and designers, Project Aero, and supporting USDZ throughout the Adobe Creative Cloud.
+  -
+    title: "Supercraft: Build VR sites with your Hands"
+    url: https://supermedium.com/supercraft/
+    author: Supermedium
+    content: >
+      VR browser startup [Supermedium] announces Supercraft, a VR tool to build and publish VR worlds on the web. Imagine Google [Blocks] UI with [Glitch]-style hosting, powered by [A-Frame].
+  -
+    title: "Designing in the Wild West"
+    url: https://blog.torch3d.com/designing-in-the-wild-west-46438211a8c4
+    author: Torch
+    authorLink: https://torch3d.com
+    content: >
+      Torch published a white paper documenting their research in immersive UX prototyping, identifying challenges and the "Wall of Pain".
+  -
+    title: "Leap Motion's Project North Star now open source"
+    url: http://blog.leapmotion.com/north-star-open-source/
+    author: Leap Motion
+    content: >
+      Leap Motion open sources their [schematics](https://github.com/leapmotion/ProjectNorthStar) for the [Project North Star](http://blog.leapmotion.com/northstar/) AR headsets. These headsets boast two 1600x1440 displays at 120 FPS with 100 degrees FOV, and under $100 per headset to produce at scale.

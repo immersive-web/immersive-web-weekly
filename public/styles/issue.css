@@ -1,0 +1,177 @@
+body {
+  font-family: "Fira Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3c484e;
+  margin: 0;
+  background-color: #eee;
+}
+
+a, a:visited {
+  color: #0c0c0d;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 #0a84ff;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  background-color: #0a84ff;
+  color: white;
+  padding: 15px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 36px;
+}
+#container h1 a {
+  color: white;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 25px 0 15px 0;
+}
+
+.info {
+  color: #888;
+  font-size: 90%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#overview {
+  font-style: italic;
+  margin: 15px 0px 0px 30px;
+  line-height: 2;
+}
+
+#container {
+  background-color: white;
+  margin: 0 auto;
+  width: 800px;
+}
+
+@media screen and (max-width: 800px) {
+  #container {
+    width: 100%;
+  }
+}
+
+#content {
+  padding: 0px 30px 20px 30px;
+}
+
+#content p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 2;
+}
+
+#content .meta {
+  font-size: 80%;
+  color: #3c484e;
+  margin-bottom: 40px;
+}
+.domain::before {
+  content: ' > '
+}
+.domain::after {
+  content: ' | '
+}
+
+#content .meta .author{
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.author::before {
+}
+
+.author::after {
+  content: ', ';
+}
+
+.author:last-of-type::after {
+  content: '';
+}
+
+.tag {
+  font-weight: 300;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background-color: #eee;
+  border: 1px solid;
+  text-transform: uppercase;
+  display: inline;
+  border-color: #999999;
+}
+.tag-development {
+  border-color: #85ff0a;
+}
+.tag-design {
+  border-color: #85ff0a;
+}
+.tag-tutorial {
+  border-color: #85ff0a;
+}
+.tag-video {
+  border-color: #9400ff;
+}
+.tag-event {
+  border-color: #ff0a85;
+}
+.tag-web-platform {
+  border-color: #222222;
+}
+.tag-browsers {
+  border-color: #9400ff;
+}
+
+.signup-wrapper {
+  background: #000000 no-repeat;
+  background-size: 100% 300%;
+  background-image: url(../images/large_image.jpg);
+  background-position-y: 50%;
+  height: 150px;
+  text-align: center;
+}
+
+.signup .signup-info {
+  padding: 20px 50px;
+  margin: 0;
+}
+
+.signup {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 100%;
+}
+.signup .field {
+  display: inline;
+}
+
+.signup label {
+  display: none;
+}
+
+.signup .email {
+  height: 30px;
+  min-width: 150px;
+  width: 40%;
+  padding: 0px 4px;
+  border: 1px solid white;
+}
+
+.signup .submit {
+  display: inline;
+  height: 34px;
+  padding: 3px 10px;
+  margin: 0;
+  border: 1px solid white;
+  background-color: #9400ff;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}

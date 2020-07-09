@@ -1,0 +1,76 @@
+date: 2018-02-28
+overview: >
+  Microsoft [announced the HoloLens 2](https://www.cnet.com/news/microsoft-hololens-2-announced-for-3500-available-to-preorder-now-ships-later-this-year/) this week at $3,500 a pop, [rivaling Magic Leap's FOV](https://www.reddit.com/r/magicleap/comments/auoz7p/fov_comparison_between_hololens_1_2_and_ml_1/), shipping later this year. Microsoft has [committed](https://twitter.com/HoloLens/status/1099730513630093317) to open app stores, open browsing, and open standards: all rad things for the open, immersive web.
+
+signed: Jordan
+links:
+  -
+    title: Bringing Firefox Reality to HoloLens 2
+    url: https://blog.mozvr.com/bringing-firefox-reality-to-hololens-2/
+    author: Lars Bergstrom
+    authorLink: https://blog.mozvr.com/author/lars
+    category:
+      - browsers
+    content: >
+      Coinciding with the HoloLens 2 launch, [Mozilla] and [Microsoft] announce that [Firefox Reality] will be coming to the HoloLens 2, along with Mozilla's [Servo](https://servo.org/) browser engine and [Rust](https://www.rust-lang.org/) support.
+  -
+    title: WebVR Starter Kit from Glitch, Mozilla
+    url: https://glitch.com/culture/an-intro-to-webvr/
+    author: Glitch Team
+    authorLink: https://glitch.com
+    category:
+      - tutorial
+    content: >
+      [Glitch] and [Mozilla] launch the [WebVR Starter Kit](https://glitch.com/culture/an-intro-to-webvr/), a free 5-part video course. [Jenn Schiffer](https://glitch.com/@jennschiffer), [Melissa McEwen](https://glitch.com/@melissamcewen), and [Jake Loeterman](https://glitch.com/@jloet) walk through building a WebVR experience in [A-Frame], with remixable Glitch projects every step of the way.
+
+  -
+    title: Real-world Hit Testing merged into WebXR
+    url: https://github.com/immersive-web/webxr/blob/8e1c06511b420a30d34878c472416bd604747cb9/hit-testing-explainer.md
+    author: Nell Waliczek
+    category:
+      - web-platform
+    content: >
+      While several augmented reality APIs have been incubating over the last few months
+      ([hit test](https://github.com/immersive-web/hit-test),
+      [lighting estimation](https://github.com/immersive-web/lighting-estimation),
+      [anchors](https://github.com/immersive-web/anchors)), the first scene understanding
+      feature has been [merged](https://github.com/immersive-web/webxr/blob/8e1c06511b420a30d34878c472416bd604747cb9/hit-testing-explainer.md)
+      into the WebXR Device API proper. The new [hit test explainer](https://github.com/immersive-web/webxr/blob/8e1c06511b420a30d34878c472416bd604747cb9/hit-testing-explainer.md)
+      describes new methods that allow applications to raycast into the real-world
+      and collisions conveying found geometry. Note that this proposed API differs from
+      the [implementation in Chrome](https://developers.google.com/web/updates/2018/06/ar-for-the-web),
+      based off of the [original proposal](https://github.com/immersive-web/hit-test).
+  -
+    title: "PSA: The State of WebXR"
+    url: https://docs.google.com/document/d/1R8Bz0_vK9YmY5-ZhsbLtZ9-DDJpTOgNeibFD4SdUnbw
+    author: Google Chrome Developers
+    authorLink: https://google.com
+    category:
+      - web-platform
+    content: >
+      Chrome developers released a PSA outlining the current state of WebXR implementation in Chrome as the API undergoes change. Required reading if you're supporting WebVR and WebXR across all platforms.
+  -
+    title: A Quick Guide to Designing for Augmented Reality on Mobile
+    url: https://medium.com/@goatsandbacon/a-quick-guide-to-designing-for-augmented-reality-on-mobile-part-4-f554f5b80c24
+    author: Bushra Mahmood
+    category:
+      - design
+    content: >
+      [Bushra Mahmood] releases part 4 of her ongoing series, [A Quick Guide to Designing for Augmented Reality on Mobile](https://medium.com/@goatsandbacon/a-quick-guide-to-designing-for-augmented-reality-on-mobile-part-4-f554f5b80c24); an accessible series on applying design patterns and working in a new, spatial medium (with great visuals). Start from [part 1](https://medium.com/@goatsandbacon/a-quick-guide-to-designing-for-augmented-reality-on-mobile-part-1-c8ecaaf303d5)!
+  -
+    title: WEBGL_multi_draw, WEBGL_multi_draw_instanced lands in Chrome Canary
+    url: https://twitter.com/Tojiro/status/1099056933783457797
+    author: Brandon Jones
+    category:
+      - web-platform
+    content: >
+      [Brandon Jones] shares the performance implications of new WebGL extensions [WEBGL\_multi\_draw](https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw) and [WEBGL\_multi\_draw\_instanced](https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw_instanced) landing in Chrome Canary.
+  -
+    title: WebVR in Brave
+    url: https://twitter.com/matrixscene/status/1096992146953924609?s=19
+    author: bird
+    authorLink: https://twitter.com/matrixscene
+    category:
+      - browsers
+    content: >
+      A Bird shares support for WebVR in the [Brave](https://brave.com) browser and how to access.

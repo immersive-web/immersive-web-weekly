@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Immersive Web Weekly: Issue #{{ issue }}, {{date}}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://immersivewebweekly.com/issues/{{issue}}">
+        <meta name="twitter:title" content="Immersive Web Weekly: Issue #{{issue}}, {{date}}">
+        <meta name="twitter:description" content="{{overviewShort}}">
+        <meta name="twitter:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta name="twitter:creator" content="@jsantell">
+        <meta property="og:title" content="Immersive Web Weekly: Issue #{{issue}}, {{date}}">
+        <meta property="og:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta property="og:site_name" content="Immersive Web Weekly">
+        <meta property="og:description" content="{{overviewShort}}">
+        <meta property="og:url" content="https://immersivewebweekly.com/issues/{{issue}}">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../../styles/issue.css" />
+  </head>
+  <body>
+      <div id="container">
+
+      <h1><a href="https://immersivewebweekly.com">Immersive Web Weekly</a></h1>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us18.list-manage.com/subscribe/post?u=d8958017f47f03a7a8388f93c&amp;id=b89ab2d07e" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_d8958017f47f03a7a8388f93c_b89ab2d07e" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+
+      <div class="info">Issue #{{issue}}, {{date}}, <a href="https://immersivewebweekly.com">immersivewebweekly.com</a></div>
+      <div id="overview">
+        {{{overview}}} {{#if signed}}<span>– {{signed}}</span>{{/if}}
+      </div>
+      <div id="content">
+      {{#each links}}
+          <h2><a href="{{{url}}}" target="_new">{{title}}</a></h2>
+          {{{content}}}
+          <div class="meta">
+            {{#each category}}
+              <span class="tag tag-{{slug}}">{{category}}</span>
+            {{/each}}
+            <span class="domain"><a href="{{{url}}}">{{domain}}</a></span>
+            {{#each authors}}
+            <span class="author">
+              {{#if authorLink}}
+                <a href="{{authorLink}}">
+              {{/if}}
+              {{author}}
+              {{#if authorLink}}
+                </a>
+              {{/if}}
+            </span>
+            {{/each}}
+          </div>
+      {{/each}}
+      </div>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us18.list-manage.com/subscribe/post?u=d8958017f47f03a7a8388f93c&amp;id=b89ab2d07e" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_d8958017f47f03a7a8388f93c_b89ab2d07e" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+    </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119157804-1"></script>
+    <script>
+        if (window.location.hostname === 'immersivewebweekly.com') {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-119157804-1');
+        }
+    </script>
+  </body>
+</html>

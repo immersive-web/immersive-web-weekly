@@ -1,0 +1,21 @@
+{
+  "source": "content",
+  "destination": "public",
+  "clean": false,
+  "plugins": {
+    "metalsmith-date-formatter": {
+      "dates": [{
+        "key": "date",
+        "format": "MMMM DD, YYYY"
+      }]
+    },
+    "metalsmith-markdown": {},
+    "metalsmith-drafts": true,
+    "metalsmith-perma": {
+      "pattern": "issues/:issue" 
+    },
+    "metalsmith-layouts": {
+      "engine": "handlebars"
+    }
+  }
+}

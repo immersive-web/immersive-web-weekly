@@ -1,0 +1,48 @@
+date: 2018-06-04
+preview: Immersive Web Weekly #3
+overview: >
+  Some exciting updates on WebGPU, and research into AR Cardboard, AR UX, and VR in a worker thread. Enjoy!
+signed: Jordan
+links:
+  - title: "Chrome Intent to Implement: WebGPU"
+    url: https://groups.google.com/a/chromium.org/forum/m/#!topic/blink-dev/dxqWTSvyhDg
+    author: Corentin Wallez
+    content: >
+      Being developed by the [GPU for the Web W3C Community Group](https://www.w3.org/community/gpu/), Chrome announced an Intent to Implement for WebGPU API, with public support from Edge, Firefox and Safari. The WebGPU API is the successor to the WebGL and WebGL 2 graphics APIs for the web, providing modern features such as "GPU compute", as well as lower overhead access to GPU hardware and better, more predictable performance.
+  -
+    title: XR for Change Summit
+    url: http://festival.gamesforchange.org/festival-xr-for-change
+    author: Games for Change
+    authorLink: http://festival.gamesforchange.org/
+    content: >
+      A part of the [Games for Change 2018 Festival](http://festival.gamesforchange.org/) in New York City, the [XR for Change Summit](http://festival.gamesforchange.org/festival-xr-for-change) is a single day of talks, workshops and demos from folks using immersive technology offering new ways to create positive social impact.
+  -
+    title: Immersive, stereoscopic Mixed Reality — on the cheap!
+    url: https://medium.com/@stew_rtsmith/immersive-stereoscopic-mixed-reality-on-the-cheap-fa730f4d45ee
+    author: Stewart Smith
+    authorLink: http://stewartsmith.io
+    content: >
+      Stewart Smith describes his experiences in creating a mixed reality web app with two smart phones, Google Cardboard, prototype AR browsers, and wizard-like hacks.
+  -
+    title: HTC announces 6DOF Controller Mode & Hand-tracking gesture input
+    url: https://www.roadtovr.com/htc-teases-6dof-mode-for-vive-focus-controller-optical-hand-tracking-for-gesture-input/amp/
+    author: Ben Lang
+    authorLink: https://www.roadtovr.com/author/benz145/
+    content: >
+      HTC announces at Vive Ecosystem Conference 2018 that the [Vive Focus] will soon
+      support a 6DOF controller mode, as well as controller-less hand-tracking for gesture input.
+  -
+    title: Design Lessons Learned From Mobile AR Experiments
+    url: https://code.likeagirl.io/design-lessons-from-mobile-ar-experiments-b32ea3f42bb
+    author: Vishnu Ganti
+    authorLink: http://vishnuganti.com/
+    content: >
+      Interaction designer [Vishnu Ganti](http://vishnuganti.com/) shares her lessons learned
+      on designing user experiences while exploring AR applications.
+  -
+    title: WebGL/VR on the Worker Thread
+    url: http://blog.dsmu.me/2016/01/webglvr-on-worker-thread.html
+    author: Daosheng Mu
+    content: >
+      [Daosheng Mu] documents his experience using web workers with WebVR. While written two years ago, many of the techniques and issues still persist today.
+

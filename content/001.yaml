@@ -1,0 +1,57 @@
+date: 2018-05-21
+preview: Welcome to the first Immersive Web Weekly!
+overview: >
+  Welcome to the first Immersive Web Weekly! Every week (at most), an issue will contain a collection
+  of links of what's happening and what's new in the world of immersive web with new articles,
+  tools, projects, spec development updates, events and more. Feel free to send feedback and links
+  to [immersivewebweekly@gmail.com](mailto:immersivewebweekly@gmail.com) or [@jsantell](https://twitter.com/jsantell) on Twitter. I hope you enjoy!
+signed: Jordan
+links:
+  -
+    title: Experimenting with Computer Vision in WebXR
+    url: https://blog.mozvr.com/experimenting-with-computer-vision-in-webxr/
+    author: Blair MacIntyre
+    content: >
+      Mozilla's [Blair MacIntyre] dives into their exploration in exposing computer vision features with WebXR. The research uses their experimental [WebXR Viewer] app, which implements Mozilla's experimental, non-standard WebXR API.
+  -
+    title: Virtuleap's Global WebXR Hackathon
+    url: https://hackathon.virtuleap.com/
+    author: Virtuleap
+    content: >
+      A competition exploring WebXR concepts on the full spectrum of VR and AR devices, [Virtuleap]'s second Global WebXR Hackathon approaches, running May 25th to June 24th. Prizes, including XR devices, will be announced later this week on the launch date.
+  -
+    title: Amazon Sumerian now available
+    url: https://aws.amazon.com/blogs/aws/amazon-sumerian-now-generally-available/
+    author: Amazon
+    authorLink: https://aws.amazon.com/
+    content: >
+      Announced last year, Amazon's 3D web editor [Sumerian] is now available for all to try. Sumerian currently allows the creation of WebGL applications that leverage the WebVR API, as well as mobile applications that expose AR features to web content.
+
+  -
+    title: Space Rocks — Technical deep dive
+    url: https://medium.com/@stew_rtsmith/space-rocks-technical-deep-dive-9bf67fb8a467
+    author: Stewart Smith
+    authorLink: http://stewartsmith.io
+    content: >
+      [Stewart Smith](http://stewartsmith.io) shares the process he used to make [Space Rocks](https://spacerocks.moar.io/),
+      a WebVR ode to the game *Asteriods*. As the creator of [VRController](https://github.com/stewdio/THREE.VRController),
+      Stewart explains his techniques working with controllers and designing an immersive game,
+      with the corresponding, non-transpiled source code.
+  -
+    title: SVVR's MULTIVERSE and Reality Portals
+    url: https://svvr.com/press-releases/svvr-launches-multiverse-for-live-events-and-joins-vrba-high-fidelity
+    author: SVVR
+    content: >
+      On their fifth anniversary, [SVVR] is launching MULTIVERSE, an open design initiative powering real-time, live event communications between real locations and virtual worlds, powered by WebVR. The [Voices of VR] podcast covers this announcement in more detail in [episode #647](http://voicesofvr.com/647-merging-irl-events-with-vr-via-svvrs-reality-portals-metaverse-intiative/), an interview with SVVR's founder, [Karl Krantz](https://twitter.com/karlkrantz), on SVVR's larger community efforts.
+  -
+    title: Delaying Chrome's Web Audio autoplay policy
+    url: https://bugs.chromium.org/p/chromium/issues/detail?id=840866#c103
+    author: John Pallett
+    content: >
+      After [announcing Chrome's autplay policy change](https://blog.google/products/chrome/improving-autoplay-chrome/)
+      earlier this month, requiring user gesture before enabling media content, the Chrome
+      team received pushback from creative developers who have had audio-driven 3D and VR experiences
+      broken from the change.
+      Chrome is now temporarily rolling back the new policy for Web Audio, with plans on re-enabling
+      [the new policy](https://bugs.chromium.org/p/chromium/issues/detail?id=840866#c103) in October.
+

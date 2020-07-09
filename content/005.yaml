@@ -1,0 +1,62 @@
+date: 2018-06-18
+preview: Augmented reality has landed in Chrome Canary
+overview: >
+      Augmented reality has landed in Chrome Canary! The [hit-test feature](https://github.com/immersive-web/hit-test) is the first AR proposal for the [WebXR Device API] to land in a mainstream browser, enabling a baseline feature set for building AR experiences on the web. This API **will** change and is still in an early proposal state, so try it out, post your ideas/concerns/questions on the [Github repo](https://github.com/immersive-web/hit-test), and check out the [other](https://github.com/immersive-web/anchors) [proposals](https://github.com/immersive-web/proposals) as well.
+signed: Jordan
+links:
+  - title: Chrome lands AR proposal for WebXR Device API
+    url: https://developers.google.com/web/updates/2018/06/ar-for-the-web
+    category:
+      - web platform
+    author: Joseph Medley
+    content: >
+      [Joseph Medley] details the launch of AR features in Chrome, explaining how it works, how to get it, and how to get started developing AR experiences on the web.
+
+  - title: "Google I/O 2018: The future of the web is immersive"
+    url: https://www.youtube.com/watch?v=1t1gBVykneA
+    category:
+      - video
+    authors:
+      - author: Brandon Jones
+      - author: John Pallett
+    content: >
+      At [Google I/O 2018](https://events.google.com/io/) in May, [WebXR spec] editor and Chrome engineer [Brandon Jones] and Chrome PM [John Pallett] talked about the current state of WebXR on Chrome, inputs, and augmented reality. Targeting developers, the talk shows examples of working with XR input devices and the AR hit-test proposal. Check out how the [AR Chacmool demo](https://web-education-ar-demo.appspot.com/) shown in the video was made as well with ["Chacmool: Augmented reality in Chrome Canary"](https://developers.google.com/web/updates/2018/06/webar-chacmool).
+  
+  - title: "Codelab: Building an augmented reality application using WebXR"
+    url: https://codelabs.developers.google.com/codelabs/ar-with-webxr
+    category:
+      - tutorial
+    author: Google
+    content: >
+      Coinciding with the AR proposal landing in Chrome Canary, my team [made a Codelab](https://codelabs.developers.google.com/codelabs/ar-with-webxr)! This tutorial will walk you through building a boilerplate AR web experience that places a 3D model appearing in the real world using the new `requestHitTest()` AR feature. Shout out if you have any feedback!
+  - title: "ISMAR 2018: Towards An Immersive Web Workshop"
+    url: https://www.perey.com/ISMAR2018-Towards-Immersive-Web-Workshop/
+    category:
+      - event
+    author: Christine Perey
+    content: >
+      A workshop for discussing the state and next steps for the Immersive Web, [Towards An Immersive Web](https://www.perey.com/ISMAR2018-Towards-Immersive-Web-Workshop/) is an [ISMAR 2018](https://ismar2018.org/) post-conference workshop taking place this October in Munich. Participants are encourged to [submit short position papers](https://www.perey.com/ISMAR2018-Towards-Immersive-Web-Workshop/submissions/) on current work, recommendations for future research, support for specific features, and concerns about potential obstacles to the adoption of the Immersive Web.
+
+  - title: Within Launches WebVR 
+    url: https://vr.with.in/
+    category:
+      - product
+    author: Within
+    content: >
+      VR startup [Within] brings their immersive video content across devices to the web, powered by [WebVR]. Variety covers the launch in [their article](https://variety.com/2018/digital/news/within-vr-website-webvr-1202843564/) about the new [https://vr.with.in] site.
+
+  - title: WebVR in Progressive Web Apps on Edge
+    url: https://docs.microsoft.com/en-us/microsoft-edge/webvr/webvr-in-pwas
+    category:
+      - tutorial
+    author: Microsoft
+    content: >
+      With the latest [Edge] browser release, WebVR is now supported in [Progressive Web Apps](https://docs.microsoft.com/microsoft-edge/progressive-web-apps). This tutorial walks you through the steps of creating a WebVR experience with [Babylon.js], publishable to the Microsoft Store as Windows 10 applications.
+  
+  - title: WebVR CG is now officially the Immersive Web Community Group
+    url: https://www.w3.org/community/immersive-web/
+    category:
+      - web platform
+    author: Immersive Web Community Group
+    content: >
+      The W3C community group that was previously known as the WebVR CG is now the Immersive Web CG. No changes are necessary other than new URLs and mailing list addresses, and the group has been going by the new name for a few months now.

@@ -1,0 +1,59 @@
+date: 2018-07-05
+overview: >
+  This issue was a bit later than expected, thanks for your patience! There's some pretty cool web hacking and VR UX prototyping research this week; enjoy!
+signed: Jordan
+links:
+  - title: N64 VR with JavaScript
+    url: https://medium.com/webmr/n64-vr-with-javascript-e188de42ced5
+    category:
+      - development
+    author: Avaer Kazmer
+    content: >
+      Yes, running Legend of Zelda in a browser in VR. [Avaer Kazmer] explains the process of porting an N64 emulator to the web with WebXR and [three.js], as well as sharing the sibling project [Exokit](https://github.com/webmixedreality/exokit), a canvas-only VR browser.
+
+  - title: Creating 'Qalam'
+    url: https://medium.com/@stinkstudios/creating-qalam-d016a0a52d56
+    category:
+      - development
+    author: Stink Studios
+    authorLink: https://www.stinkstudios.com/
+    content: >
+      A technical dive into the making of Project Qalam, an experience for sharing VR artwork for Ramadan. Qalam faced challenges rendering large Tilt Brush models on the web, making use of compression and workers for performance.
+
+  - title: My favorite VR Prototyping Tool
+    author: Billy Vacheva
+    url: https://medium.com/vr-ux-ui/tvori-vr-ux-prototyping-tool-ea8fd3f0f409
+    category:
+      - ux
+    content: >
+      Product manager for [LensVR] browser [Billy Vacheva] shares her experience exploring new VR UX using [Tvori] while prototyping an idea for VR browser bookmarks.
+
+  - title: Look ma! No hands!
+    author: Diego González
+    url: https://www.youtube.com/watch?v=Aa6G1b5TbSE
+    category:
+      - video
+    content: >
+      [Samsung]'s [Diego González] speaks on the state of VR on the web, its advantages as a platform, and responsively supporting different devices and controllers.
+
+  - title: Designing Cat Explorer
+    author: Eugene Krivoruchko and Keiichi Matsuda
+    authorLink: http://blog.leapmotion.com/author/eugk/
+    url: http://blog.leapmotion.com/designing-cat-explorer/
+    category:
+      - ux
+    content: >
+      [Leap Motion] shares the results of their challenge of designing an application for someone who has never used a VR headset, with no instructions whatsoever, focusing on UX for hand tracking.
+
+
+  - title: "Brandon Jones' #XRSummer"
+    url: https://twitter.com/Tojiro/status/1013669380595466241
+    author: Brandon Jones
+    content: >
+      Every day for the month of July, [WebXR spec] editor [Brandon Jones] has been tweeting out an XR app, mechanic or technique idea. Follow along!
+
+  - title: "Silicon Valley WebGL/WebVR Meetup: glTF"
+    url: https://www.youtube.com/watch?v=GuA1mYG0-xE
+    content: >
+      Last month, there was a Silicon Valley WebGL/WebVR meetup focused on glTF. Check out the presentations from folks representing Microsoft, Mozilla, Google, Adobe and Facebook on the glTF ecosystem, compression and more.
+

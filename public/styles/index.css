@@ -1,0 +1,95 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Ubuntu, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: #000000;
+  font-size: 120%;
+}
+
+#background {
+  background: #000000 no-repeat center center fixed;
+  background-size: cover;
+  /* Use a blur so we can get away with a lower quality image */
+  filter: blur(5px);
+}
+
+#background.show {
+  width: 100%;
+  height: 100vh;
+}
+
+#content {
+  padding: 20px;
+  width: 60%;
+  min-width: 200px;
+  max-width: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 10%;
+  border-radius: 5px;
+  color: #fefefe;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+#content a {
+  color: #46d6fd;
+}
+
+#content h1 {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+#signup {
+  background-color: #46d6fd;
+  padding: 10px;
+  text-align: center;
+}
+
+#signup .field {
+  display: inline;
+}
+
+#signup label {
+  display: none;
+}
+
+#signup .email {
+  height: 30px;
+  min-width: 150px;
+  width: 40%;
+  padding: 0px 4px;
+  border: 1px solid white;
+}
+
+#signup .submit {
+  display: inline;
+  height: 34px;
+  padding: 3px 10px;
+  margin: 0;
+  border: 1px solid white;
+  background-color: #b450ce;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#details {
+  margin-top: 20px;
+  font-size: 80%;
+  text-transform: lowercase;
+}

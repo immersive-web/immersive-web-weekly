@@ -1,0 +1,61 @@
+date: 2018-07-31
+overview: >
+  It's been a slow, heads-down summer, and then a lot of updates for the end of the month from the [Immersive Web Community Group]'s face-to-face meeting in Seattle! I'm also always looking for news and updates to share, so feel free to reach out [immersivewebweekly@gmail.com]!
+signed: Jordan
+links:
+  -
+    title: Immersive Web Leadership Changes
+    url: https://lists.w3.org/Archives/Public/public-immersive-web/2018Jul/0002.html
+    author: Brandon Jones
+    category:
+      - web platform
+    content: >
+      Last week, during the [Immersive Web Community Group]'s F2F meeting ([meeting notes](https://lists.w3.org/Archives/Public/public-immersive-web/2018Jul/0006.html)),
+      a more formalized leadership was proposed in preparation for the creation of the
+      Immersive Web **Working Group**. Congratulations to [Ada Rose Cannon] and [Chris Wilson] (co-chairs of Immersive Web Working Group), [Trevor F. Smith] (chair of Immersive Web Community Group), and [Nell Waliczek] and [Brandon Jones] (WebXR Device API spec editors)!
+  -
+    title: Designing a WebVR game with A-Frame
+    url: https://www.youtube.com/watch?v=KeYv7BSn4N4
+    author: Ada Rose Cannon
+    category:
+      - video
+    content: >
+      In [Designer vs. Developer](https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ) #18, [Ada Rose Cannon] shares her experience and resources building a WebVR game in a week for [Games Done Quick](https://gamesdonequick.com/) using [A-Frame], [Twinery](http://twinery.org/), [Glitch], [Archilogic] and [Google Poly].
+  -
+    title: "Intent to implement and ship: WebXR Device API in Firefox Nightly"
+    url: https://groups.google.com/forum/#!msg/mozilla.dev.platform/K-i_WXuZ_bY/1-XAkm6wCQAJ
+    author: Kip Gilbert
+    category:
+      - web platform
+    content: >
+      Firefox engineer [Kip Gilbert] publishes their plans on shipping the [WebXR Device API]
+      in Firefox Nightly in October this year on all platforms that already support [WebVR].
+  -
+    title: Chrome launches on Daydream View
+    url: https://www.blog.google/products/chrome/browse-web-vr-chrome-launches-daydream-view/
+    author: Gordon Brander
+    content: >
+      Chrome makes its way to [Daydream] View headsets and Lenovo [Mirage Solo]
+      for browsing the web in VR, supporting WebVR experiences.
+
+  - title: Magic Leap reveals demo, hardware
+    url: https://www.roadtovr.com/magic-leap-ar-developer-demo-nvidia-tx2-cpu-gpu-hardware/
+    author: Ben Lang
+    content: >
+      AR HMD startup [Magic Leap] revealed a first look of a developer demo and hardware in their Magic Leap One, slated to be released later this summer. This week, the [device's field of view was uncovered](https://magic-leap.reality.news/news/magic-leap-one-field-view-specs-finally-uncovered-0186278/): 40°x30°.
+  -
+    title: Josh Marinacci livestreams WebXR development
+    url: https://www.twitch.tv/joshmarinacci/videos/all
+    author: Josh Marinacci
+    category:
+      - video
+    content: >
+      [Mozilla]'s [Josh Marinacci] has been livestreaming the process of building 360 VR experiences and shares looks at the [Firefox Reality] research browser. Check out Josh's videos and stay tuned for the next livestream!
+
+  -
+    title: Supermedium scores $1.1M in seed funding
+    url: https://techcrunch.com/2018/07/24/supermedium-scores-1-1m-in-seed-funding-for-its-web-first-vision-for-virtual-reality/
+    author: Lucas Matney
+    authorLink: https://techcrunch.com/author/lucas-matney/
+    content: >
+      WebVR browser-makers [Supermedium] raise $1.1M in seed funding.

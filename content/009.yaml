@@ -1,0 +1,77 @@
+date: 2018-02-07
+overview: >
+  *\*wakes up from a deep, winterly slumber\**
+  <br />
+  Oh, hi, I didn't see you come in. It's been a while. But it is 2019!
+  And there have been a lot of updates and progress on the [WebXR Device API]!
+  Enjoy, my winter and summer pals.
+
+signed: Jordan
+links:
+  -
+    title: Immersive Web Working Group F2F
+    url: https://www.w3.org/2019/01/29-immersive-web-minutes.html
+    author: Immersive Web Working Group
+    category:
+      - web-platform
+    content: >
+      The Immersive Web WG/CG met last week to tackle some outstanding issues in the
+      [WebXR Device API] spec. Topics like controllers/input, session creation, and AR features
+      (hit test, anchors) were addressed over the two days (meeting minutes
+      [Jan 29](https://www.w3.org/2019/01/29-immersive-web-minutes.html),
+      [Jan 30](https://www.w3.org/2019/01/30-immersive-web-minutes.html)), as resolutions
+      and decisions make their way to the [specification's Github repo](https://github.com/immersive-web/webxr).
+  -
+    title: WebXR Device API Working Draft Published
+    url: https://uploadvr.com/webxr-device-api-working-draft-published/
+    author: Ian Hamilton
+    authorLink: https://uploadvr.com/author/ian-hamilton/
+    category:
+      - web-platform
+    content:
+      In related standards news, the First Public Working Draft for the WebXR Device API
+      [has passed](https://lists.w3.org/Archives/Public/public-immersive-web-wg/2019Jan/0015.html)(!) the working group's [call for consensus](https://lists.w3.org/Archives/Public/public-immersive-web-wg/2019Jan/0003.html). See the [W3C docs](https://www.w3.org/2014/Process-20140801/#rec-advance)
+      that describe the journey of a spec from FPWD to Recommendation.
+  -
+    title: "\"It’s definitely going to break things\": Apple is prepping an iOS change that may hurt AR and VR advertising"
+    url: https://digiday.com/marketing/definitely-going-break-things-apple-prepping-ios-change-may-hurt-ar-vr-advertising/
+    author: Tim Peterson
+    authorLink: https://digiday.com/author/timdigiday-com/
+    category:
+      - web-platform
+    content: >
+      Apple released [Safari 12.1 Release Notes](https://developer.apple.com/documentation/safari_release_notes/safari_12_1_release_notes)
+      this week which requires OS opt-in for the [devicemotion](https://developer.mozilla.org/en-US/docs/Web/Events/devicemotion)
+      and [deviceorientation](https://developer.mozilla.org/en-US/docs/Web/Events/deviceorientation) web APIs.
+      These APIs expose data from (mostly mobile) devices' gyroscope and accelerometer, which is used
+      to synthesize a user's view orientation for Cardboard VR experiences as well as web-based AR
+      experiences. These APIs are also abused for [terrifyingly accurate fingerprinting](https://arxiv.org/abs/1408.1416)
+      ([for real](https://www.wired.com/story/mobile-websites-can-tap-into-your-phones-sensors-without-asking/)) and lack
+      the permission model of newer APIs, like its successor [Generic Sensors](https://www.w3.org/TR/generic-sensor/).
+      This will break XR experiences using these APIs on iOS (like [A-Frame](https://github.com/aframevr/aframe/issues/3976), or anything
+      built on the [WebVR Polyfill]) unless users opt-in to exposing these APIs.
+      There's [discussion on the deviceorientation spec](https://github.com/w3c/deviceorientation/issues/57) about adding
+      a permission model to the API for a solution somewhere between deanonymizing users and
+      breaking all existing XR web content on iOS.
+
+  -
+    title: Mozilla Announces Deal to Bring Firefox Reality to HTC VIVE Devices
+    url: https://blog.mozilla.org/blog/2019/01/08/mozilla-announces-deal-to-bring-firefox-reality-to-htc-vive-devices/
+    author: Sean White
+    category:
+      - browsers
+    content: >
+      Mozilla's VR browser, [Firefox Reality], was announced to be the default browser for [HTC Vive]
+      headsets. Firefox Reality was released last year, supporting all-in-one Android devices,
+      available on [Viveport](https://mixedreality.mozilla.org/firefox-reality), [Oculus Go](https://www.oculus.com/experiences/go/2208418715853974/),
+      and [Daydream](https://play.google.com/store/apps/details?id=org.mozilla.vrbrowser).
+
+  -
+    title: createwebvr.com
+    url: http://www.createwebvr.com/
+    author: Damon Hernandez
+    category:
+      - development
+    content: >
+      A handy cheat sheet for all things in the WebVR ecosystem: frameworks, browsers, social groups, resources and gear.
+

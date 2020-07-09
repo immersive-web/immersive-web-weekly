@@ -1,0 +1,79 @@
+date: 2018-08-30
+overview: >
+  Summer went by just like that. I've been super slow sending this out, so thanks for your patience! In just a few weeks, everyone's talking about the released Magic Leap One, the Global WebXR Hackathon ends as JS13k with WebXR begins, and the Immersive Web Working Group charter is coming together to push the WebXR Device API into a W3C proposed recommendation. Dig in & enjoy!
+signed: Jordan
+links:
+  -
+    title: Magic Leap One Released
+    url: https://www.magicleap.com/magic-leap-one
+    author: Magic Leap
+    category:
+      - hardware
+    content: >
+      The ultra-anticipated mixed reality headset [Magic Leap One] was finally made available
+      for public purchase earlier this month at $2295. The [Helio] web browser is also shipping on
+      the platform, with documentation for the [Helio SDK](https://magicleaphelio.com/devsamples/)
+      for declaratively creating 3D web content in XR. There are a lot of takes out there,
+      but I've enjoyed [Avaer Kazmer]'s hands-on developer review,
+      ["Magic Leap One: Vive for AR](https://medium.com/webmr/magic-leap-one-vive-forar-3a86084e31ff),
+      [Adario Strange](https://creator.wonderhowto.com/adario/)'s
+      [review of the Helio browser](https://magic-leap.reality.news/news/hands-on-magic-leaps-helio-app-is-best-window-into-web-available-augmented-reality-0186508/),
+      and if you're into hardware guts, [iFixit has a great teardown of the Magic Leap One](https://www.ifixit.com/Teardown/Magic+Leap+One+Teardown/112245).
+  -
+    title: Authoring for Mixed Reality with Timoni West
+    url: https://www.youtube.com/watch?v=K_sB_QR_YS8
+    author: Timoni West
+    category:
+      - video
+    content: >
+      [Timoni West], Director of AR/VR Research at [Unity], shares findings and fields questions
+      on authoring XR experiences as a part of [Mozilla]'s Speaker Series.
+  -
+    title: Immersive Web Working Group Charter
+    url: https://www.w3.org/2018/08/immersive-web-wg-charter.html
+    author: Immersive Web Community Group
+    category:
+      - web platform
+    content: >
+      The draft charter for the Immersive Web Working Group is currently under review.
+      The [Immersive Web Community Group] that has been working on WebXR standards will
+      now create a working group: a more formal process for pushing the [WebXR Device API]
+      into a W3C proposed recommendation.
+  -
+    title: Testing Usability for WebVR
+    url: https://four-kitchens.gitbook.io/webvr-report/
+    author: Nicole Mabry
+    authorLink: https://www.fourkitchens.com/team/nicole-mabry/
+    category:
+      - ux
+    content: >
+      Nicole Mabry shares [Four Kitchen](https://www.fourkitchens.com/)'s user research into
+      the world of accessible WebVR, offering recommendations on designing spaces, narratives,
+      and stories from their studies with WebVR on Cardboard and [Daydream] headsets.
+  -
+    title: Crystalis VR Game Wins The 2018 Global WebXR Hackathon
+    url: https://uploadvr.com/argentinas-crystalis-vr-game-wins-the-2018-global-webxr-hackathon/
+    author: UploadVR
+    category:
+      - development
+    content: >
+      [Virtuleap]'s [Global WebXR Hackathon](https://hackathon.virtuleap.com/) has come to an end; check out the 21 experiences, and congratulations to [Alfredo Consebola]'s virtual reality puzzler [Crystalis VR](https://hackathon.virtuleap.com/apps/details/hc), and all of the contestants!
+  -
+    title: "JS13k Games: WebXR Category"
+    url: https://medium.com/js13kgames/webxr-category-16cecc8a31a1
+    author: Andrzej Mazur
+    authorLink: https://medium.com/@end3r
+    category:
+      - development
+    content: >
+      [JS13k Games](https://js13kgames.com/) is a JavaScript competition to create an experience in under 13 kilobytes, adding a new [WebXR category](http://js13kgames.com/webxr) this year, allowing [A-Frame] and [Babylon.js] to be used without counting against the file limit. I've been slow sending this out, and there's 13 more days, so add 1kb of code every day on top of either WebVR framework and give it a go!
+  -
+    title: "Building AR/VR with JavaScript and HTML"
+    url: https://blog.halolabs.io/building-ar-vr-with-javascript-and-html-97af4434bcf6
+    author: Or Goldfus
+    authorLink: https://blog.halolabs.io/@orgoldfus
+    category:
+      - development
+    content: >
+      Or Goldus from [Halo Labs] shares their path down the rabbit hole of entering the world
+      of developing XR experiences for the web, with plenty of follow up resource links.

@@ -1,0 +1,45 @@
+date: 2018-05-28
+preview: Immersive Web Weekly #2
+links:
+  - title: First Annual WebXR Week
+    url: http://www.webxrweek.com/
+    author: WebXR Week
+    content: >
+      The first annual [WebXR Week] is a global community effort to organize WebXR events all over the world. The week will kick off later in June (June 25th - July 1st, 2018) with [SF WebXR Weekend Challenge](https://www.eventbrite.com/e/webxr-weekend-challenge-tickets-46100317290), [Virtuleap's WebXR Hackathon](https://hackathon.virtuleap.com/), and more events TBD.
+  -
+    title: "Standalone VR: A Developer's Review"
+    url: https://medium.com/@iBrews/standalone-vr-a-developers-review-1bb69feb6dcc
+    author: Alex Coulombe
+    authorLink: https://medium.com/@iBrews
+    content: >
+      A deep dive into the first wave of all-in-one headsets recently released ([Vive Focus], [Oculus Go], [Mirage Solo]), comparing tech specs, price, comfort, development, WebVR support and more. The most wholistic comparison between this generation of VR devices.
+  -
+    title: Social VR's best platform is the open web, not walled gardens
+    url: https://venturebeat.com/2018/05/23/social-vrs-best-platform-is-the-open-web-not-pricey-headsets/amp/
+    author: Amir Bozorgzadeh
+    content: >
+      [Amir Bozorgzadeh] argues that the open web and progressive enhancement is key for broader immersive adoption, while the VR industry bets on high fidelity hardware and beefy specs.
+  -
+    title: Mozilla Reality at AR Chicago, CHIVR
+    url: https://www.youtube.com/watch?v=_EnTmF4viyY
+    author: Mozilla Reality
+    content: >
+      Chicago community groups [AR Chicago](https://www.meetup.com/ARChicago/) and [CHIVR](http://www.chivr.org/) hosted the [Mozilla Reality] team, where they presented their work on [Firefox Reality], a web browser designed for VR and AR headsets, [Mozilla Hubs], a social WebVR experience, and their work on exploring standards.
+  -
+    title: Introducing Mixed Reality and the Immersive Web
+    url: https://www.youtube.com/watch?v=oYn-RaydHVQ
+    author: Peter O'Shaughnessy
+    content: >
+      A look at building mixed reality experiences on the web using [WebXR Viewer], [WebARonARCore](https://github.com/google-ar/WebARonARCore) and [WebARonARKit](https://github.com/google-ar/WebARonARKit), from [Samsung]'s [Peter O'Shaughnessy].
+  -
+    title: WebVR as a Sales Tool
+    url: https://medium.com/@rolanddubois/webvr-as-a-sales-tool-15b99cf7b4c0
+    author: Roland Dubois
+    content: >
+      [Roland Dubois] details the process of designing and developing a WebVR experience to show off several service platforms.
+  -
+    title: JanusVR's Vesta now supports hosting A-Frame
+    url: https://mobile.twitter.com/Wired_Spyduck/status/998063118172524544
+    author: Spyduck
+    authorLink: https://mobile.twitter.com/Wired_Spyduck
+
