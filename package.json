@@ -1,19 +1,15 @@
 {
   "name": "immersive-web-weekly",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build/build.js",
-    "build-demo": "rollup -c",
-    "build-all": "npm run build && npm run build-demo"
+    "build": "node build/build.js"
   },
-  "author": "Immersive Web Community Group",
+  "author": "W3C Immersive Web Community Group",
   "license": "MIT",
   "devDependencies": {
-    "glsl-easings": "^1.0.0",
-    "glsl-noise": "0.0.0",
     "handlebars": "^4.0.11",
     "js-yaml": "^3.11.0",
     "moment": "^2.22.1",
@@ -21,16 +17,11 @@
     "rollup": "^0.50.0",
     "rollup-plugin-cleanup": "^1.0.1",
     "rollup-plugin-commonjs": "^8.2.1",
-    "rollup-plugin-glslify": "^1.0.4",
     "rollup-plugin-node-resolve": "^3.0.0",
     "showdown": "^1.8.6",
     "xmldom": "^0.1.27"
   },
-  "dependencies": {
-    "@jsantell/three-app": "^1.0.0",
-    "glsl-solid-wireframe": "^1.0.1",
-    "three": "^0.92.0"
-  },
+  "dependencies": {},
   "subdomain": "immersivewebweekly",
   "domains": [
     "immersivewebweekly.com",

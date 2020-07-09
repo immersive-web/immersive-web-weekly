@@ -14,11 +14,9 @@ body {
 #background {
   background: #000000 no-repeat center center fixed;
   background-size: cover;
+  background-image: url('../images/background.jpg');
   /* Use a blur so we can get away with a lower quality image */
-  filter: blur(5px);
-}
-
-#background.show {
+  filter: blur(15px);
   width: 100%;
   height: 100vh;
 }
@@ -78,7 +76,6 @@ body {
   border: 1px solid white;
   background-color: #b450ce;
   color: white;
-  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -91,5 +88,4 @@ canvas {
 #details {
   margin-top: 20px;
   font-size: 80%;
-  text-transform: lowercase;
 }

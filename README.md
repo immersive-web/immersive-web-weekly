@@ -4,6 +4,8 @@ Status: We are the process of setting this up so there's not much here at the mo
 
 This repo will contain the content for both the Immersive Web Weekly email newsletter and [ImmersiveWebWeekly.com](https://immersivewebweekly.com).
 
+All work in the Immersive Web Weekly repository, site, and email newsletter will follow the [Immersive Web Code of Conduct](https://immersive-web.github.io/homepage/code-of-conduct.html).
+
 The goal of the Immersive Web Weekly is to regularly share a short set of news links related to the immersive web, WebXR, and the open web in general. The links will come from the Immersive Web Community and Working Groups members.
 
 Watch this space for how to submit links.
