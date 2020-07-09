@@ -1,6 +1,6 @@
 {
   "source": "content",
-  "destination": "public",
+  "destination": "docs",
   "clean": false,
   "plugins": {
     "metalsmith-date-formatter": {
