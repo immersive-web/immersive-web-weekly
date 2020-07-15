@@ -22,6 +22,7 @@ body {
 }
 
 #content {
+  text-align: center;
   padding: 20px;
   width: 60%;
   min-width: 200px;
