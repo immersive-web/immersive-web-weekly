@@ -47,42 +47,33 @@ body {
 }
 
 #signup {
-  background-color: #46d6fd;
-  padding: 10px;
   text-align: center;
-}
-
-#signup .field {
-  display: inline;
 }
 
 #signup label {
   display: none;
 }
 
-#signup .email {
-  height: 30px;
-  min-width: 150px;
-  width: 40%;
-  padding: 0px 4px;
-  border: 1px solid white;
+#signup input {
+  background-color: white;
+  opacity: 1;
+  display: inline;
+  padding: 8px;
+  font-size: 16px;
 }
 
-#signup .submit {
-  display: inline;
+#signup input[type=text] {
+  width: 20%;
+}
+
+#signup input[type=submit] {
+  margin-top: 15px;
   height: 34px;
   padding: 3px 10px;
-  margin: 0;
   border: 1px solid white;
   background-color: #b450ce;
   color: white;
   cursor: pointer;
-}
-
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 #details {
