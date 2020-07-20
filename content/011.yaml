@@ -1,8 +1,12 @@
 date: 2020-07-21
 overview: >
-  Overvew here in markdown
+  Hello immersive reader!
+  <br />
+  It's been awhile, and a lot of things have changed in the world and for the immersive web -- and this newsletter has not been keeping up! The W3C [Immersive Web Community Group] has graciously offered to curate and maintain Immersive Web Weekly, with former community group chair [Trevor Flowers] stepping up as editor, curating the newsletter moving forward. The community group plans on more frequent releases, and will continue to uphold the [newsletter privacy policy](https://immersivewebweekly.com/privacy/), and so the only change on your end will be.. actual weekly newsletters!
+  <br />
+  This reboot issue was curated by the CG via the [new IWW repository](https://github.com/immersive-web/immersive-web-weekly), where you'll be able to drop links for future issues, starting next week. Thank you all for the space in your inbox over these last few years -- I'm looking forward to seeing what Trevor and the group will create with this space!
 
-signed: IWW byline here
+signed: Jordan
 links:
   -
     title: Link title here
