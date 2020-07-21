@@ -1,0 +1,84 @@
+
+not-published:
+  -
+    title: WebGLStudio Hands On
+    url: https://www.gamefromscratch.com/post/2020/06/18/WebGLStudio-Hands-On.aspx
+    author: GamesFromScratch.com
+    authorLink:
+    category:
+      - 
+    content: >
+      A video demonstration and review of an MIT licensed, in-browser scene editor for WebGL. The technology is broken up into reusable components (scene, graph editor, GL toolkit, ect) so it isn't hard to see how this could be repurposed for in-headset WebXR editing.
+  -
+    title: Descend into the Elaborately Decorated Tomb of Pharaoh Ramesses VI Through This 3D Virtual Tour
+    url: https://www.thisiscolossal.com/2020/07/ramesses-vi-tomb-virtual-tour/
+    author: Grace Ebert @ Colossal
+    authorLink:
+    category:
+      - 
+    content: >
+      Using Matterport they created a web-based tour
+  -
+    title: Virtual Beings Summit
+    url: https://www.virtual-beings-summit.com/
+    authorLink:
+    category:
+      - 
+    content: >
+      The annual conference from Virtual Beings was a little different this year thanks to COVID-19 but strangely, both the topic and the organizers were made for the changes it brought. Unlike [previous years](https://www.youtube.com/channel/UCLNalUbhs_EYB5IAbw1VfaA/videos) where humans stood on a stage in front of other humans, this year every person (or non-person?) on the livestream presented themselves as a virtual being.
+  -
+    title: The Brendan Bradley Future Stages
+    url: https://www.brendanabradley.com/futurestages
+    author: Brendan Bradley
+    authorLink:
+    category:
+      - 
+    content: >
+      Brendan Bradley has designed a virtual performance experience that is optimized and customizable for Mozilla Hubs and can be accessed using the same URL by almost any device: VR headset, personal computer or mobile device.
+  -
+    title:  Moving a Three.js-based WebXR app off-main-thread
+    url: https://surma.dev/things/omt-for-three-xr/
+    author: Surma
+    authorLink:
+    category:
+      - 
+    content: >
+      Keeping the frame rate stable is vital for virtual reality applications. Off-main-thread architecture can help ensure that the frames keep shipping.
+  -
+    title: This week in Servo
+    url: https://blog.servo.org/2020/07/13/twis-132/
+    author:
+    authorLink:
+    category:
+      - 
+    content: >
+      Last week was a busy one - we improved compatibility with Unity WebXR; fixed panics (Face screaming in fear) in canvas and WebAudio code; added some new media support; fixed a Windows websocket bug; and 360 immersive web recording is looking good!
+  -
+    title: Oxford Digital Labs XRoom
+    url: https://oxfordigitalab.com/xroom
+    author:
+    authorLink:
+    category:
+      - 
+    content: >
+      OxforDigitaLab now has an Interaction Lab: A cross-platform WebXR demo for mobile VR, Oculus Quest and desktop.
+  -
+    title: Veative Releases Entire STEM Library in a WebXR Format
+    url: https://www.veative.com/blog/news/veative-releases-entire-stem-library-in-a-webxr-format/
+    author:
+    authorLink:
+    category:
+      - 
+    content: >
+      In a response to the needs of teachers worldwide during this COVID-19 pandemic, Veative Labs has converted its entire STEM library of over 540 interactive, curriculum-aligned modules for the VR into a browser compatible WebXR version, ensuring that students and teachers everywhere have access to this world-leading library, regardless of location.
+  -
+    title: Linux + AMD + Monado + libsurvive + Your App Here
+    url: https://www.collabora.com/news-and-blog/news-and-events/lighthouse-positional-tracking-in-monado-with-libsurvive.html
+    author: Christoph Haag at Collabora
+    authorLink:
+    category:
+      - 
+    content: >
+      A fully open source software stack for VR is coming together at Collabora which will provide new hardware manufacturers with a better starting point for innovative products. It will also allow businesses to explore new software development and deployment strategies outside of the app stores, including use by the immersive web.
+
+
