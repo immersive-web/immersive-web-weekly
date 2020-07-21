@@ -1,0 +1,46 @@
+date: 2020-07-21
+overview: >
+  Hello immersive reader!
+  <br />
+  It's been awhile, and a lot of things have changed in the world and for the immersive web -- and this newsletter has not been keeping up! The W3C [Immersive Web Community Group] has graciously offered to curate and maintain Immersive Web Weekly, with former community group chair [Trevor Flowers] stepping up as editor, curating the newsletter moving forward. The community group plans on more frequent releases, and will continue to uphold the [newsletter privacy policy](https://immersivewebweekly.com/privacy/), and so the only change on your end will be.. actual weekly newsletters!
+  <br />
+  This reboot issue was curated by the CG via the [new IWW repository](https://github.com/immersive-web/immersive-web-weekly), where you'll be able to drop links for future issues, starting next week. Thank you all for the space in your inbox over these last few years -- I'm looking forward to seeing what Trevor and the group will create with this space!
+
+signed: Jordan
+links:
+  -
+    title: From Lithography to XR
+    url: https://sketchfab.com/3d-models/hand-with-reflecting-sphere-3d-70dc424ec1c14607b8bd0870f425a067
+    author: M.C. Escher, hinxlinx
+    authorLink: https://sketchfab.com/hinxlinx
+    category:
+      - art
+    content: >
+      Sketchfab user hinxlinx has recreated "Self-portrait in Spherical Mirror" for the immersive web. What would Escher say if he were alive to see us replace his reflection with our own digital bodies?
+  -
+    title: Magic Leap Hires Top Microsoft Executive as C.E.O.
+    url: https://www.nytimes.com/2020/07/07/technology/peggy-johnson-magic-leap-ceo.html
+    author: Erin Griffith, Karen Weise
+    authorLink: https://www.nytimes.com/by/erin-griffith
+    category:
+      - people
+    content: >
+      Talk about a large leadership change in the middle of a big pivot! Immersive web browser and hardware developer, Magic Leap, has replaced founder Rony Abovitz with Peggy Johnson, formerly of Qualcomm and Microsoft. The move from consumer-facing to enterprise is no small shift so we're looking forward to seeing how it goes with Johnson at the wheel... controller? hand-gesture? What is the equivalent to "the wheel" in XR, anyway?
+  -
+    title: Is Measure App the "Hello World" of XR?
+    url: https://medium.com/@annika.wollschlaeger/augmented-reality-measure-with-webxr-and-three-js-a0c8355eb91a
+    author: Annika Wollschläger
+    authorLink: https://medium.com/@annika.wollschlaeger
+    category:
+      - tutorial
+    content: >
+      Now that WebXR is available in most browsers, people like Annika Wollschläger are porting the most popular native apps to the immersive web. One clear winner in the early days of AR was an app that determined the size of items in our homes like furniture, windows, and walls. This tutorial gives you a nice overview of what it takes to make the switch. 
+  -
+    title: New Hardware from OpenCV uses OpenVINO to Open Eyes 
+    url: https://www.kickstarter.com/projects/opencv/opencv-ai-kit
+    author: OpenCV
+    authorLink: https://opencv.org/
+    category:
+      - hardware
+    content: >
+      This week it took only 20 minutes to fund a Kickstarter for this open-source-driven computer vision board. The onboard cameras and motion sensors combined with processing chips from Intel make it a potential solution for open source headsets like the original [Northstar](https://developer.leapmotion.com/northstar) and derivatives like those from [Combine Reality](https://www.smart-prototyping.com/AR-VR-MR-XR).
