@@ -1,0 +1,16 @@
+
+not-published:
+  -
+    title: Statue of Liberty Virtual Tour
+    link: https://www.nps.gov/hdp/exhibits/stli/stli_tour.html?vr (remove ?vr for flat version)
+    author: US National Park Service
+    content: >
+      A tour of 360 photos from the national monument that works in flat and immersive displays.
+      Does this work with WebXR or polyfill? Need to test.
+  -
+    title: AR and HTML Content Land in Google's model-viewer
+    url: https://www.khronos.org/blog/view-a-gltf-model-in-ar-on-android-without-leaving-your-browser
+    author: Emmett Lalish
+    content: >
+      This 1.0.0 of release uses the experimental AR and DOM overlay specs in Chrome 83+
+      https://modelviewer.dev/examples/webxr.html
