@@ -1,15 +1,32 @@
 date: 2020-07-28
 overview: >
-  Overvew here in markdown
+  Hands (yes, hands!) were this week's big news for the immersive web. When news broke that Facebook's immersive browser shipped an experimental version of the WebXR hands feature the energetic Three.js community on Twitter went wild with demos and technical support for each other. With this sort of cross-organization and intercontinental coordination it's no wonder that the immersive web is on its way to global scale.
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: WebXR Brings Hand Tracking to the Quest
+    url: https://twitter.com/jacobrossi/status/1285650075197124608
+    author: Jacob Rossi
+    authorLink: https://twitter.com/jacobrossi
     category:
-      - Category here
+      - Embodiment
     content: >
-      Summary content goes here in markdown
+      Facebook released a new version of the Oculus Browser with support for WebXR, including the [experimental hands API](https://github.com/immersive-web/webxr-hand-input). This quickly led to a [variety](https://mobile.twitter.com/fernandojsg/status/1287421761018003460) of public [demos](https://twitter.com/Marlon360/status/1287488821400133634) and then a [contribution to the Three.js](https://github.com/mrdoob/three.js/pull/19936) source code. One of the subdued but still important releases was an experimental implementation of [WebXR Layers](https://immersive-web.github.io/layers/#intro) which enables a raft of performance and visual fidelity improvements.
+  -
+    title: WebXR Device API Nearing Recommendation Status
+    url: https://www.w3.org/TR/2020/WD-webxr-20200724/
+    author: Manish Goregaokar, Brandon Jones
+    content: >
+      Publication of the latest draft of the core WebXR spec is one of the final steps before becoming a standard. This version includes many changes based on feedback from the W3C Technical Advisory Group, comments from the wider web community, and tweaks based on lessons learned from early deployments in a variety of browsers. This step also smooths the path to standardization for modules including the above-mentioned hands and layer APIs.
+  -
+    title: Cryptovoxels Grid Server is Live
+    url: https://twitter.com/cryptovoxels/status/1285412304079609856
+    author: Ben Nolan
+    content: >
+      What started in 2018 as a friends-only experiment to use the Ethereum blockchain for digital space ownership has launched this week as a multi-user immersive web space with [user-contributed scripting](https://wiki.cryptovoxels.com/en/Scripting/TheGrid) and a [distinct](https://twitter.com/womptron/status/1285597431313453056) visual [aesthetic](https://twitter.com/cryptovoxels/status/1287610309029457922).
+  -
+    title: Servo Rendering into Unity
+    url: https://blog.mozvr.com/a-browser-plugin-for-unity/
+    author: Philip Lamb
+    content: The Mozilla Reality team took the idea of their previous work to [export Unity projects to WebXR](https://blog.mozvr.com/unity-webxr-exporter-update/) and flipped it inside out, this time bringing their [Servo web engine into native Unity apps](https://github.com/MozillaReality/servo-unity). Game authors can now include dynamic web content in their native apps to bridge the gap between static art and the open web. The immersive web is permeable!
