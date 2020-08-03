@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Immersive Web Weekly: Issue #013, August 04, 2020</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://immersivewebweekly.com/issues/013">
+        <meta name="twitter:title" content="Immersive Web Weekly: Issue #013, August 04, 2020">
+        <meta name="twitter:description" content="Standards and browsers are the foundations of the immersive web so it&#x27;s particularly exciting to see a raft of their improvements float in this week. Fast shared memory, better graphics languages, and...">
+        <meta name="twitter:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta name="twitter:creator" content="@jsantell">
+        <meta property="og:title" content="Immersive Web Weekly: Issue #013, August 04, 2020">
+        <meta property="og:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta property="og:site_name" content="Immersive Web Weekly">
+        <meta property="og:description" content="Standards and browsers are the foundations of the immersive web so it&#x27;s particularly exciting to see a raft of their improvements float in this week. Fast shared memory, better graphics languages, and...">
+        <meta property="og:url" content="https://immersivewebweekly.com/issues/013">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../../styles/issue.css" />
+  </head>
+  <body>
+      <div id="container">
+
+      <h1><a href="../../">Immersive Web Weekly</a></h1>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+
+      <div class="info">Issue #013, August 04, 2020, <a href="../../">ImmersiveWebWeekly.com</a></div>
+      <div id="overview">
+        <p>Standards and browsers are the foundations of the immersive web so it's particularly exciting to see a raft of their improvements float in this week. Fast shared memory, better graphics languages, and experiments with AR and hand tracking are all available to adventurous creators so buckle up, it's the Immersive Web Weekly!</p> <span>– Trevor Flowers</span>
+      </div>
+      <div id="content">
+          <h2><a href="https://rd.nytimes.com/projects/reconstructing-journalistic-scenes-in-3d" target="_new">New York Times Experiment Turns Heads, Cameras</a></h2>
+          <p>Researchers at the Gray Lady spice up monochrome articles with vibrant tours through three dimensional scans of news-worthy locations. Readers currently use their browsers' scroll bars to navigate waypoints but the underlying technology is standard WebGL so the obvious next step is to immerse readers in WebXR-driven experiences.</p>
+          <div class="meta">
+              <span class="tag tag-research">research</span>
+              <span class="tag tag-journalism">journalism</span>
+            <span class="domain"><a href="https://rd.nytimes.com/projects/reconstructing-journalistic-scenes-in-3d">nytimes.com</a></span>
+            <span class="author">
+                <a href="https://rd.nytimes.com/">
+              NY Times R &amp; D
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://hacks.mozilla.org/2020/07/safely-reviving-shared-memory/" target="_new">Fast Shared Memory Returns in Firefox 79</a></h2>
+          <p>The immersive web community received a particularly painful blow in 2018 when the Spectre timing attacks broke down the safe use of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer">SharedArrayBuffer</a>s. This crucial piece of technology is required by modern 3D rendering engines and its loss blocked exciting (and beautiful) immersive web work by the Unity and Unreal Engine teams. After quite a bit of work, <a href="https://hacks.mozilla.org/2020/07/firefox-79/">Firefox 79</a> has joined Chrome in returning this important technology to the immersive web.</p>
+          <div class="meta">
+              <span class="tag tag-security">security</span>
+              <span class="tag tag-browser">browser</span>
+            <span class="domain"><a href="https://hacks.mozilla.org/2020/07/safely-reviving-shared-memory/">mozilla.org</a></span>
+            <span class="author">
+              Anne van Kesteren
+            </span>
+          </div>
+          <h2><a href="https://mobile.twitter.com/grorgwork/status/1289679221313290240" target="_new">Speedy Graphics On By Default in Upcoming Safari Preview</a></h2>
+          <p>While Apple's Safari team continues to be notoriously quiet about their plans, they have had an implementation of <a href="https://www.khronos.org/registry/webgl/specs/latest/2.0/">WebGL2</a> in the works for a couple of years. This week Dean Jackson (a co-editor of the specification) mentioned that this core rendering upgrade for the immersive web will be turned on by default in an upcoming Safari Technology Preview. This is a good (but of course not certain) indication that better visual quality will be available across the majority of evergreen browsers in the near future.</p>
+          <div class="meta">
+              <span class="tag tag-graphics">graphics</span>
+              <span class="tag tag-browser">browser</span>
+            <span class="domain"><a href="https://mobile.twitter.com/grorgwork/status/1289679221313290240">twitter.com</a></span>
+            <span class="author">
+              Dean Jackson
+            </span>
+          </div>
+          <h2><a href="https://github.com/playcanvas/engine/pull/2316" target="_new">PlayCanvas Points At Experimental Support for Hands in WebXR</a></h2>
+          <p>With the recent experimental access to hand tracking data in Facebook's Oculus Browser, the open source community rallied together to bring support to three rendering libraries: <a href="https://playcanvas.com/">PlayCanvas</a>, <a href="https://threejs.org/">Three.js</a>, and <a href="https://www.babylonjs.com/">Babylon</a>. While the tech press covers immersive display technology in minute detail most journalists miss that tracked input devices and camera-tracked hands provide another (ultimately more valuable?) area for exploration and discovery on the immersive web.</p>
+          <div class="meta">
+              <span class="tag tag-hands">hands</span>
+              <span class="tag tag-browser">browser</span>
+            <span class="domain"><a href="https://github.com/playcanvas/engine/pull/2316">github.com</a></span>
+            <span class="author">
+              Maksims Mihejevs
+            </span>
+          </div>
+          <h2><a href="https://developer.samsung.com/internet/blog/en-us/2020/07/16/adding-augmented-reality-to-your-websites" target="_new">Samsung Internet Tests Augmented Reality</a></h2>
+          <p>The <a href="https://www.w3.org/TR/webxr-ar-module-1/">Augmented Reality module</a> of the WebXR Device API is still making its way through the process of becoming a standard but that hasn't stopped the Samsung Internet team from making an experimental version available for adventurous web developers. In this step-by-step tutorial Ada shows you how to view a demonstration site and then how to remix your own art into the scene using <a href="https://aframe.io/">A-Frame</a> and <a href="https://glitch.com/">Glitch</a>.</p>
+          <div class="meta">
+              <span class="tag tag-tutorial">tutorial</span>
+            <span class="domain"><a href="https://developer.samsung.com/internet/blog/en-us/2020/07/16/adding-augmented-reality-to-your-websites">samsung.com</a></span>
+            <span class="author">
+                <a href="https://ada.is/">
+              Ada Rose Cannon
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://www.blender.org/press/microsoft-joins-the-blender-development-fund/" target="_new">Blender Development Fund Picks Up Speed Thanks to Microsoft</a></h2>
+          <p>The Blender Foundation announced that Microsoft joined at a financial level that funds one Blender developer for 6 months out of the year. Other corporate sponsors at this level include Intel and Ubisoft. Especially in the open source community, Blender's license costs ($0 per person) and rapidly improving features make it a common choice for the creation of and collaboration on art for the immersive web.</p>
+          <div class="meta">
+              <span class="tag tag-tools">tools</span>
+              <span class="tag tag-responsibility">responsibility</span>
+            <span class="domain"><a href="https://www.blender.org/press/microsoft-joins-the-blender-development-fund/">blender.org</a></span>
+            <span class="author">
+              Ton Roosendaal
+            </span>
+          </div>
+      </div>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
