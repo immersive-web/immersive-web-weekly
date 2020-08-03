@@ -1,15 +1,61 @@
 date: 2020-08-04
 overview: >
-  Overvew here in markdown
+  Standards and browsers are the foundations of the immersive web so it's particularly exciting to see a raft of their improvements float in this week. Fast shared memory, better graphics languages, and experiments with AR and hand tracking are all available to adventurous creators so buckle up, it's the Immersive Web Weekly!
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: New York Times Experiment Turns Heads, Cameras
+    url: https://rd.nytimes.com/projects/reconstructing-journalistic-scenes-in-3d
+    author: NY Times R & D
+    authorLink: https://rd.nytimes.com/
     category:
-      - Category here
+      - research
+      - journalism
     content: >
-      Summary content goes here in markdown
+      Researchers at the Gray Lady spice up monochrome articles with vibrant tours through three dimensional scans of news-worthy locations. Readers currently use their browsers' scroll bars to navigate waypoints but the underlying technology is standard WebGL so the obvious next step is to immerse readers in WebXR-driven experiences.
+  -
+    title: Fast Shared Memory Returns in Firefox 79
+    url: https://hacks.mozilla.org/2020/07/safely-reviving-shared-memory/
+    author: Anne van Kesteren
+    category:
+      - security
+      - browser
+    content: >
+      The immersive web community received a particularly painful blow in 2018 when the Spectre timing attacks broke down the safe use of [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)s. This crucial piece of technology is required by modern 3D rendering engines and its loss blocked exciting (and beautiful) immersive web work by the Unity and Unreal Engine teams. After quite a bit of work, [Firefox 79](https://hacks.mozilla.org/2020/07/firefox-79/) has joined Chrome in returning this important technology to the immersive web.
+  -
+    title: Speedy Graphics On By Default in Upcoming Safari Preview
+    url: https://mobile.twitter.com/grorgwork/status/1289679221313290240
+    author: Dean Jackson
+    category:
+      - graphics
+      - browser
+    content: >
+      While Apple's Safari team continues to be notoriously quiet about their plans, they have had an implementation of [WebGL2](https://www.khronos.org/registry/webgl/specs/latest/2.0/) in the works for a couple of years. This week Dean Jackson (a co-editor of the specification) mentioned that this core rendering upgrade for the immersive web will be turned on by default in an upcoming Safari Technology Preview. This is a good (but of course not certain) indication that better visual quality will be available across the majority of evergreen browsers in the near future.
+  -
+    title: PlayCanvas Points At Experimental Support for Hands in WebXR
+    url: https://github.com/playcanvas/engine/pull/2316
+    author: Maksims Mihejevs
+    category:
+      - hands
+      - browser
+    content: >
+      With the recent experimental access to hand tracking data in Facebook's Oculus Browser, the open source community rallied together to bring support to three rendering libraries: [PlayCanvas](https://playcanvas.com/), [Three.js](https://threejs.org/), and [Babylon](https://www.babylonjs.com/). While the tech press covers immersive display technology in minute detail most journalists miss that tracked input devices and camera-tracked hands provide another (ultimately more valuable?) area for exploration and discovery on the immersive web.
+  -
+    title: Samsung Internet Tests Augmented Reality
+    url: https://developer.samsung.com/internet/blog/en-us/2020/07/16/adding-augmented-reality-to-your-websites
+    author: Ada Rose Cannon
+    authorLink: https://ada.is/
+    category:
+      - tutorial
+    content: >
+      The [Augmented Reality module](https://www.w3.org/TR/webxr-ar-module-1/) of the WebXR Device API is still making its way through the process of becoming a standard but that hasn't stopped the Samsung Internet team from making an experimental version available for adventurous web developers. In this step-by-step tutorial Ada shows you how to view a demonstration site and then how to remix your own art into the scene using [A-Frame](https://aframe.io/) and [Glitch](https://glitch.com/).
+  -
+    title: Blender Development Fund Picks Up Speed Thanks to Microsoft
+    url: https://www.blender.org/press/microsoft-joins-the-blender-development-fund/
+    author: Ton Roosendaal
+    category:
+      - tools
+      - responsibility
+    content: >
+      The Blender Foundation announced that Microsoft joined at a financial level that funds one Blender developer for 6 months out of the year. Other corporate sponsors at this level include Intel and Ubisoft. Especially in the open source community, Blender's license costs ($0 per person) and rapidly improving features make it a common choice for the creation of and collaboration on art for the immersive web.
