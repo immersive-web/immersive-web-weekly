@@ -1,0 +1,13 @@
+
+not-published:
+  -
+    title: cARs on the web
+    url: https://medium.com/8th-wall/a-week-in-webar-automotive-edition-a219688a1e62
+    author: 8th Wall
+    content: >
+      Maserati, Porsche, Volvo, MINI Cooper and Toyota hit the web with XR ad campaigns.
+  -
+    title: Write your first VR web app with React
+    url: https://blog.dubenko.dev/react-xr/
+    author: Oleksandr Dubenko
+    content: "This is a tutorial for those who have a VR device on your hands and want to try building something for VR or for those who are just curious how VR with React works. For this post, I’m going to assume that you’re only familiar with React and never tried any 3D or VR libraries before."

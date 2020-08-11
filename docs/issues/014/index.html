@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Immersive Web Weekly: Issue #014, August 11, 2020</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://immersivewebweekly.com/issues/014">
+        <meta name="twitter:title" content="Immersive Web Weekly: Issue #014, August 11, 2020">
+        <meta name="twitter:description" content="As 2020 continues to plow a hole through history and raze the institutions on which we depend it has been a relief to see that people continue to build towards a stronger and more open future. It&#x27;s no...">
+        <meta name="twitter:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta name="twitter:creator" content="@jsantell">
+        <meta property="og:title" content="Immersive Web Weekly: Issue #014, August 11, 2020">
+        <meta property="og:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta property="og:site_name" content="Immersive Web Weekly">
+        <meta property="og:description" content="As 2020 continues to plow a hole through history and raze the institutions on which we depend it has been a relief to see that people continue to build towards a stronger and more open future. It&#x27;s no...">
+        <meta property="og:url" content="https://immersivewebweekly.com/issues/014">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../../styles/issue.css" />
+  </head>
+  <body>
+      <div id="container">
+
+      <h1><a href="../../">Immersive Web Weekly</a></h1>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+
+      <div class="info">Issue #014, August 11, 2020, <a href="../../">ImmersiveWebWeekly.com</a></div>
+      <div id="overview">
+        <p>As 2020 continues to plow a hole through history and raze the institutions on which we depend it has been a relief to see that people continue to build towards a stronger and more open future. It's not every week that an entirely new immersive browser arrives, new interaction techniques are unlocked, and empowering new workflows are available for anyone with a browser. I'm deeply grateful that all of that happened this week because of our collective efforts. Get ready because it's another Immersive Web Weekly!</p> <span>– Trevor Flowers</span>
+      </div>
+      <div id="content">
+          <h2><a href="https://blog.mozvr.com/introducing-firefox-reality-pc-preview/" target="_new">Firefox Reality Opens a New Window</a></h2>
+          <p>Until recently Mozilla's <a href="https://mixedreality.mozilla.org/firefox-reality/">Firefox Reality</a> immersive-first web browser was limited to mobile headsets like Microsoft's <a href="https://www.microsoft.com/en-us/hololens">Hololens</a>, Pico's <a href="https://www.pico-interactive.com/us/neo2.html">neo2</a>, and Facebook's <a href="https://www.oculus.com/quest/">Quest</a>. A pair of announcements this week revealed that a Windows-compatible version landed in HTC's <a href="https://www.viveport.com/22a9b15a-a651-4068-945d-aebdda159261">Viveport store</a> and Microsoft's <a href="https://www.microsoft.com/en-us/p/firefox-reality/9npq78m7nb0r">Windows app store</a>. Because Firefox Reality is designed to be used without traditional screens, VR users on PC can now stay in their headsets while browsing the flat web for new WebXR content. Developers will also be pleased to see that they can now use the Javascript console without leaving their XR <a href="https://en.wikipedia.org/wiki/Work_in_process">WIPs</a>.</p>
+          <div class="meta">
+              <span class="tag tag-browser">browser</span>
+            <span class="domain"><a href="https://blog.mozvr.com/introducing-firefox-reality-pc-preview/">mozvr.com</a></span>
+            <span class="author">
+                <a href="https://blog.mozvr.com/author/tmo/">
+              Thomas Moore
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://stewartsmith.io/handy/" target="_new">A Handy Lib</a></h2>
+          <p>Now that the <a href="https://github.com/immersive-web/webxr-hand-input/blob/master/explainer.md">WebXR Hand API</a> has an experimental implementation in the wild (as covered in <a href="https://immersivewebweekly.com/issues/012/">issue #12</a>) developers like Stewart Smith are building higher level hand utilities. This week Smith released <a href="https://github.com/stewdio/handy.js">Handy.js</a>, a library for defining and detecting complex hand gestures. Combined with rendering libraries like <a href="https://threejs.org/">Three.js</a>, <a href="https://playcanvas.com/">PlayCanvas</a> (see below), and <a href="https://www.babylonjs.com/">Babylon.js</a>, Handy.js makes it possible for users to see and intuitively use their hands on the immersive web.</p>
+          <div class="meta">
+              <span class="tag tag-library">library</span>
+            <span class="domain"><a href="https://stewartsmith.io/handy/">stewartsmith.io</a></span>
+            <span class="author">
+                <a href="https://stewartsmith.io/">
+              Stewart Smith
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://twitter.com/mrmaxm/status/1291359980516290560" target="_new">Controllers and Hands Arrive In PlayCanvas</a></h2>
+          <p>Following the recent release of PlayCanvas <a href="https://github.com/playcanvas/engine/releases/tag/v1.33.0">version 1.33.0</a> with support for the experimental WebXR Hand API, prolific developer Max M created a <a href="https://playcanv.as/p/g7uSJhuo/">demo</a> with support for <a href="https://github.com/immersive-web/webxr-input-profiles/#webxr-input-profiles">WebXR Controller Profiles</a>. Together, these two technologies will ensure that users with or without tracked controllers can enjoy immersive web experiences without a lot of effort from developers.</p>
+          <div class="meta">
+              <span class="tag tag-library">library</span>
+            <span class="domain"><a href="https://twitter.com/mrmaxm/status/1291359980516290560">twitter.com</a></span>
+            <span class="author">
+                <a href="https://twitter.com/mrmaxm">
+              Max M
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://www.tnmoc.org/news-releases/2020/8/7/step-through-the-screen-and-into-tnmoc-this-summer" target="_new">Classic Computing in WebXR</a></h2>
+          <p>Three pieces of history landed on the immersive web this week. First, the rather amazing museum at <a href="https://en.wikipedia.org/wiki/Bletchley_Park">Bletchley Park</a> released a <a href="https://my.matterport.com/show/?m=pq6v8gMmxMw">detailed immersive scan</a> of a wide variety of antique computers, including the WWII-era Bombe and Enigma machines. Second, the famous San Francisco Bay area hackerspace, <a href="https://www.noisebridge.net/">Noisebridge</a>, was <a href="https://sketchfab.com/3d-models/noisebridge-06cdccd10c77474bb2183ecf83a0c720">scanned and released</a> on Sketchfab. Finally, <a href="https://noclip.website/">noclip</a> (an amazing collection of class video game levels) has <a href="https://mobile.twitter.com/ben_rainwolf/status/1289783854094381057">WebXR support</a> for people who want to escape 2020 to travel a few old maps.</p>
+          <div class="meta">
+              <span class="tag tag-history">history</span>
+            <span class="domain"><a href="https://www.tnmoc.org/news-releases/2020/8/7/step-through-the-screen-and-into-tnmoc-this-summer">tnmoc.org</a></span>
+            <span class="author">
+                <a href="https://www.tnmoc.org/">
+              National Museum of Computing at Bletchley Park
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://www.khronos.org/news/permalink/darmstadt-graphics-group-dgg-launches-rapidcompact-4.0-with-gltf-support" target="_new">Shrink Your Big Art</a></h2>
+          <p>Khronos revealed that the <a href="https://www.dgg3d.com/">DGG</a>'s <a href="https://rapidcompact.com/">RapidCompact</a> web-based service now supports the latest <a href="https://www.khronos.org/gltf/">glTF standard</a>. DGG's tool converts massive computer aided design (CAD) files and detailed location scans (see previous article) into standards-based, web-sized files that won't saturate users' net connections and burn through their batteries.</p>
+          <div class="meta">
+              <span class="tag tag-workflow">workflow</span>
+            <span class="domain"><a href="https://www.khronos.org/news/permalink/darmstadt-graphics-group-dgg-launches-rapidcompact-4.0-with-gltf-support">khronos.org</a></span>
+            <span class="author">
+                <a href="https://www.khronos.org/">
+              Khronos
+                </a>
+            </span>
+          </div>
+      </div>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

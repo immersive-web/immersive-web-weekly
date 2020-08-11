@@ -1,15 +1,54 @@
 date: 2020-08-11
 overview: >
-  Overvew here in markdown
+  As 2020 continues to plow a hole through history and raze the institutions on which we depend it has been a relief to see that people continue to build towards a stronger and more open future.
+  It's not every week that an entirely new immersive browser arrives, new interaction techniques are unlocked, and empowering new workflows are available for anyone with a browser. I'm deeply grateful that all of that happened this week because of our collective efforts.
+  Get ready because it's another Immersive Web Weekly!
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Firefox Reality Opens a New Window
+    url: https://blog.mozvr.com/introducing-firefox-reality-pc-preview/
+    author: Thomas Moore
+    authorLink: https://blog.mozvr.com/author/tmo/
     category:
-      - Category here
+        - browser
     content: >
-      Summary content goes here in markdown
+      Until recently Mozilla's [Firefox Reality](https://mixedreality.mozilla.org/firefox-reality/) immersive-first web browser was limited to mobile headsets like Microsoft's [Hololens](https://www.microsoft.com/en-us/hololens), Pico's [neo2](https://www.pico-interactive.com/us/neo2.html), and Facebook's [Quest](https://www.oculus.com/quest/). A pair of announcements this week revealed that a Windows-compatible version landed in HTC's [Viveport store](https://www.viveport.com/22a9b15a-a651-4068-945d-aebdda159261) and Microsoft's [Windows app store](https://www.microsoft.com/en-us/p/firefox-reality/9npq78m7nb0r). Because Firefox Reality is designed to be used without traditional screens, VR users on PC can now stay in their headsets while browsing the flat web for new WebXR content. Developers will also be pleased to see that they can now use the Javascript console without leaving their XR [WIPs](https://en.wikipedia.org/wiki/Work_in_process).
+  -
+    title: A Handy Lib
+    url: https://stewartsmith.io/handy/
+    author: Stewart Smith
+    authorLink: https://stewartsmith.io/
+    category:
+        - library
+    content: >
+      Now that the [WebXR Hand API](https://github.com/immersive-web/webxr-hand-input/blob/master/explainer.md) has an experimental implementation in the wild (as covered in [issue #12](https://immersivewebweekly.com/issues/012/)) developers like Stewart Smith are building higher level hand utilities. This week Smith released [Handy.js](https://github.com/stewdio/handy.js), a library for defining and detecting complex hand gestures. Combined with rendering libraries like [Three.js](https://threejs.org/), [PlayCanvas](https://playcanvas.com/) (see below), and [Babylon.js](https://www.babylonjs.com/), Handy.js makes it possible for users to see and intuitively use their hands on the immersive web.
+  -
+    title: Controllers and Hands Arrive In PlayCanvas
+    url: https://twitter.com/mrmaxm/status/1291359980516290560
+    author: Max M
+    authorLink: https://twitter.com/mrmaxm
+    category:
+        - library
+    content: >
+      Following the recent release of PlayCanvas [version 1.33.0](https://github.com/playcanvas/engine/releases/tag/v1.33.0) with support for the experimental WebXR Hand API, prolific developer Max M created a [demo](https://playcanv.as/p/g7uSJhuo/) with support for [WebXR Controller Profiles](https://github.com/immersive-web/webxr-input-profiles/#webxr-input-profiles). Together, these two technologies will ensure that users with or without tracked controllers can enjoy immersive web experiences without a lot of effort from developers.
+  -
+    title: Classic Computing in WebXR
+    url: https://www.tnmoc.org/news-releases/2020/8/7/step-through-the-screen-and-into-tnmoc-this-summer
+    author: National Museum of Computing at Bletchley Park
+    authorLink: https://www.tnmoc.org/
+    category:
+        - history
+    content: >
+      Three pieces of history landed on the immersive web this week. First, the rather amazing museum at [Bletchley Park](https://en.wikipedia.org/wiki/Bletchley_Park) released a [detailed immersive scan](https://my.matterport.com/show/?m=pq6v8gMmxMw) of a wide variety of antique computers, including the WWII-era Bombe and Enigma machines. Second, the famous San Francisco Bay area hackerspace, [Noisebridge](https://www.noisebridge.net/), was [scanned and released](https://sketchfab.com/3d-models/noisebridge-06cdccd10c77474bb2183ecf83a0c720) on Sketchfab. Finally, [noclip](https://noclip.website/) (an amazing collection of class video game levels) has [WebXR support](https://mobile.twitter.com/ben_rainwolf/status/1289783854094381057) for people who want to escape 2020 to travel a few old maps.
+  -
+    title: Shrink Your Big Art
+    url: https://www.khronos.org/news/permalink/darmstadt-graphics-group-dgg-launches-rapidcompact-4.0-with-gltf-support
+    author: Khronos
+    authorLink: https://www.khronos.org/
+    category:
+        - workflow
+    content: >
+      Khronos revealed that the [DGG](https://www.dgg3d.com/)'s [RapidCompact](https://rapidcompact.com/) web-based service now supports the latest [glTF standard](https://www.khronos.org/gltf/). DGG's tool converts massive computer aided design (CAD) files and detailed location scans (see previous article) into standards-based, web-sized files that won't saturate users' net connections and burn through their batteries.
+
