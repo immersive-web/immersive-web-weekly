@@ -1,15 +1,47 @@
 date: 2020-08-18
-overview: >
-  Overvew here in markdown
 
-signed: IWW byline here
+overview: >
+  The open immersive web took a painful loss this week with [Mozilla's announcement](https://blog.mozilla.org/blog/2020/08/11/changing-world-changing-mozilla/) of another round of layoffs, a pivot towards non-browser product work, and a halt of new feature development for Firefox's engine. Along with the Mixed Reality and [next-gen Servo engine](https://servo.org/) teams, our very own [WebXR](https://www.w3.org/TR/webxr/) co-editor, [Manish Goregaokar](https://mobile.twitter.com/ManishEarth/), was impacted by the layoffs.
+  <br>
+  This development can be seen as a continuation of the years-long trend away from a diversity of browser engines and toward a "two-engine web". Google's Blink engine powers the great majority of browser sessions on Windows and Android while on macOS and iOS Apple's WebKit engine maintains its dominant market share. With last year's retirement of Microsoft's EdgeHTML engine and the near-quarter reduction of Mozilla's workforce, could it be that only Google and Apple have the combination of resources and intent to develop our increasingly complex web engines?
+
+signed: Trevor Flowers
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Mozilla Talent Directory
+    url: https://talentdirectory.mozilla.org/
+    author: Mozilla Corporation
+    authorLink: https://mozilla.com/
     category:
-      - Category here
+      - recruiting
     content: >
-      Summary content goes here in markdown
+      Some Mozillians impacted by recent layoffs have listed themselves in this searchable directory meant for potential employers. In addition, the [#mozillaLifeboat hashtag on Twitter](https://mobile.twitter.com/search?q=%23mozillalifeboat) is being used as a way to link people with jobs. 
+  -
+    title: WebXR Tour of The Museum of The Fossilized Internet
+    url: https://blog.mozilla.org/blog/2020/08/06/virtual-tours-of-the-museum-of-the-fossilized-internet/
+    author: Cathleen Berger
+    authorLink: https://cathleenberger.com/
+    category:
+      - futurism
+    content: >
+      The [Museum of the Fossilized Internet](https://wiki.mozilla.org/Projects/Sustainability/Museum) started out as an exploration of a future in which the Internet is fossil-fuel-free and "surveillance capitalism" is a faded memory. When the latest pandemic hit the team behind the piece teamed up with the (now laid off) Mozilla Mixed Reality team to make it more accessible while also [demonstrating](https://hubs.mozilla.com/yenzhCn/museum-of-the-fossilized-internet/) the capabilities and challenges of social VR.
+  -
+    title: Ninth Annual js13kGames Adds a WebXR Category
+    url: https://medium.com/js13kgames/js13kgames-2020-has-started-c7e003292613
+    author: Andrzej Mazur
+    authorLink: https://end3r.com/
+    category:
+      - competition
+    content: >
+      You know that the immersive web has arrived for developers when it becomes [a category in js13kGames](https://js13kgames.com/webxr). This long-running competition invites Javascript enthusiasts to shed their big-bundle ways and create something wonderful in only 13 kilobytes. This year the new WebXR category judges are Josh Marinacci (newly ex-Mozilla), Fernando Serrano Garcia (newly ex-Mozilla), and Sébastien Vandenberghe (Microsoft).
+  -
+    title: Sketchfab and Run The Jewels Invite Immersive Web Remixes
+    url: https://sketchfab.com/blogs/RTJ4D/
+    author: Sketchfab
+    authorLink: https://sketchfab.com/
+    category:
+      - art
+      - prizes
+    content: >
+      The immersive web has progressed far enough that team-ups like the art site Sketchfab and the band Run The Jewels can make business and artistic sense. 3D artists are invited to remix assets related to a new album and then repost them on Sketchfab where they can be viewed on the web in flat, portal, and immersive display modes. You can see the growing list of entries under the #RTJ4D tag on [Sketchfab](https://sketchfab.com/search?q=%23RTJ4D&sort_by=-relevance&type=models) and on [Twitter](https://twitter.com/search?q=%23RTJ4D&src=typed_query&f=live).
