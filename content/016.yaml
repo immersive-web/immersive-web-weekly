@@ -1,15 +1,53 @@
 date: 2040-12-31
 overview: >
-  Overvew here in markdown
-
-signed: IWW byline here
+  This week has taken our community for another wild ride on a bucking bronco as Facebook announced changes to Oculus accounts, prominent VR app creators spoke about their turbulent experiences with app stores, and a flurry of WebXR experiments landed. Keep one hand on your hat because it's the Immersive Web Weekly!
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Who Are You To Facebook?
+    url: https://www.theverge.com/platform/amp/2020/8/18/21372435/oculus-facebook-login-change-separate-account-support-end-quest-october
+    author: Adi Robinson
+    authorLink:
     category:
-      - Category here
+      - identity
     content: >
-      Summary content goes here in markdown
+      Contradicting statements from leadership at the time of their acquisition, this week [Oculus announced](https://www.oculus.com/blog/a-single-way-to-log-into-oculus-and-unlock-social-features/) that Facebook accounts will be required on new devices. The great majority of WebXR sessions to date have occurred on the Oculus Quest and the uproar by Facebook-averse developers on social media [was considerable](https://twitter.com/oculus/status/1295769244894785538).
+        <br>
+        To ease concerns for those who don't want to use their "real" names there will be a separate "VR profile" that will separate users' identities. Facebook is also expected to roll out a new account system for enterprise and educational organizations so there is hope that this will help teams who don't want their applications linked to Facebook's global social graph.
+  -
+    title: BigScreenVR's CEO Speaks Out About App Stores
+    url: https://voicesofvr.com/937-facebooks-desire-to-own-the-metaverse-conflicts-with-cultivating-a-developer-ecosystem-bigscreenvrs-grievances/
+    author: Kent Bye
+    authorLink: https://twitter.com/kentbye/
+    category:
+      - app store
+    content: >
+      One of the promises of an open immersive web is that application teams whose work is unacceptable to private app stores can still reach their audiences. In this week's "[Voices of VR](https://voicesofvr.com/937-facebooks-desire-to-own-the-metaverse-conflicts-with-cultivating-a-developer-ecosystem-bigscreenvrs-grievances/)" podcast Kent Bye interviews CEO Darshan Shankar about the turbulent experience of bringing an application to market when it competes with the app store's owner, making the case that an open immersive web is needed now more than ever.
+  -
+    title: WebXR Encourages Prototypers
+    url: https://twitter.com/dannyaroslavski/status/1297577977572503552
+    author: Danny Yaroslavski
+    authorLink: https://twitter.com/dannyaroslavski/
+    category: 
+      - prototype
+    content: >
+      Another potential feature of an open immersive web is the sort of fast, low-or-no-cost toolchain that encourages prototypers to create and share more spatial user interface experiments. This week Danny Yaroslavski revealed a [rapid text input system](https://twitter.com/dannyaroslavski/status/1297577977572503552) (because who hasn't been frustrated by entering a password with a laser pointer?) and [Florent Giraud](https://twitter.com/rufus31415/) announced that they're [making progress on a port](https://twitter.com/rufus31415/status/1296870288462884865) of the popular Unity XR input toolkit MRTK to WebXR. 
+  -
+    title: Samples of WebXR Layers Now Available
+    url: https://cabanier.github.io/WebXRLayers-samples/
+    author: Ric Cabanier
+    authorLink: https://twitter.com/rcabanier/
+    category:
+      - webxr
+    content: >
+      Like first responders working in the calm of a tornado's eye, the Oculus browser team has been hard at work exercising their experimental implementation of the draft [WebXR Layers API](https://immersive-web.github.io/layers/). If you have a Quest headset and are willing to test this powerful feature then head over to [spec editor Ric Cabanier's samples page](https://cabanier.github.io/WebXRLayers-samples/) to see how layers give creators a better way to render high quality videos and text.
+  -
+    title: BabylonJS Beyond the Browser
+    url: https://medium.com/@babylonjs/babylon-react-native-bringing-3d-and-xr-to-react-native-applications-7928b55acc85
+    author: Ryan Tremblay
+    authorLink: https://twitter.com/ryan_w_tremblay
+    category:
+      - native
+    content: >
+      This article walks readers through the process of using BabylonJS (a 3D library created for web browsers) with React Native (a web-ish framework for native applications) to create XR-enabled Power Apps (a low-code application platform for Windows). If a video tutorial is more your speed, Thomas Lucchini & Raanan Weber [presented the project](https://youtu.be/0Ik6fItkWEI?t=10974) at Microsoft's recent Virtual Reality Developer Event.
+
