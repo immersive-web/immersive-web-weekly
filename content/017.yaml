@@ -1,15 +1,51 @@
 date: 2020-09-01
 overview: >
-  Overvew here in markdown
+  After a run of exciting (perhaps too exciting) weeks it has been a relief to have a bit of a break from world-shaking announcements. Despite the trials of 2020 we're all still here, many of us are still working on XR, and a variety of interesting new projects and discussions have surfaced. Pour a cup of herbal tea, wrap up in a blanket, and quietly peruse another issue of the Immersive Web Weekly.
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: The Case for User Testing in Virtual Reality
+    url: https://blog.mozvr.com/hubs-by-mozilla-for-immersive-embodied-user-feedback/
+    author: Jessica Outlaw
+    authorLink: 
     category:
-      - Category here
+      - research
     content: >
-      Summary content goes here in markdown
+      After running a series of experiments to test security concepts for link traversal on the immersive web, researcher Jessica Outlaw identified the three primary benefits of using networked VR for user studies. If lockdowns or state borders are hampering your ability to perform field work then this is the article for you.
+  -
+    title: Using a CT Scanner to Create a Virtual Zoo
+    url: https://sketchfab.com/blogs/community/using-a-ct-scanner-to-create-a-virtual-zoo/
+    author: Keith
+    authorLink: https://sketchfab.com/havenkeith
+    category:
+      - content
+    content: >
+      When school was canceled for his daughter the author turned that setback into an opportunity to encourage her interest in bugs and the outdoors by creating a [virtual zoo](http://www.havenmetrology.com/virtualzoo/). By combining a new CT scanner and the immersive web they've created a fascinating public resource for students and educators.
+  -
+    title: Ultraleap Hand Tracking in Qualcomm's Snapdragon XR2
+    url: https://www.roadtovr.com/qualcomm-ultraleap-hand-tracking-snapdragon-xr2/
+    author: Ben Lang
+    authorLink: https://www.roadtovr.com/author/benz145/
+    category:
+      - hardware
+    content: >
+      Qualcomm and Ultraleap announced a multi-year agreement to bring camera-based hand tracking to stand-alone XR headsets that use the Snapdragon XR2 chipset. Ultraleap claims to provide the “fastest, most accurate, and most robust hand tracking.” Whether or not that's true, your editor looks forward to more competition for industry leader Facebook and more headroom for others to try business models that center around the immersive web.
+  -
+    title: Interview with MetaVRse's Alan Smithson
+    url: https://skarredghost.com/2020/08/26/smithson-metavrse-engine-enterprise/
+    author: Tony the Skarred Ghost
+    authorLink: https://skarredghost.com/
+    category:
+      - interview
+    content: >
+      The [MetaVRse](https://metavrse.com/) team has created a low- or no-code editor for enterprise customers on the immersive web. In this [article](https://skarredghost.com/2020/08/26/smithson-metavrse-engine-enterprise/) and [video](https://youtu.be/ECdwzN2zd3g), long-time VR beat reporter Tony (also known as "The Skarred Ghost") interviews CEO Alan Smithson about why he originally chose to use the immersive web and how that decision has played out over the last four years.
+  -
+    title: The VR Download Takes On Privacy & Monopoly
+    url: https://youtu.be/TPviesaUAUg
+    author: UploadVR
+    authorLink: https://uploadvr.com/
+    category:
+      - talkshow
+    content: >
+      In this episode of [UploadVR's talk show](https://www.youtube.com/playlist?list=PLDXBKX3q25Uza8mXhm8r32flosGNUP1G9) they invited Darshan Shankar of BigSceen, active W3C member Diane Hosfelt of Mozilla, and Kent Bye from the VoicesOfVR podcast to talk about concerns and opportunities with recent moves by Facebook. With nearly 40 episodes, The VR Download is one of the longer-running talk shows that is produced in virtual reality and they have a custom-built platform. If you haven't tuned in before then this might be a good time.
