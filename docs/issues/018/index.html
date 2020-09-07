@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Immersive Web Weekly: Issue #018, September 08, 2020</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://immersivewebweekly.com/issues/018">
+        <meta name="twitter:title" content="Immersive Web Weekly: Issue #018, September 08, 2020">
+        <meta name="twitter:description" content="This is the week of labor day here in North America so instead of the usual news links I&#x27;m trying something different. This week we&#x27;ll take a deeper dive into WebAssembly, a technology that has arrive...">
+        <meta name="twitter:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta name="twitter:creator" content="@jsantell">
+        <meta property="og:title" content="Immersive Web Weekly: Issue #018, September 08, 2020">
+        <meta property="og:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta property="og:site_name" content="Immersive Web Weekly">
+        <meta property="og:description" content="This is the week of labor day here in North America so instead of the usual news links I&#x27;m trying something different. This week we&#x27;ll take a deeper dive into WebAssembly, a technology that has arrive...">
+        <meta property="og:url" content="https://immersivewebweekly.com/issues/018">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../../styles/issue.css" />
+  </head>
+  <body>
+      <div id="container">
+
+      <h1><a href="../../">Immersive Web Weekly</a></h1>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+
+      <div class="info">Issue #018, September 08, 2020, <a href="../../">ImmersiveWebWeekly.com</a></div>
+      <div id="overview">
+        <p>This is the week of <a href="https://en.wikipedia.org/wiki/Labor_Day">labor day</a> here in North America so instead of the usual news links I'm trying something different. This week we'll take a deeper dive into WebAssembly, a technology that has arrived thanks to many person-years of (mostly thankless) labor by browser teams. WebAssembly is a new way to write fast, safe, and programming-language-agnostic code modules that nicely fit into web browsers and enable a better immersive web. <p>
+  "Fast" means we can render more complex 3D scenes on time so that fewer people experience <a href="https://en.wikipedia.org/wiki/Virtual_reality_sickness">VR sickness</a>. "Safe" means that we don't violate people's expectations about what sites can do and see. "Programming language agnostic" means that we can write in C, Go, Rust and other efficient languages that are more commonly used for XR than Javascript.
+</p> <p>
+  So, take a bit of time to appreciate the fruits of the web community's labor in the latest issue of the Immersive Web Weekly.
+</p></p> <span>– Trevor Flowers</span>
+      </div>
+      <div id="content">
+          <h2><a href="https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts" target="_new">WebAssembly Concepts</a></h2>
+          <p>This article explains the high level concepts behind WebAssembly including its goals, the problems it solves, and how it runs inside a web browser's rendering engine.</p>
+          <div class="meta">
+              <span class="tag tag-tutorial">tutorial</span>
+            <span class="domain"><a href="https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts">mozilla.org</a></span>
+            <span class="author">
+                <a href="https://developer.mozilla.org/">
+              MDN
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://webassembly.org/" target="_new">WebAssembly Community</a></h2>
+          <p>This site links to many aspects of the WebAssembly effort including the <a href="https://webassembly.org/specs/">specifications</a> and a <a href="https://webassembly.org/getting-started/developers-guide/">getting started guide</a>.</p>
+          <div class="meta">
+              <span class="tag tag-specification">specification</span>
+            <span class="domain"><a href="https://webassembly.org/">webassembly.org</a></span>
+          </div>
+          <h2><a href="https://bytecodealliance.org/" target="_new">Bytecode Alliance</a></h2>
+          <p>The Bytecode Alliance is an <a href="https://github.com/bytecodealliance/">open source community</a> dedicated to creating secure new software foundations using WebAssembly and the WebAssembly System Interface (WASI).</p>
+          <div class="meta">
+              <span class="tag tag-tool">tool</span>
+            <span class="domain"><a href="https://bytecodealliance.org/">bytecodealliance.org</a></span>
+            <span class="author">
+                <a href="https://bytecodealliance.org/">
+              Bytecode Alliance
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://wasi.dev/" target="_new">WebAssembly System Interface</a></h2>
+          <p>WebAssembly is an assembly language for a conceptual machine but to work outside of the browser it also needs a system interface for a conceptual operating system. Lin Clark's <a href="https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/">introduction to WASI</a> is the best summary of its goals and features.</p>
+          <div class="meta">
+              <span class="tag tag-tool">tool</span>
+            <span class="domain"><a href="https://wasi.dev/">wasi.dev</a></span>
+            <span class="author">
+                <a href="https://bytecodealliance.org/">
+              Bytecode Alliance
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://github.com/bytecodealliance/wasmtime" target="_new">Wasmtime</a></h2>
+          <p>Wasmtime is a standalone runtime for WebAssembly that works outside of web browsers. It fits on tiny chips and effectively scales up up on servers. Wasmtime is designed to be embedded in many different applications.</p>
+          <div class="meta">
+              <span class="tag tag-tool">tool</span>
+            <span class="domain"><a href="https://github.com/bytecodealliance/wasmtime">github.com</a></span>
+            <span class="author">
+                <a href="https://bytecodealliance.org/">
+              Bytecode Alliance
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://github.com/WebAssembly/interface-types/blob/master/proposals/interface-types/Explainer.md" target="_new">Interface Types Proposal</a></h2>
+          <p>This proposal adds a new set of interface types to WebAssembly that describe high-level values like strings, sequences, records and variants. This encourages better interoperation between WebAssembly modules and with external application programming interfaces like Web APIs.</p>
+          <div class="meta">
+              <span class="tag tag-specification">specification</span>
+            <span class="domain"><a href="https://github.com/WebAssembly/interface-types/blob/master/proposals/interface-types/Explainer.md">github.com</a></span>
+          </div>
+      </div>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
