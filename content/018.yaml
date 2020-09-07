@@ -1,15 +1,66 @@
 date: 2020-09-08
 overview: >
-  Overvew here in markdown
+  This is the week of [labor day](https://en.wikipedia.org/wiki/Labor_Day) here in North America so instead of the usual news links I'm trying something different. This week we'll take a deeper dive into WebAssembly, a technology that has arrived thanks to many person-years of (mostly thankless) labor by browser teams. WebAssembly is a new way to write fast, safe, and programming-language-agnostic code modules that nicely fit into web browsers and enable a better immersive web.
+  <p>
+    "Fast" means we can render more complex 3D scenes on time so that fewer people experience [VR sickness](https://en.wikipedia.org/wiki/Virtual_reality_sickness). "Safe" means that we don't violate people's expectations about what sites can do and see. "Programming language agnostic" means that we can write in C, Go, Rust and other efficient languages that are more commonly used for XR than Javascript.
+  </p>
+  <p>
+    So, take a bit of time to appreciate the fruits of the web community's labor in the latest issue of the Immersive Web Weekly.
+  </p>
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: WebAssembly Concepts
+    url: https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts
+    author: MDN
+    authorLink: https://developer.mozilla.org/ 
     category:
-      - Category here
+      - tutorial
     content: >
-      Summary content goes here in markdown
+      This article explains the high level concepts behind WebAssembly including its goals, the problems it solves, and how it runs inside a web browser's rendering engine.
+  -
+    title: WebAssembly Community
+    url: https://webassembly.org/
+    author: 
+    authorLink: 
+    category:
+      - specification
+    content: >
+      This site links to many aspects of the WebAssembly effort including the [specifications](https://webassembly.org/specs/) and a [getting started guide](https://webassembly.org/getting-started/developers-guide/).
+  -
+    title: Bytecode Alliance
+    url: https://bytecodealliance.org/
+    author: Bytecode Alliance
+    authorLink: https://bytecodealliance.org/
+    category:
+      - tool
+    content: >
+      The Bytecode Alliance is an [open source community](https://github.com/bytecodealliance/) dedicated to creating secure new software foundations using WebAssembly and the WebAssembly System Interface (WASI).
+  -
+    title: WebAssembly System Interface
+    url: https://wasi.dev/
+    author: Bytecode Alliance
+    authorLink: https://bytecodealliance.org/
+    category:
+      - tool
+    content: >
+      WebAssembly is an assembly language for a conceptual machine but to work outside of the browser it also needs a system interface for a conceptual operating system. Lin Clark's [introduction to WASI](https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/) is the best summary of its goals and features.
+  -
+    title: Wasmtime
+    url: https://github.com/bytecodealliance/wasmtime
+    author: Bytecode Alliance
+    authorLink: https://bytecodealliance.org/
+    category:
+      - tool
+    content: >
+       Wasmtime is a standalone runtime for WebAssembly that works outside of web browsers. It fits on tiny chips and effectively scales up up on servers. Wasmtime is designed to be embedded in many different applications.
+  -
+    title: Interface Types Proposal
+    url: https://github.com/WebAssembly/interface-types/blob/master/proposals/interface-types/Explainer.md
+    author: 
+    authorLink: 
+    category:
+      - specification
+    content: >
+      This proposal adds a new set of interface types to WebAssembly that describe high-level values like strings, sequences, records and variants. This encourages better interoperation between WebAssembly modules and with external application programming interfaces like Web APIs.
