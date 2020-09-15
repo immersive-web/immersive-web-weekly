@@ -1,0 +1,21 @@
+
+not-published:
+  -
+    title: Designs for a Cooler Planet exhibition Costume in Augmented Reality
+    url: https://urscostume.glitch.me
+    author: Michael Jelbart
+    authorLink: https://www.tophatwombat.com
+    content: >
+      https://ursbeans.glitch.me
+      In collaboration with costume designer, Urs Dierker, Michael Jelbart, Helsinki-based XR developer, created a cheery AR Business Card featuring shiny bean-like shapes gently spinning, and linking to the artist’s portfolio.
+      For the Helsinki Design Week, the team also translated a costume from exhibition Naturally Dramatic into an accessible WebAR experience. The sustainable textile and material design for stage and film costumes exhibition reached a wider audience despite the limited openings due to COVID 19. The photogrammetric model is displayed using model-viewer with a custom link for Chrome on iOS. Enjoy the experience!
+  -
+    title: The Immersive Web as An App Store Escape Value
+    url: https://techcrunch.com/2020/09/11/apple-lays-out-its-messy-vision-for-how-xcloud-and-stadia-will-work-with-its-app-store-rules/
+    author: Lucas Matney
+    authorLink: https://twitter.com/lucasmtny
+    category:
+      - ecosystem
+    content: >
+      4.92 Streaming Games
+      Streaming games are permitted so long as they adhere to all guidelines — for example, each game update must be submitted for review, developers must provide appropriate metadata for search, games must use in-app purchase to unlock features or functionality, etc. Of course, there is always the open Internet and web browser apps to reach all users outside of the App Store.
