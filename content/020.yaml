@@ -1,0 +1,44 @@
+date: 2020-09-22
+overview: >
+  The big news this week came from Facebook in the form of new hardware and a massive overhaul of the Oculus Browser. Less noticed but just as intriguing is the announcement of *another* experimental browser that takes on the problem of how to mix immersive web content with native apps. That's two new browsers in two weeks! If my math is correct then in a year's time we'll have another 52 browsers on the scene. ;-)
+    <br>
+    Hold on to your code repositories and switch your browser into dark mode because it's time for another issue of the Immersive Web Weekly!
+
+signed: Trevor Flowers
+links:
+  -
+    title: Yet Another WebXR-centric Browser Announced
+    url: https://twitter.com/webmixedreality/status/1306094079369977857
+    author: Avaer Kazmer
+    authorLink: https://twitter.com/webmixedreality
+    category:
+      - browser
+    content: >
+      [Metachromium](https://store.steampowered.com/app/685110/Metachromium/) is a fork of Chromium that runs WebXR content in a SteamVR layer. It doesn't take over the scene but instead composites together the base experience and WebXR content. Like the [Aardvark](https://github.com/aardvarkxr/aardvark) browser (mentioned in [issue 19](https://immersivewebweekly.com/issues/019/)) Metachromium explores the possibility of mixing long-running XR gadgets with session-oriented content.
+  -
+    title: New Features of Oculus Browser
+    url: https://twitter.com/jacobrossi/status/1306410865076256768
+    author: Jacob Rossi
+    authorLink: https://twitter.com/jacobrossi/
+    category:
+      - browser
+    content: >
+      At Facebook Connect 2020 the Oculus Browser became the core of their [infinite office initiative](https://youtu.be/5_bVkbG1ZCo), providing a mixed reality workspace in the new [Quest 2](https://www.oculus.com/quest-2/) headset. [This twitter thread](https://twitter.com/jacobrossi/status/1306410865076256768) and [this video](https://www.facebook.com/watch/?v=680120626240756) from Jacob Rossi cover the major new features, including [PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Introduction)!
+  -
+    title: WebXR Entries in js13kgames 2020
+    url: https://js13kgames.com/entries/2020/31
+    author: js13kgames
+    authorLink: https://js13kgames.com/
+    category:
+      - competition
+    content: >
+      This was the first year that the long-running js13kgames competition included a category for WebXR and 15 people submitted entries, including Three.js creator [Ricardo Cabello](https://twitter.com/mrdoob). Participants were allowed to use A-frame, Babylon, or Three.js without counting against their 13 kilobytes of code but at least one entry used no external libraries.
+  -
+    title: Representative One-Ups Chair with a Half-length WebXR Introduction
+    url: https://www.w3.org/2020/Talks/dhm-webxr-laval/video.html
+    author: Dominique Hazael-Massieux
+    authorLink: https://www.w3.org/People/Dom/
+    category:
+      - tutorial
+    content: >
+      In last week's issue we covered our chair Ada Rose Cannon's [30 minute introduction to the immersive web](https://youtu.be/ypSkIYpJjE8) only to find out that this week our W3C representative, Dominique Hazael-Massieux released a [15 minute introduction](https://www.w3.org/2020/Talks/dhm-webxr-laval/video.html). While your editor could find no evidence that this is a competition the timing is quite a coincidence. What will be next, a 7.5 minute introduction?
