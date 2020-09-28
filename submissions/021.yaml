@@ -1,0 +1,8 @@
+
+not-published:
+  -
+    title: Introduction to WebXR Series
+    url: https://medium.com/youngsphere/1-introduction-to-webxr-53c293b4bfb5
+    author: Vivek Chandela
+    content: >
+      This is a series on using WebXR to build immersive content, starting from basic scene with AFrame, to hit-testing to DOM Overlay.

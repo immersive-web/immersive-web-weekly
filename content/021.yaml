@@ -1,15 +1,35 @@
 date: 2020-09-29
 overview: >
-  Overvew here in markdown
+  As Autumn arrives in Seattle, I look forward to leaving behind all of this lovely, sunny weather and spending time in new headsets. After more than three months on backorder, Valve has let me pay for an Index so when it arrives I plan to build interaction prototypes with WebXR that take advantage of the unique capabilities of both the Quest 2's hand tracking and the Knuckles controllers. I've heard that Collabora has good support for the Index so I also look forward to trying their OpenXR stack, [Monado](https://monado.dev/).
+    <br>
+    This week we have good news from the KaiXR and PlayCanvas teams as well as a milestone for the immersive web in the form of a thorough Udemy course. Put on your woolly sweater and pour a mug of cheer because it's time for another issue of the Immersive Web Weekly!
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: KaiXR Launches VR Field Trips
+    url: https://www.kaixr.com/
+    author: Kai M. Frazier
+    authorLink: https://twitter.com/ExploreKaiXR
     category:
-      - Category here
+      - launch
     content: >
-      Summary content goes here in markdown
+      This week [KaiXR](https://www.kaixr.com/) launched their new platform for VR field trips. They focused on creating an accessible and inclusive tool for use in classrooms as well as a [low-cost Cardboard kit](https://curated-x-kai-inc.myshopify.com/). At launch, KaiXR has four schools online with around one thousand students and they are currently looking for more partners.
+  -
+    title: Templates Instantiate on PlayCanvas
+    url: https://blog.playcanvas.com/supercharge-your-workflow-with-template-assets/
+    author: Steven Yau
+    authorLink: https://blog.playcanvas.com/author/steven/
+    category:
+      - engine
+    content: >
+      The PlayCanvas team rezzed templates in their editor and runtime this week. This feature allows XR teams to collaboratively construct reusable objects and then use them multiple times with minimal duplication of effort or rendering cost.
+  -
+    title: WebXR Arrives on Udemy
+    url: https://www.udemy.com/course/learn-webxr/?couponCode=SEP20_SALE
+    author: Nik Lever
+    authorLink: https://www.udemy.com/user/nicholas-lever-3/
+    category:
+      - tutorial
+    content: >
+      [This video course](https://www.udemy.com/course/learn-webxr/?couponCode=SEP20_SALE) introduces the core concepts of [Three.js](https://threejs.org/) and [WebXR](https://www.w3.org/TR/webxr/) by stepping students through the process of creating an architectural walk-through, a game, and a basic training application. The classes are designed for people who are familiar with web development but may not have used XR or own a headset. Nik's [GLSL Shaders course](https://www.udemy.com/course/learn-glsl-shaders-from-scratch/) is highly rated and this [summary video](https://youtu.be/QuYmeeHlbAA) provides a good feel for his teaching style.
