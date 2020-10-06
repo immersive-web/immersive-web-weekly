@@ -1,15 +1,68 @@
-date: 2020-10-05
+date: 2020-10-06
 overview: >
-  Overvew here in markdown
-
-signed: IWW byline here
+  This was a busy week for the immersive web and for your editor. New APIs are in play, WebXR games (some quite sticky) are now live, and it feels like each week a new galaxy of tutorials and guides show up in my telescope. Patch over your light leaks, tune up your signal processing algorithms, and point your radio array at these coordinates because it's time for another Immersive Web Weekly!
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: 30k Digital Bodies From Ready Player Me
+    url: https://readyplayer.me/blog/we-added-personal-avatars-to-mozilla-hubs-and-this-is-what-happened
+    author: Timmu Tõke
+    authorLink: https://readyplayer.me/
     category:
-      - Category here
+      - digital body
     content: >
-      Summary content goes here in markdown
+      What started as a Covid-prompted experiment to hook [Wolf3D](https://wolf3d.io/)'s digital body creation technology, [ReadyPlayerMe](https://readyplayer.me/), to [Mozilla Hubs](https://hubs.mozilla.com/) turned into a hit. In just one month over thirty thousand bodies were created and used on the immersive web.
+  -
+    title: Three.js Releases Experimental WebGPU Support
+    url: https://twitter.com/threejs_org/status/1311254192238071808
+    author: Ricardo Cabello 
+    authorLink: https://mrdoob.com/
+    category:
+      - library
+    content: >
+      Progress marches on with a [new release](https://github.com/mrdoob/three.js/releases/tag/r121) of the popular 3D engine, [Three.js](https://threejs.org/). In addition to build improvements that result in smaller Javascript files, this release brings with it experimental support for the [WebGPU API](https://gpuweb.github.io/gpuweb/#intro) which promises to improve rendering in XR.
+  -
+    title: Frame Academy Teaches WebXR For STEM
+    url: https://learn.framevr.io/academy
+    author: Frame
+    authorLink: https://framevr.io/
+    category:
+      - tutorial
+    content: >
+      The past few weeks have seen Frame make regular improvements to their [immersive web event hosting platform](https://framevr.io/) but they didn't stop there. They now have a series of [six project-based lessons](https://learn.framevr.io/academy) that teach students how to create their own XR experiences. They also offer companion online workshops to start STEM teachers and students with everything they need to use WebXR.
+  -
+    title: js13kGames Announces WebXR Winners
+    url: https://js13kgames.com/#winners
+    author: js13kGames
+    authorLink: https://js13kgames.com
+    category:
+      - competition
+    content: >
+      After weeks of consideration and comparison, the judges have announced the winners of the first js13kGames competition to include WebXR:
+      <br>
+      🍾 1st place: [Exit](https://js13kgames.com/entries/exit) <br>
+      🍾 2nd place: [13kb-404](https://js13kgames.com/entries/13kb-404) <br>
+      🍾 3rd place: [Ned Snow](https://js13kgames.com/entries/ned-snow) <br>
+      See the rest of the categories and winners on [js13kGames](https://js13kgames.com).
+  -
+    title: Two Community Create WebXR Discords
+    url: https://discord.com/invite/Jt5tfaM
+    author: M2
+    authorLink: 
+    category:
+      - community
+    content: >
+      A couple of community organizers have reached out to your editor in order to invite Immersive Web Weekly readers to take part in their XR-centric Discord servers:
+      <br> 
+      M2: [server invite](https://discord.com/invite/Jt5tfaM) <br>
+      Neurohaxor: [server invite](https://discord.com/invite/wQyBsUj) <br>
+      [Discord](discordapp.com/) has long been a gathering place for game communities but is quickly growing beyond that with servers for many topics related to the immersive web.  
+  -
+    title: Moon Rider Is Sticky
+    url: https://twitter.com/dmarcos/status/1312868636797939717
+    author: Diego Marcos
+    authorLink: https://twitter.com/dmarcos/
+    category:
+      - application
+    content: >
+      [Moon Rider](https://moonrider.xyz/) was one of the first WebVR experiences with high quality graphics and stable performance which led it to become a common demonstration for people interested in the immersive web. It turns out that it's more than a demo for many people because the creator [tweeted this week](https://twitter.com/dmarcos/status/1312868636797939717) that 18 months after release it has more than 500 users who play every day for more than 15 minutes.
