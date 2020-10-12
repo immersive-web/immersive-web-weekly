@@ -1,15 +1,53 @@
 date: 2020-10-13
 overview: >
-  Overvew here in markdown
+  With the growing number of announcements that app framework and engine teams are introducing XR support (either porting from WebVR or adding XR for the first time) it feels like the WebXR Device API has crossed over the threshold from a kind-of-maybe-someday feature to a piece of the web that is understood and expected. Kudos to the editors, implementors, contributors, evangelists, community leaders, and enthusiasts who have kept it alive during the [trough of disillusionment](https://en.wikipedia.org/wiki/Hype_cycle). Our job isn't done, but we're picking up speed.
+    Tighten your seat belts, warm up your hyper-drive, and flip down your helmet visor because here comes another issue of the Immersive Web Weekly.
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: ZapBox Kickstarter
+    url: https://www.kickstarter.com/projects/all-newzapbox/all-new-zapbox-awesome-mixed-reality-for-40
+    author: Zappar
+    authorLink: https://www.zappar.com/
     category:
-      - Category here
+      - hardware
     content: >
-      Summary content goes here in markdown
+      With the cancellation of Oculus Go and Google Daydream, well supported and low cost XR hardware is hard to find. Zappar is building on their experience with Cardboard-based kits to ship a new approach to smartphone-based XR. For the price of a single Facebook Quest 2 (and without account requirements) backers can reserve a Zapbox 10-pack, complete with tracked controllers and fiducial markers.
+  -
+    title: WebGL2 On By Default in Safari Preview
+    url: https://webkit.org/blog/11300/release-notes-for-safari-technology-preview-114/
+    author: Jonathan Davis
+    authorLink: https://twitter.com/jonathandavis
+    category:
+      - browser
+      - almost there
+    content: >
+      While other major browser teams release experimental support for WebGPU, this week the Safari team released a preview build with WebGL2 support. 🍾 Come on Apple, you can do it!
+  -
+    title: LÖVR Shifts To WebXR
+    url: https://twitter.com/bjornbytes/status/1315716348815659010
+    author: LÖVR
+    authorLink: https://lovr.org/
+    category:
+      - library
+    content: >
+      This [Lua-centric project](https://lovr.org/) was one of the first XR engines to target WebVR and as of this week it has [moved to WebXR](https://twitter.com/bjornbytes/status/1315716348815659010) with support for more controllers as well as the experimental hand API on the Facebook Quest. The framework is fast, relatively tiny, and open source with a growing list of supported targets and rendering capabilities. Lua has long been used as a scripting language by game engines so it may be appealing to the game makers in your life who are allergic to Javascript.
+  -
+    title: Using WebXR with Babylon.js
+    url: https://www.smashingmagazine.com/2020/10/using-webxr-with-babylonjs/
+    author: Preston So
+    authorLink: https://www.smashingmagazine.com/author/preston-so/
+    category:
+      - tutorial
+    content: >
+      "In [this overview of WebXR technologies and the Babylon.js framework](https://www.smashingmagazine.com/2020/10/using-webxr-with-babylonjs/) we’ll embark on a journey through the past, present, and future of mixed reality both on the web and on immersive headsets. We’ll inspect the underpinnings of WebXR and the most important aspects of the WebXR Device API before turning our attention to Babylon.js, a framework for building immersive applications in JavaScript for web, mobile, and headset."
+  -
+    title: ROAR Retrospective
+    url: https://piesku.com/roar/
+    author: Staś Małolepszy
+    authorLink: https://piesku.com/
+    category:
+      - tutorial
+    content: >
+      In [issue 22](https://immersivewebweekly.com/issues/022/) we covered the winners of the new WebXR category of the [js13kgames competition](https://js13kgames.com/) and mentioned that one of the entries eschewed libraries like Three.js and Babylon.js to include their own engine *within the 13k limit*. That entry was [Roar](https://js13kgames.com/entries/roar) and this week the creator released a [detailed development log describing how and why it works](https://piesku.com/roar/).

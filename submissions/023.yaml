@@ -1,0 +1,9 @@
+
+not-published:
+  -
+    title: Moving Physics Off the Main Thread
+    url: https://surma.dev/things/omt-for-three-xr/
+    author: Surma
+    content: >
+      "I recently became an owner of the Oculus Quest, and since the browser that comes with it has support for WebXR, I thought it only sensible to play around with that API. I looked at the Three.js examples and tried out the XR samples. Annoyingly, even the rather bare-bones Ballshooter was fun. However, I felt like it didn’t have enough balls. Time to start hacking!"
+      https://github.com/GoogleChromeLabs/comlink
