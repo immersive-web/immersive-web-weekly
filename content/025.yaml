@@ -1,15 +1,69 @@
 date: 2020-10-27
 overview: >
-  Overvew here in markdown
+  Note: There will be no Immersive Web Weekly next week because your editor will be in an underground bunker at an undisclosed location with no Internet access. That this is happening during the U.S. presidential election is entirely a coincidence. 😉
+  <br style="margin-bottom: 10px;">
+  I feel pretty good today because I just heard that the Bytecode Alliance's [Wasmtime team is once again funded](https://bytecodealliance.org/articles/1-year-update#the-lucet-and-wasmtime-teams-join-forces) and NASA [detected H<sup>2</sup>O on the sunlit parts of Luna](https://www.nasa.gov/press-release/nasa-s-sofia-discovers-water-on-sunlit-surface-of-moon). Editing this newsletter and seeing the hard work happening in our community to bring the immersive web to more people has also lightened my mood. I don't say it enough but I am deeply grateful for everyone in this community and for the work that you do.
+  <br style="margin-bottom: 10px;">
+  Calm your breath, ground into the Earth, and practice your sun salutations because it's time for another Immersive Web Weekly!
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: WebXR Hands API reaches First Working Draft
+    url: https://www.w3.org/blog/news/archives/8734
+    author: Manish Goregaokar
+    authorLink: https://twitter.com/Manishearth
     category:
-      - Category here
+      - specification
+      - hands
     content: >
-      Summary content goes here in markdown
+      Thanks to editor [Manish Goregaokar](https://twitter.com/Manishearth) and the rest of the Immersive Web Working Group, the specification for [hand input for WebXR](https://www.w3.org/TR/2020/WD-webxr-hand-input-1-20201022/) has reached another milestone in the process of standardization. These "first published working drafts" are often the first versions of proposed specifications that are seen outside of working groups and are considered worthy of comment by members of the W3C and by the wider web community of creators. Great work, everyone!
+  -
+    title: Itch.io Adds Support for WebXR
+    url: https://github.com/itchio/itch.io/issues/1117
+    author: Leaf
+    authorLink: https://leafo.net/
+    category:
+      - market
+    content: >
+      Now that [Leaf](https://leafo.net/) has fixed this [one technical issue](https://github.com/itchio/itch.io/issues/1117), the popular indie game marketplace, [Itch.io](https://itch.io/), supports WebXR! Game creators can sell and distribute their immersive experiences entirely through the web and without going through Google or Apple's app stores.
+  -
+    title: Creative Coding in WebXR
+    url: http://p5xr.org/#/?id=what-is-it
+    author: Stalgia Grigg
+    authorLink: https://stalgiagrigg.name/
+    category:
+      - library
+      - art
+    content: >
+      This week the immersive web arrived for the creative coding community that centers around [p5.js](https://p5js.org/). This plug-in, [p5.xr](http://p5xr.org/) gives artists, educators, students, and other creative coders the ability to run any p5.js script in an immersive web experience.
+  -
+    title: New Art For Input Profiles
+    url: https://twitter.com/Tojiro/status/1320864271928979456
+    author: Brandon Jones
+    authorLink: https://twitter.com/Tojiro
+    category:
+      - library
+      - controllers
+    content: >
+      Spec co-editor, Brandon Jones, [tweeted](https://twitter.com/Tojiro/status/1320864271928979456) that there are newly updated 3D models in the [WebXR Input Profiles](https://github.com/immersive-web/webxr-input-profiles/) library. Users wearing Facebook's Quest 2 or HP's Reverb will now see the correct controllers and there's no code change necessary for users of the freely hosted version of the profiles. This library is a nice example of cross-organization collaboration to make the immersive web a better place for creators and users.
+  -
+    title: Immersive Analytics
+    url: https://twitter.com/BangorCSEE/status/1319249389785894914
+    author: Peter Butcher et al.
+    authorLink: https://pbutcher.uk/
+    category:
+      - library
+    content: >
+      A new tool for creators of immersive analytics experiences comes from Peter Butcher, a PhD student in the [Visualization, Interaction and Graphics Research Group](https://vig-chester.org/). He's created the [VRIA web builder](https://vriajs.github.io/vria/builder), published an [academic paper](https://ieeexplore.ieee.org/document/8954824) about its use, and released its [source code](https://github.com/vriajs/vria) under an open source license.
+  -
+    title: International Cinema In The Pandemic
+    url: https://medium.com/@kmshotline/how-an-indie-festival-is-fostering-a-new-kind-of-international-cinema-in-the-pandemic-55fbf3e35f92
+    author: Keram Malicki-Sanchez
+    authorLink: https://keramms.medium.com/
+    category:
+      - film
+      - festival
+    content: >
+      The [Festival of International Virtual and Augmented Reality Stories](https://fivars.net/) (FIVARS) has released their [2020 selections](https://fivars.net/category/stories/stories2020/) and [published an essay](https://medium.com/@kmshotline/how-an-indie-festival-is-fostering-a-new-kind-of-international-cinema-in-the-pandemic-55fbf3e35f92) about why the immersive web and its content creators are doing important work, even during a global pandemic.
+
