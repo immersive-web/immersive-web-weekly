@@ -1,15 +1,46 @@
-date: 2040-12-31
+date: 2020-11-10
 overview: >
-  Overvew here in markdown
+  It has been another interesting week around the web with more engine support appearing for WebXR, funds landing for a new initiative for federated identity, and the launch of immersive tech for online events.
+  <br>  
+  Energize your "On Air" light, wake up the chat moderators, and double check that your hair looks great on the live-stream because it's time for another issue of the Immersive Web Weekly!
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Working Toward WebXR in Godot
+    url: https://www.snopekgames.com/blog/2020/how-make-vr-game-webxr-godot
+    author: David Snopek
+    authorLink: https://www.snopekgames.com/
     category:
-      - Category here
+      - tutorial
+      - engine
     content: >
-      Summary content goes here in markdown
+      David Snopek from Snopek Games [writes](https://www.snopekgames.com/blog/2020/how-make-vr-game-webxr-godot):
+      <blockquote>For the last few weeks I've been working on adding support for WebXR to the Godot game engine and recording periodic progress report videos on YouTube. Things are to a point where it'd be useful for other folks to try it out to help find bugs and give feedback on the APIs. So, I've decided to write this short tutorial on how to use a development build to make a VR game!</blockquote>
+      The [demo video](https://youtu.be/uy6moGOIBmQ) shows promise (he enters VR around the [1 minute mark](https://youtu.be/uy6moGOIBmQ?t=60)).
+  -
+    title: Immers Space Receives Funding For Federation
+    url: https://web.immers.space/2020/10/lets-save-the-metaverse-from-corporate-domination/
+    author: Dulce Baerga
+    authorLink: https://twitter.com/dulce303
+    category:
+      - funding
+    content: >
+      The Immers Space team recently received funding from the new [Grant For The Web](https://www.grantfortheweb.org/) program. Coil, Mozilla, and Creative Commons joined forces to create this program and in the case of Immers Space it energizes development of federation technologies for web spaces. The team [writes](https://web.immers.space/2020/10/lets-save-the-metaverse-from-corporate-domination/):
+      <blockquote>We dream of a democratized new era of the Web where creators own their content, users own their data, and no single entity exhibits undue influence on the community as a whole. Immers Space seeks to free the Immersive Web from past pitfalls by using a decentralized model based on open Web standards such that it cannot be owned and controlled by a tech giant oligopoly, bringing people together across platforms in live shared experiences, and providing content creators an alternative monetization model that respects user privacy.</blockquote>
+  -
+    title: Global XR Bootcamp
+    url: https://www.globalxrbootcamp.com/
+    category:
+      - event
+    content: >
+      On Nov 13th & 14th the Global XR Bootcamp team will host a [two day conference](https://www.globalxrbootcamp.com/) about XR with live-streamed sessions and community XR spaces. Attendee registration is free and [the schedule](https://www.globalxrbootcamp.com/online-agenda-and-information/) is available.
+  -
+    title: Using WebXR to Produce FIVARS
+    url: https://voicesofvr.com/957-how-fivars-festival-is-using-webxr-to-deliver-360-video/
+    author: Kent Bye
+    authorLink: http://voicesofvr.com/
+    category:
+      - interview
+    content: >
+      In this [Voices of VR podcast](https://voicesofvr.com/957-how-fivars-festival-is-using-webxr-to-deliver-360-video/), host [Kent Bye](https://twitter.com/kentbye) talks with the founder of the [FIVARS VR & AR story festival](https://fivars.net/) (covered in [issue 25](https://immersivewebweekly.com/issues/025/)) [Keram Malicki-Sánchez](https://en.wikipedia.org/wiki/Keram_Malicki-S%C3%A1nchez) & WebXR developer [James Baicoianu](https://twitter.com/bai0) about how they re-purposed the open source JanusXR code in order to create a platform to deliver 360 video via WebXR.
