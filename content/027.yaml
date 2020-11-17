@@ -1,15 +1,60 @@
 date: 2020-11-17
 overview: >
-  Overvew here in markdown
-
-signed: IWW byline here
+  As usual, 2020 has delivered an exciting week of technology and transformation. After I put this issue to bed I plan to retire into a [tranquil writing space](https://twitter.com/zach_geek/status/1328071767043301378) and work on my folio of immersive poetry.<br>
+  Sharpen your pen nibs, rehydrate your dried inks, and scrape clean your parchment because it's time for another issue of the Immersive Web Weekly!
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Babylon Reloaded
+    url: https://babylonjs.medium.com/babylon-js-4-2-simplicity-reimagined-965f88d0fad
+    author: Microsoft
+    authorLink: https://www.babylonjs.com/
     category:
-      - Category here
+      - engine
     content: >
-      Summary content goes here in markdown
+      The Babylon.js team seems pretty excited by their [4.2 release](https://babylonjs.medium.com/babylon-js-4-2-simplicity-reimagined-965f88d0fad) and from the WebXR [docs](https://doc.babylonjs.com/divingDeeper/webXR/introToWebXR), [change-log](https://github.com/BabylonJS/Babylon.js/blob/master/dist/what's%20new.md#webxr), and [demo](https://catchgame--babylonjs-webxr-demo.netlify.app/) they might be on to something. [Ranaan Weber](https://blog.raananweber.com/) has been especially busy with XR integration but kudos to the entire team for the big release.
+  -
+    title: Create WebXR Voxels
+    url: https://youtu.be/rDMLVdFtnYo
+    author: Daniel Esteban Nombela
+    authorLink: https://dani.gatunes.com/
+    category:
+      - editor
+    content: >
+      It feels like more people are picking up WebXR because every week I run across interesting projects like this [experience editor](https://blocks-editor.gatunes.com/) from [Daniel Esteban Nombela](https://twitter.com/DaniGatunes). The [demo video](https://youtu.be/rDMLVdFtnYo) and [examples](https://github.com/danielesteban/blocks-editor-examples) show that this [open source project](https://github.com/danielesteban/blocks-editor) has a lot of potential.
+  -
+    title: The Oculus Go Wasn't Designed For Black Hair
+    url: https://debugger.medium.com/the-oculus-go-a-hard-ware-problem-for-black-women-225d9b48d098
+    author: Arwa Michelle Mboya
+    authorLink: https://virtuallyari.com/
+    category:
+      - design
+    content: >
+      One designer's approach to [widening VR's reach](https://debugger.medium.com/the-oculus-go-a-hard-ware-problem-for-black-women-225d9b48d098):
+      <blockquote>
+      For my study, I used the Oculus Go device by Facebook. I chose that device because it was easy to use and lightweight. I can use the device anywhere and pre-downloaded all my content so that Wi-Fi wouldn’t be an issue. From an accessibility perspective, the Go felt like the right decision. But that was before I realized that Black hair was going to be a major issue for the completion of my work.
+      </blockquote>
+  -
+    title: AIGA In Space
+    url: https://stldesignshow.com/
+    author: AIGA St. Louis
+    authorLink: https://stlouis.aiga.org/
+    category:
+      - design
+      - event
+    content: >
+      2020 provided AIGA St. Louis with a hard design problem for their [annual design show](https://stldesignshow.com/) and the immersive web was a part of the solution. With the help of a [local agency](https://paradowski.com/) they created a [custom Hubs space](https://stldesignshow.com/show) for the event. Podcast host Kent Bye [recorded a guided tour](https://youtu.be/-5nBKSyFKEM) of the space and show entries, as well.
+  -
+    title: Global XR Bootcamp Videos
+    url: https://www.youtube.com/playlist?list=PLHulrhe_CI0hJl00OeJBYJC5nH9jLwTvT
+    author: Global XR Bootcamp
+    authorLink: https://www.globalxrbootcamp.com/
+    category:
+      - videos
+      - event
+    content: >
+      Last week I covered the Global XR Bootcamp and this week the organizers have graciously released all of the talks and sessions in a [YouTube play-list](https://www.youtube.com/playlist?list=PLHulrhe_CI0hJl00OeJBYJC5nH9jLwTvT). There are a variety of XR-related topics but these popped out as particularly interesting for immersive web creators:
+      <br>
+      - [UI Design for WebXR](https://youtu.be/rzNm_XL4j7w)<br>
+      - [Increasing Scope of WebXR Projects](https://youtu.be/AxZZfQn15_A)<br>
+      - [Taking Web Based XR to the Hololens](https://youtu.be/5hlYROeE9LY)
