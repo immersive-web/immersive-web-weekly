@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Immersive Web Weekly: Issue #028, November 24, 2020</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://immersivewebweekly.com/issues/028">
+        <meta name="twitter:title" content="Immersive Web Weekly: Issue #028, November 24, 2020">
+        <meta name="twitter:description" content="This week I couldn&#x27;t turn around without running across a new API experiment from the Chrome team or finding someone using a Chrome origin trial in interesting work. Lighting, depth, and image trackin...">
+        <meta name="twitter:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta name="twitter:creator" content="@jsantell">
+        <meta property="og:title" content="Immersive Web Weekly: Issue #028, November 24, 2020">
+        <meta property="og:image" content="https://immersivewebweekly.com/images/large_image.jpg">
+        <meta property="og:site_name" content="Immersive Web Weekly">
+        <meta property="og:description" content="This week I couldn&#x27;t turn around without running across a new API experiment from the Chrome team or finding someone using a Chrome origin trial in interesting work. Lighting, depth, and image trackin...">
+        <meta property="og:url" content="https://immersivewebweekly.com/issues/028">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../../styles/issue.css" />
+  </head>
+  <body>
+      <div id="container">
+
+      <h1><a href="../../">Immersive Web Weekly</a></h1>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+
+      <div class="info">Issue #028, November 24, 2020, <a href="../../">ImmersiveWebWeekly.com</a></div>
+      <div id="overview">
+        <p>This week I couldn't turn around without running across a new API experiment from the Chrome team or finding someone using a Chrome origin trial in interesting work. Lighting, depth, and image tracking are picking up attention from the wider web developer community and it's exciting to get a glimpse of what the Chrome team have in mind for 2021. Read the explainer, apply for an origin token, and <code>git push</code> to trigger continuous integration because it's time for another issue of the Immersive Web Weekly!   </p> <span>– Trevor Flowers</span>
+      </div>
+      <div id="content">
+          <h2><a href="https://twitter.com/Tojiro/status/1330952430297645058" target="_new">Lighting Estimation API Available in Chrome</a></h2>
+          <p>The <a href="https://github.com/immersive-web/lighting-estimation/blob/main/lighting-estimation-explainer.md">lighting estimation API</a> for WebXR is now available for experimental use in handheld AR on Android. <a href="https://github.com/toji/xr-lighting">A sample</a> is available but developers must apply for an <a href="https://developers.chrome.com/origintrials/#/view_trial/4456311831283105793">origin trial token</a> to enable it for their site. The goal of origin trials like this is to allow the Chrome team to make available experimental APIs to developers but to also have the option to expire the trial should the API fail to become a standard or need major changes.</p>
+          <div class="meta">
+              <span class="tag tag-API">API</span>
+            <span class="domain"><a href="https://twitter.com/Tojiro/status/1330952430297645058">twitter.com</a></span>
+            <span class="author">
+                <a href="https://twitter.com/Tojiro/">
+              Brandon Jones
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://github.com/De-Panther/webxr-input-profiles-loader" target="_new">WebXR Input Profiles Now Available For Unity</a></h2>
+          <p>The Immersive Web Community Group's <a href="https://immersive-web.github.io/webxr-input-profiles/">public library of 3D models and metadata</a> for controllers has been in use by web libraries like Three.js and Babylon.js for more than a year but this week it arrived on the popular native game engine, Unity. Thanks to the work of Oren Weizman, Unity developers can now import an <a href="https://github.com/De-Panther/webxr-input-profiles-loader">open source package</a> that provides the proper controller model and behavior in WebXR experiences.</p>
+          <div class="meta">
+              <span class="tag tag-API">API</span>
+            <span class="domain"><a href="https://github.com/De-Panther/webxr-input-profiles-loader">github.com</a></span>
+            <span class="author">
+                <a href="https://www.de-panther.com/">
+              Oren Weizman
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://twitter.com/mrmaxm/status/1330232934192853003" target="_new">PlayCanvas Experiments with Image Tracking</a></h2>
+          <p>Prolific engine contributor, Max M, has revealed that he's <a href="https://twitter.com/mrmaxm/status/1330232934192853003">working on support</a> for the experimental <a href="https://github.com/immersive-web/marker-tracking/blob/main/explainer.md">image tracking API</a> for WebXR which is now available as an origin trial on Android Chrome. Interested coders can check out the <a href="https://github.com/playcanvas/engine/pull/2574">pull request</a> which demonstrates both the API and some of the interesting aspects of <a href="https://playcanvas.com/">PlayCanvas</a>.</p>
+          <div class="meta">
+              <span class="tag tag-API">API</span>
+            <span class="domain"><a href="https://twitter.com/mrmaxm/status/1330232934192853003">twitter.com</a></span>
+            <span class="author">
+                <a href="https://github.com/Maksims">
+              Max M
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://twitter.com/pbialy88/status/1329920830919196673" target="_new">Depth Sensing API Available in Chrome</a></h2>
+          <p>Like the lighting estimation API mentioned above, the <a href="https://github.com/immersive-web/depth-sensing/blob/main/explainer.md">depth sensing API</a> in WebXR is now available for experimental use in handheld AR on Android. <a href="https://immersive-web.github.io/webxr-samples/proposals/phone-ar-depth-gpu.html">A sample</a> is available but developers must apply for an <a href="https://developers.chrome.com/origintrials/#/register_trial/1934296039955628033">origin trial token</a> to enable it for their site.</p>
+          <div class="meta">
+              <span class="tag tag-API">API</span>
+            <span class="domain"><a href="https://twitter.com/pbialy88/status/1329920830919196673">twitter.com</a></span>
+            <span class="author">
+                <a href="https://twitter.com/pbialy88/">
+              Piotr Bialecki
+                </a>
+            </span>
+          </div>
+          <h2><a href="https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art" target="_new">TPAC Videos are Online, Including &quot;Accessing WebXR Through Art&quot;</a></h2>
+          <p>This is <a href="https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art">one example</a> of the excellent sessions about the immersive web at the W3C's big virtual get-together. <blockquote>"Topics will include the development of the p5.XR library to lower the barrier to entry for new coders, a volumetric performance toolkit that re-imagines immersive web spaces as a site for more equitable representation of humans in mediated performance, and using WebVR to connect art students and their studio practices in a remote-learning context."</blockquote></p>
+          <div class="meta">
+              <span class="tag tag-event">event</span>
+            <span class="domain"><a href="https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art">w3.org</a></span>
+            <span class="author">
+              Evelyn Eastmond, Stalgia Grigg, and Valencia James
+            </span>
+          </div>
+      </div>
+
+      <div class="signup-wrapper">
+      <div class="signup">
+        <p class="signup-info">A weeklyish newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.</p>
+
+        <form action="https://immersivewebweekly.us10.list-manage.com/subscribe/post?u=efa897fefcf4fb9962d181879&amp;id=85f9707432" method="post" target="_blank">
+            <div class="field">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" placeholder="Your email" value="" name="EMAIL" class="email">
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_efa897fefcf4fb9962d181879_85f9707432" tabindex="-1" value="">
+            </div>
+            <button class="submit" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
