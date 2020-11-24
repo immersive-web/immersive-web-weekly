@@ -1,15 +1,51 @@
 date: 2020-11-24
 overview: >
-  Overvew here in markdown
-
-signed: IWW byline here
+  This week I couldn't turn around without running across a new API experiment from the Chrome team or finding someone using a Chrome origin trial in interesting work. Lighting, depth, and image tracking are picking up attention from the wider web developer community and it's exciting to get a glimpse of what the Chrome team have in mind for 2021.
+  Read the explainer, apply for an origin token, and `git push` to trigger continuous integration because it's time for another issue of the Immersive Web Weekly!   
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Lighting Estimation API Available in Chrome
+    url: https://twitter.com/Tojiro/status/1330952430297645058
+    author: Brandon Jones
+    authorLink: https://twitter.com/Tojiro/
     category:
-      - Category here
+      - API
     content: >
-      Summary content goes here in markdown
+      The [lighting estimation API](https://github.com/immersive-web/lighting-estimation/blob/main/lighting-estimation-explainer.md) for WebXR is now available for experimental use in handheld AR on Android. [A sample](https://github.com/toji/xr-lighting) is available but developers must apply for an [origin trial token](https://developers.chrome.com/origintrials/#/view_trial/4456311831283105793) to enable it for their site. The goal of origin trials like this is to allow the Chrome team to make available experimental APIs to developers but to also have the option to expire the trial should the API fail to become a standard or need major changes.
+  -
+    title: WebXR Input Profiles Now Available For Unity
+    url: https://github.com/De-Panther/webxr-input-profiles-loader
+    author: Oren Weizman
+    authorLink: https://www.de-panther.com/
+    category:
+      - API
+    content: >
+      The Immersive Web Community Group's [public library of 3D models and metadata](https://immersive-web.github.io/webxr-input-profiles/) for controllers has been in use by web libraries like Three.js and Babylon.js for more than a year but this week it arrived on the popular native game engine, Unity. Thanks to the work of Oren Weizman, Unity developers can now import an [open source package](https://github.com/De-Panther/webxr-input-profiles-loader) that provides the proper controller model and behavior in WebXR experiences.
+  -
+    title: PlayCanvas Experiments with Image Tracking
+    url: https://twitter.com/mrmaxm/status/1330232934192853003
+    author: Max M
+    authorLink: https://github.com/Maksims
+    category:
+      - API
+    content: >
+      Prolific engine contributor, Max M, has revealed that he's [working on support](https://twitter.com/mrmaxm/status/1330232934192853003) for the experimental [image tracking API](https://github.com/immersive-web/marker-tracking/blob/main/explainer.md) for WebXR which is now available as an origin trial on Android Chrome. Interested coders can check out the [pull request](https://github.com/playcanvas/engine/pull/2574) which demonstrates both the API and some of the interesting aspects of [PlayCanvas](https://playcanvas.com/).
+  -
+    title: Depth Sensing API Available in Chrome
+    url: https://twitter.com/pbialy88/status/1329920830919196673
+    author: Piotr Bialecki
+    authorLink: https://twitter.com/pbialy88/
+    category:
+      - API
+    content: >
+      Like the lighting estimation API mentioned above, the [depth sensing API](https://github.com/immersive-web/depth-sensing/blob/main/explainer.md) in WebXR is now available for experimental use in handheld AR on Android. [A sample](https://immersive-web.github.io/webxr-samples/proposals/phone-ar-depth-gpu.html) is available but developers must apply for an [origin trial token](https://developers.chrome.com/origintrials/#/register_trial/1934296039955628033) to enable it for their site.
+  -
+    title: TPAC Videos are Online, Including "Accessing WebXR Through Art"
+    url: https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art
+    author: Evelyn Eastmond, Stalgia Grigg, and Valencia James
+    authorLink: 
+    category:
+      - event
+    content: This is [one example](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art) of the excellent sessions about the immersive web at the W3C's big virtual get-together.
+      <blockquote>"Topics will include the development of the p5.XR library to lower the barrier to entry for new coders, a volumetric performance toolkit that re-imagines immersive web spaces as a site for more equitable representation of humans in mediated performance, and using WebVR to connect art students and their studio practices in a remote-learning context."</blockquote>
