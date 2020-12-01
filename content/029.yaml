@@ -1,15 +1,57 @@
 date: 2020-12-01
 overview: >
-  Overvew here in markdown
+  Despite eating a bit too much cake last week I'm rolling into December with smile because developers are picking up what the WebXR Device API is putting down. I'm not sure whether we've reached a critical mass thanks to more widely available headsets like Facebook's Quest 2 or whether travel restrictions are encouraging creators to look to VR but regardless of the cause it's great to see so much work from the Immersive Web Community Group members energize the launch of a new medium.
+  <br>
+  Polish your lenses, charge your wands, and push back the furniture because it's time for another issue of the Immersive Web Weekly! 
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Make VR For WebXR While In VR
+    url: https://makepad.dev/
+    author: Rik Arends
+    authorLink: https://twitter.com/rikarends
     category:
-      - Category here
+      - editor
+      - shaders
     content: >
-      Summary content goes here in markdown
+      [Makepad](https://makepad.dev/) is a new live-coding environment from Rik Arends that focuses on shader development for virtual reality. [The code](https://github.com/makepad/makepad) is open source and is an interesting use of Rust for both native builds and WebAssembly in the browser.  
+  -
+    title: Make AR for WebXR While In VR
+    url: https://github.com/adarosecannon/immersive-ar-emulation
+    author: Ada Rose Cannon
+    authorLink: https://mobile.twitter.com/Lady_Ada_King/
+    category:
+      - library
+      - emulation
+    content: >
+      [This new tool](https://github.com/adarosecannon/immersive-ar-emulation) from Ada Rose Cannon allows developers to test immersive augmented reality experiences in virtual reality headsets. Because most creators don't have access to relatively expensive AR rigs, this tool enables web-style cross-platform development for many more people.
+  -
+    title: Pets! In! Space!
+    url: https://www.xrpet.me/
+    author: Brandon Jones
+    authorLink: https://twitter.com/tojiro
+    category:
+      - game
+      - uwu
+    content: >
+      Continuing our trend of cute experiences with animal-ish characters, [Pet me!](https://www.xrpet.me/) is a WebXR experience where you pet a critter. [The code](https://github.com/toji/xr-critter/) is freely available along with 3D models that include the ["minimally viable cat"](https://github.com/toji/xr-critter/tree/main/media/meshes/critter).
+  -
+    title: >
+      A Star Is Born
+    url: https://tyrovr.com/
+    author: Rye Terrell
+    authorLink: https://twitter.com/wwwtyro/
+    category:
+      - game
+    content: >
+      [Sol Attrition](https://tyrovr.com/) from Rye Terrell was [announced this week](https://twitter.com/wwwtyro/status/1332809571249893380) and it might give [Moonrider](https://moonrider.xyz/) a bit of competition for the best free game on the immersive web. The author mentioned that they're using the nicely maturing [regl](https://github.com/regl-project/regl) project to write efficient WebGL code.
+  -
+    title: Just Like That, But Fast
+    url: https://toji.github.io/webxr-scene-optimization/
+    author: Brandon Jones
+    authorLink: https://twitter.com/tojiro
+    category:
+      - tutorial
+    content: >
+      On the topic of efficiency, WebXR specification co-editor Brandon Jones published a [mini-tutorial](https://toji.github.io/webxr-scene-optimization/) that covers essential methods of optimizing 3D assets for mobile VR and AR devices. If graphics coder terms like "draw calls" and "backface culling" are unfamiliar (or maybe a little daunting) then this gentle introduction could be just what you need to smooth out your crunchy immersive web project. 
