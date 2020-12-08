@@ -1,15 +1,59 @@
 date: 2020-12-08
 overview: >
-  Overvew here in markdown
-
-signed: IWW byline here
+  As we head into the last few weeks of 2020 I was tempted to recount the many milestones, victories, and heartaches that took place on the immersive web and in our community. Luckily, we are spared that bit of sappy writing by a week that has been packed full of interesting news and events.
+  Clear your schedule, shut down social media, and turn off all alerts because it's time for another issue of the Immersive Web Weekly!
+signed: Trevor Flowers (now with less sugar)
 links:
-  -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+-
+    title: GitHub's Universe Includes XR
+    url: https://githubuniverse.com/
+    author: Mario Carrillo, Jaume Sánchez Elias, and Eliza Struthers-Jobin
+    authorLink:
     category:
-      - Category here
+      - event
     content: >
-      Summary content goes here in markdown
+      Starting today, Microsoft will livestream their free [GitHub Universe](https://githubuniverse.com/) conference which includes several XR-related talks:
+      <br style="margin-bottom: 10px">
+      <strong>December 8, 11:30 AM PST</strong>: [Exploring kinetic typography with Three.js in 10 Minutes](https://githubuniverse.com/10-minute-tutorials-getting-started-with-creative-coding-in-just-a-few-minutes/) with [Mario Carrillo](https://twitter.com/marioecg/).
+      <br style="margin-bottom: 10px">
+      <strong>December 10, 9:30am PST</strong>: [How do you feel something you can't touch, and other questions encountered in XR](https://githubuniverse.com/How-do-you-feel-something-you-cant-touch-and-other-questions-encountered-in-XR/) by artist and programmer [Eliza Struthers-Jobin](https://twitter.com/iamelizasj).
+      <br style="margin-bottom: 10px">
+      <strong>December 10, 10:30 AM PST</strong>: [The future of the web in an XR world](https://githubuniverse.com/The-future-of-the-web-in-an-XR-world/) from regular Three.js contributor [Jaume Sánchez Elias](https://twitter.com/thespite).
+      <br style="margin-bottom: 10px">
+      Eliza and Mario are also [performing live](https://githubuniverse.com/Break-performance-in-Limen/) at 11:15am PST on December 8th.
+-
+    title: Spatial Chat Is Near
+    url: https://www.wired.com/story/zoom-parties-proximity-chat/
+    author: Gretchen McCulloch
+    authorLink:
+    category:
+      - article
+    content: >
+      The combination of pandemic restrictions and more commonly available XR hardware has energized the market for spatial chat applications, many of them web based. In [this Wired article](https://www.wired.com/story/zoom-parties-proximity-chat/), Internet linguist [Gretchen McCullock](https://gretchenmcculloch.com/) explores why this is happening and examines different approaches taken by the [40+ spatial chat projects](https://docs.google.com/spreadsheets/d/1FgynDnnrrllZZUa42XcKSfD68G5VAMZsLkARXHtgHOM/) that she tracks. In related news, ex-Mozilla Hubs manager Greg Fodor [announced](https://gfodor.medium.com/introducing-jel-the-un-zoom-320d3dcfd8f6) his own web-based spatial chat application, [Jel](https://jel.app/).
+-
+    title: Putting the "AR" into Molecular
+    url: https://molecularweb.epfl.ch/
+    author: Luciano Abriata and Fabio Cortes
+    authorLink: 
+    category:
+      - education
+    content: >
+      [MoleculARweb](https://molecularweb.epfl.ch/) is a new marker-based AR web app [announced by EPFL](https://actu.epfl.ch/news/augmented-reality-makes-chemistry-and-biology-acce/) for use by chemistry students. A chemistry educator and an immersive web developer teamed up to create this multi-language site and they documented the process in [this academic paper](https://chemrxiv.org/articles/preprint/MoleculARweb_A_Website_for_Chemistry_and_Structural_Biology_Education_Through_Interactive_Augmented_Reality_out_of_the_Box_in_Commodity_Devices/13012463). I'm looking forward to seeing [WebXR demos like this](https://twitter.com/fabiojcortes/status/1335918809828438018) make their way into more educational experiences on the immersive web.
+-
+    title: Poly Decimated to Zero Triangles
+    url: https://support.google.com/poly/answer/10192635
+    author: Google
+    authorLink:
+    category:
+      - shutdown
+    content: >
+      Google continues the trend of terminating their first wave of VR products with the [announcement](https://support.google.com/poly/answer/10192635) that their 3D model sharing site, [Poly](https://poly.google.com/), will go offline on April 30th. Poly joins Daydream, Tour Creator, SoundStage, Lively, Jump, and Expeditions in the list of [retired XR apps](https://killedbygoogle.com/) while [Tilt Brush](https://www.tiltbrush.com/) and [Blocks](https://arvr.google.com/blocks/) are (at the time of publication, anyway) still supported. [Sketchfab](https://sketchfab.com/) founder, Alban Denoyel, [tweeted that Poly users are welcome](https://twitter.com/albn/status/1334164920322187267).
+-
+    title: New Material Capabilities for glTF
+    url: https://www.khronos.org/news/press/khronos-releases-wave-of-new-gltf-pbr-3d-material-capabilities
+    author: Khronos Group
+    authorLink: https://www.khronos.org/
+    category:
+      - standard
+    content: >
+      The [glTF standard](https://www.khronos.org/gltf/) has quickly become the preferred syntax for 3D models on the web and in technical artists' workflows. This week the standards body that develops glTF [announced new extensions](https://www.khronos.org/news/press/khronos-releases-wave-of-new-gltf-pbr-3d-material-capabilities) to it's physically based materials: clear coat, transmission, and sheen. Support for these new extensions is either already present or in development for Microsoft's Babylon.js, Google's Filament, and Three.js engines so expect to see them soon on the immersive web.
