@@ -1,15 +1,52 @@
 date: 2020-12-15
 overview: >
-  Overvew here in markdown
-
-signed: IWW byline here
+  The news this week is filled with governments and corporations disagreeing about the essential nature of progress and the future of humanity. It's a lot. One bright spot that warms my heart is the progress that this community (that's you!) continues to make toward a cross-platform, standards based, and open immersive web. Don your long robes, powder your wig, and polish your gavel because it's time for another issue of the Immersive Web Weekly.
+  <br>
+  Note: This is the last issue of the IWW for 2020 as I will be spending the next two weeks attempting to eat my weight in holiday candy and cookies. I wish you all a safe and joyous new year and I'll see you on the other side.
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: German Officials Investigate Quest Accounts 
+    url: https://www.bbc.com/news/technology-55274547
+    author: BBC News
+    authorLink:
     category:
-      - Category here
+      - monopolies
     content: >
-      Summary content goes here in markdown
+      <blockquote>The Oculus Quest 2 requires a Facebook account to work, something widely criticized by reviewers and VR fans. Germany's competition authority <a href="https://www.bbc.com/news/technology-55274547">now says</a> that requirement could be an abuse of Facebook's dominant market position.</blockquote>
+      Facebook [previously stopped sales of the Quest 2](https://www.bbc.com/news/technology-54014217) in Germany because of regulations that prevent merging data from its otherwise separate services. 
+  -
+    title: TAG Reviews WebXR Layers and Hand Input
+    url: https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/12-07-minutes.md
+    author: W3C Immersive Web Working Group
+    category:
+      - standards
+    content: >
+      Last week the W3C's Technical Architecture Group [met](https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/12-07-minutes.md) and reviewed two proposed extensions to WebXR: [Layers](https://github.com/w3ctag/design-reviews/issues/528) and [Hand input](https://github.com/w3ctag/design-reviews/issues/568). Feedback has been generally positive and I'm hopeful that both proposals will be completed and approved in early 2021.
+  -
+    title: ART+TECH Festival
+    url: https://codame.com/events/art-tech-festival-2020-joynt
+    author: ART+TECH
+    category:
+      - events
+    content: The 10th annual [ART+TECH Festival](https://codame.com/events/art-tech-festival-2020-joynt) happens this week with [multiple sessions](https://codame.com/uploaded_images/1.jpg) on the topic of the immersive web, including "Creating VR Music Videos" and "Async Art Cryptovoxels Tour" (covered in [issue 12](https://immersivewebweekly.com/issues/012/)). The event also provides several online art galleries and events. An events pass is $35 and an all-access pass that includes the workshops is $199.
+  -
+    title: A New Polygonal Editor
+    url: https://twitter.com/dannyaroslavski/status/1338030154900066305
+    author: Danny Yaroslavski
+    authorLink: https://twitter.com/dannyaroslavski
+    category:
+      - tools
+    content: >
+      Last week's announcement that Google Poly is decimated* prompted at least one web creator to build a similar editor using WebXR. In [this tweet](https://twitter.com/dannyaroslavski/status/1338030154900066305), Danny Yaroslavski gave us a look at the new [Nearfiction XR editor](https://nearfiction.com/xr/) which is still in development but already provides file export for local persistence of your work.
+      <br>
+      <span style="font-size: 0.8em">* That is the last time I use that joke, I promise.</span>
+  -
+    title: Immersive Hopalong Orbits Visualizer
+    url: https://twitter.com/mrdoob/status/1337068939776581632
+    author: Ricardo Cabello
+    authorLink: https://mrdoob.com/
+    category:
+      - experiences
+    content: >
+      Prolific creator Ricardo Cabello (aka Mrdoob) [announced this week](https://twitter.com/mrdoob/status/1337068939776581632) that the Hopalong Orbits Visualizer (long a favorite Three.js demo) [is now in WebXR](https://hopalongvr.glitch.me/) for a relaxing distraction from world events. For the curious, this is a Glitch project so it's easy to [take a look behind the scenes](https://glitch.com/edit/#!/hopalongvr).
