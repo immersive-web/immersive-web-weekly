@@ -1,15 +1,56 @@
-date: 2040-12-31
+date: 2021-01-05
 overview: >
-  Overvew here in markdown
+  The past few weeks in my home have been mostly filled with baked goods, naps, and films but the web never sleeps so there are a number of interesting announcements and news items to share. I did make a little time to [play the piano](https://twitter.com/tamrrat/status/1344707706817552387) and train a bit in MS Flight Simulator's new VR mode. Based on my many crashes, it will be a long time before I quit making XR experiences to become a pilot.
+  <br style="margin-bottom: 15px">
+  Run through your pre-flight checklist, tell your passengers to take their seats, and ask the controller tower for permission to take flight because it's time for another issue of the Immersive Web Weekly!
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Using Computer Vision to Emulate WebXR
+    url: https://handsfree.js.org/app/browser/handsfree-webxr.html
+    author: Oz Ramos
+    authorLink: https://twitter.com/MIDIBlocks
     category:
-      - Category here
+      - computer vision
+      - emulation
     content: >
-      Summary content goes here in markdown
+      By using a webcam and computer vision, Oz Ramos has built a new extension, [Handsfree WebXR](https://handsfree.js.org/app/browser/handsfree-webxr.html), that allows developers without headsets or tracked controllers to test out their content in WebXR. The [code](https://github.com/midiblocks/handsfree-browser) builds on the great work in [Mozilla's extension](https://github.com/MozillaReality/WebXR-emulator-extension) to support even more immersive web creators.
+  -
+    title: Hints of A Holiday Uptick
+    url: https://twitter.com/Tojiro/status/1343079273662279681
+    author: Brandon Jones
+    authorLink: https://twitter.com/Tojiro/
+    category:
+      - reach
+    content: >
+      WebXR specification co-editor Brandon Jones [noticed](https://twitter.com/Tojiro/status/1343079273662279681) that over the Winter holidays there was a steep rise in downloads of a common open source library provided by the Immersive Web Community Group. [The library](https://github.com/immersive-web/webxr-input-profiles/) provides controller metadata and 3D models for all major headsets and controllers thanks to the coordinated effort across organizations that is somewhat unique to standards groups like the W3C. The uptick in library usage seems to indicate that not only did a lot of people get new XR rigs this year but they also jumped onto the immersive web!
+  -
+    title: >
+      Reality Check: Looking Back at Augmented Reality in 2020
+    url: https://www.linkedin.com/pulse/reality-check-looking-back-augmented-2020-tom-emrich/
+    author: Tom Emrich
+    authorLink: https://www.tomemrich.com/
+    category:
+      - year in review
+    content: >
+      Tom Emrich from 8th Wall evaluates his predictions for AR in 2020 to see how close his prognostication matched the rather surprising reality that was last year. Prediction #9 is about the immersive web but the entire essay is interesting and contains helpful links to many additional resources.
+  -
+    title: Desktop Vision
+    url: https://desktop.vision/
+    author: Vali Ventures
+    authorLink: https://vali.ventures/
+    category:
+      - productivity
+    content: >
+      This week [Desktop Vision](https://desktop.vision/) launched a public beta, providing a remote desktop tool for the web that works in both flat and XR display modes. This sort of seamless mode switching on the [wider web](https://potassiumes.org/wider-web/) meets people where they are in terms of hardware and input which is one of the main differences between the immersive web and native XR platforms.
+  -
+    title: Somnium Space Adds Another Three Dimensions
+    url: https://twitter.com/SomniumSpace/status/1346152903833223168
+    author: Somnium Space
+    authorLink: https://somniumspace.com/
+    category:
+      - blockchain
+      - port
+    content: >
+      Somnium Space [announced](https://twitter.com/SomniumSpace/status/1346152903833223168) this week that their [blockchain-based VR world](https://somniumspace.com/) is now available on the immersive web. They describe their product as an "Open, Social, Virtual Reality world with its own economy and its own currency," similar to [Cryptovoxels](https://www.cryptovoxels.com/) which we covered in [issue 12](https://immersivewebweekly.com/issues/012/).
