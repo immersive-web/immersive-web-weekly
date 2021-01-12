@@ -1,15 +1,56 @@
 date: 2020-01-12
 overview: >
-  Overvew here in markdown
+  It is a wild and tough time here in the U.S. so this issue is light on quips and heavy on block quotes.
+  <br style="margin-bottom: 15px">
+  Pay attention and stay safe, friends.
 
-signed: IWW byline here
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Sundance's New Frontier Goes XR
+    url: https://noproscenium.com/nopro-podcast-episode-278-sundance-new-frontier-2021-52d79a589324
+    author: No Proscenium Podcast
+    authorLink: https://noproscenium.com/
     category:
-      - Category here
+      - film
     content: >
-      Summary content goes here in markdown
+      <blockquote>"New Frontier Chief Curator Shari Frilot and Active Theory co-founder Michael Anthony <a href="https://noproscenium.com/nopro-podcast-episode-278-sundance-new-frontier-2021-52d79a589324">join us</a> to talk about this bold new venture for the legendary film festival, as well as this year’s exciting line up of work in the New Frontier — which will inevitably shape the conversation in XR for the year to come."</blockquote>
+      Tickets for New Frontiers start at $25 and are [on sale now](https://tickets.festival.sundance.org/). 
+  -
+    title: Inverse Force Feedback for Satisfying VR Interactions
+    url: https://babylonjs.medium.com/faking-it-inverse-force-feedback-for-satisfying-vr-interactions-6a606e82c1e6
+    author: Justin Murray
+    authorLink: https://twitter.com/syntheticmagus
+    category:
+      - howto
+      - haptics
+    content: >
+      <blockquote>"One of the most well-known problems with physically-inspired interactions in virtual reality is that the virtual world provides no physical feedback. What if there were something we could do to <a href="https://babylonjs.medium.com/faking-it-inverse-force-feedback-for-satisfying-vr-interactions-6a606e82c1e6">evoke in VR some portion of a physically-inspired action</a>’s inherent satisfaction?"</blockquote>
+  -
+    title: Using WebXR in HTML IFrames
+    url: https://ada.is/blog/2021/01/07/using-webxr-in-html-iframes/
+    author: Ada Rose Cannon
+    authorLink: https://ada.is/
+    category:
+      - howto
+      - webxr
+    content: >
+      <blockquote>"IFrames are really useful for WebXR. Often WebXR web pages are large with a lot of code and many 3D frameworks default to taking up all the available space on the page. IFrames solve these issues by letting you <a href="https://ada.is/blog/2021/01/07/using-webxr-in-html-iframes/">put all the XR code into another webpage</a>, which can even be on a different domain, they also let you choose exactly how much space they take up on the page and can be used with Flexbox and CSS Grid."</blockquote>
+  -
+    title: 6000+ Facebook People Are Working on XR
+    url: https://www.bloomberg.com/news/articles/2021-01-06/facebook-smart-glasses-coming-sooner-than-later-without-ar
+    author: Kurt Wagner, Sarah Frier
+    authorLink: https://twitter.com/KurtWagner8
+    category:
+      - hypercorp
+    content: >
+      <blockquote>"Facebook’s VR, AR and hardware teams account for more than 6,000 employees, according to a person familiar with its staffing. That’s a larger group than Facebook has working on billion-user apps Instagram and WhatsApp."</blockquote>
+  -
+    title: WebGL Accessibility for React Three Fiber
+    url: https://github.com/pmndrs/react-three-a11y
+    author: Poimandres
+    authorLink: https://pmnd.rs/
+    category:
+      - library
+    content: >
+      The developer collective Poimandres has released [react three a11y](https://github.com/pmndrs/react-three-a11y) which <blockquote>"brings accessibility to WebGL, with easy to use components react-three-fiber components to enable focus indication, keyboard tab navigation, and screen reader support."</blockquote> A [demo is also available](https://n4rzi.csb.app/).
