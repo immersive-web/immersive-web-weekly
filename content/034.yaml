@@ -1,15 +1,50 @@
 date: 2020-01-19
 overview: >
-  Overvew here in markdown
-
-signed: IWW byline here
+  With 2021 in full swing, the immersive web community has maintained the momentum from last year to bring more features to engines, more experiences for end users, and more integrations with third party web APIs to create the sort of interactive and interconnected applications that are unique to the [wider web](https://potassiumes.org/wider-web/).
+  <br style="margin-bottom: 15px" />
+  Register your API tokens, fire up a fediverse node, pierce the magic circle, and validate your JSON because it's time for another issue of the Immersive Web Weekly! 
+signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: WebXR Meetup in 2021
+    url: https://www.meetup.com/Web-VR/
+    author:
+    authorLink:
     category:
-      - Category here
+      - event
+    content: The international, all-virtual [WebXR Meetup](https://www.meetup.com/Web-VR/) kicks off this years with [Ada Rose Cannon presenting](https://www.meetup.com/Web-VR/events/275691745/) the "latest and greatest with the WebXR Device API and more!"
+  -
+    title: PlayCanvas Ships Depth Sensing, Image Tracking, and DOM Overlays
+    url: https://playcanvas.com/
+    author: Maksims Mihejevs
+    authorLink: https://twitter.com/mrmaxm
+    category:
+      - engine
     content: >
-      Summary content goes here in markdown
+      PlayCanvas engine [update 1.38](https://github.com/playcanvas/engine/releases) shipped with immersive-web-specific features like depth sensing, image tracking, input source squeeze events, and DOM overlays.
+  -
+    title: CineShader Brings ShaderToy to XR
+    url: https://cineshader.com/
+    author: Lusion (and Shadertoy users)
+    authorLink: https://lusion.co/
+    category:
+      - experience
+    content: This [shader visualizer](https://cineshader.com/) uses the [Shadertoy API](https://www.shadertoy.com/howto) to bring thousands of existing artworks in a cinematic and immersive environment. Experience volumetric shaders like never before.
+  -
+    title: ShaderWorlds Collaborates On XR Spaces
+    url: https://shaderworlds.com/
+    author: Jure Triglav
+    authorLink: https://juretriglav.si/
+    category:
+      - experience
+    content: >
+      In a similar result with a different approach than CineShader (above), [ShaderWorlds](https://shaderworlds.com/) uses a [common code repository](https://github.com/jure/shaderworlds) that is co-edited by shader writers to create an immersive web site for experiencing GPU-enabled art.
+  -
+    title: Experience The Scale of Covid-19 Deaths
+    url: https://virtualrem5.com/EKFB4L2/usa-daily-covid-death-count
+    author: REM5 Virtual Reality Laboratory
+    authorLink: https://virtualrem5.com/
+    category:
+      - experience
+    content: >
+      As the virus makes its way through humanity, one web creator created a powerful way to [experience the scale of death](https://virtualrem5.com/EKFB4L2/usa-daily-covid-death-count) on one day (Jan 12th) in one country (the US).
