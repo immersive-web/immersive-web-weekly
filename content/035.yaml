@@ -1,15 +1,56 @@
 date: 2020-01-26
 overview: >
-  Overvew here in markdown
+  This is a busy week for the community with several events and a wave of new and improved libraries that allow us to approach a truly immersive web. The [proposals repo](https://github.com/immersive-web/proposals/issues/) is active (including an [interesting audio integration issue](https://github.com/immersive-web/proposals/issues/59)) so if you're interested in how the standards sausage is made then take a look.
+    <br style="margin-bottom: 10px;" />
+  Check your tank pressure, blow out your regulator, and neutralize your buoyancy because it's time to dive into another issue of the Immersive Web Weekly!
 
 signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: HandsFree.JS Bridges Page and Spatial Controls
+    url: https://twitter.com/MIDIBlocks/status/1351423611857326080
+    author: Oz Ramos
+    authorLink: https://twitter.com/MIDIBlocks
     category:
-      - Category here
+      - library
     content: >
-      Summary content goes here in markdown
+      One tenet of the web states that we meet users where they are regardless of their hardware or software. When I formulated the concept of the [wider web](https://potassiumes.org/wider-web/) I broke this down into three display modes (flat, portal, and immersive), three control types (page, overlay, and spatial), and a variety of input types like hands, touchscreens, and tracked wands.
+      <br style="margin-bottom: 15px" />
+      The new release of [HandsFree.JS](https://handsfree.js.org/) (specifically the [palm pointers plugin](https://handsfree.js.org/ref/plugin/palmPointers.html)) brings us closer to seamless transitions between display modes without changing input type. When in flat display mode the user's webcam tracks their hands and when in immersive mode the [WebXR Hands API](https://immersive-web.github.io/webxr-hand-input/) provides that input.
+  -
+    title: Shoot Hoops With Ada
+    url: https://ada.is/blog/2021/01/14/making-an-ar-game/
+    author: Ada Rose Cannon
+    authorLink: https://ada.is/
+    category:
+      - tutorial
+    content: >
+      This [in-depth article](https://ada.is/blog/2021/01/14/making-an-ar-game/) demonstrates how web creators can use [A-frame](https://aframe.io/), [Three.js](https://threejs.org/), and [WebXR](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API) to give their users a basketball experience. 
+  -
+    title: WebXR for Game Jams
+    url: https://www.meetup.com/B-U-G-Boston-Unity-Group/events/275753472
+    author: Boston Unity Group (BUG)
+    authorLink: https://www.meetup.com/B-U-G-Boston-Unity-Group/
+    category:
+      - event
+    content: >
+      [Tune in on Twitch](https://twitch.tv/bostonunitygroup) from [5pm to 7pm EST on Wednesday, January 27th](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210127T17&p1=43&ah=2) for a talk from Owen Weizman (aka [De-Panther](https://twitter.com/DePanther)) about the features of WebXR and how to use [WebXR Export in Unity](https://github.com/De-Panther/unity-webxr-export) for quick prototyping in game jams.
+  -
+    title: Aardvark Calls for Gadget Creators
+    url: https://www.roadtovr.com/aardvark-ar-in-vr-gadgets-joe-ludwig/amp/
+    author: Ben Lang
+    authorLink: https://twitter.com/benz145
+    category:
+      - call for help
+    content: >
+      [This interview](https://www.roadtovr.com/aardvark-ar-in-vr-gadgets-joe-ludwig/amp/) with the creator of Aardvark, Joe Ludwig, covers the state of the [open source, web-centric XR gadget platform](https://github.com/aardvarkxr/aardvark) and how it's [on Steam](https://store.steampowered.com/app/1466430/Aardvark/) and ready for adventurous creators to build their own mini-apps that run inside any native VR applications.
+  -
+    title: Into the Metaverse with GameBeat
+    url: https://events.venturebeat.com/gamesbeat-into-the-metaverse/gbmetaverseagenda/
+    author: GameBeat from VentureBeat
+    authorLink: https://venturebeat.com/category/games/
+    category:
+      - event
+    content: >
+      Starting today, GameBeat is producing a single-track, free, and [fully online conference](https://events.venturebeat.com/gamesbeat-into-the-metaverse/gbmetaverseagenda/) with the topic of "Driving Game Growth and Into The Metaverse". While not specifically about the immersive web the speakers and topics address many hurdles and opportunities that our community faces. It would be excellent to have multiple immersive web folks in the chat to offer an alternative perspective to the app store crowd.
+
