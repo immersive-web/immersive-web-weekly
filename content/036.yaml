@@ -1,15 +1,79 @@
 date: 2021-02-02
 overview: >
-  Overvew here in markdown
-
+  We're only 1/12th of the way through 2021 and the immersive web community is already building on the momentum from 2020! Unity toolmakers are hard at work making bridges for native app developers to cross over into WebXR. Big platform companies are joining forces to provide more spatial foundations. Fans are creating homage experiences to their favorite fictional universes.
+  <br style="margin-bottom: 10px;">
+  Top off your batteries, check your tire pressure, and pull on your driving gloves because it's time for another road trip with the Immersive Web Weekly!
 signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Magic Leap In Google's Cloud
+    url: https://www.magicleap.com/en-us/news/partner-stories/magic-leap-announces-partnership-with-google-cloud-to-build-the-next-era-of
+    author: Magic Leap
+    authorLink: https://www.magicleap.com/
     category:
-      - Category here
+      - deals
+      - stonks
     content: >
-      Summary content goes here in markdown
+      Magic Leap [announced](https://www.magicleap.com/en-us/news/partner-stories/magic-leap-announces-partnership-with-google-cloud-to-build-the-next-era-of) that they intend to sell access to their cloud technologies through the Google Cloud Marketplace, including access to their "Communication, Collaboration, and Co-presense" platform. It's unclear at this time what form these offerings will take but it's interesting to see Magic Leap continue their pivot toward enterprise customers and web technologies.
+  -
+    title: Unity WebXR Export Supports XR Interaction Toolkit
+    url: https://twitter.com/DePanther/status/1356378210288758792
+    author: Owen Weizman
+    authorLink: https://twitter.com/DePanther
+    category:
+      - library
+      - unity
+    content: >
+      Owen Weizman [announced](https://twitter.com/DePanther/status/1356378210288758792) this week that with help from the folks at [Needle Tools](https://needle.tools/) they're bringing support for Unity's [XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html) to the [Unity WebXR Export](https://github.com/De-Panther/unity-webxr-export) library. This means that many existing Unity applications using XR Interaction Toolkit will be one step closer to working on the immersive web. One stunning example is [Silk Brush](https://twitter.com/msub2official/status/1355959135314059267), the port of the [newly open-sourced TiltBrush](https://opensource.googleblog.com/2021/01/the-future-of-tilt-brush.html) code base to WebXR.
+  -
+    title: Enter Hubs Via Windows Mixed Reality
+    url: https://mobile.twitter.com/brianpeiris/status/1354597427752394758
+    author: Brian Peiris
+    authorLink: https://mobile.twitter.com/brianpeiris/
+    category:
+      - experience
+      - social
+    content: >
+      The Mozilla Hubs team maintains its lead in the area of widespread hardware support for social XR with [Brian Peiris's announcement](https://mobile.twitter.com/brianpeiris/status/1354597427752394758) that they now support Chrome and Edge in Windows Mixed Reality headsets via WebXR. Their new design looks great, too!
+  -
+    title: Final Chance to Catch Sundance New Frontiers
+    url: https://fpg.festival.sundance.org/film/ntf/catalog
+    author: Sundance
+    authorLink: https://sundance.org/
+    category:
+      - film
+      - experience
+    content: >
+      Today is the final day of the [fully WebXR-accessed New Frontiers program](https://fpg.festival.sundance.org/film/ntf/catalog) at the Sundance Film Festival. This year is the first year that the festival has fully embraced the immersive web and it's worth catching a film to experience how they've approached the complex issues and history of the program.
+  -
+    title: On Demand Metaverse Panels
+    url: https://venturebeat.com/event/gbfbsummit/on-demand/
+    author: VentureBeat
+    authorLink: https://venturebeat.com/
+    category:
+      - Event
+    content: >
+      Last week's online conference from the GamesBeat portion of VentureBeat spent two days exploring the topic of "Into The Metaverse". If you missed the panels then don't worry because they're now [available on demand for free](https://venturebeat.com/event/gbfbsummit/on-demand/#/). I attended many of the panels and was generally discouraged that speakers used phrases like "colonizing the metaverse" and several times said something like "We should create something like the W3C" without being aware (or being willfully ignorant) that existing standards bodies are already at work on a global platform for XR.
+        <br style="margin-bottom: 10px;">
+        I see a lot of opportunity for the immersive web community to reach into the games community and show them that we have common problems and goals.
+  -
+    title: >
+      Dive Deep into How BabylonJS Works
+    url: https://youtube.com/playlist?list=PLsaE__vWcRamifhCRyz5oE5TV8dxv6bKy
+    author: David Catuhe
+    authorLink: https://twitter.com/deltakosh
+    category:
+      - tutorial
+    content: >
+      In their [new video series](https://youtube.com/playlist?list=PLsaE__vWcRamifhCRyz5oE5TV8dxv6bKy), Microsoft's BabylonJS engine team dives deep into features of their engine, starting with David Catuhe talking about [infinite morph targets](https://youtu.be/LBPRmGgU0PE) that are coming in version 5.0.
+  -
+    title: Web Slinger
+    url: https://spiderman.webvr.link/
+    author: Tal Kol
+    authorLink: https://twitter.com/koltal
+    category:
+      - experience
+      - game
+    content: >
+      This [fan-created experience](https://spiderman.webvr.link/) gives us the opportunity to swing through a city like your friendly neighborhood Spiderman. If you've wondered whether you have your ["VR legs"](https://xinreality.com/wiki/VR_legs) then this method of locomotion is a quick test. Please be aware that a negative result can be seriously negative. 🤢 The [source code is available](https://github.com/talkol/spiderman) for those who want to experiment with nausea avoidance methods.
+
