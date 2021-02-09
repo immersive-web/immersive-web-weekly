@@ -1,15 +1,114 @@
 date: 2021-02-09
 overview: >
-  Overvew here in markdown
+  This will be another quote-heavy issue for reasons of poor sleep and the metric tonne of XR-related information that flowed into my article and event queues. The former is a bummer and the latter is a joy so it all evens out.
+  <br style="margin-bottom: 15px" />
+  Grind the beans, pressurize the steam tank, foam the oat milk, and pull your shots because it's time for another issue of the Immersive Web Weekly!
 
 signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Immersive E-Commerce For Beginners
+    url: https://babylonjs.medium.com/webxr-ar-and-e-commerce-a-guide-for-beginners-2b9ae1d9e796
+    author: Thomas Lucchini
+    authorLink: https://twitter.com/thomlucc
     category:
-      - Category here
+      - tutorial
     content: >
-      Summary content goes here in markdown
+      <blockquote>Looking at our Babylon.js implementations of WebXR and of the latest glTF extensions released by the Khronos Group, I finally set myself up to build a little demo. In this article, you’ll discover how to create a simple AR experience in the browser: visualizing and manipulating a virtual piece of furniture in your living room.</blockquote>
+  -
+    title: Zappar Ships an Immersive Web SDK
+    url: https://www.zappar.com/blog/introducing-universal-ar-react-threejs/
+    author: Zappar
+    authorLink: https://www.zappar.com/
+    category:
+      - library
+    content: >
+      <blockquote>With Universal AR for React + three.js you can create AR content featuring Zappar’s comprehensive suite of computer vision algorithms, including face, image and instant world tracking, using the power of the React JavaScript library, and the 3D rendering platform three.js.</blockquote>
+  -
+    title: Hand, Face, and Gesture Detection in JS
+    url: https://dev.to/midiblocks/introducing-handsfree-js-integrate-hand-face-and-pose-gestures-to-your-frontend-4g3p
+    author: Oz Ramos
+    authorLink: https://twitter.com/MIDIBlocks
+    category:
+      - tutorial
+    content: >
+      <blockquote>Handsfree.js is a client side library that helps you add hand, face, and pose estimation to your front end projects in a snap ✨👌. Since this is an introductory post, I'll start by sharing some of the things I've made with it so that you can get an idea of what's possible. Once I've hopefully hyped you up a bit I'll then show you how to get started!</blockquote>
+  -
+    title: One App Store Shuts Down ...
+    url: https://chromeunboxed.com/google-daydream-headset-play-store-shut-down
+    authorLink:
+    category:
+      - app store
+    content: >
+      <blockquote>Two years ago, Google gave up the ghost on its Daydream VR headset, pulled the remaining stock of them from stores, and decided that you could no longer view third-party apps and experiences through the headset using the Daydream app. Now, they’ve gone a step further and killed off the Google Play Store that you would normally find in VR while wearing the headset.</blockquote>
+  -
+    title: ... Another App Store Starts Up
+    url: https://xrapp.store/
+    author: XRApp.store
+    authorLink: https://xrapp.store/
+    category:
+      - app store
+    content: >
+      <blockquote>All Oculus Quest Lab Apps & WebXR Apps in One Place</blockquote>
+  -
+    title: Eyebeam and Trust Berlin Art Event in Hubs
+    url: https://www.eventbrite.com/e/from-the-rupture-ideas-and-actions-for-the-future-tickets-138328868369
+    author: Eyebeam NYC and Trust Berlin
+    authorLink: https://trust.support/
+    category:
+      - art
+      - event
+    content: >
+      <blockquote>From the Rupture: Ideas and Actions for the Future coincides with eight special project launches that were supported by Eyebeam’s Rapid Response for a Better Digital Future – a fully-digital artist fellowship that was launched in response to the onset of the Covid-19 crisis and marking the beginning of a new kind of artist support at Eyebeam. In June 2020, Eyebeam put out a call to untangle important questions around society’s relationship to emerging technology, and to put forward real-world solutions. The event will feature timely inquiries and tactics from field leaders on topics ranging from consensual coding to interspecies communications.</blockquote>
+       
+  -
+    title: The Possibility of AR on the Urban Space
+    url: https://medium.com/@iratrevisan/the-possibility-of-ar-on-the-urban-space-d89f36d230ef
+    author: Iracema TREVISAN
+    authorLink: https://fonio.medialab.sciences-po.fr/medialab/read/f8333019-9748-4513-b470-1b7cfc7def7e?lang=en
+    category:
+      - academia
+    content: >
+      <blockquote>Between 2018 and 2020 I set aside some of my time to research a subject I’ve been passionate about for many years: What is the real potential of AR on the Urban context? ... Can AR media effectively be integrated in cities? How can it be truly useful for users? At what privacy cost would it come about? How would a centralized AR platform fit in today’s tech macro-economy?</blockquote>
+      Any paper that references the [headspace manifesto](https://www.digitalmanifesto.net/manifestos/51/) gets my attention.
+  -
+    title: 3D Scanning with the iPhone Lidar
+    url: https://albn.medium.com/3d-scanning-with-the-iphone-lidar-8cbd723fc9ab
+    author: Alban Denoyel
+    authorLink: https://twitter.com/albn/
+    category:
+      - scan
+      - app
+    content: >
+      <blockquote>A number of 3D captures apps got recently released to take advantage of this new capability. I’ve tested pretty much all of them, and have been scanning extensively for the past 3 months. I often get asked which apps do I recommend, and how do I get nice captures. Here is a post about my go-to apps, what I like about each of them, and some general tips for iPhone lidar scanning. So here are my 6 go-to scanning apps, they all come with direct export to Sketchfab.</blockquote>
+  -
+    title: Collaboration as a Function of Communication and Community
+    url: https://livierickson.com/blog/part-one-communication/
+    author: Liv Erickson
+    authorLink: https://livierickson.com/
+    category:
+      - academia
+    content: >
+      Liv worked on High Fidelity and now on Mozilla Hubs so this is worth the time of any XR creator:
+      <blockquote>This is the skeleton of my current thoughts exploring the collaboration processes by which we translate thought into societal action, and opportunities to improve these processes via technology. It is but a moment in time that captures my current thinking on the subject; subject to significant change and constantly evolving, but shared in some small part with you today.</blockquote>
+      [Part two is here](https://livierickson.com/blog/part-two-technology-other-people/).
+  -
+    title: Working Inside the Oculus Browser
+    url: https://uploadvr.com/oculus-quest-bluetooth-mouse/
+    author: Ian Hamilton
+    authorLink: https://twitter.com/hmltn
+    category:
+      - flat
+    content: >
+      Facebook Quest's new support for keyboards and mice is attracting more people to the idea of working in browsers in VR:
+      <blockquote>I typed this article inside Oculus Quest 2 with a YouTube browser window on my left playing some relaxing music, my Twitter window on the right showing responses to my tweets, and my WordPress article in a stretched out widescreen view in the middle of my room. My cat is visible through passthrough mode sleeping on the couch next to me and there’s a cup of tea visible to my left.</blockquote>
+  -
+    title: Exporting Substance Painter to WebXR
+    url: https://richardanaya.medium.com/exporting-substance-painter-gltfs-to-a-frame-e434c131153a
+    author: Richard Anaya
+    authorLink: https://richardanaya.medium.com/
+    category:
+      - tutorial
+    content: >
+      I found this kind of export to be a tricky process and this tutorial would have saved a lot of my time:
+      <blockquote>I wanted to write a simple short and sweet tutorial on how to export Substance Painter work to A-Frame.</blockquote>
