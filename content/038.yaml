@@ -1,15 +1,79 @@
 date: 2021-02-16
 overview: >
-  Overvew here in markdown
-
+  The news that Sundance's web-based [New Frontier hosted nearly 40k visitors](https://vrroom.buzz/vr-news/immersive-arts/sundances-virtual-new-frontier-got-almost-40k-visits) (38k more than previous events) gave me a lift this week despite Seattle being snowed in and locked down. Based on my streams it continues to feel like our community has hit its stride in 2021 and end user uptake is entering a bit of an upward knee curve.
+  <br style="margin-bottom: 15px">
+  Tuck your personal items under your seat, pull down on the bar until it locks in place, and keep your hands inside the car at all times because it's time for another issue of the Immersive Web Weekly!
 signed: Trevor Flowers
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Walk The Red Carpet This Saturday
+    url: https://webxrawards.com/
+    author: Powersimple
+    authorLink:
     category:
-      - Category here
+      - event
     content: >
-      Summary content goes here in markdown
+      [The Polys](https://webxrawards.com/) awards ceremony airs this Saturday, February 20th, from 11:00am to 2:00pm PST. This is a great chance for our community to put on our evening wear, break out the champagne and snacks, and then watch as awards for work in 2020 are presented in these categories:
+      <br /> 
+      - Single User Experience of the Year<br />
+      - Multi-User Experience of the Year<br />
+      - WebXR Site of the Year<br />
+      - Framework of the Year<br />
+      - Lifetime Achievement<br />
+      - Game of the Year<br />
+      - Innovation of the Year<br />
+      - Ombudsperson of the Year<br />
+      - WebXR Developer of the Year<br />
+      - Education Experience of the Year<br />
+      - Entertainment Experience of the Year<br />
+      While donations are suggested, [tickets](https://www.eventbrite.com/e/the-polys-2020-webxr-awards-tickets-127259782435) are free and available now. Keep an eye out for an appearance from your editor (who regrets the state of their hair) as well as a few others from the immersive web community group.
+  -
+    title: Dive Into Epic Web Storytelling 
+    url: https://fivars.net/
+    author: Festival of International Virtual and Augmented Reality Stories
+    authorLink: https://fivars.net/
+    category:
+      - event
+    content: >
+      This year the long running [FIVARS festival](https://fivars.net/) will be fully online and fully web-based. [Tickets](https://www.eventbrite.com/e/fivars-in-feb-2021-international-immersive-stories-festival-tickets-131914563009) for the twelve selected XR experiences are available with prices that range from CAD$25 to CAD$45. The festival will run from February 19th to March 2nd on any browser and immersive web device.
+  -
+    title: The Hubs Will Sing
+    url: https://www.brendanabradley.com/futurestages/2021/2/11/singing-inside-a-painting-2d-in-3d
+    author: Brendan Bradley
+    authorLink: https://twitter.com/brendanAbradley
+    category:
+      - performance
+      - process
+    content: >
+      Brendan Bradley created a [unique musical theater experience](https://www.brendanabradley.com/futurestages/2021/2/11/singing-inside-a-painting-2d-in-3d) in Mozilla Hubs. Watch for one of the smoothest on-stage donning of a HMD that has ever been captured in voxels.
+  -
+    title: Our Experience with Immersive Concerts
+    url: https://www.vrfocus.com/2021/02/defining-the-next-normal-for-immersive-concert-experiences/
+    author: Mark Rickard
+    authorLink: http://virtuality.io/en/
+    category:
+      - prediction
+    content: >
+      [This survey](https://www.vrfocus.com/2021/02/defining-the-next-normal-for-immersive-concert-experiences/) of the state of online festivals focuses on organizations and platforms that have found success and then it turns toward the future:
+      <blockquote>The most promising arena to host virtual concerts may be that of WebXR. This “platform” can already host high-quality 2D, 360 and volumetric video, and it’s the only 3D arena that doesn’t require downloading an app-container to access, this latent state seems anomalous. Perhaps the only thing standing in the way of a proper coming-out party for WebXR is the existence of a seminal event with a noteworthy artist.</blockquote>
+  -
+    title: Express the Ethics of Extended Reality
+    url: https://standards.ieee.org/industry-connections/ethics-extended-reality.html
+    author: Monique Morrow
+    authorLink: https://www.moniquemorrow.com/
+    category:
+      - standards
+    content: >
+      <blockquote>The goal of this Industry Connections activity is to continue and proliferate the existing efforts of The IEEE Standards Association focused on the ethical issues related to XR as outlined in the Extended Reality chapter of Ethically Aligned Design while inviting Working Group members from the multiple standards Working Groups focused on augmented and virtual reality and the spatial web and additional subject matter experts from industry and policy to create white papers, workshops, and PARs related to this work to ensure these technologies move from perilous to purposeful.</blockquote>
+      Editor's translation: They're holding meetings and then collaboratively writing a whitepaper on ethics in XR.
+  -
+    title: ISMAR Calls For Your Papers
+    url: https://ismar21.org/
+    author: IEEE International symposium on mixed and augmented reality
+    authorLink: https://ismar21.org/
+    category:
+      - academic
+      - conference
+    content: >
+      With a bit of optimism, one of the premier academic venues for XR, [ISMAR](https://ismar21.org/), is now scheduled for October 4th through 8th in Bari, Italy. The [abstract deadline](https://ismar21.org/call-for-papers/) is March 7th and it would be fantastic to see more representation from the immersive web community.
+
