@@ -1,0 +1,80 @@
+date: 2021-02-23
+overview: >
+  The WebXR Awards ceremony was this past Saturday and I had a blast hanging out "backstage" with the nominees and other presenters. It's no small task to produce a fully distributed awards show that is streamed live into several flat video platforms as well as into a raft of shared immersive spaces. I already look forward to next year's event.
+  <br>
+  Flush your caches, save all of your files, and smash that refresh button because it's time for another issue of the Immersive Web Weekly! 
+signed: Trevor Flower
+links:
+  -
+    title: We Walked The Red Carpet
+    url: https://twitter.com/webxrawards/status/1364009354970730496
+    author: Ben Erwin
+    authorLink: https://twitter.com/powersimple/
+    category:
+      - awards show
+    content: >
+      Thank you to all of the nominees, presenters, cast, crew, and producers of the 2020 WebXR Awards (AKA "The Poly's").
+      <br />
+      The winners for 2020 are:
+
+      - Framework of the Year: Troika by [Jason Johnston](https://twitter.com/lojjic)
+      
+      - Developer of the Year: [Gabriel Baker](https://twitter.com/gabrieljbaker)
+
+      - Entertainment XP of the Year: "What You Don’t Know" by [Jono](https://twitter.com/jonofyi) and [Ricardo Cabello](https://twitter.com/MrDoob)
+
+      - Game of the Year: "TowermaxFitness: React" by [Sven Meynberg](https://twitter.com/sromline)
+
+      - Lifetime Achievement Award: [Ricardo Cabello](https://twitter.com/mrdoob)
+
+      - Education XP of the Year: "AnVRopomotron" by [Dr. Keith Chan](https://twitter.com/chekeichan)
+
+      - Ombudsperson Award: [Kent Bye](https://twitter.com/kentbye)
+
+      - Single User XP of the Year: "Access to Electricity" by World Bank, [Flow Immersive](https://twitter.com/flowimmersive), [Jimmy Vainstein](https://twitter.com/JimmyVainstein) and [Liz Boren](https://twitter.com/lizborenarts)
+
+      - Innovation of the Year: "ECSY" by [Fernando Serrano](https://twitter.com/fernandojsg) and contributors
+
+      - Multi-User Experience of the Year: [Mozilla Hubs](https://twitter.com/MozillaHubs)
+ 
+  -
+    title: PhysX Bounces Into Wonderland
+    url: https://wonderlandengine.com/news/release-0.8.0/
+    author: Jonathan Hale
+    authorLink: https://twitter.com/squareys
+    category:
+      - engine
+    content: >
+      The [latest version](https://wonderlandengine.com/news/release-0.8.0/) of the [Wonderland](https://wonderlandengine.com/) WebXR-focused development platform now features physics using NVidia PhysX 4.1 as well as experimental WebAssembly SIMD support.
+  -
+    title: Chrome and Safari Teams Announce Intent
+    url: https://groups.google.com/a/chromium.org/g/blink-dev/c/v4fneq7tgDA/m/utkwOcjuAwAJ
+    author: Google and Apple
+    authorLink:
+    category:
+      - browser
+    content: >
+      This week two browser teams announced that they intend to ship standards support for the immersive web.
+      <br />
+      The Chrome team already shipped WebXR Device API support and this week [announced](https://groups.google.com/a/chromium.org/g/blink-dev/c/v4fneq7tgDA/m/utkwOcjuAwAJ) that they intend to add support for the [latest draft of the Web XR Depth API](https://immersive-web.github.io/depth-sensing/).
+      <br />
+      Though there has been work on WebXR in WebKit for quite a while, Apple's Safari team made it official by [updating the standard's status to "In development"](https://webkit.org/status/#specification-webxr) on their public facing tracker.
+  -
+    title: Silk Brush is Tilt Brush in WebXR
+    url: https://msub2.github.io/silk-brush/
+    author: Daniel Adams
+    authorLink:
+    category:
+      - application
+      - port
+    content: >
+      The recently open sourced Tilt Brush application is now [up and running on WebXR](https://msub2.github.io/silk-brush/) thanks to work by Daniel Adams. The [source code of the port](https://github.com/msub2/silk-brush) is available for interested developers. A fair amount of work remains to make it speedy and thoroughly cross-platform but launching and handling input is quite a milestone to reach in so little time.
+  -
+    title: WebRTC Connects To Lumin
+    url: https://www.magicleap.com/en-us/news/product-updates/lumin-os-0-98-20-and-lumin-sdk-0-25
+    author: Magic Leap
+    authorLink: https://www.magicleap.com/
+    category:
+      - standard
+    content: >
+      Magic Leap announced a [new version of LuminOS](https://www.magicleap.com/en-us/news/product-updates/lumin-os-0-98-20-and-lumin-sdk-0-25) (their customized Linux for immersive AR) and with it the arrival of WebXR for both native applications and in their Helio web browser. Developers are experimenting with streaming between browsers and native applications and [tutorials have started to appear](https://medium.com/japanese-magic-leap-fans/how-to-run-the-ml-webrtc-sample-in-magic-leap-1-81557696414c).
