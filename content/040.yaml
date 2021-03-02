@@ -1,0 +1,66 @@
+date: 2021-03-02
+overview: >
+  It has been an amazing week of news and new experiences! A new social space platform has landed, one of the biggest web-native engines has pivoted to a new business model, and there has been a boatload of work to improve the many libraries that are the foundation of XR on the web. I love to see it.
+  <br />
+  Throw off your Winter wear, pack your picnic basket, and find a grassy field in which to enjoy Sol's rays because it's time for another issue of the Immersive Web Weekly!
+
+signed: Trevor Flowers
+links:
+  -
+    title: Wooglies Wave Hello
+    url: https://twitter.com/JureTriglav/status/1365856644563947521
+    author: Jure Triglav
+    authorLink: https://twitter.com/JureTriglav
+    category:
+      - social
+    content: >
+      With a tagline like "Meetings, but weird," you know that [Wooglies](https://wooglies.com/) will be unlike what you've seen before in a shared immersive web space. Jure Triglav [announced](https://twitter.com/JureTriglav/status/1365856644563947521) its general availability with a GIF of the platform's unusual digital body system. He also released [the source code](https://github.com/jure/wooglies) to encourage contributions and to attract additional hosts. With positional audio with reactivity, WebRTC, VR, volumetric shaders with depth buffers, and multiplayer with snapshot interpolation it's an interesting use of many features in the immersive web.
+  -
+    title: Wonderland Drops Monthly Charge, Picks up Royalties
+    url: https://wonderlandengine.com/news/wonderland-engine-is-now-free/
+    author: Jonathan Hale
+    authorLink: https://twitter.com/squareys
+    category:
+      - engine
+    content: >
+      The Wonderland team has dropped the monthly fee for their immersive web engine and IDE to switch to a royalty fee of 10% for commercial projects. Access to the browser-based IDE and WebAssembly-based immersive web engine has no charge and non-commercial projects can use it for free.
+  -
+    title: >
+      Three-elements' New Angle: Degrees
+    url: https://hmans.co/posts/2021-02-02-three-elements-0-3/
+    author: Hendrik Mans
+    authorLink: https://twitter.com/hmans
+    category:
+      - library
+    content: >
+      The [announcement](https://hmans.co/posts/2021-02-02-three-elements-0-3/) of [v0.3](https://github.com/hmans/three-elements/blob/main/CHANGELOG.md#030---2021-02-01) of [three-elements](https://three-elements.hmans.co/) brings welcome news to coders who think of angles in degrees instead of radians. Hendrick Mans added a syntax for declaring degrees within element attributes of this quickly growing set of Three.js-oriented custom HTML elements.
+      <br />
+      Radians: ```<three-mesh rotation.x="4.71" />``` <br />
+      Degrees: ```<three-mesh rotation.x="-90deg" />``` <br/>
+  -
+    title: Texturize Your HTML
+    url: https://github.com/aelatgt/three-web-layer
+    author: Gheric Speiginer
+    authorLink: https://twitter.com/gh3r
+    category:
+      - library
+    content: >
+      The [three-web-layer library](https://github.com/aelatgt/three-web-layer) is portable alternative to some use cases for the experimental [WebXR Layers API](https://immersive-web.github.io/layers/). The pure Javascript library uses [html2canvas](https://html2canvas.hertzen.com/) to render user interface elements from a flat page onto a 3D texture and then performs a bit of fancy footwork to relay interactions from 3D space back onto the original UI event handlers. It's not perfect (for example, it renders a subset of CSS) but for many applications it can reduce the effort of bringing flat interactions into the immersive web.
+  -
+    title: Stereo Cubemaps Look Great With WebXR Layers
+    url: https://twitter.com/dmarcos/status/1316040052179300352
+    author: Diego Marcos
+    authorLink: https://twitter.com/dmarcos/
+    category:
+      - experience
+    content: >
+      Long-time A-frame contributor and Immersive Web Community Group member, Diego Marcos, [announced](https://twitter.com/dmarcos/status/1316040052179300352) that he's working with [OTOY](https://home.otoy.com/) technology to [bring high performance stereo cubemaps into A-frame](https://diegomarcos.com/render-the-metaverse/). The experimental code only works on Facebook's Oculus Quest with a flag set to enable the [WebXR Layers API](https://immersive-web.github.io/layers/) but the results are impressive and point toward a time when this quality of experience will be available across the immersive web.
+  -
+    title: Vatiste Toolkit Bounces Into PhysX
+    url: https://vartiste.xyz/docs.html#physx
+    author: Zach Capalbo
+    authorLink: https://twitter.com/zach_geek
+    category:
+      - library
+    content: >
+      Not to be outdone by last week's announcement that the PhysX physics engine has landed in Wonderland, this week the [Vatiste Toolkit](https://vartiste.xyz/docs.html) team [announced](https://twitter.com/zach_geek/status/1366129811836575749) that their library of custom HTML elements for spatial scenes also incorporates PhysX. Kudos to both teams and kudos to the spirit of open source collaboration and competition.
