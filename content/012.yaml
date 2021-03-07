@@ -2,7 +2,8 @@ date: 2020-07-28
 overview: >
   Hands (yes, hands!) were this week's big news for the immersive web. When news broke that Facebook's immersive browser shipped an experimental version of the WebXR hands feature the energetic Three.js community on Twitter went wild with demos and technical support for each other. With this sort of cross-organization and intercontinental coordination it's no wonder that the immersive web is on its way to global scale.
 
-signed: Trevor Flowers
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
     title: WebXR Brings Hand Tracking to the Quest

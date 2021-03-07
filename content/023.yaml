@@ -3,7 +3,8 @@ overview: >
   With the growing number of announcements that app framework and engine teams are introducing XR support (either porting from WebVR or adding XR for the first time) it feels like the WebXR Device API has crossed over the threshold from a kind-of-maybe-someday feature to a piece of the web that is understood and expected. Kudos to the editors, implementors, contributors, evangelists, community leaders, and enthusiasts who have kept it alive during the [trough of disillusionment](https://en.wikipedia.org/wiki/Hype_cycle). Our job isn't done, but we're picking up speed.
     Tighten your seat belts, warm up your hyper-drive, and flip down your helmet visor because here comes another issue of the Immersive Web Weekly.
 
-signed: Trevor Flowers
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
     title: ZapBox Kickstarter

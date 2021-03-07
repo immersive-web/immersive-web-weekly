@@ -5,7 +5,8 @@ overview: >
   of links of what's happening and what's new in the world of immersive web with new articles,
   tools, projects, spec development updates, events and more. Feel free to send feedback and links
   to [immersivewebweekly@gmail.com](mailto:immersivewebweekly@gmail.com) or [@jsantell](https://twitter.com/jsantell) on Twitter. I hope you enjoy!
-signed: Jordan
+signed: >
+  [Jordan Santell](https://jsantell.com/)
 links:
   -
     title: Experimenting with Computer Vision in WebXR

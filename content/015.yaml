@@ -5,7 +5,8 @@ overview: >
   <br>
   This development can be seen as a continuation of the years-long trend away from a diversity of browser engines and toward a "two-engine web". Google's Blink engine powers the great majority of browser sessions on Windows and Android while on macOS and iOS Apple's WebKit engine maintains its dominant market share. With last year's retirement of Microsoft's EdgeHTML engine and the near-quarter reduction of Mozilla's workforce, could it be that only Google and Apple have the combination of resources and intent to develop our increasingly complex web engines?
 
-signed: Trevor Flowers
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 
 links:
   -

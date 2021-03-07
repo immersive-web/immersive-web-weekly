@@ -2,7 +2,8 @@ date: 2018-06-04
 preview: Immersive Web Weekly #3
 overview: >
   Some exciting updates on WebGPU, and research into AR Cardboard, AR UX, and VR in a worker thread. Enjoy!
-signed: Jordan
+signed: >
+  [Jordan Santell](https://jsantell.com/)
 links:
   - title: "Chrome Intent to Implement: WebGPU"
     url: https://groups.google.com/a/chromium.org/forum/m/#!topic/blink-dev/dxqWTSvyhDg
