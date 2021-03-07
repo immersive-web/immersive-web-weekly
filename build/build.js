@@ -19,13 +19,16 @@ const TEMPLATE_DIR = path.join(__dirname, '..', 'layouts');
 // Length of `overviewShort` in a post, used for social graph descriptions.
 const OVERVIEW_SHORT_LENGTH = 200;
 
-const issueTemplate = Handlebars.compile(path.join(TEMPLATE_DIR, 'issue.hbs'));
-
 async function build (type) {
   const emailTemplateSrc = await fs.readFile(path.join(TEMPLATE_DIR, 'email.hbs'), 'utf8');
-  const issueTemplateSrc = await fs.readFile(path.join(TEMPLATE_DIR, 'issue.hbs'), 'utf8');
   const emailTemplate = Handlebars.compile(emailTemplateSrc);
+
+  const issueTemplateSrc = await fs.readFile(path.join(TEMPLATE_DIR, 'issue.hbs'), 'utf8');
   const issueTemplate = Handlebars.compile(issueTemplateSrc);
+
+  const indexTemplateSrc = await fs.readFile(path.join(TEMPLATE_DIR, 'index.hbs'), 'utf8');
+  const indexTemplate = Handlebars.compile(indexTemplateSrc);
+  const issues = [];
 
   const files = await fs.readdir(CONTENT_DIR);
 
@@ -41,8 +44,14 @@ async function build (type) {
 
     // Update meta with some more values for our templates
     meta.issue = issue;
-    meta.permalink = `https://immersivewebweekly.com/issues/${meta.issue}`;
+    meta.issueNum = parseInt(issue);
+    meta.permalink = `https://immersivewebweekly.com/docs/issues/${meta.issue}/`;
     meta.date = moment.utc(meta.date).format('MMMM DD, YYYY');
+
+    if (meta.signed) {
+      meta.signed = '\\- ' + meta.signed;
+      meta.signed = markdown(meta.signed);
+    }
 
     if (meta.overview) {
       meta.overview = markdown(meta.overview);
@@ -103,7 +112,12 @@ async function build (type) {
       await fs.mkdir(path.join(ISSUE_OUTPUT_DIR, meta.issue));
     } catch (e) {}
     await fs.writeFile(path.join(ISSUE_OUTPUT_DIR, meta.issue, 'index.html'), issueMarkup);
+
+    issues.push(meta);
   }
+  issues.reverse();
+  const indexMarkup = indexTemplate({ issues });
+  await fs.writeFile(path.join(ISSUE_OUTPUT_DIR, 'index.html'), indexMarkup);
 }
 
 build();

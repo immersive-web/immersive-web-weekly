@@ -175,3 +175,23 @@ h2 {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+
+#issues-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#issues-list li {
+  margin-bottom: 30px;
+}
+
+#issues-list li h2 {
+  margin-bottom: 8px;
+}
+
+#issues-list .date {
+  color: #888;
+  float: right;
+}

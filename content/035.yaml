@@ -1,10 +1,11 @@
-date: 2020-01-26
+date: 2021-01-26
 overview: >
   This is a busy week for the community with several events and a wave of new and improved libraries that allow us to approach a truly immersive web. The [proposals repo](https://github.com/immersive-web/proposals/issues/) is active (including an [interesting audio integration issue](https://github.com/immersive-web/proposals/issues/59)) so if you're interested in how the standards sausage is made then take a look.
     <br style="margin-bottom: 10px;" />
   Check your tank pressure, blow out your regulator, and neutralize your buoyancy because it's time to dive into another issue of the Immersive Web Weekly!
 
-signed: Trevor Flowers
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
     title: HandsFree.JS Bridges Page and Spatial Controls

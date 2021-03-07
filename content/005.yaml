@@ -2,7 +2,8 @@ date: 2018-06-18
 preview: Augmented reality has landed in Chrome Canary
 overview: >
       Augmented reality has landed in Chrome Canary! The [hit-test feature](https://github.com/immersive-web/hit-test) is the first AR proposal for the [WebXR Device API] to land in a mainstream browser, enabling a baseline feature set for building AR experiences on the web. This API **will** change and is still in an early proposal state, so try it out, post your ideas/concerns/questions on the [Github repo](https://github.com/immersive-web/hit-test), and check out the [other](https://github.com/immersive-web/anchors) [proposals](https://github.com/immersive-web/proposals) as well.
-signed: Jordan
+signed: >
+  [Jordan Santell](https://jsantell.com/)
 links:
   - title: Chrome lands AR proposal for WebXR Device API
     url: https://developers.google.com/web/updates/2018/06/ar-for-the-web

@@ -2,7 +2,8 @@ date: 2018-02-28
 overview: >
   Microsoft [announced the HoloLens 2](https://www.cnet.com/news/microsoft-hololens-2-announced-for-3500-available-to-preorder-now-ships-later-this-year/) this week at $3,500 a pop, [rivaling Magic Leap's FOV](https://www.reddit.com/r/magicleap/comments/auoz7p/fov_comparison_between_hololens_1_2_and_ml_1/), shipping later this year. Microsoft has [committed](https://twitter.com/HoloLens/status/1099730513630093317) to open app stores, open browsing, and open standards: all rad things for the open, immersive web.
 
-signed: Jordan
+signed: >
+  [Jordan Santell](https://jsantell.com/)
 links:
   -
     title: Bringing Firefox Reality to HoloLens 2

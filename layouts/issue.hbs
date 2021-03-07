@@ -41,7 +41,8 @@
 
       <div class="info">Issue #{{issue}}, {{date}}, <a href="../../">ImmersiveWebWeekly.com</a></div>
       <div id="overview">
-        {{{overview}}} {{#if signed}}<span>– {{signed}}</span>{{/if}}
+        {{{overview}}}
+        {{#if signed}}{{{signed}}}{{/if}}
       </div>
       <div id="content">
       {{#each links}}
