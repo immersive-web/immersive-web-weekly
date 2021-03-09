@@ -1,0 +1,109 @@
+date: 2021-03-09
+overview: >
+  My standing searches for immersive web related topics are heating up in 2021! The need to make more editorial choices for the IWW is a problem I like to have because it means that our community has successfully pushed the WebXR boulder up and over the mountain pass and now it's picking up momentum with web creators.
+  <br style="margin-bottom: 15px;" />
+  Clear out those weeds, sweep up the patio, and crank out that umbrella because it's time for an almost-Spring issue of the Immersive Web Weekly!
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+links:
+  -
+    title: Enter Taro, a New Engine for the Immersive Web
+    url: https://www.echou.xyz/taro/
+    author: Cloud9c
+    authorLink: https://twitter.com/Cloud99c
+    category:
+      - engine
+    content: >
+      [Taro](https://www.echou.xyz/taro/) is a new engine based on Three.js and Canon.js:
+      <blockquote>Taro is an Entity Component System (ECS) engine for web applications. The basic idea of this pattern is to move from defining application entities using a class hierarchy to using composition in a Data Oriented Programming paradigm.</blockquote>
+      The [source code](https://github.com/Cloud9c/taro) is MIT licensed and provides [API documentation](https://www.echou.xyz/taro/docs/#/README) for new users.
+  -
+    title: GeoPose Draft Standard Is Now Public
+    url: https://github.com/opengeospatial/GeoPose/
+    author: GeoPose SWG
+    authorLink: https://www.ogc.org/projects/groups/geoposeswg
+    category:
+      - standard
+    content: >
+      The Open Geospatial Consortium's GeoPose working group released a [working draft](https://github.com/opengeospatial/GeoPose/blob/main/standard/pdf/geopose_standard.pdf) of their new standard.
+      <blockquote>GeoPose 1.0 is an implementation standard for exchanging the location and orientation of real or virtual geometric objects (Poses) within reference frames anchored to the earth’s surface (Geo) or within other astronomical coordinate systems.</blockquote>
+      Like the W3C Immersive Web groups, the GeoPose group is using GitHub [issues](https://github.com/opengeospatial/GeoPose/issues) and [pull requests](https://github.com/opengeospatial/GeoPose/pulls) to gather feedback and collaborate on the standard's text.
+  -
+    title: MyWebAR Could Be Your Web AR Marketing Platform
+    url: https://mywebar.com/
+    author: DEVAR
+    authorLink: https://devar.org/
+    category:
+      - platform
+    content: >
+      The [MyWebAR platform](https://mywebar.com/) uses the web to link 3D models, photos, or videos to real world objects. It claims to support users without coding experience through their browser-based editor. The [pricing page](https://go.mywebar.com/pricing) indicates that they're targeting commercial use for marketing campaigns.
+  -
+    title: Frame's Gabe Baker on The State of Browser XR
+    url: https://learn.framevr.io/post/the-immersive-web-and-webxr-matter-more-than-ever
+    author: Gabe Baker
+    authorLink: https://twitter.com/gabrieljbaker
+    category:
+      - pontificate
+    content: >
+      <blockquote>Amidst all of this native app development tumult, the web browser is often seen as a bastion of hope. A garden with no walls. A place where the Utopian dream of cross-platform, standards-based technology can be realized without fear of having the keys to the development kingdom snatched away by any particular company next month. A development pipeline where you really can "build once, deploy everywhere". Desktops, chromebooks, mobile devices, VR headsets - generally speaking, they all have a browser.
+        <br style="margin-bottom: 15px" />
+        For 3D experiences in particular, the new WebXR browser API makes it possible to create immersive experiences that run right from the browser and can be displayed across devices and displays: mobile devices, desktop, chromebook, VR headsets, AR hardware, etc. Rather than using proprietary, third-party engines, developers can use traditional web development languages, tooling, and standards to create immersive sites/experiences.
+        <br style="margin-bottom: 15px" />
+        Sounds dreamy, right? [So why isn't WebXR already huge?](https://learn.framevr.io/post/the-immersive-web-and-webxr-matter-more-than-ever)</blockquote>
+  -
+    title: Export from Blocks to Sketchfab
+    url: https://sketchfab.com/blogs/community/transfer-your-poly-models-with-the-new-poly-to-sketchfab-tool/
+    author: Abby Crawford
+    authorLink: https://sketchfab.com/
+    category:
+      - workflow
+    content: >
+      <blockquote>We have connected with the Google team to find a seamless solution to transfer models from Poly to Sketchfab and today we’re pleased to announce the launch of our <a href="https://polytosketchfab.com/">Poly-to-Sketchfab app</a>.</blockquote>
+      Combined with the addition of [Sketchfab integration into Open Brush](https://opencollective.com/icosa/updates/open-brush-0-2-0-released) (a fork of the open sourced Tilt Brush code) it seems like Sketchfab is filling gaps that Google is leaving behind. 
+  -
+    title: A New Comedy Club Lands on Hubs
+    url: https://dojour.us/e/14309-rem5s-truly-virtual-comedy-show
+    author: REM5
+    authorLink: https://www.rem5vr.com/
+    category:
+      - event
+    content: >
+      If you miss live comedy as much as I do then you might be interested in a [new comedy club](https://dojour.us/e/14309-rem5s-truly-virtual-comedy-show) from [REM5](https://www.rem5vr.com/), a, XR-centric group in St. Louis Park, Minnesota. Opening night is March 10th and it will use Mozilla's Hubs technology so the show will be available to any flat or immersive device with a web browser.
+  -
+    title: Twitch Streamer Makes Wonderland Games
+    url: https://www.twitch.tv/sorskoot
+    author: Timmy Kokke
+    authorLink: https://www.timmykokke.com/
+    category:
+      - streamer
+    content: >
+      One of the surprises of Twitch is the growing number of developers and technical artists who stream not games but their creative process. A good example is Timmy Kokke, aka [@Sorskoot](https://twitter.com/sorskoot), who [regularly streams](https://www.twitch.tv/sorskoot) his development of a Wonderland game.
+  -
+    title: Contribute to a UX Design Study with WebXR
+    url: https://study.rorybrown.info/
+    author: Rory Brown
+    authorLink: https://www.rorybrown.info/
+    category:
+      - academia
+    content: >
+      University of Strathclyde student Rory Brown is [conducting a study of XR user experience designs](https://study.rorybrown.info/) as part of their coursework. Participants need a VR headset and a WebXR-capable browser to contribute to this effort. [This study](https://www.xrdrn.org/2021/03/webxr-search-interfaces-study-immediate-participation-available/) and more can be found through the [XR Distributed Research Network portal](https://www.xrdrn.org/).
+  -
+    title: Get On Board with an Evening of Short Performances
+    url: https://www.eventbrite.com/e/on-board-an-evening-of-short-xr-performances-tickets-144032486043
+    author: Active Replica and The Jigsaw Ensemble
+    authorLink: https://activereplica.com/
+    category:
+      - event
+    content: >
+      <blockquote>Produced, rehearsed, and performed entirely in web-based virtual reality, this event demonstrates several different forms and styles of fully-immersive, virtual theater production. Audience members will find themselves in a virtual lobby where they'll be met by the house managers, who help them “on board” a virtual cruise ship in-character as pirates and yacht bros. Changing scenery and costumes with the click of a button, the audience journeys through a “dark ride” of short performances created by different artists around the world, each with their own unique approach to interactive technology and storytelling through theater, improvisation, and dance. The evening ends on a deserted island, allowing the audience to enjoy a post-show sunset while they discuss their reactions and feedback.</blockquote>
+  -
+    title: Go Somewhere with Nowhere Fest
+    url: https://www.urnowhere.com/fest
+    author: Nowhere
+    authorLink: https://www.urnowhere.com/
+    category:
+      - event
+    content: >
+      A new public event platform, [Nowhere](https://www.urnowhere.com/fest), is hosting ["an unlikely event"](https://www.urnowhere.com/fest) on March 11th, 12th, and 13th. They bill it as a place to "attend performances, meet new friends, and explore unforgettable worlds in the future of online gathering" and based on the published line up as well as the [involvement](https://twitter.com/sdianahu/status/1367644845330759681) of the excellent [Diana Hu](https://sdianahu.com/) they might be right.
+      
+
