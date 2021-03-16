@@ -1,15 +1,78 @@
 date: 2021-03-16
 overview: >
-  Overvew here in markdown
-
-signed: Trevor Flowers
+  This week brought an amazing amount of live performances to the web, including the Fifth Wall Forum's REVEAL event ([covered here by Kent Bye](https://twitter.com/kentbye/status/1370836078395985925)), a well funded and attended performance from The Royal Shakespeare Company, and an [expanded virtual cinema program](https://www.sxsw.com/film/2021/announcing-sxsw-online-xr/) at SXSW.
+  <br style="margin-bottom: 15px;" />
+  Cake on the makeup, double check your stage marks, and ignite the lime lights because it's time for another issue of the Immersive Web Weekly! 
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Molecule Modeling Magnificently Manifests 
+    url: https://twitter.com/fabiojcortes/status/1370389411964280836
+    author: Fabio Cortes and Luciano Abriata
+    authorLink: https://twitter.com/fabiojcortes/
     category:
-      - Category here
+      - library
+      - science
     content: >
-      Summary content goes here in markdown
+      Since we covered the [Virtual Modeling Kit](https://molecularweb.epfl.ch/modules/virtual-modeling-kit/) (an AR science kit for exploring chemistry) in [issue 30](https://immersivewebweekly.com/issues/030/) it has improved quite a bit, adding higher quality graphics, better physical simulation, and a re-imagined user experience.
+  -
+    title: Google's <model-viewer> Works Around Chrome
+    url: https://github.com/google/model-viewer/releases/tag/v1.6.0
+    author: Google
+    authorLink: https://google.com/
+    category:
+      - library
+      - custom web component 
+    content: >
+      Google's Model Viewer Team [recommended](https://twitter.com/modelviewer/status/1370424932211912704) that users upgrade to their new version which plugs a significant memory leak and works around an intermittent WebXR rendering bug in Chrome.
+  -
+    title: Overcome Algorithm Aversion
+    url: https://extendedmind.mykajabi.com/overcoming-algorithm-aversion-webinar
+    author: Jessica Outlaw
+    authorLink: https://extendedmind.io/
+    category:
+      - workshop
+    content: >
+      <blockquote>For all emerging technologists working at the intersection of XR and AI, two behavioral scientists are hosting a free workshop on why people trust other humans more than algorithmic models, even when the algorithm objectively outperforms the human.  Come learn 3 Principles of human centered algorithm design, strategies to overcome algorithm aversion, and more. </blockquote>
+      The workshop runs on April 8th and [tickets are free](https://extendedmind.mykajabi.com/overcoming-algorithm-aversion-webinar).
+  -
+    title: Volumetric Video in WebXR
+    url: https://www.4dviews.com/
+    author: 4Dviews
+    authorLink: https://www.4dviews.com/
+    category:
+      - volumetric video
+    content: >
+      A [new demo](https://www.4dviews.com/volumetric-demo) from the production team at [4Dviews](https://www.4dviews.com/) shows that volumetric capture and distribution workflows are coming to the web.
+  -
+    title: Five Thousand Dream Online
+    url: https://dream.online/
+    author: The Royal Shakespeare Company
+    authorLink: https://www.rsc.org.uk/
+    category:
+      - theater
+    content: >
+      Last week live theater took a big step with the [Audience of the Future Consortium](https://www.ukri.org/our-work/our-main-funds/industrial-strategy-challenge-fund/artificial-intelligence-and-data-economy/audience-of-the-future-challenge/) and the Royal Shakespeare Company's [live interactive retelling](https://dream.online) of "A Midsummer's Night Dream" booking more than five thousand participants for one show. The company's players puppeted digital characters on a fully digital stage that the audience accessed via their web browsers. With this level of community and financial support I wonder how soon we will be able to view this quality of performance using WebXR.
+  -
+    title: VR-Viz
+    url: https://vr-viz.mustafasaifee.com/
+    author: Mustafa Saifee
+    authorLink: https://mustafasaifee.com/
+    category:
+      - library
+      - dataviz
+    content: >
+      [VR-Viz](https://vr-viz.mustafasaifee.com/) is an [open source](https://github.com/mustafasaifee42/VR-Viz) project to provide React components for data visualization in WebVR:
+      <blockquote>It combines A-Frame with React (for DOM manipulation) and D3 (for data visualization). It's JSON syntax for generating visualizations is inspired by Vega-Lite.</blockquote>
+  -
+    title: FusedVR Unity WebXR
+    url: https://youtu.be/nPAHZ9Rm8d4
+    author: Vasanth Mohan
+    authorLink: https://twitter.com/FusedVR
+    category:
+      - tutorial
+    content: >
+      Vasanth Mohan, aka Fuseman, released [a step-by-step walk-through](https://youtu.be/nPAHZ9Rm8d4) in which he sets up Unity and Node.js for a new immersive web app:  
+      <blockquote>Using WebGL and the De-Panther Fork of Mozilla's Unity WebXR Exporter, we will be taking a look at how to setup your first WebXR project exported from Unity. Step by step, we will be importing in De-Panther's WebXR Github Repo and Interaction system and then using the Desert Sample Scene as our base project. From there, we will use WebGL with the Unity WebXR Exporter that is part of XR Management in order to create an HTML 5 build. And then finally, we will need to setup an HTTPS Web Server with npm in order to view project from Oculus Quest.</blockquote>
+
