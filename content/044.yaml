@@ -1,15 +1,110 @@
 date: 2021-03-30
 overview: >
-  Overvew here in markdown
-
-signed: Trevor Flowers
+  This week I spent most of my time elbow-deep in resin printers making prototypes of new wearable mechatronics and feeling excited about the future of the immersive web. The up-tick in creator activity that started in January has only picked up speed and now my feeds are packed with exciting work as well as rumors and teasers of even more to come. Some days it is so hectic that I need to take a break and play a bit of [sci-fi music](https://twitter.com/Sorskoot/status/1374844578268913670) to calm my nerves.
+  <br style="margin-bottom: 15px" />
+  Glue on your silicone ear tips, shave your eyebrows into a non-human shape, and zip into your unitard because it's time for another issue of the Immersive Web Weekly!
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Sketchfab is Nine and has Five Million Users
+    url: https://sketchfab.com/blogs/community/sketchfab-reaches-5m-members-on-its-9-year-anniversary/
+    author: Alban Denoyel
+    authorLink: https://twitter.com/albn/
     category:
-      - Category here
+      - workflow
+      - anniversary
     content: >
-      Summary content goes here in markdown
+      Nine years is a long time to survive in the world of web startups, especially with emerging technologies like 3D and VR but this week CEO of Sketchfab, Alban Denoyel, announced their anniversary and that they've reached the milestone of five million users! Congratulations to the Sketchfab team and salutations to all of those people on the immersive web. 
+  -
+    title: React-three-fiber Rewritten and Released
+    url: https://twitter.com/0xca0a/status/1376892521251487754
+    author: Paul Henschel
+    authorLink: https://twitter.com/0xca0a/
+    category:
+      - library
+      - rewhack
+    content: >
+      The growing popularity of [react-three-fiber](https://github.com/pmndrs/react-three-fiber/) has paid off with user feedback leading to insight into performance and developer ergonomics which led to a major rewrite in the [new release](https://github.com/pmndrs/react-three-fiber/blob/master/markdown/changelog.md). Version 6.0.0 also includes better integration with [the ecosystem of libraries](https://github.com/pmndrs) by the [Poimandres](https://twitter.com/pmndrs) open source developer collective.
+  -
+    title: Bosworth on Bloomberg about Privacy
+    url: https://twitter.com/BloombergTV/status/1376678104932966414
+    author: Emily Chang
+    authorLink: https://twitter.com/emilychangtv
+    category:
+      - interview
+      - privacy
+    content: >
+      With Facebook's immersive browser providing the majority of time spent on the immersive web and the Quest 2 delivering the majority of hours in all of virtual reality, the industry tends to hang on [every word](https://twitter.com/boztank) from their VP of VR, Andrew Bosworth. In this interview segment Bosworth responds to the question, ["Are we doing as much good as we think we are?"](https://twitter.com/BloombergTV/status/1376678104932966414) 
+  -
+    title: Master the XR Frontend At FrontendMasters
+    url: https://frontendmasters.com/courses/3d-webxr/
+    author: Ayşegül Yönet
+    authorLink: twitter.com/aysSomething/
+    category:
+      - tutorial
+    content: >
+      Our very own co-chair, Ayşegül Yönet, continues to be a powerhouse of content for immersive web creators, this time with a nicely produced tutorial series:
+      <blockquote> In this course, you’ll see the possibilities of 3D on the web and with the new WebXR device APIs. We will use three different libraries to create 3D experiences: Three.js, Bablyon.js, and AFrame. And finally, you will add augmented reality and virtual reality support into your 3D scenes.</blockquote>
+  -
+    title: An Interview with Art Historian Tina Sauerlaender
+    url: https://www.berlinartlink.com/2021/03/29/virtual-reality-tina-sauerlaender-interview/
+    author: Urszula Usakowska-Wolff
+    authorLink:
+    category:
+      - art
+      - performance
+    content: >
+      Sauerlaender is the artistic director of the VR ART PRIZE, the co-founder and director of the international exhibition platform peer to space, and also the co-founder and CEO of the international online research database for VR art, Radiance VR. She has smart things to say about performance on the immersive web:
+      <blockquote>It’s easier for opera houses and theaters because the stage and the audiences are usually separate, so the experience is similar to what it has always been: you sit in a chair and watch the performance, but now you do it from home. It’s also easier for users to participate because everyone knows how to play a video and how to scroll through a website. Those are big advantages. But when a museum is thinking about showing a virtual exhibition space on the internet, these simple skills are not enough. In a physical museum, everyone knows: you go to the ticket office, buy a ticket, and then you look at the exhibition. But online it’s different. You’re suddenly standing in the digital space and you have to move, but you don’t know how.</blockquote>
+  -
+    title: Rhodonite Improves WebXR Support
+    url: https://github.com/actnwit/RhodoniteTS
+    author: Emadurandal
+    authorLink: https://twitter.com/emadurandal_cg
+    category:
+      - Something
+    content: >
+      The new [Rhodonite WebGL library](https://github.com/actnwit/RhodoniteTS) ticks a lot of boxes on the list of features one would want as the foundation for an immersive web experience. It's an entity component system, supports modern data formats like glTF and VRM, and it even supports the hot new Basis Universal compressed texture format. Even more interestingly, it claims to use a unique memory architecture:
+      <blockquote>With the Blittable Memory Architecture, Rhodonite stores almost all of its data in a large pre-allocated ArrayBuffer. Data storage for matrix or vector classes in Rhodonite's component classes and materials are assigned from the memory pool, which means most of the data are on that memory pool, transferred to the GPU every frame as a floating-point texture. This architecture allows all shaders always to access a vast amount of data.
+        <br />
+        For example, Rhodonite can handle and blend all morph targets (38 targets) of VRM characters simultaneously in the shader.</blockquote>
+      They're currently working on improved WebXR support as well as adding features to their in-browser [editor](https://editor.librn.com/?fastest=1&gltfUri=https%3A%2F%2Fcdn.rawgit.com%2FKhronosGroup%2FglTF-Sample-Models%2Fa7942b82%2F2.0%2FDamagedHelmet%2FglTF%2FDamagedHelmet.gltf&gltfoption=%257B%250A%2520%2520%2520%2520%2522loaderExtension%2522%253A%2520%2522ZoGltfLoaderExtension%2522%252C%250A%2520%2520%2520%2520%2522isNeededToMultiplyAlphaToColorOfPixelOutput%2522%253A%2520true%252C%250A%2520%2520%2520%2520%2522isTextureImageToLoadPreMultipliedAlphaAsDefault%2522%253A%2520false%252C%250A%2520%2520%2520%2520%2522isExistJointGizmo%2522%253A%2520false%252C%250A%2520%2520%2520%2520%2522isBlend%2522%253A%2520true%252C%250A%2520%2520%2520%2520%2522isDepthTest%2522%253A%2520true%252C%250A%2520%2520%2520%2520%2522defaultShaderClass%2522%253A%2520null%252C%250A%2520%2520%2520%2520%2522isMeshTransparentAsDefault%2522%253A%2520true%252C%250A%2520%2520%2520%2520%2522extendedJson%2522%253A%2520null%252C%250A%2520%2520%2520%2520%2522ignoreMeshList%2522%253A%2520%255B%2522%2522%255D%252C%250A%2520%2520%2520%2520%2522autoDetectTextureTransparency%2522%253A%2520false%252C%250A%2520%2520%2520%2520%2522autoResizeTexture%2522%253A%2520true%250A%2520%2520%257D&gltfsource=uri&gltfuri=https%3A%2F%2Fcdn.rawgit.com%2FKhronosGroup%2FglTF-Sample-Models%2Fa7942b82%2F2.0%2FDamagedHelmet%2FglTF%2FDamagedHelmet.gltf&screenX=2)
+      [repo](https://github.com/actnwit/RhodoniteTS) so coders might be interested in checkout out their [open source repository](https://github.com/actnwit/RhodoniteTS).
+  -
+    title: In-browser AR for In-browser CAD
+    url: https://arbase.io/
+    author: Alan Kalbfleisch
+    authorLink: https://www.linkedin.com/in/alan-kalbfleisch-7967aa41/
+    category:
+      - CAD
+    content: >
+      [Onshape](https://www.onshape.com/en/) has attracted attention for providing a fully browser-based Computer Aided Design (CAD) system for projects as complex as an [entire airplane](https://www.youtube.com/watch?v=XBdI_xZaiks) but it wasn't until this week that they attracted attention from the XR community with the addition of [AR tools](https://arbase.io/). For companies who need to share their CAD models with minimal friction, the immersive web is the obvious solution. 
+  -
+    title: The Polys Producer Talks Opportunies in WebXR
+    url: https://youtu.be/SZ_cpx93rJw
+    author: Ben Erwin
+    authorLink: https://twitter.com/powersimple/
+    category:
+      - conference talk
+    content: >
+      As part of Immersive Tech Africa and riding high on the success of The WebXR Awards (AKA The Polys), producer and immersive web creator Ben Erwin [gave a talk this week](https://youtu.be/SZ_cpx93rJw) about the potential of the immersive web for emerging product markets as well as live performances.
+  -
+    title: Ada Artfully Assigns Artifice With AR
+    url: https://www.youtube.com/watch?v=jKtb7254K2U
+    author: Ada Rose Cannon
+    authorLink: 
+    category:
+      - tutorial
+    content: >
+      Immersive Web Community Group co-chair and Samsung Internet Developer Advocate Ada Rose Cannon joined the [many excellent presenters](https://youtube.com/playlist?list=PL6TuxoG36L8mrnF_MqXC7OZIrYDOI_FrD) at TECH(K)NOW Day to talk about [building your first AR experience](https://www.youtube.com/watch?v=jKtb7254K2U).
+  -
+    title: At Last, Googly Eyes
+    url: https://github.com/DerSchmale/threejs-googly-eyes
+    author: David Lenaerts
+    authorLink: https://github.com/DerSchmale/
+    category:
+      - fun
+      - library
+    content: >
+      This [open code library](https://www.npmjs.com/package/@derschmale/threejs-googly-eyes) does what many of us didn't realize that we needed: It [adds googly eyes to Three.js](https://derschmale.github.io/threejs-googly-eyes/example/index.html).
