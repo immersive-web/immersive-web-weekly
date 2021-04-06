@@ -1,0 +1,92 @@
+date: 2021-04-06
+overview: >
+  While I patiently wait for [dance man](https://twitter.com/ronchoqa/status/1378762880338817031) to ship in order to live out my dream of first-person Pac-Man, the rest of our community refused to sit still. From the largest deployment of headsets to using sound to augment light, this week ran the gamut.
+  <br style="margin-bottom: 15px" />
+  Heat the pan, pour the oil, prep the spices, and chop the onions because it's time to cook up another issue of the Immersive Web Weekly.
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+summary: 120k headsets, pose velocity, planes, and sonification
+links:
+  -
+    title: Microsoft Seals Largest Deal to Deploy Immersive AR
+    url: https://techcrunch.com/2021/03/31/microsoft-wins-contract-worth-up-to-22-billion-to-outfit-u-s-army-with-120000-ar-headsets/
+    author: Lucas Matney
+    authorLink: https://twitter.com/lucasmtny
+    category:
+      - deals
+    content: >
+      The US Army will receive up to [120,000 battlefield-ready Hololens headsets](https://techcrunch.com/2021/03/31/microsoft-wins-contract-worth-up-to-22-billion-to-outfit-u-s-army-with-120000-ar-headsets/) in a deal that is worth up to $21.8 billion over ten years.
+  -
+    title: Facebook's Browser Rapidly Ships With Velocity
+    url: https://twitter.com/rcabanier/status/1377459759876505606
+    author: Rik Cabanier
+    authorLink: https://twitter.com/rcabanier/
+    category:
+      - browser
+    content: >
+      This week version 15 of Facebook's browser for the Quest platform rolled out, bringing with it copy-paste and context menu functionality as well as additional motion information on [WebXR's XRPose API](https://immersive-web.github.io/webxr/#xrpose-interface) which will allow experience creators to provide better feedback based on how users move their heads and hands.
+  -
+    title: Google Intends to Ship Planes
+    url: https://groups.google.com/a/chromium.org/g/blink-dev/c/51Yd2t6quik/m/6AWd7G07CAAJ
+    author: Piotr Bialecki
+    authorLink: https://twitter.com/pbialy88/
+    category:
+      - flatland
+      - standard
+    content: >
+      To most people, the detection of planes seems like an abstract concept but to experience creators the planes detected in the world around us are walls, floors, tables, and other crucial features that contribute to a well formed reality. This week Google [announced their intent to ship](https://groups.google.com/a/chromium.org/g/blink-dev/c/51Yd2t6quik/m/6AWd7G07CAAJ) the [WebXR plane detection API](https://immersive-web.github.io/real-world-geometry/plane-detection.html). In related news, a few folks noticed that [Google is once again hiring AR hardware people](https://twitter.com/haltor/status/1379169927056199681).
+  -
+    title: Console Crashes into Wonderland 
+    url: https://twitter.com/SignorPipo/status/1376986730277003265
+    author: Pipo
+    authorLink: https://twitter.com/SignorPipo/
+    category:
+      - immersion
+    content: >
+      In another step toward many developers' goal of never removing their headsets, the Wonderland engine now has immersive console logging! The [demo](https://elia-ducceschi.itch.io/console-vr) and [repo](https://github.com/SignorPipo/wle_consolevr) are available to those who never want to see the sky unless it's in a WebXR planetarium.
+  -
+    title: WebXR, A-Frame, and Entity Component Systems (Oh, my!)
+    url: https://youtube.com/playlist?list=PL8bmgwX9eBPGGOCQbGPw9VKWQfYyGZNPr
+    author: John F. Akers
+    authorLink: https://jakers.tech/
+    category:
+      - tutorial
+    content: >
+      The Director of Research and Education for [UW's Reality Lab](https://realitylab.uw.edu/) published an [in-depth course](https://youtube.com/playlist?list=PL8bmgwX9eBPGGOCQbGPw9VKWQfYyGZNPr) that covers fundamentals of the immersive web.
+  -
+    title: An Educator's POV
+    url: https://www.gettingsmart.com/2021/03/virtual-immersion-how-to-make-the-most-of-a-virtual-space/
+    author: Rachelle Dené Poth
+    authorLink: https://twitter.com/Rdene915/
+    category:
+      - education
+    content: >
+      Educator, consultant, author, attorney and public speaker (quite a combination!) Rachelle Dené Poth wrote about [her experience with the immersive web in the classroom](https://www.gettingsmart.com/2021/03/virtual-immersion-how-to-make-the-most-of-a-virtual-space/).
+  -
+    title: KaiXR's Education Team Is Growing
+    url: https://twitter.com/__Ka1/status/1379092416938926081
+    author: Kai M. Frazier
+    authorLink: https://twitter.com/__Ka1/
+    category:
+      - growth
+    content: >
+      With three new hires and the [announcement that they have been accepted into T-Mobile's accellerator program](https://twitter.com/__Ka1/status/1379092416938926081), the educational XR experience builders at [KaiXR](https://www.kaixr.com/) are picking up steam. 
+  -
+    title: More Shaders Coming to A-Frame
+    url: https://twitter.com/PlanetVoodoo/status/1377798901261078529
+    author: Planet Voodoo
+    authorLink: https://twitter.com/PlanetVoodoo/
+    category:
+      - pixel
+    content: >
+      XR studio Planet Voodoo [announced](https://twitter.com/PlanetVoodoo/status/1377798901261078529) that they're building and open sourcing a series of new shaders for Three.js, starting with [this hologram shader](https://www.npmjs.com/package/aframe-hologram-shader).
+  -
+    title: Sonification in VR
+    url: https://twitter.com/zach_geek/status/1376237276691369990
+    author: Zach Capalbo
+    authorLink: https://twitter.com/zach_geek/
+    category:
+      - sound
+    content: >
+      The [GIFs and notes](https://twitter.com/zach_geek/status/1376237276691369990) about this new immersive web experience are a fascinating exploration of sound as another channel of information for interaction design:
+      <blockquote>In the Kromophone, color is separated into channels for red, yellow, green, blue, and white. The intensity of each channel gets mapped to its own voice, which specifies a pitch, a pan, and a timbre. The intensity of each color channel controls the gain of each audio channel</blockquote> 
