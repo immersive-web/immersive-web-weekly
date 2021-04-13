@@ -1,15 +1,123 @@
 date: 2021-04-13
 overview: >
-  Overvew here in markdown
-
-signed: Trevor Flowers
+  Another amazing week just happened in the immersive web community including a big announcement from the WebXR Awards team, some Flooming from Google, a [spatial rhythm creator](https://twitter.com/RaananW/status/1381646138596597760),  and a number of awe inspiring technological releases that will (without exaggerating) change the fundamental nature of XR experiences.
+  <br style="margin-bottom: 15px" />
+  The pace of news is picking up so soon I may need to implement a "short links" section of each issue where I simply name and link to pages instead of writing up a paragraph with context. I love that we now have this problem!
+  <br style="margin-bottom: 15px" />
+  Get a haircut, put on your make-up, check your ring light, and iron your dress because it's time to livestream another issue of the Immersive Web Weekly!
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: WebXR Awards Team Announces The 2021 WebXR Developer Summit
+    url: https://twitter.com/webxrawards/status/1381811826992816129
+    author: WebXR Awards Team
+    authorLink: https://webxrawards.com/
     category:
-      - Category here
+      - event
+      - shameless-self-promotion
     content: >
-      Summary content goes here in markdown
+      February's WebXR Awards event was good fun and a great way to gather the community so I'm excited that the production team behind that event [announced](https://twitter.com/webxrawards/status/1381811826992816129) a new, developer-focused event on May 25th: [The WebXR Developer Summit](https://webxrawards.com/). [Tickets are free and available now on Eventbrite](https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061). The live event will be streamed on flat screens and into viewing parties in shared XR spaces across several platforms with me (Trevor Flowers) signed up to be the event host and to moderate a few of the discussions. 
+  -
+    title: glTFs Become Non-fungible
+    url: https://www.hicetnunc.xyz/
+    author: Hic et Nunc
+    authorLink: https://www.hicetnunc.xyz/
+    category:
+      - blockchain
+      - art
+    content: >
+      With the art world in a tizzy over the sale (and associated pollution) of blockchain-hosted Non-Fungible Tokens (NFTs), it should be no surprise that technical artists working with XR are joining the movement. [Hic et Nunc](https://www.hicetnunc.xyz/) seems to be the [platform](https://twitter.com/johnbenton/status/1380534818665029632) of [choice](https://twitter.com/1x1_NFT/status/1381320632185524225) for [our community](https://twitter.com/mrdoob/status/1372877570543382529) which has the nice characteristic of using Tezos, one of the less pollution-creating technologies. Along with the more established XR+crypto spaces like [Cryptovoxels](https://www.cryptovoxels.com/) and [SomniumSpace](https://somniumspace.com/), these new art sales platforms bring more payment and sharing options to the immersive web. 
+  -
+    title: Interview with OD (original developer) Diego Marcos
+    url: https://uploadvr.com/diego-marcos-interview-webxr
+    author: Upload
+    authorLink: https://uploadvr.com/
+    category:
+      - interview
+    content: >
+      <blockquote>Diego Marcos is one of the most important figures in WebXR’s story so far. At Mozilla he helped kickstart the WebVR standard, which then became WebXR. He co-created A-Frame, an open source library to create VR experiences on the web, and remains its lead developer, maintainer, community manager. Marcos now works at Supermedium, a company he co-founded in 2018, developing WebXR showcases and a new kind of browser for VR headsets. We sat down with Diego in our virtual studio to talk about all of the above, and the future of WebXR as an approach to immersive content</blockquote>
+  -
+    title: Google Flooms Like a Champ
+    url: https://blog.google/products/google-ar-vr/webxr-experiments/
+    author: Zebedee Pedersen from Google Creative Lab
+    authorLink: https://twitter.com/zebpedersen/
+    category:
+      - experience
+    content: >
+      Google is gathering a wide array of XR experiences into a [collection](https://experiments.withgoogle.com/collection/webxr) that now includes the amazing [Floom](https://experiments.withgoogle.com/floom) in which you can look through to the other side of the Earth.
+  -
+    title: >
+      Inside Out: Cloud Streaming of WebXR
+    url: https://twitter.com/asajeffrey/status/1381959101232656386
+    author: Alan Jeffrey
+    authorLink: https://twitter.com/asajeffrey/
+    category:
+      - talk
+    content: >
+      Alan Jeffrey of Rust and Servo fame [writes](https://twitter.com/asajeffrey/status/1381959101232656386):
+      <blockquote>I'll be giving a lightning talk at Cloud Native Rust Day on streaming video from WebXR content using GStreamer and Servo.</blockquote>
+  -
+    title: Pico Neo 3 Uses Firefox Reality
+    url: https://www.roadtovr.com/pico-standalone-neo-3-headset-china/
+    author: Scott Hayden
+    authorLink: https://www.roadtovr.com/author/scotthayden/
+    category:
+      - hardware
+    content: >
+      [More details about the Pico Neo 3](https://www.roadtovr.com/pico-standalone-neo-3-headset-china/) have been released so I asked my Pico sales representative about their browser plans. They will continue to use Firefox Reality on their new hardware with active support from Mozilla!
+  -
+    title: NVIDIA Furthers Foveated Fiddling
+    url: https://developer.nvidia.com/blog/nvidia-vrss-2-dynamic-foveated-rendering-no-assembly-required/
+    author: NVIDIA
+    authorLink: https://nvidia.com/
+    category:
+      - engine
+    content: >
+      <blockquote>Foveated rendering is a technique where a region of the HMD screen is sampled at a higher shading rate. The first version of NVIDIA's VRSS supported fixed foveated rendering in the center. The latest version of VRSS 2 expands on foveated rendering and supports gaze tracking by integrating eye-tracking technology. Now the foveated region is dynamic and changes based on where the user looks. VRSS is a zero-coding solution, so developers do not need to add any code to implement VRSS.</blockquote>
+  -
+    title: Virtual Craft Special Region Opens 24 April
+    url: https://www.gugenka.net/craftok-guest-en
+    author: Gugenka Business
+    authorLink: https://www.gugenka.net/
+    category:
+      - event
+    content: >
+      [Craftok](https://www.gugenka.net/craftok-guest-en) is an exhibition and sales event hosted on NTT's DOOR immersive web platform. With over 160 exhibitors and appearances from synthespians like Mimi Yumeno, it should be quite an experience.
+  -
+    title: Interview with Keram Malicki-Sanchez
+    url: https://www.riseupdaily.com/88namespodcast/2021/04/09/keram/
+    author: 88 names podcast
+    authorLink: https://www.riseupdaily.com/88namespodcast/
+    category:
+      - interview
+    content: >
+      <blockquote>My name is Keram Malicki-Sanchez and I am the founder of the VRTO Immersive Media & Technologies World Conference launched in 2016 and the founder and executive director of the FIVARS Festival of International Virtual and Augmented Reality Stories that has been now running for 7 years and moving towards our 8th show in the fall of 2021. I am the editor-in-chief of indiegamereviewer.com since 2007 that tracked the rise and golden age of independently developed video games, and also CEO of Constant Change Media Group, Inc., which is an umbrella corporation that handles event production, both on location and for WebXR events, and a virtual reality and game developer.</blockquote>
+  -
+    title: VTubers Go Live On The Web
+    url: https://twitter.com/yeemachine/status/1381641203934883840
+    author: Richard Yee
+    authorLink: https://twitter.com/yeemachine/
+    category:
+      - mixed reality
+    content: >
+      With the release of [Kalidoface](https://kalidoface.com/), VTuber Richard Lee has brought real-time face tracking on the web into the world of VTubing. Not content with stopping there, he's [now working on adding mixed reality](https://twitter.com/yeemachine/status/1381641203934883840).
+  -
+    title: Wander With Fonts In Wonderland
+    url: https://florian-isikci.medium.com/adding-custom-characters-to-your-font-in-wonderland-engine-52297ebf2994
+    author: Florian Isikci
+    authorLink: https://florian-isikci.medium.com/
+    category:
+      - tutorial
+    content: >
+      It's often tricky to manage a large number of icon art assets within the constraints of WebGL but in [this tutorial](https://florian-isikci.medium.com/adding-custom-characters-to-your-font-in-wonderland-engine-52297ebf2994) Florian shows step-by-step how to create a single font that includes multiple icons and works seamlessly in the Wonderland immersive web engine.
+  -
+    title: Many Meet In the Metaverse
+    url: https://us02web.zoom.us/webinar/register/2016170818854/WN_VC5c8V_oSyqI0RjprlwqEw
+    author: LA ACM SIGGRAPH and the Producers Guild of America’s New Media Council
+    authorLink:
+    category:
+      - event
+    content: >
+      Ed Lantz [announced](https://twitter.com/EdLantz/status/1380921500811681795) this interesting event:
+      <blockquote>This panel introduces producers, developers and digital artists to the new world of online entertainment events using real-time 3D massively multiplayer online virtual worlds (loosely referred to as “the metaverse”). Panelists will introduce platforms, present case studies and discuss current day challenges and future directions.</blockquote>
