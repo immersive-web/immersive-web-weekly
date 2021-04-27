@@ -1,15 +1,93 @@
 date: 2021-04-27
+summary: OMG A Fully FOSS Stack
 overview: >
-  Overvew here in markdown
-
-signed: Trevor Flowers
+  The combination of this week's [progress towards fully open hardware for AR](https://www.collabora.com/news-and-blog/blog/2021/04/20/continuous-3d-hand-pose-tracking-using-machine-learning-and-monado-openxr/) and Imanol's announcement of a FOSS stack for WebXR (the first story 👇) has me walking on clouds. I'm so deeply proud of and grateful for everyone who played a part in making this happen. I am having trouble waiting to see what happens next.
+    <br style="margin-bottom: 20px" />
+  Throw off your NDAs, burn down your intellectual firewall, and procure your new BOM because it's time for another issue of the Immersive Web Weekly!
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: >
+       For The First Time: A FOSS Stack for WebXR
+    url: https://blogs.igalia.com/ifernandez/2021/01/webxr-webkit/
+    author: Imanol Fernández
+    authorLink: https://twitter.com/MortimerGoro/
     category:
-      - Category here
+      - foss
+      - browser
     content: >
-      Summary content goes here in markdown
+      Imanol Fernández from the Igalia team created quite a stir this week when he [announced](https://twitter.com/MortimerGoro/status/1385267008711823364) that he has implemented [WebXR in the open source WebKit browser engine on top of Monado's implementation of OpenXR which runs on Linux](https://blogs.igalia.com/ifernandez/2021/01/webxr-webkit/). 
+      <br style="margin-bottom: 20px" />
+      <strong>🎉 For the first time ever we have a fully open source software stack for the immersive web! 🎉</strong>
+      <br style="margin-bottom: 20px" />
+      A few days later, Moses Turner used that work to [bring up WebXR on the partially<sup>*</sup> open source hardware](https://twitter.com/guyfrombible/status/1386899099522326529) of a North Star headset.
+      <br style="margin-bottom: 20px" />
+      * The sensor bar from [Ultraleap](https://www.ultraleap.com/product/leap-motion-controller/) is not open.
+  -
+    title: 11 Years of Three.js
+    url: https://twitter.com/mrdoob/status/1385569965986693122
+    author: Ricardo Cabello
+    authorLink: https://twitter.com/mrdoob/
+    category:
+      - something
+    content: >
+      Ricardo has mentioned several times (including in [his pinned tweet](https://twitter.com/mrdoob/status/1362508150507790343)) that starting the rendering engine Three.js was perhaps a foolish endeavor but the results were far more than he imagined. This week the little engine that could (thanks to a huge community!) hit its [11th anniversary](https://twitter.com/mrdoob/status/1385569965986693122). To celebrate, Ricardo worked to [bring the popular DAT.GUI 2D UI framework into VR](https://twitter.com/mrdoob/status/1385184290867187715). Kudos to Ricardo and to the entire Three community.
+  -
+    title: The Frame Team Show How To Get It Done
+    url: https://twitter.com/frame_vr/status/1384855988835131392
+    author: Virbela
+    authorLink: https://www.virbela.com/
+    category:
+      - upgrade
+    content: >
+      This week the Frame team at Virbela [released an update](https://twitter.com/frame_vr/status/1387049874747629581). I write "update" but it's more of a rewrite! They switched to BabylonJS for rendering, now host up to 75 users per shared space, and added a host of features like whiteboards, shared docs, 3D imports, and fast replication so that communication (including body language) freely flows. Definitely check out [the new site](https://learn.framevr.io/) but if a video summary would help then watch [Jason from Microsoft and Gabe from Virbela talk about the switch to Babylon](https://www.youtube.com/watch?v=I7EtzLl-jis).
+  -
+    title: A Night Under a Secret Sky
+    url: https://secondskyfest.com/
+    author: Second Sky Fest
+    authorLink: https://twitter.com/secondskyfest
+    category:
+      - event
+    content: >
+      Saturday evening found many of this community waving their arms to the beat as a series of artists spun music to a crowd gathered under a beautiful Secret Sky. This space was created by [Active Theory](https://activetheory.net/home), a creative studio based out of Venice (the one in California) and Amsterdam but they had help from developers from the Facebook Reality Lab. Even [PC Gamer took note](https://www.pcgamer.com/vr-music-festival-virtual-reality/) and they usually stick to app store VR. While the space is now closed you can get a sense of the experience in [jin from Webaverse's screencapture](https://twitter.com/dankvr/status/1386155487356506112).
+  -
+    title: That 8th Wall Flex
+    url: https://www.8thwall.com/blog/post/45786174106/introducing-release-16-8th-walls-world-class-ar-engine-for-the-web-just-got-even-more-powerful
+    author: 8th Wall
+    authorLink: https://www.8thwall.com/
+    category:
+      - update
+    content: >
+      The 8th Wall team has long been a member of the Immersive Web CG so it's no surprise to see that their [new release](https://www.8thwall.com/blog/post/45786174106/introducing-release-16-8th-walls-world-class-ar-engine-for-the-web-just-got-even-more-powerful) came with [solid environment mapping and an entirely new renderer](https://www.8thwall.com/blog/post/45697581391/building-the-next-generation-of-slam-for-the-browser).
+  -
+    title: No Longer Waiting for WebXR in Godot
+    url: https://godotengine.org/article/godot-3-3-has-arrived
+    author: Godot Engine
+    authorLink: https://godotengine.org/
+    category:
+      - engine
+      - update
+    content: >
+      The Godot team has had web export for many months but [version 3.3](https://godotengine.org/article/godot-3-3-has-arrived) is the first to ship [WebXR support](https://godotengine.org/article/godot-3-3-has-arrived#webxr) as part of a stable, production-ready build.  
+  -
+    title: >
+      #OBJKT4OBJKT (translation: Object for Object)
+    url: https://twitter.com/hashtag/OBJKT4OBJKT
+    author: Hic et Nunc
+    authorLink: https://www.hicetnunc.xyz/
+    category:
+      - art
+      - nft
+      - hic et nunc
+    content: >
+      This week we saw two NFT-based art galleries open on the immersive web to promote the rapidly growing community of artists participating in Hic et Nunc's [#OBJKT4OBJKT](https://twitter.com/hashtag/OBJKT4OBJKT) social media campaign. With a few waves of the wand you can visit [Hubs et Nunc](https://hubs.mozilla.com/SnJevdp/hubs-et-nunc) et [Frame et Nunc](https://framevr.io/nft).      
+  -
+    title: Brian Scrapes Experiences
+    url: https://twitter.com/brianpeiris/status/1385639558176550923
+    author: Brian Peiris
+    authorLink: https://twitter.com/brianpeiris/
+    category:
+      - experiment
+    content: >
+      Large search engines are generally unable to provide direct links to immersive web experiences so Hubs engineer Brian Peiris wrote (on his own time) an experimental web scraper that looks for common WebXR patterns.
