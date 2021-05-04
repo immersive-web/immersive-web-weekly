@@ -1,15 +1,107 @@
 date: 2021-05-04
 overview: >
-  Overvew here in markdown
+  This week was quite busy for this community and for me. On the heels of releasing a small [mechatronics product](https://transmutable.com/goods/) and [starting one with more ambition](https://twitter.com/TrevorFSmith/status/1388494858797543425), we held a town hall meeting to collaboratively choose topics for the [WebXR Developer Summit](https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061) on May 25th. Seeing everyone's excellent ideas and directions in the town hall and then waking up early this morning to a flood of notifications about news for this issue, I feel like we've pushed the WebXR rock up the hill, over the top, and now it's picking up speed on its own.
+  <br style="margin-bottom: 15px" />
+  Don your protective elbow pads, grease your hubs, and stick new griptape to your deck because it's time for another issue of the Immersive Web Weekly!
 
-signed: Trevor Flowers
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Wrap WebXR in Native For Fun and (Maybe) Profit
+    url: https://bai.dev/projects/webxr-electron-apr2021
+    author: James Baicoianu
+    authorLink: https://twitter.com/bai0/
     category:
-      - Category here
+      - app store
     content: >
-      Summary content goes here in markdown
+      Long time immersive web creator James Baicoianu has published a [detailed HOWTO](https://bai.dev/projects/webxr-electron-apr2021) about using the [Electron wrapper utility](https://www.electronjs.org/) to create installable native applications that behind the scenes are WebXR experiences running in Chromium. Web designers and developers can now deploy their experiences via the web or (theoretically) via app stores from Valve, Epic, Itch, and Microsoft.
+  -
+    title: Alan Jeffrey on Streaming Flat Video from WebXR
+    url: https://youtu.be/rAWeW6Q5Cuw
+    author: Alan Jeffrey
+    authorLink: https://twitter.com/asajeffrey/
+    category:
+      - servo
+      - cloud rendering
+    content: >
+      Cloud rendering has landed with services like [Stadia](https://stadia.google.com/) and [Mighty App](https://www.mightyapp.com/) but while working in the Mozilla MR team (RIP 😿) Alan Jeffrey worked on streaming video of WebXR sessions from within the [Servo browser engine](https://servo.org/) and [GStreamer](https://gstreamer.freedesktop.org/). In [his recent talk](https://youtu.be/rAWeW6Q5Cuw) Alan talked about the origin and potential of this project.
+  -
+    title: WebAssembly's Home Has Non-profit Status and Calls for Members
+    url: https://bytecodealliance.org/press/calling-for-new-members
+    author: Bytecode Alliance
+    authorLink: https://bytecodealliance.org/
+    category:
+      - foundation
+    content: >
+      A large number of people have worked (many as volunteers) to make this happen so that WebAssembly and WASI can be the foundation on which we build a wider web.
+      <blockquote><a href="https://bytecodealliance.org/">The Bytecode Alliance</a>, a community dedicated to creating new software foundations, building on standards such as WebAssembly and WebAssembly System Interface (WASI), today announced incorporation as a 501(c)(6) non-profit organization. Incorporated by Fastly, Intel, Mozilla and Microsoft, the Bytecode Alliance now invites organizations to join its cross-industry collaborative mission alongside new members Arm, DFINITY Foundation, Embark Studios, Google, Shopify, and University of California at San Diego.</blockquote>
+  -
+    title: Animation Curve Editor Coming to Babylon
+    url: https://babylonjs.medium.com/unleash-your-animations-with-ace-57c9b04cab2e
+    author: David Catuhe
+    authorLink: https://twitter.com/deltakosh
+    category:
+      - editor
+      - animation
+    content: >
+      3D content editors like Blender and Maya have long provided visual tools for creators to animate both motion and properties like material colors. This week the Babylon team [revealed](https://babylonjs.medium.com/unleash-your-animations-with-ace-57c9b04cab2e) that they're bringing that capability to the Babylon scene editor. They have released an [early alpha demonstration](https://www.babylonjs-playground.com/#9WUJN#1402) for the community to test and to encourage feedback. Features like this curve editor will enable more creators (including non-coders) to implement their vision of the immersive web.
+  -
+    title: Normcore for WebGL Enters Beta
+    url: https://twitter.com/maxweisel/status/1387813804357083147
+    author: Max Weisel
+    authorLink: https://twitter.com/maxweisel/
+    category:
+      - replication
+    content: >
+      One missing piece from Unity-to-Web exporters like [this one](https://github.com/De-Panther/unity-webxr-export) has been support for networked replication. Multi-user support requires this feature so it's great news to hear from Max Weisel that the popular [Normcore replication library has an alpha build that targets the web](https://twitter.com/maxweisel/status/1387813804357083147). Details are light but should it go live it will fill an important gap for Unity projects.
+  -
+    title: Hands, But Different
+    url: https://twitter.com/kitaedesigns/status/1388844002284347396
+    author: Kitae Kim
+    authorLink: https://www.kitaedesigns.com/
+    category:
+      - art
+    content: >
+      While I usually cover new hand libraries and models (see below for an example) this immersive experience uses hands in a different mode: as source material for art. [Kitae Kim](https://www.kitaedesigns.com/)'s new [sculpture park](https://twitter.com/kitaedesigns/status/1388844002284347396) incorporates many scans of the artists hands. 
+  -
+    title: Updated Hand Models
+    url: https://github.com/immersive-web/webxr-input-profiles/pull/197
+    author: Tianrui "Felix" Zhang
+    authorLink: https://github.com/fe1ixz
+    category:
+      - hands
+      - collaboration
+    content: >
+      The W3C Immersive Web Community Group's [library of input profiles and models](https://github.com/immersive-web/webxr-input-profiles) is quickly becomming the default tool to show controllers in WebXR. This week Tianrui "Felix" Zhang from the Facebook Reality Lab [contributed generic hand models](https://github.com/immersive-web/webxr-input-profiles/pull/197) and (after a [bit of help](https://github.com/immersive-web/webxr-input-profiles/pull/198) from Brandon Jones of Google) developers can now hit the ground running with [WebXR hand input](https://immersive-web.github.io/webxr-hand-input/). One day after the models arrived, [Max announced support in Wonderland](https://twitter.com/mrmaxm/status/1387461212829540355).
+      <br style="margin-bottom: 15px" />
+      This is the sort of cross-org collaboration that is rarely organized anywhere other than in standards bodies. Go, team!
+  -
+    title: Denoyel On The State of 3D Content
+    url: https://anchor.fm/vhiterabbit/episodes/Episode-037-with-Alban-Denoyel-Founding-Sketchfab--3D-scanning-and-much-more-esk0dk
+    author: Vhite Rabbit Podcast
+    authorLink: https://anchor.fm/vhiterabbit/
+    category:
+      - podcast
+      - interview
+    content: >
+      My go-to site for finding and buying immersive web content is Sketchfab. In [this interview](https://anchor.fm/vhiterabbit/episodes/Episode-037-with-Alban-Denoyel-Founding-Sketchfab--3D-scanning-and-much-more-esk0dk), Sketchfab's founder [Alan Denoyel](https://twitter.com/albn/) talks about the tumultuous history of the site, how it's faring today, and what to expect in the future.
+  -
+    title: Metaverse Mondays
+    url: https://ios.joinclubhouse.com/club/game-industry
+    author: Jon Radoff
+    authorLink: 
+    category:
+      - game-industry
+    content: >
+      The games industry is waking up to the idea of "the metaverse" and the role of web standards in almost every vision for that future. [Every Monday in Clubhouse](https://ios.joinclubhouse.com/club/game-industry) Jon Radoff gathers game industry folks to talk about how they see the foundations for a shared immersive space unfold.
+  -
+    title: XRPet++
+    url: https://twitter.com/Tojiro/status/1387523491843346432
+    author: Brandon Jones
+    authorLink: https://twitter.com/Tojiro/
+    category:
+      - fuzz frens
+    content: >
+      Yes, friends. You can now pet the pets:
+      <blockquote>My <a href="https://xrpet.me">"WebXR fuzzy thing petting simulator"</a> has been updated to support the latest hand tracking standard (which Oculus Quest implements). Pet on, my friends!</blockquote>
