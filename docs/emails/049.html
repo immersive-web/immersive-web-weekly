@@ -632,7 +632,7 @@
                                                 <tr>
                                                     <td valign="top">
                                                         <div mc:edit="preheader_rightcol_content">
-                                                            <p><a href="https://immersivewebweekly.com/docs/issues/048/" target="_blank">View email in your browser</a></p>
+                                                            <p><a href="https://immersivewebweekly.com/docs/issues/049/" target="_blank">View email in your browser</a></p>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -668,121 +668,141 @@
                                 <!-- BEGIN MODULE: BODY CONTENT // -->
                                 <div mc:edit="body_content">
                                     <h1><a href="https://immersivewebweekly.com">Immersive Web Weekly</a></h1>
-                                    <div class="info">Immersive Web Weekly: <a href="https://immersivewebweekly.com/docs/issues/048/">Issue #048</a>, April 27, 2021</div>
+                                    <div class="info">Immersive Web Weekly: <a href="https://immersivewebweekly.com/docs/issues/049/">Issue #049</a>, May 04, 2021</div>
                                     <div id="overview">
-                                        <p>The combination of this week's <a href="https://www.collabora.com/news-and-blog/blog/2021/04/20/continuous-3d-hand-pose-tracking-using-machine-learning-and-monado-openxr/">progress towards fully open hardware for AR</a> and Imanol's announcement of a FOSS stack for WebXR (the first story 👇) has me walking on clouds. I'm so deeply proud of and grateful for everyone who played a part in making this happen. I am having trouble waiting to see what happens next.
-  <br style="margin-bottom: 20px" />
-Throw off your NDAs, burn down your intellectual firewall, and procure your new BOM because it's time for another issue of the Immersive Web Weekly!</p>
+                                        <p>This week was quite busy for this community and for me. On the heels of releasing a small <a href="https://transmutable.com/goods/">mechatronics product</a> and <a href="https://twitter.com/TrevorFSmith/status/1388494858797543425">starting one with more ambition</a>, we held a town hall meeting to collaboratively choose topics for the <a href="https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061">WebXR Developer Summit</a> on May 25th. Seeing everyone's excellent ideas and directions in the town hall and then waking up early this morning to a flood of notifications about news for this issue, I feel like we've pushed the WebXR rock up the hill, over the top, and now it's picking up speed on its own. <br style="margin-bottom: 15px" /> Don your protective elbow pads, grease your hubs, and stick new griptape to your deck because it's time for another issue of the Immersive Web Weekly!</p>
                                         <p>- <a href="https://trevor.smith.name/">Trevor Flowers</a> from <a href="https://transmutable.com/">Transmutable</a></p>
                                     </div>
                                     <div id="content">
-                                        <h2><a href="https://blogs.igalia.com/ifernandez/2021/01/webxr-webkit/" target="_new">For The First Time: A FOSS Stack for WebXR
-</a></h2>
-                                        <p>Imanol Fernández from the Igalia team created quite a stir this week when he <a href="https://twitter.com/MortimerGoro/status/1385267008711823364">announced</a> that he has implemented <a href="https://blogs.igalia.com/ifernandez/2021/01/webxr-webkit/">WebXR in the open source WebKit browser engine on top of Monado's implementation of OpenXR which runs on Linux</a>.  <br style="margin-bottom: 20px" /> <strong>🎉 For the first time ever we have a fully open source software stack for the immersive web! 🎉</strong> <br style="margin-bottom: 20px" /> A few days later, Moses Turner used that work to <a href="https://twitter.com/guyfrombible/status/1386899099522326529">bring up WebXR on the partially<sup>*</sup> open source hardware</a> of a North Star headset. <br style="margin-bottom: 20px" /> * The sensor bar from <a href="https://www.ultraleap.com/product/leap-motion-controller/">Ultraleap</a> is not open.</p>
+                                        <h2><a href="https://bai.dev/projects/webxr-electron-apr2021" target="_new">Wrap WebXR in Native For Fun and (Maybe) Profit</a></h2>
+                                        <p>Long time immersive web creator James Baicoianu has published a <a href="https://bai.dev/projects/webxr-electron-apr2021">detailed HOWTO</a> about using the <a href="https://www.electronjs.org/">Electron wrapper utility</a> to create installable native applications that behind the scenes are WebXR experiences running in Chromium. Web designers and developers can now deploy their experiences via the web or (theoretically) via app stores from Valve, Epic, Itch, and Microsoft.</p>
                                         <div class="meta">
-                                              <span class="tag tag-foss">foss</span>
-                                              <span class="tag tag-browser">browser</span>
+                                              <span class="tag tag-app-store">app store</span>
                                             <span> > </span>
-                                            <span class="domain"><a href="https://blogs.igalia.com/ifernandez/2021/01/webxr-webkit/">igalia.com</a></span>
+                                            <span class="domain"><a href="https://bai.dev/projects/webxr-electron-apr2021">bai.dev</a></span>
                                             <span> | </span>
                                             <span class="author">
-                                                <a href="https://twitter.com/MortimerGoro/">
-                                                    Imanol Fernández
+                                                <a href="https://twitter.com/bai0/">
+                                                    James Baicoianu
                                                 </a>
                                             </span>
                                         </div>
-                                        <h2><a href="https://twitter.com/mrdoob/status/1385569965986693122" target="_new">11 Years of Three.js</a></h2>
-                                        <p>Ricardo has mentioned several times (including in <a href="https://twitter.com/mrdoob/status/1362508150507790343">his pinned tweet</a>) that starting the rendering engine Three.js was perhaps a foolish endeavor but the results were far more than he imagined. This week the little engine that could (thanks to a huge community!) hit its <a href="https://twitter.com/mrdoob/status/1385569965986693122">11th anniversary</a>. To celebrate, Ricardo worked to <a href="https://twitter.com/mrdoob/status/1385184290867187715">bring the popular DAT.GUI 2D UI framework into VR</a>. Kudos to Ricardo and to the entire Three community.</p>
+                                        <h2><a href="https://youtu.be/rAWeW6Q5Cuw" target="_new">Alan Jeffrey on Streaming Flat Video from WebXR</a></h2>
+                                        <p>Cloud rendering has landed with services like <a href="https://stadia.google.com/">Stadia</a> and <a href="https://www.mightyapp.com/">Mighty App</a> but while working in the Mozilla MR team (RIP 😿) Alan Jeffrey worked on streaming video of WebXR sessions from within the <a href="https://servo.org/">Servo browser engine</a> and <a href="https://gstreamer.freedesktop.org/">GStreamer</a>. In <a href="https://youtu.be/rAWeW6Q5Cuw">his recent talk</a> Alan talked about the origin and potential of this project.</p>
                                         <div class="meta">
-                                              <span class="tag tag-something">something</span>
+                                              <span class="tag tag-servo">servo</span>
+                                              <span class="tag tag-cloud-rendering">cloud rendering</span>
                                             <span> > </span>
-                                            <span class="domain"><a href="https://twitter.com/mrdoob/status/1385569965986693122">twitter.com</a></span>
+                                            <span class="domain"><a href="https://youtu.be/rAWeW6Q5Cuw">youtu.be</a></span>
                                             <span> | </span>
                                             <span class="author">
-                                                <a href="https://twitter.com/mrdoob/">
-                                                    Ricardo Cabello
+                                                <a href="https://twitter.com/asajeffrey/">
+                                                    Alan Jeffrey
                                                 </a>
                                             </span>
                                         </div>
-                                        <h2><a href="https://twitter.com/frame_vr/status/1384855988835131392" target="_new">The Frame Team Show How To Get It Done</a></h2>
-                                        <p>This week the Frame team at Virbela <a href="https://twitter.com/frame_vr/status/1387049874747629581">released an update</a>. I write "update" but it's more of a rewrite! They switched to BabylonJS for rendering, now host up to 75 users per shared space, and added a host of features like whiteboards, shared docs, 3D imports, and fast replication so that communication (including body language) freely flows. Definitely check out <a href="https://learn.framevr.io/">the new site</a> but if a video summary would help then watch <a href="https://www.youtube.com/watch?v=I7EtzLl-jis">Jason from Microsoft and Gabe from Virbela talk about the switch to Babylon</a>.</p>
+                                        <h2><a href="https://bytecodealliance.org/press/calling-for-new-members" target="_new">WebAssembly&#x27;s Home Has Non-profit Status and Calls for Members</a></h2>
+                                        <p>A large number of people have worked (many as volunteers) to make this happen so that WebAssembly and WASI can be the foundation on which we build a wider web. <blockquote><a href="https://bytecodealliance.org/">The Bytecode Alliance</a>, a community dedicated to creating new software foundations, building on standards such as WebAssembly and WebAssembly System Interface (WASI), today announced incorporation as a 501(c)(6) non-profit organization. Incorporated by Fastly, Intel, Mozilla and Microsoft, the Bytecode Alliance now invites organizations to join its cross-industry collaborative mission alongside new members Arm, DFINITY Foundation, Embark Studios, Google, Shopify, and University of California at San Diego.</blockquote></p>
                                         <div class="meta">
-                                              <span class="tag tag-upgrade">upgrade</span>
+                                              <span class="tag tag-foundation">foundation</span>
                                             <span> > </span>
-                                            <span class="domain"><a href="https://twitter.com/frame_vr/status/1384855988835131392">twitter.com</a></span>
+                                            <span class="domain"><a href="https://bytecodealliance.org/press/calling-for-new-members">bytecodealliance.org</a></span>
                                             <span> | </span>
                                             <span class="author">
-                                                <a href="https://www.virbela.com/">
-                                                    Virbela
+                                                <a href="https://bytecodealliance.org/">
+                                                    Bytecode Alliance
                                                 </a>
                                             </span>
                                         </div>
-                                        <h2><a href="https://secondskyfest.com/" target="_new">A Night Under a Secret Sky</a></h2>
-                                        <p>Saturday evening found many of this community waving their arms to the beat as a series of artists spun music to a crowd gathered under a beautiful Secret Sky. This space was created by <a href="https://activetheory.net/home">Active Theory</a>, a creative studio based out of Venice (the one in California) and Amsterdam but they had help from developers from the Facebook Reality Lab. Even <a href="https://www.pcgamer.com/vr-music-festival-virtual-reality/">PC Gamer took note</a> and they usually stick to app store VR. While the space is now closed you can get a sense of the experience in <a href="https://twitter.com/dankvr/status/1386155487356506112">jin from Webaverse's screencapture</a>.</p>
+                                        <h2><a href="https://babylonjs.medium.com/unleash-your-animations-with-ace-57c9b04cab2e" target="_new">Animation Curve Editor Coming to Babylon</a></h2>
+                                        <p>3D content editors like Blender and Maya have long provided visual tools for creators to animate both motion and properties like material colors. This week the Babylon team <a href="https://babylonjs.medium.com/unleash-your-animations-with-ace-57c9b04cab2e">revealed</a> that they're bringing that capability to the Babylon scene editor. They have released an <a href="https://www.babylonjs-playground.com/#9WUJN#1402">early alpha demonstration</a> for the community to test and to encourage feedback. Features like this curve editor will enable more creators (including non-coders) to implement their vision of the immersive web.</p>
                                         <div class="meta">
-                                              <span class="tag tag-event">event</span>
+                                              <span class="tag tag-editor">editor</span>
+                                              <span class="tag tag-animation">animation</span>
                                             <span> > </span>
-                                            <span class="domain"><a href="https://secondskyfest.com/">secondskyfest.com</a></span>
+                                            <span class="domain"><a href="https://babylonjs.medium.com/unleash-your-animations-with-ace-57c9b04cab2e">medium.com</a></span>
                                             <span> | </span>
                                             <span class="author">
-                                                <a href="https://twitter.com/secondskyfest">
-                                                    Second Sky Fest
+                                                <a href="https://twitter.com/deltakosh">
+                                                    David Catuhe
                                                 </a>
                                             </span>
                                         </div>
-                                        <h2><a href="https://www.8thwall.com/blog/post/45786174106/introducing-release-16-8th-walls-world-class-ar-engine-for-the-web-just-got-even-more-powerful" target="_new">That 8th Wall Flex</a></h2>
-                                        <p>The 8th Wall team has long been a member of the Immersive Web CG so it's no surprise to see that their <a href="https://www.8thwall.com/blog/post/45786174106/introducing-release-16-8th-walls-world-class-ar-engine-for-the-web-just-got-even-more-powerful">new release</a> came with <a href="https://www.8thwall.com/blog/post/45697581391/building-the-next-generation-of-slam-for-the-browser">solid environment mapping and an entirely new renderer</a>.</p>
+                                        <h2><a href="https://twitter.com/maxweisel/status/1387813804357083147" target="_new">Normcore for WebGL Enters Beta</a></h2>
+                                        <p>One missing piece from Unity-to-Web exporters like <a href="https://github.com/De-Panther/unity-webxr-export">this one</a> has been support for networked replication. Multi-user support requires this feature so it's great news to hear from Max Weisel that the popular <a href="https://twitter.com/maxweisel/status/1387813804357083147">Normcore replication library has an alpha build that targets the web</a>. Details are light but should it go live it will fill an important gap for Unity projects.</p>
                                         <div class="meta">
-                                              <span class="tag tag-update">update</span>
+                                              <span class="tag tag-replication">replication</span>
                                             <span> > </span>
-                                            <span class="domain"><a href="https://www.8thwall.com/blog/post/45786174106/introducing-release-16-8th-walls-world-class-ar-engine-for-the-web-just-got-even-more-powerful">8thwall.com</a></span>
+                                            <span class="domain"><a href="https://twitter.com/maxweisel/status/1387813804357083147">twitter.com</a></span>
                                             <span> | </span>
                                             <span class="author">
-                                                <a href="https://www.8thwall.com/">
-                                                    8th Wall
+                                                <a href="https://twitter.com/maxweisel/">
+                                                    Max Weisel
                                                 </a>
                                             </span>
                                         </div>
-                                        <h2><a href="https://godotengine.org/article/godot-3-3-has-arrived" target="_new">No Longer Waiting for WebXR in Godot</a></h2>
-                                        <p>The Godot team has had web export for many months but <a href="https://godotengine.org/article/godot-3-3-has-arrived">version 3.3</a> is the first to ship <a href="https://godotengine.org/article/godot-3-3-has-arrived#webxr">WebXR support</a> as part of a stable, production-ready build.  </p>
-                                        <div class="meta">
-                                              <span class="tag tag-engine">engine</span>
-                                              <span class="tag tag-update">update</span>
-                                            <span> > </span>
-                                            <span class="domain"><a href="https://godotengine.org/article/godot-3-3-has-arrived">godotengine.org</a></span>
-                                            <span> | </span>
-                                            <span class="author">
-                                                <a href="https://godotengine.org/">
-                                                    Godot Engine
-                                                </a>
-                                            </span>
-                                        </div>
-                                        <h2><a href="https://twitter.com/hashtag/OBJKT4OBJKT" target="_new">#OBJKT4OBJKT (translation: Object for Object)
-</a></h2>
-                                        <p>This week we saw two NFT-based art galleries open on the immersive web to promote the rapidly growing community of artists participating in Hic et Nunc's <a href="https://twitter.com/hashtag/OBJKT4OBJKT">#OBJKT4OBJKT</a> social media campaign. With a few waves of the wand you can visit <a href="https://hubs.mozilla.com/SnJevdp/hubs-et-nunc">Hubs et Nunc</a> et <a href="https://framevr.io/nft">Frame et Nunc</a>.      </p>
+                                        <h2><a href="https://twitter.com/kitaedesigns/status/1388844002284347396" target="_new">Hands, But Different</a></h2>
+                                        <p>While I usually cover new hand libraries and models (see below for an example) this immersive experience uses hands in a different mode: as source material for art. <a href="https://www.kitaedesigns.com/">Kitae Kim</a>'s new <a href="https://twitter.com/kitaedesigns/status/1388844002284347396">sculpture park</a> incorporates many scans of the artists hands. </p>
                                         <div class="meta">
                                               <span class="tag tag-art">art</span>
-                                              <span class="tag tag-nft">nft</span>
-                                              <span class="tag tag-hic-et-nunc">hic et nunc</span>
                                             <span> > </span>
-                                            <span class="domain"><a href="https://twitter.com/hashtag/OBJKT4OBJKT">twitter.com</a></span>
+                                            <span class="domain"><a href="https://twitter.com/kitaedesigns/status/1388844002284347396">twitter.com</a></span>
                                             <span> | </span>
                                             <span class="author">
-                                                <a href="https://www.hicetnunc.xyz/">
-                                                    Hic et Nunc
+                                                <a href="https://www.kitaedesigns.com/">
+                                                    Kitae Kim
                                                 </a>
                                             </span>
                                         </div>
-                                        <h2><a href="https://twitter.com/brianpeiris/status/1385639558176550923" target="_new">Brian Scrapes Experiences</a></h2>
-                                        <p>Large search engines are generally unable to provide direct links to immersive web experiences so Hubs engineer Brian Peiris wrote (on his own time) an experimental web scraper that looks for common WebXR patterns.</p>
+                                        <h2><a href="https://github.com/immersive-web/webxr-input-profiles/pull/197" target="_new">Updated Hand Models</a></h2>
+                                        <p>The W3C Immersive Web Community Group's <a href="https://github.com/immersive-web/webxr-input-profiles">library of input profiles and models</a> is quickly becomming the default tool to show controllers in WebXR. This week Tianrui "Felix" Zhang from the Facebook Reality Lab <a href="https://github.com/immersive-web/webxr-input-profiles/pull/197">contributed generic hand models</a> and (after a <a href="https://github.com/immersive-web/webxr-input-profiles/pull/198">bit of help</a> from Brandon Jones of Google) developers can now hit the ground running with <a href="https://immersive-web.github.io/webxr-hand-input/">WebXR hand input</a>. One day after the models arrived, <a href="https://twitter.com/mrmaxm/status/1387461212829540355">Max announced support in Wonderland</a>. <br style="margin-bottom: 15px" /> This is the sort of cross-org collaboration that is rarely organized anywhere other than in standards bodies. Go, team!</p>
                                         <div class="meta">
-                                              <span class="tag tag-experiment">experiment</span>
+                                              <span class="tag tag-hands">hands</span>
+                                              <span class="tag tag-collaboration">collaboration</span>
                                             <span> > </span>
-                                            <span class="domain"><a href="https://twitter.com/brianpeiris/status/1385639558176550923">twitter.com</a></span>
+                                            <span class="domain"><a href="https://github.com/immersive-web/webxr-input-profiles/pull/197">github.com</a></span>
                                             <span> | </span>
                                             <span class="author">
-                                                <a href="https://twitter.com/brianpeiris/">
-                                                    Brian Peiris
+                                                <a href="https://github.com/fe1ixz">
+                                                    Tianrui &quot;Felix&quot; Zhang
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <h2><a href="https://anchor.fm/vhiterabbit/episodes/Episode-037-with-Alban-Denoyel-Founding-Sketchfab--3D-scanning-and-much-more-esk0dk" target="_new">Denoyel On The State of 3D Content</a></h2>
+                                        <p>My go-to site for finding and buying immersive web content is Sketchfab. In <a href="https://anchor.fm/vhiterabbit/episodes/Episode-037-with-Alban-Denoyel-Founding-Sketchfab--3D-scanning-and-much-more-esk0dk">this interview</a>, Sketchfab's founder <a href="https://twitter.com/albn/">Alan Denoyel</a> talks about the tumultuous history of the site, how it's faring today, and what to expect in the future.</p>
+                                        <div class="meta">
+                                              <span class="tag tag-podcast">podcast</span>
+                                              <span class="tag tag-interview">interview</span>
+                                            <span> > </span>
+                                            <span class="domain"><a href="https://anchor.fm/vhiterabbit/episodes/Episode-037-with-Alban-Denoyel-Founding-Sketchfab--3D-scanning-and-much-more-esk0dk">anchor.fm</a></span>
+                                            <span> | </span>
+                                            <span class="author">
+                                                <a href="https://anchor.fm/vhiterabbit/">
+                                                    Vhite Rabbit Podcast
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <h2><a href="https://ios.joinclubhouse.com/club/game-industry" target="_new">Metaverse Mondays</a></h2>
+                                        <p>The games industry is waking up to the idea of "the metaverse" and the role of web standards in almost every vision for that future. <a href="https://ios.joinclubhouse.com/club/game-industry">Every Monday in Clubhouse</a> Jon Radoff gathers game industry folks to talk about how they see the foundations for a shared immersive space unfold.</p>
+                                        <div class="meta">
+                                              <span class="tag tag-game-industry">game-industry</span>
+                                            <span> > </span>
+                                            <span class="domain"><a href="https://ios.joinclubhouse.com/club/game-industry">joinclubhouse.com</a></span>
+                                            <span> | </span>
+                                            <span class="author">
+                                                    Jon Radoff
+                                            </span>
+                                        </div>
+                                        <h2><a href="https://twitter.com/Tojiro/status/1387523491843346432" target="_new">XRPet++</a></h2>
+                                        <p>Yes, friends. You can now pet the pets: <blockquote>My <a href="https://xrpet.me">"WebXR fuzzy thing petting simulator"</a> has been updated to support the latest hand tracking standard (which Oculus Quest implements). Pet on, my friends!</blockquote></p>
+                                        <div class="meta">
+                                              <span class="tag tag-fuzz-frens">fuzz frens</span>
+                                            <span> > </span>
+                                            <span class="domain"><a href="https://twitter.com/Tojiro/status/1387523491843346432">twitter.com</a></span>
+                                            <span> | </span>
+                                            <span class="author">
+                                                <a href="https://twitter.com/Tojiro/">
+                                                    Brandon Jones
                                                 </a>
                                             </span>
                                         </div>
@@ -838,7 +858,7 @@ Throw off your NDAs, burn down your intellectual firewall, and procure your new 
                                         <td valign="top" id="utilityBar">
                                             <div mc:edit="utility_bar">
                                                 <a href="*|UNSUB|*" class="utilityLink">unsubscribe from this list</a><span class="mobileHide"> | </span><a href="*|UPDATE_PROFILE|*" class="utilityLink">update subscription preferences</a>
-                                                <!-- *|IFNOT:ARCHIVE_PAGE|* --><span class="mobileHide"> | </span><a href="https://immersivewebweekly.com/issues/048" class="utilityLink">view email in browser</a>
+                                                <!-- *|IFNOT:ARCHIVE_PAGE|* --><span class="mobileHide"> | </span><a href="https://immersivewebweekly.com/issues/049" class="utilityLink">view email in browser</a>
                                                 <!-- *|END:IF|* -->
                                             </div>
                                         </td>
