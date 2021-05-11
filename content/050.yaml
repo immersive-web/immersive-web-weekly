@@ -1,0 +1,77 @@
+date: 2021-05-11
+overview: >
+  While Epic and Apple argue the semantics of "game" and "metaverse" with billions of dollars on the line, this week the immersive web community focused on shipping tools and experiences that moot those definitions.
+  <br style="margin-bottom: 15px" />
+  Balance your polishing wheel, adjust your apertures, calculate your focal points, and heat up your pitch because it's time for another issue of the Immersive Web Weekly!
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) (now with [face pontoons](https://twitter.com/TrevorFSmith/status/1390798672699351040))
+
+summary: WXR, Active Theory, Bob Ross, and Dinosaurs
+
+links:
+  -
+    title: LaMeyer and Welkhoff Talk XR Ventures
+    url: https://medium.com/authority-magazine/wisdom-from-the-women-leading-the-vr-ar-mixed-reality-industries-with-amy-lameyer-and-martina-839998ee86ce
+    author: Fotis Georgiadis
+    authorLink: https://medium.com/@fotisg613
+    category:
+      - interview
+      - funding
+    content: >
+      In [this interview](https://medium.com/authority-magazine/wisdom-from-the-women-leading-the-vr-ar-mixed-reality-industries-with-amy-lameyer-and-martina-839998ee86ce) the founders of the [WXR Venture Fund](https://www.wxrfund.com/), Amy LaMeyer and Martina Welkhoff, discuss how companies can play a part in developing the culture of XR as well as concerns like privacy, emotional safety, and accessibility. 
+  -
+    title: npm install all-of-poly
+    url: https://twitter.com/lewy_blue/status/1390633012790906885
+    author: Sara Viera
+    authorLink: https://twitter.com/NikkitaFTW
+    category:
+      - Something
+    content: >
+      Thanks to work by [Sara Viera](https://twitter.com/NikkitaFTW) and others in the [Poimandres collective](https://twitter.com/pmndrs), a [new "dev-first" asset market is taking shape](https://twitter.com/0xca0a/status/1390312797326688262). Assets will be available via the `npm install` command and Lewy Blue recently revealed that [he's scraping public models from the Poly service](https://twitter.com/lewy_blue/status/1390633012790906885) so there will be a large selection of models at launch.
+  -
+    title: Export Hands From Unity
+    url: https://twitter.com/DePanther/status/1390334611683745798
+    author: Oren "De-Panther" Weizman
+    authorLink: 
+    category:
+      - Something
+    content: >
+      The [WebXR Export for Unity](https://github.com/De-Panther/unity-webxr-export) project is picking up steam with the addition of [support for hand models](https://twitter.com/DePanther/status/1390334611683745798) via the [WebXR Input Profiles](https://github.com/immersive-web/webxr-input-profiles/) library. Oren has put together a [demo](https://de-panther.github.io/unity-webxr-export) scene for people interested in the experience.
+  -
+    title: Put Your Brush To Work
+    url: https://brushworkvr.com/
+    author: Sunset Division
+    authorLink: https://www.therigvr.com/about/
+    category:
+      - art
+    content: >
+      [Brushwork](https://brushworkvr.com/) is an experimental experience in which to channel your inner Bob Ross. Import a reference image and then while away the hours putting paint on canvas.
+  -
+    title: Active Theory Plays The Field
+    url: https://foefestival.wsj.com/the-field/
+    author: 
+    authorLink: 
+    category:
+      - public sky
+    content: >
+      Coming off of their recent success with the Secret Sky event, creative experience creators Active Theory are hosting ["The Field"](https://foefestival.wsj.com/the-field/) for the Wall Street Journal's [The Future of Everything Festival](https://foefestival.wsj.com/).
+  -
+    title: >
+      "Keep Hands Inside Car At All Times"
+    url: https://twitter.com/Tojiro/status/1391803124646440961
+    author: Brandon Jones
+    authorLink: https://twitter.com/Tojiro/
+    category:
+      - the hand that codes you
+    content: >
+      WebXR spec editor Brandon Jones [announced](https://twitter.com/Tojiro/status/1391803124646440961) that [XR Dinosaurs](https://www.xrdinosaurs.com/) now has hand support. Be careful though, the mastodon doesn't appreciate some hand gestures. 
+  -
+    title: Another Weekly Enters The Field
+    url: https://www.forbes.com/sites/cathyhackl/2021/05/08/metaverse-weekly-brands-stories-and-investments-dispatched-from-the-metaverse/
+    author: Cathy Hackl
+    authorLink: https://twitter.com/CathyHackl/
+    category:
+      - news
+    content: >
+      Long-time reporter on XR and the tech that surrounds it Cathy Hackl [launched a new series](https://www.forbes.com/sites/cathyhackl/2021/05/08/metaverse-weekly-brands-stories-and-investments-dispatched-from-the-metaverse/?sh=1c4ffd845d6e) on Forbes to focus on "the metaverse". Perhaps she can help Epic and Apple with a definition.
