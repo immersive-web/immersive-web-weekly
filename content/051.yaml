@@ -1,15 +1,108 @@
 date: 2021-05-18
 overview: >
-  Overvew here in markdown
+  We hit a bit milestone this week: WebXR is on by default on the Hololens 2. Details are below but I want to give kudos to the many people in the W3C immersive web groups who worked across orgs and within Microsoft to make this happen. For the first time there is an enterprise-ready, immersive, see-through augmented reality headset that ships with the standardized immersive web as a first-class feature. That's a big deal and you, dear readers, made it happen.
 
-signed: Trevor Flowers
+summary: Hololens Ships Real WebXR, Spatial Goes Webish, A11y, and The Monolith
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), the emcee with the [place to be](https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Spatial Retreats from Native-only
+    url: https://twitter.com/spatialxr/status/1393212337386098689
+    author: Spatial
+    authorLink: https://spatial.io/
     category:
-      - Category here
+      - world wide welcome
     content: >
-      Summary content goes here in markdown
+      Spatial is something of a poster child for native XR apps with support for app stores from Facebook, Microsoft, Magic Leap, Nreal, and Apple. This week they played a bit of catch-up with Mozilla Hubs, Frame, and other web-oriented social spaces by [announcing a web client](https://twitter.com/spatialxr/status/1392826790700371971). They currently only support flat screens (no WebXR support) and for some reason the announcement is tied to Ethereum-based NFT galleries (🤦‍♀️) but this is a good sign that more organizations are recognizing the reach and capabilities of the browser for XR spaces.
+  -
+    title: WebXR For Real and Actually on Hololens 2
+    url: https://docs.microsoft.com/en-us/hololens/hololens-release-notes#windows-holographic-version-21h1
+    author: Microsoft
+    authorLink: https://microsoft.com
+    category:
+      - browser
+    content: >
+      While WebXR has been available and solid for months as a developer preview, this week saw the release of Windows Holographic v21h1 with [WebXR turned on in Edge](https://docs.microsoft.com/en-us/hololens/hololens-release-notes#webxr-and-360-viewer). There's no more need for special builds, flags, origin trials, or any other barriers to entry. WebXR is on by default and will remain that way for the foreseeable future. 🎉
+  -
+    title: WebXR Developer Summit in One Week
+    url: https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061
+    author: The Polys Production Team
+    authorLink: https://webxr.events/
+    category:
+      - event
+    content: >
+      On Tuesday the 25th (one week! 🙀) I'll host the 2021 WebXR Developer Summit, an all-day streaming event that explores the state of today's immersive web and the future of the wider web. I've booked speakers from every WebXR-implementing browser team that isn't Apple and as many XR developer teams as we could pack into the day. We'll stream on Twitch and there will be a variety of XR spaces (both webish and native) hosting watch parties. [Register for free](https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061) to receive invites to the events of the day including a special surprise from the team that recently hosted the largest immersive web event in history.
+  -
+    title: A Primary Primer
+    url: http://www.primaryobjects.com/2021/05/10/creating-virtual-reality-using-webxr/
+    author: Kory Becker
+    authorLink: https://twitter.com/PrimaryObjects/
+    category:
+      - tutorial
+    content: >
+      I see a lot of tutorials that introduce people to WeXR but rarely do they provide the wider context about XR and then provide great examples that leverage the most recent tools for creating immersive experiences. [This tutorial](http://www.primaryobjects.com/2021/05/10/creating-virtual-reality-using-webxr/) from Kory Becker is exceptional on both counts.
+  -
+    title: A11y in M5a H2s
+    url: https://www.meetup.com/a11yvr/events/277665999/
+    author: Dan Fernie-Harper
+    authorLink: 
+    category:
+      - event
+    content: >
+      This Friday (May 21) Mozilla designer [Dan Fernie-Harper will talk about accessibility in Hubs](https://www.meetup.com/a11yvr/events/277665999/). 
+  -
+    title: On The Fly USDZ
+    url: https://twitter.com/modelviewer/status/1394335557581369349
+    author: Google model-viewer team
+    authorLink: https://twitter.com/modelviewer/
+    category:
+      - library
+    content: >
+      Apple's non-standard support of USDZ in Safari has always been a bit of an oddball for immersive web creators, requiring build-time code to convert standard glTF assets to match Safari's proprietary deployment option. Building off of work by Ricardo Cabello, the Google team has implemented [in-browser conversion of glTF to USDZ](https://twitter.com/modelviewer/status/1394335557581369349) so that creators can create a single standard asset and call it good.
+  -
+    title: Dudes!
+    url: https://twitter.com/DaniGatunes/status/1392677447846580228
+    author: Daniel Esteban
+    authorLink: https://twitter.com/DaniGatunes/
+    category:
+      - experience
+    content: >
+      Prolific XR creator Danial Esteban has [released](https://twitter.com/DaniGatunes/status/1392677447846580228) (and continues to improve) an [alpha version of Dudes!](https://dudes.gatunes.com/). The experience starts with an adventure in a helicopter but you can also [jump straight to the party](https://twitter.com/DaniGatunes/status/1394124055159136259).
+  -
+    title: From Template to ecoNFT in Ten Minutes
+    url: https://github.com/hicetnunc2000/hicetnunc/tree/main/templates/html-three-webxr-template
+    author: Michael Hazani
+    authorLink: https://twitter.com/michaelhazani/
+    category:
+      - blockchain
+    content: >
+      The XR community seems to be avoiding the more pollution-heavy blockchains and instead having fun on lighter-weight infrastructure like Hic et Nunc. This week Michael Hazani [worked out](https://twitter.com/michaelhazani/status/1394374798537461760) all of the boilerplate for publishing a WebXR experience as a non-fungible token and [shared the code](https://github.com/hicetnunc2000/hicetnunc/tree/main/templates/html-three-webxr-template) to make it easier for others to get started.  
+  -
+    title: Collect Them All
+    url: https://extendedcollection.com/
+    author: Joseph Simpson
+    authorLink: https://twitter.com/radicalappdev/
+    category:
+      - aggregator
+    content: >
+      Joseph Simpson is [curating](https://twitter.com/radicalappdev/status/1393941204501516289) the [Extended Collection](https://extendedcollection.com/) to provide the community with a nice answer to "What can I do on the immersive web?".
+  -
+    title: Be The Chess Piece
+    url: https://www.eventbrite.com/e/virtual-reign-immersive-chess-launch-party-tickets-154849136937
+    author: Will Murphy
+    authorLink: https://web.immers.space/
+    category:
+      - event
+    content: This Thursday the Immers Space team will [host a launch party](https://www.eventbrite.com/e/virtual-reign-immersive-chess-launch-party-tickets-154849136937) for their Hubs-based social chess game.
+  -
+    title: The Monolith and the Primate
+    url: https://twitter.com/jamesckane/status/1394352221572280327
+    author: James C. Kane
+    authorLink: https://jamesckane.com/
+    category:
+      - stranger than we can imagine
+    content: >
+      We always knew that standardizing XR on the open web would bring unexpected results but I honestly didn't expect to see a [monolithic neural net speaking with a flying monkey](https://twitter.com/jamesckane/status/1394352221572280327).
