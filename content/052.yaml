@@ -1,0 +1,73 @@
+date: 2021-05-25
+overview: >
+  This issue of the IWW will land in your inbox a bit earlier than usual because *today* I'm hosting the [2021 WebXR Developer Summit](https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061), an all-day free event featuring as many browser teams, library writers, and immersive web creators as we can pack into 8 (!) hours of live-streamed conversations.
+
+summary: Dev Summit, WebGPU, Layers, and Poimandres 
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), the emcee with the [place to be](https://www.eventbrite.com/e/2021-webxr-developer-summit-tickets-149418602061)
+
+links:
+  -
+    title: Post Poly Poimandres
+    url: https://market.pmnd.rs/
+    author: Poimandres Collective
+    authorLink: https://pmnd.rs/
+    category:
+      - market
+    content: >
+      This week Paul from the Poimandres Collective [announced](https://twitter.com/0xca0a/status/1394697847556149250) a [new market for 3D assets](https://market.pmnd.rs/). It has been bootstrapped with Creative Commons licensed assets from [Kenney](https://www.kenney.nl) and is open for submissions via GitHub pull request.
+  -
+    title: First Look at WebGPU
+    url: https://www.w3.org/blog/news/archives/9059
+    author: GPU for the Web Working Group
+    authorLink: https://www.w3.org/2020/gpu/
+    category:
+      - specs
+    content: >
+      The W3C working group focused on the GPU announced two new public working drafts: [WebGPU](https://www.w3.org/TR/webgpu/) and [WebGPU Shading Language](https://www.w3.org/TR/2021/WD-WGSL-20210518/). These graphics APIs are set to form the basis for high-performance and highly-portable experiences on the immersive web so it's in every developer's interest to review and provide feedback.
+  -
+    title: Jump On the Oculus New Tab Page
+    url: https://developer.oculus.com/documentation/oculus-browser/browser-new-tab/
+    author: Facebook Reality Labs
+    authorLink: https://tech.fb.com/ar-vr/
+    category:
+      - promotion
+    content: >
+      Developers have long wondered how folks at Facebook choose immersive web experiences to promote on their browser's new tab page and thankfully [those questions are now answered](https://developer.oculus.com/documentation/oculus-browser/browser-new-tab/). Build it, ship it, test it, and then [submit it](https://oculusweb.facebookinc.com/submit)!
+  -
+    title: Layer On That Lovely Text
+    url: https://immersive-web.github.io/webxr-samples/layers-samples/
+    author: Facebook Reality Lab
+    authorLink: 
+    category:
+      - samples
+    content: >
+      As support for WebXR Layers matures in Facebook's immersive browser more developers are interested in trying out this method for increasing render quality while lowering performance costs. Luckily, the Oculus browser team has contributed [new samples](https://immersive-web.github.io/webxr-samples/layers-samples/) that demonstrate layers for high quality UI (including text) as well as lovely backgrounds. 
+  -
+    title: Augment That Reality
+    url: https://github.com/tentone/ar-occlusion
+    author: José Ferrão
+    authorLink: https://twitter.com/tentonej
+    category:
+      - toolkit
+    content: >
+      José Ferrão has continued to improve his [cohesive rendering and interaction toolkit](https://github.com/tentone/ar-occlusion) for augmented reality which includes lighting estimation, depth sensing, and hit testing.
+  -
+    title: A Journey of a Million Voxels Starts with One Step
+    url: https://codelabs.developers.google.com/ar-with-webxr
+    author: Dereck Bridie and Jordan Santell
+    authorLink: https://github.com/devbridie
+    category:
+      - tutorial
+    content: >
+      For Google I/O 2021 Derick Bridie updated Jordan Santell's [step by step tutorial](https://codelabs.developers.google.com/ar-with-webxr#0) and [shared code](https://github.com/googlecodelabs/ar-with-webxr/) for web-based AR apps.
+  -
+    title: Dude, Where's My Brush?
+    url: https://twitter.com/DaniGatunes/status/1395270918247796749
+    author: Daniel Esteban
+    authorLink: https://twitter.com/DaniGatunes/
+    category:
+      - toolkit
+    content: >
+      Last week we covered Daniel Esteban's alpha release of the "[Dudes!](https://dudes.gatunes.com/)" immersive experience and this week he maintained momentum by [announcing](https://twitter.com/DaniGatunes/status/1395270918247796749) that he used the same framework to build a TiltBrush-esque sculpting tool which he consistently named "[DudeBrush](https://dudes.gatunes.com/sculpt)".
