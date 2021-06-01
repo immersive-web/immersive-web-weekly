@@ -1,0 +1,113 @@
+date: 2021-06-01
+overview: >
+  Whew! If you missed last week's WebXR Developer Summit then don't worry because [Kent Bye's live coverage](https://twitter.com/kentbye/status/1397222166538735616) and the recordings ([morning](https://youtu.be/JVqoLKu09FA) and [afternoon](https://youtu.be/vb--3W1rCqc)) can get you up to speed.
+  <br style="margin-bottom: 15px">
+  I've spent the days since hosting the 9 hour event (after which I was a 🥔) [looking for donuts](https://twitter.com/heyvian/status/1397637805975605249) and [playing pacman](https://twitter.com/devdevcharlie/status/1315361966697975808).
+  <br style="margin-bottom: 15px">
+  Pour a glass of iced tea, plate the gazpacho, and tuck into a nice Summer meal because it's time for another issue of the Immersive Web Weekly!
+
+summary: North Star or Spectacles, Rhodonite, Blockbench, and Guided Walkthroughs
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), working on [face pontoons](https://twitter.com/TrevorFSmith/status/1388494858797543425) at [Transmutable](https://transmutable.com/)
+
+links:
+  -
+    title: Float over to VRTO
+    url: https://conference.virtualreality.to/
+    author: 
+    authorLink: 
+    category:
+      - event
+    content: >
+      Running June 2nd through the 8th, [VRTO Presents the Flotilla](https://conference.virtualreality.to/) is a "unique event is known for its interactive sessions & workshops, networking, & virtual world hopping to custom spaces." Immersive experience creators Dasha Kittredge and Ari Tarr are presenting a workshop/artwork, too. Pick up [tickets](https://www.eventbrite.ca/e/vrto-2021-virtual-reality-augmented-reality-world-conference-tickets-133403356029) for CA$268.92.
+  -
+    title: Snap's Spectacles and Everyone's North Star
+    url: https://docs.projectnorthstar.org/
+    author: Snap Inc. and the North Star Discord
+    authorLink: 
+    category:
+      - hardware
+      - trustworthy AR
+    content: >
+      This week Snap (makers of the [Snapchat](https://www.snapchat.com/) social app) [announced at their nicely produced developer event](https://mobile.twitter.com/Spectacles/status/1395442287367266304) a reinvention of their [sleekly integrated Spectacles glasses](https://www.spectacles.com/), now with immersive augmented displays and a custom development platform, Lens Studio, but with no web support.
+      <br />
+      Also this week the [developer discord](https://discord.gg/9TtZhb4) for the open and modular [North Star AR headset](https://docs.projectnorthstar.org/) discussed their roadmap and upcoming kickstarter from [Combine Reality](https://combinereality.com/). They also discussed new WebXR support on linux via [WPE](https://webkit.org/wpe/).
+      <br />
+      These two events and projects represent two ends of a spectrum that runs from hypercorp-funded, locked, one-app-fits-all glasses to global communities of (usually under-funded) collaborators sharing designs and software for custom AR rigs.
+  -
+    title: Fabrik without the C(ode)
+    url: https://twitter.com/AntonyAdhiban/status/1396745089297223683
+    author: Antony Adhiban
+    authorLink: https://twitter.com/AntonyAdhiban
+    category:
+      - no-code
+      - editor
+    content: >
+      Antony Adhiban and team [announced](https://twitter.com/AntonyAdhiban/status/1396745089297223683) this week that their no-code experience editor, [Fabrik](https://vark.fbrk.in/), is [live on Producthunt](https://www.producthunt.com/posts/fabrik-2) and ready to create user stories.
+  -
+    title: Minecraft But Web-ish
+    url: https://blockbench.net/
+    author: Jannis
+    authorLink: https://twitter.com/JannisX11
+    category:
+      - editor
+    content: >
+      [Blockbench](https://blockbench.net/) is a new voxel (aka "blocky") model editor that can run either as a native application or in your web browser. It can export OBJ and glTF models for easy use in engines like Three and Babylon as well as upload directly to Sketchfab for easy web shares. The project offers hosting but the [code is available](https://github.com/JannisX11/blockbench) under an open license for people who want to self-host or modify the experience.
+  -
+    title: Rhodonite Levels Up
+    url: https://twitter.com/emadurandal_cg/status/1399032533170278401
+    author: Emadurandal
+    authorLink: https://twitter.com/emadurandal_cg/
+    category:
+      - engine
+    content: >
+      The new version of the [WebGL library Rhodonite](https://www.npmjs.com/package/rhodonite), v0.3.22, offers improved WebXR support as well as support for the [VRM](https://vrm.dev/en/) format for digital bodies.
+  -
+    title: Snake Case Arrives at Open AR Cloud 
+    url: https://medium.com/openarcloud/experience-support-the-development-of-sparcl-1312bd5beebf
+    author: Open AR Cloud
+    authorLink: https://www.openarcloud.org/
+    category:
+      - experience
+    content: >
+      What started as a [tech preview for IEEE VR](https://youtu.be/J7Ew4rM86JA) has turned into [spARcl](https://github.com/OpenArCloud/sparcl), a client (web or native) for geo-located AR experiences using the [Open AR Cloud](https://www.openarcloud.org/) concepts.
+  -
+    title: IVRPA Event
+    url: https://ivrpa.org/news/webxr-day-saturday-june-10th-re-envisioning-the-immersive-web-with-webxr/
+    author: International Virtual Reality Professionals Association
+    authorLink: https://ivrpa.org/
+    category:
+      - event
+    content: >
+      Many people from the immersive web community will be "Re-Envisioning the Immersive Web with WebXR" at this June 10th event from the International Virtual Reality Professionals Association. [Tickets](https://immersive2021.ivrpa.b2match.io/) start at US$50 and include an association membership.
+  -
+    title: Bridie Talks AR
+    url: https://www.youtube.com/watch?v=gAzIkjkJSzM
+    author: Derick Bridie
+    authorLink: https://github.com/devbridie
+    category:
+      - tutorial
+    content: >
+      [This workshop recording](https://www.youtube.com/watch?v=gAzIkjkJSzM) from Google I/O was one of the few sessions that discussed the immersive web. Advocate Derick Bridie builds a WebXR experience for handheld AR on Android in 30 minutes.
+  -
+    title: English Teacher
+    url: https://www.gesseducation.com/gess-talks/articles/the-story-of-an-english-teacher-who-entered-a-virtual-reality
+    author: Michael McDonald
+    authorLink: https://twitter.com/GoldLotusCo/
+    category:
+      - education
+    content: >
+      This essay explores the motivation and experiences of a teacher using XR and the web to engage his students:
+      <blockquote>I did what any disillusioned teacher would do and bought 6 Go-Pro cameras, a tripod and some software, and started experimenting with web-based virtual reality taking panoramic photographs around London. I learnt some code, annotated some of the objects within those images and then uploaded them to a server so that my students with certain smartphones (i.e., those with motion-sensing features) could insert their device into a cardboard VR headset and get a sense of immersion in the English-speaking world with the advantage of interacting with their surroundings.  That was the turning point.</blockquote>
+  -
+    title: Study Users with Guided Walkthroughs
+    url: https://www.frontiersin.org/articles/10.3389/frvir.2021.668181/full
+    author: Qiaoxi Liu and Anthony Steed
+    authorLink: 
+    category:
+      - academia
+    content: >
+      With a paper title like ["Social Virtual Reality Platform Comparison and Evaluation Using a Guided Group Walkthrough Method"](https://www.frontiersin.org/articles/10.3389/frvir.2021.668181/full) you know that it will be good:
+      <blockquote>We developed a usability inspection method based on cognitive walkthrough that we call guided group walkthrough. Guided group walkthrough is applied to existing social VR platforms by having a guide walk the participants through a series of abstract social tasks that are common across the platforms. Using this method we compared six social VR platforms for the Oculus Quest. After constructing an appropriate task hierarchy and walkthrough question structure for social VR, we ran several groups of participants through the walkthrough process. We undercover usability challenges that are common across the platforms, identify specific design considerations and comment on the utility of the walkthrough method in this situation.</blockquote>
+
