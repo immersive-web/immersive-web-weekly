@@ -1,15 +1,50 @@
 date: 2020-06-08
 overview: >
-  Overvew here in markdown
-summary: 
-signed: Trevor Flowers
+  It seems like the immersive web had a quiet week as Summer fully arrives in the Northern hemisphere. Sadly, in Seattle we have "June-uary" so I took those quiet moments to wrap up by a warm fire, drink hot tea, and design a few lens polishing tools for an optical assembly for face pontoons.
+  <br style="margin-bottom: 15px" />
+  Grind your end mills, zero out your DRO, and square your stock because it's time for another issue of the Immersive Web Weekly!
+
+summary: WebKit in Firefox Reality, Archery for Couples, HPTK for WebXR
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: WPE WebKit Runs Firefox Reality on Android
+    url: https://ferjm.github.io/wpe/webkit/android/2021/05/10/wpe-webkit-android.html
+    author: Igalia
+    authorLink: https://www.igalia.com/
     category:
-      - Category here
+      - engine
     content: >
-      Summary content goes here in markdown
+      In a bit of a surprise, the Igalia team [announced](https://twitter.com/f_jimenez/status/1392136708465045509) this week that they have the fully open source WebXR implementation in the embeddable WebKit library ([WPE](https://wpewebkit.org/)) running on Android. They used this to replace the Gecko engine in a build of Mozilla's Firefox Reality immersive browser as demonstrated in a video in [this blog post](https://ferjm.github.io/wpe/webkit/android/2021/05/10/wpe-webkit-android.html). Is there a future for Firefox Reality without Mozilla?!
+      <br>
+      Also this week, Igalia engineer (and Ex-Mozillian) [Imanol Fernandez](https://twitter.com/MortimerGoro/) detailed the work behind their WebXR implementation in [an internal codecamp talk](https://www.youtube.com/watch?v=2gKoh66LYaw).
+  -
+    title: Archery Training has Multiplayer 
+    url: https://constructarcade.com/blog/archery-training-multiplayer-blocks-arcade/
+    author: Construct Arcade 
+    authorLink: https://constructarcade.com/
+    category:
+      - game
+    content: >
+      Construct Arcade continues to improve their stable of games. On Wednesday they [announced](https://constructarcade.com/blog/archery-training-multiplayer-blocks-arcade/) that [Archery Training](https://constructarcade.com/game/archery-training/) has multiplayer support which you can [see in action](https://twitter.com/ConstructArcade/status/1401130005510475777). Sadly, they have made no announcements about whether we can shoot apples off of each others' heads.
+  -
+    title: Sense of Space Launches Sense XR
+    url: https://aixr.org/insights/volumetric-video-webar-a-frontier-crossed-by-few-but-wanted-by-all/
+    author: Raquel Cardoso
+    authorLink: https://www.senseofspace.io/
+    category:
+      - volumetric video
+    content: >
+      After months of development news, Sense of Space launched Sense XR, their no-code platform for editing and web publishing of volumetric captures. They tout their adaptive streaming technology for its ability to work across many hardware devices and browsers. There is a free tier designed for testing and production prices start at US$250/month.
+  -
+    title: Hand Physics Tool Kit for WebXR
+    url: https://twitter.com/rufus31415/status/1400581013781233664
+    author: Florent Giraud
+    authorLink: https://twitter.com/rufus31415
+    category:
+      - hands
+    content: >
+      One of the more popular Unity libraries for hand interactions is [HPTK](https://github.com/jorgejgnz/HPTK) and this week Florent Giraud [announced an initial version](https://twitter.com/rufus31415/status/1400581013781233664) that targets WebXR Input Devices.  
