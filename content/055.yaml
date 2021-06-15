@@ -1,0 +1,120 @@
+date: 2021-06-15
+overview: >
+  Northern Summer continues to take a toll on our community's productivity but have no fear because some of us stayed inside to model, design, record, code, and write about the wider web. I'm thrilled to see more experiences from artists, educators, and community leaders as it is a sign that we're shifting from a developer-centric phase into wider use.
+  <br style="margin-bottom: 15px;" />
+  Lace up your hiking boots, refill your water bottles, and restock your first aid kits because it's time for another issue of the Immersive Web Weekly!
+summary: Foveas, Emergent Life, Cacoa, and Swarms
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+links:
+  -
+    title: Foveas Fix Their Focus on Quest
+    url: https://twitter.com/rcabanier/status/1403359800621076485
+    author: Rik Cabanier
+    authorLink: https://twitter.com/rcabanier/
+    category:
+      - browser
+    content: >
+      Rik Cabanier of Facebook [announced](https://twitter.com/rcabanier/status/1403359800621076485) that the new release of the Quest's browser supports the [WebXR foveation API](https://immersive-web.github.io/webxr/#dom-xrwebgllayer-fixedfoveation). This gives developers the ability to change the amount of rendering work that their app performs. The [Oculus docs](https://developer.oculus.com/documentation/unreal/unreal-ffr/) have more information about fixed foveation, too.
+  -
+    title: WebXR Levels the Playing Field for UW Students
+    url: https://www.geekwire.com/2021/uw-student-projects-highlight-webxr-levels-playing-field-remote-vr-ar-development/
+    author: Laurel Deppen
+    authorLink: https://twitter.com/laurel_deppen
+    category:
+      - education
+    content: >
+      <blockquote>Like last year, the UW’s Allen School and Reality Lab held the capstone course virtually. All seven of the participating teams used WebXR for more flexibility to accommodate remote students. WebXR is an API standard that lets developers create VR and AR apps without using headsets.
+      <br />
+        Ira Kemelmacher-Shlizerman, an associate professor at the Allen School, said WebXR helped students learn VR faster. The platform helped “level the playing field” for students working from home.</blockquote>
+  -
+    title: Make Room for Art
+    url: https://workshops.eventbritestudio.com/
+    author: Roxanne Shewchuk
+    authorLink: https://twitter.com/SpaceXRAcademy
+    category:
+      - workshop
+    content: >
+      Starting on [July 1st](https://workshops.eventbritestudio.com/158673547853), Roxanne Shewchuk will [host weekly events](https://workshops.eventbritestudio.com/) to train people to customize Mozilla Hubs spaces for museums and galleries. Tickets are free and donations are accepted.
+  -
+    title: Paint Right On Historical Art
+    url: https://twitter.com/zach_geek/status/1402801916258795523
+    author: Zach Capalbo
+    authorLink: https://twitter.com/zach_geek/
+    category:
+      - art
+    content: >
+      Zach Capalbo created a drawing component using Vartiste and A-frame and now you can [live out your dream](https://twitter.com/zach_geek/status/1402801916258795523) of painting on some of the world's most famous art (well, [SketchFab](https://sketchfab.com/) models of them anyway).
+  -
+    title: Another Axis in the Game of Life
+    url: https://twitter.com/brianpeiris/status/1403747482094518281
+    author: Brian Peiris
+    authorLink: https://twitter.com/brianpeiris/
+    category:
+      - emergent
+    content: >
+      In another example of the benefits of a standard and unmoderated platform for XR experiments, Brian Peiris [created a quick implementation](https://twitter.com/brianpeiris/status/1403747482094518281) of a more spatial version of the classic emergence exploration, [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+  -
+    title: Be Heard on a Global Stage
+    url: https://globalxrconference.com/
+    author: Global XR Community
+    authorLink: https://globalxr.community/
+    category:
+      - event
+    content: >
+      The call for speakers [opened](https://twitter.com/globxrcommunity/status/1403590851431997442) for the [Global XR Conference](https://globalxrconference.com/) which will take place online in late October. They specifically call out WebXR as a topic so hopefully it will be more than a venue for app store app developers.
+  -
+    title: BabylonJS Editor Plugs In to Win
+    url: https://forum.babylonjs.com/t/introducing-babylon-js-editor-v4-0/21608
+    author: Julien Moreau-Mathis
+    authorLink: https://twitter.com/luaacro
+    category:
+      - engine
+      - editor
+    content: >
+      Julien Moreau-Mathis [announced](https://forum.babylonjs.com/t/introducing-babylon-js-editor-v4-0/21608) that v4 of the [BabylonJS Editor](http://editor.babylonjs.com/) landed, has been remade from scratch, and now has a more powerful and extensible plugin system. The editor runs in Electron to provide full access to the local file system during development.
+  -
+    title: The Yellow Seed In The Forest
+    url: https://wild-cacao.org/
+    author: Wild Cacao Team
+    authorLink:
+    category:
+      - experience
+    content: >
+      [Wild Cacao](https://wild-cacao.org/) is a dual display mode (flat and immersive) tour through the universe of Amazonian cacoa.
+  -
+    title: WebXR Dev using Hosted Linux on Windows
+    url: https://dev.to/takahirox/how-to-test-model-viewer-on-mobile-and-wsl2-f1e
+    author: Takahiro
+    authorLink: https://twitter.com/superhoge/
+    category:
+      - tutorial
+    content: >
+      Prolific developer, Takahiro, has released a [step-by-step guide](https://dev.to/takahirox/how-to-test-model-viewer-on-mobile-and-wsl2-f1e) to setting up a WebXR development environment in the Linux subsystem of Windows.
+  -
+    title: From KenShape to the Web
+    url: https://timmykokke.com/blog/2021-06-06-from-kenshape-to-webxr/
+    author: Timmy Kokke
+    authorLink: https://twitter.com/Sorskoot/
+    category:
+      - tutorial
+    content: >
+      [KenShape](https://kenney.itch.io/kenshape) is a low-cost polygonal modeling tool used mostly by independent game developers. In [this tutorial](https://timmykokke.com/blog/2021-06-06-from-kenshape-to-webxr/), Timmy Kokke (aka Sorskoot), demonstrates how to export models from KenShape for use on the immersive web.
+  -
+    title: Agents, Swarms, and Poetry
+    url: https://delta.center/gevurah
+    author: Delta Ark
+    authorLink: http://delta.center/
+    category:
+      - art
+    content: >
+      [Project Gevurah](https://delta.center/gevurah) is billed as "VR (webxr) human-swarm interaction, swarm-based architecture & poetry & music" and it delivers.
+  -
+    title: Racing
+    url: https://twitter.com/AlaricBaraou/status/1404774841539039234
+    author: Alaric Baraou
+    authorLink: https://twitter.com/AlaricBaraou
+    category:
+      - tease
+    content: >
+      [Poimandres Racing](https://racing.pmnd.rs/) is already a neat demonstration of the collective's work but this week Alaric Baraou [teased WebXR support](https://twitter.com/AlaricBaraou/status/1404774841539039234).
