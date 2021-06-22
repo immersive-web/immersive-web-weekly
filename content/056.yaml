@@ -1,0 +1,63 @@
+date: 2021-06-22
+overview: >
+  Heck yes, it has been another exciting week on the immersive web. The GIS community is digging into the capabilities of WebXR for shared construction visualization at the same time that the art community is changing hearts and minds with galleries, live immersive shows, and boundary-pushing exploration of embodiment. It's a wild combination.
+  <br style="margin-bottom: 15px;" />
+  Update your GPU drivers, untangle your HMD cables, and clear out your floor space because it's time for another issue of the Immersive Web Weekly!
+summary: ArcGIS in WebXR, Plane Detection, ecoNFTs, DY3SCORPIA
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+links:
+  -
+    title: CityEngine Ships WebXR
+    url: https://www.esri.com/arcgis-blog/products/city-engine/3d-gis/cityengine-2021-0-release-highlights/
+    author: ArcGIS CityEngine Team
+    authorLink: https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/overview
+    category:
+      - GIS
+    content: >
+      Geographical information system provider ESRI [announced a new version](https://www.esri.com/arcgis-blog/products/city-engine/3d-gis/cityengine-2021-0-release-highlights/) of their visualization system, [CityEngine](https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/overview), that includes WebXR support via their [ArcGIS 360 VR](https://www.arcgis.com/apps/360vr/index.html) viewer.
+  -
+    title: PlayCanvas has Plane Detection
+    url: https://twitter.com/playcanvas/status/1405551374566309888
+    author: PlayCanvas
+    authorLink: https://playcanvas.com/
+    category:
+      - engine
+    content: >
+      The [new version of PlayCanvas](https://github.com/playcanvas/engine/releases/tag/v1.43.0) added support for the experimental [WebXR Plane Detection API](https://immersive-web.github.io/real-world-geometry/plane-detection.html).
+  -
+    title: Tyler, Sophia, and Ada talk WebXR
+    url: https://www.thevrara.com/podcast-posts/adarosecannon
+    author: Tyler Gates & Sophia Moshasha
+    authorLink: https://www.thevrara.com/podcast-posts?author=5e5e878dd01f9a53dbd3f7b5
+    category:
+      - podcast
+    content: >
+      In [this episode of the VR/AR podcast](https://www.thevrara.com/podcast-posts/adarosecannon) our very own co-chair [Ada Rose Cannon](https://twitter.com/adarosecannon) talks with [Tyler Gates](https://twitter.com/tylerhgates) and [Sophia Moshasha](https://twitter.com/sophiamosh) about WebXR today and the immersive web of tomorrow. 
+  -
+    title: <a-gltf-model hen-model="YOUR NFT">
+    url: https://twitter.com/ianpetrarca/status/1405011055206621185
+    author: Ian Petrarca
+    authorLink: https://twitter.com/ianpetrarca
+    category:
+      - nft
+    content: >
+      Creative developer and sound engineer Ian Petrarca [revealed](https://twitter.com/ianpetrarca/status/1405011055206621185) an [A-frame extension](https://github.com/ianpetrarca/hen-model-aframe-component) for including [hic et nunc](https://www.hicetnunc.xyz/) NFTs in their web pages with a simple HTML element.
+  -
+    title: Handsome and Handy Hands 
+    url: https://twitter.com/AlaricBaraou/status/1406897001787183105
+    author: Alaric Baraou
+    authorLink: https://twitter.com/AlaricBaraou/
+    category:
+      - hands
+    content: >
+      The Poimandres collective continues to ship useful bits for the immersive web with member Alaric Baraou [announcing](https://twitter.com/AlaricBaraou/status/1406897001787183105) six new rigged hand models for WebXR sessions [available on the Poimandres market](https://market.pmnd.rs/creator/alaricbaraou).
+  -
+    title: DY3SCORPIA 
+    url: https://www.dyscorpia.com/dy3corpia
+    author: DY3SCORPIA
+    authorLink: https://www.dyscorpia.com/
+    category:
+      - art
+    content: >
+      <blockquote>DY3CORPIA is the third iteration of Dyscorpia: Future Intersections of the Body and Questions. In the shadow of COVID-19 and blinding light of the screen, DY3CORPIA is being hosted in a digital twin of Enterprise Square Galleries where the first DYSCORPIA was mounted in 2019. DY3CORPIA artists continue to interrogate the increasingly complex intersections of the body and technology in an entirely virtual, simulated space that we have to navigate with our fingers rather than our whole bodies.</blockquote>
