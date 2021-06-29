@@ -1,0 +1,87 @@
+date: 2021-06-29
+overview: >
+  With temperatures upwards of 100f (38c) in Seattle (a land with few air conditioners) it has been a bit tricky for me to work with hot computers but that didn't stop the global community from stitching together more of the immersive web. I'm seeing an uptick in projects that bring higher quality embodiment and rendered bodies into browsers at the same time that WebXR sessions can be started outside of the context of major web browsers. It's an exciting time for teleportation!
+  <br style="margin-bottom: 15px;" />
+  I'm taking a break from editing for the next two weeks in order to take advantage of the extra photons that Seattle offers during July but the IWW will be back on the 13th with more news from the wider web.
+  <br style="margin-bottom: 15px;" />
+  Set up your fans, put ice packs in your shirt, and stay cool in the basement because it's time for another issue of the Immersive Web Weekly!
+
+summary: Ready Player Me, Firefox Reality, Rhodonite, and the Shaka
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
+links:
+  -
+    title: The Crowded Collaborative Space
+    url: https://learn.framevr.io/post/there-are-now-hundreds-of-collaborative-vr-tools-whats-next
+    author: Gabe Baker
+    authorLink: https://twitter.com/gabrieljbaker
+    category:
+      - progress
+    content: >
+      Frame's product manager, Gabe Baker, [muses about the now-crowded market for collaboration via VR](https://learn.framevr.io/post/there-are-now-hundreds-of-collaborative-vr-tools-whats-next) at the same time that [Frame is making rapid progress](https://learn.framevr.io/post/june2021-update).
+  -
+    title: What Is The Focus For Firefox Reality?
+    url: https://www.tomshardware.com/reviews/vive-focus-3-vr-headset
+    author:  Kevin Carbotte
+    authorLink: https://www.tomshardware.com/author/kevin-carbotte
+    category:
+      - browser
+    content: >
+      I thought that Firefox Reality was on the back-burner at Mozilla so it was a bit of a surprise to read [Robert Long's tweet](https://twitter.com/arobertlong/status/1408491218267295748) that it is shipping with the new stand-alone headset from Vive, the Focus 3. This is confirmed in a [Tom's Hardware review](https://www.tomshardware.com/reviews/vive-focus-3-vr-headset) but details about Mozilla's future plans for this immersive browser are hard to find.
+  -
+    title: ReadyPlayerMe Skeletons in WebXR
+    url: https://twitter.com/arnputz/status/1407442716200427523
+    author: arpu
+    authorLink: https://twitter.com/arnputz/
+    category:
+      - bodies
+    content: >
+      In a great example of how web tools interact, bodies from Wolf3D's [Ready Player Me](https://readyplayer.me/) and [Three.js](https://threejs.org/) are [coming together](https://twitter.com/arnputz/status/1407442716200427523) with [Three.IK](https://jsantell.com/three-ik/) to provide better embodiment on the immersive web. A higher resolution demo video [is available](https://www.youtube.com/watch?v=BDhNpK_wSRA).
+  -
+    title: Snapshot that Shaka 🤙
+    url: https://twitter.com/WebXREngine/status/1409477995161653252
+    author: Wonderland Engine Team
+    authorLink: https://www.wonderlandengine.com/
+    category:
+      - hands
+    content: >
+      The folks at Wonderland [teased](https://twitter.com/WebXREngine/status/1409477995161653252) a new quick tool for capturing hand poses. 
+  -
+    title: Rhodonite Stays Cool in the Shade(r)
+    url: https://twitter.com/emadurandal_cg/status/1409379157570510861
+    author: Emadurandal
+    authorLink: https://twitter.com/emadurandal_cg/
+    category:
+      - library
+    content: >
+      Verion [v0.4.0 of Rhodonite](https://github.com/actnwit/RhodoniteTS/releases/tag/v0.4.0) landed with week with a metric ton of shader workflow improvements.
+  -
+    title: Unity Cloud Rendering for WebXR
+    url: https://www.youtube.com/watch?v=R3Q9T5PrbEM
+    author: Vasanth Mohan
+    authorLink: https://twitter.com/FusedVR
+    category:
+      - cloud rendering
+    content: >
+      Vasanth Mohan (aka Fuseman) looks at [using Unity's render streaming with WebXR and WebRTC](https://www.youtube.com/watch?v=R3Q9T5PrbEM).
+  -
+    title: WebXR in Native Windows Apps
+    url: https://twitter.com/Sean_McBeth/status/1408899273857585152
+    author: Sean McBeth
+    authorLink: 
+    category:
+      - undocumented
+    content: >
+      According to Sean McBeth, it's possible to [start WebXR sessions from Edge's embedded web view](https://twitter.com/Sean_McBeth/status/1408899273857585152) so in theory Windows App Store apps could use immersive web tools to provide AR and VR experiences.
+  -
+    title: Two More WebXR Summits
+    url: https://ryanschultz.com/2021/06/25/the-webxr-business-summit-and-webxr-design-summit-are-looking-for-speakers/
+    author: Ryan Schultz
+    authorLink: https://ryanschultz.com/
+    category:
+      - events
+    content: >
+      The production team behind the WebXR Developer Summit is looking for speakers for two more events: the WebXR Business Summit and the WebXR Design Summit. Ryan Schultz [posted the details](https://ryanschultz.com/2021/06/25/the-webxr-business-summit-and-webxr-design-summit-are-looking-for-speakers/) for how to take part.
+
