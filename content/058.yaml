@@ -1,15 +1,59 @@
 date: 2021-07-13
 overview: >
-  Overvew here in markdown
-summary: 
-signed: Trevor Flowers
+  I'm in the middle of turning my lovely garage shop into a desifactory but luckily the rest of the wider web community has stayed busy turning out new browser features and new experiences to run in those browsers.
+  <br style="margin-bottom: 15px;" />
+  Fire up your search engine, rearrange your bookmark folders, and double check your extensions because it's time for another issue of the Immersive Web Weekly!
+
+summary: Timewarp, 160k dancers, Vircadia circadians, and a whole lot of Plockle
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), head Memex maker at [Transmutable](https://transmutable.com/)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: 160k Attendees at Secret Sky 2021
+    url: https://medium.com/active-theory/secret-sky-2021-7aedbbc5c894
+    author: Active Theory
+    authorLink: https://activetheory.net/
     category:
-      - Category here
+      - event
+      - platform
     content: >
-      Summary content goes here in markdown
+      The Active Theory team didn't rest on the success of last year's Secret Sky event but instead [kicked up the design and the tech](https://medium.com/active-theory/secret-sky-2021-7aedbbc5c894) to host people from 163 countries in Secret Sky 2021.
+  -
+    title: Let's Do the Timewarp For Real
+    url: https://developer.oculus.com/blog/achieve-better-rendering-and-performance-with-webxr-layers-in-oculus-browser/
+    author: Facebook Reality Labs
+    authorLink: https://tech.fb.com/ar-vr/
+    category:
+      - browser
+    content: >
+      The Facebook team [announced](https://developer.oculus.com/blog/achieve-better-rendering-and-performance-with-webxr-layers-in-oculus-browser/) that technology to smooth out media playback and other uses of WebXR layers is on by default in version 16.1 of the Oculus Browser.
+  -
+    title: Samsung Internet Sees the Light(ing Estimation)
+    url: https://twitter.com/AdaRoseCannon/status/1414952807418023947
+    author: Samsung Internet Team
+    authorLink: https://www.samsung.com/us/support/owners/app/samsung-internet
+    category:
+      - browser
+    content: >
+      Ada Rose Cannon, our co-chair and the web's advocate, [announced](https://twitter.com/AdaRoseCannon/status/1414952807418023947) that the lighting estimation API in WebXR is enabled in the new beta of Samsung Internet.
+  -
+    title: Vircadia Sockets it To You
+    url: https://vircadia.com/2021/06/this-month-in-vircadia-june-2021/
+    author: Kalila L
+    authorLink: 
+    category:
+      - platform
+    content: >
+      The BabylonJS fronted FOSS virtual world platform, Vircadia, continues to make regular progress and in [their monthly update](https://vircadia.com/2021/06/this-month-in-vircadia-june-2021/) mentioned that they've updated their service replication to more effectively use WebRTC as well as inter-node UDP protocols. 
+  -
+    title: If You Plockle in Plockle then you Plockle in Real Life
+    url: https://plockle.com/
+    author: Team Plockle
+    authorLink: https://plockle.com/
+    category:
+      - puzzle
+    content: >
+      The 16 levels of this spatial puzzle game will keep you busy for around two hours, or roughly long enough for your pets to wonder whether something is wrong with you and for your email inbox to overflow.
+
