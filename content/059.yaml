@@ -1,15 +1,83 @@
 date: 2021-07-20
 overview: >
-  Overvew here in markdown
-summary: 
-signed: Trevor Flowers
+  This week saw a major broadcasting group ship a VR experience, a raft of progress on glTF tools and standards, and some actual coverage of web XR by the usually native-centric VR press. Slow and steady wins this race.
+  <br>Top off the tanks, retract the support tower, and check in with mission control because it's time for another issue of the Immersive Web Weekly!
+
+summary: Lovely text, Sculpting, Indices of Refraction, and PBS
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Clear Text in DesktopVision
+    url: https://twitter.com/devonsbradley/status/1415424967764709379
+    author: Devon Bradley
+    authorLink: https://twitter.com/devonsbradley/
     category:
-      - Category here
+      - layers
     content: >
-      Summary content goes here in markdown
+      The new WebXR Layers support in Facebook's immersive browser enabled [high quality text rendering](https://twitter.com/devonsbradley/status/1415424967764709379) (among other graphical improvements) which greatly increased the comfort of using [virtual desktops](https://desktop.vision/) in the Quest headset.
+  -
+    title: Sculpting in Three, Eventually XR?
+    url: https://twitter.com/garrettkjohnson/status/1415027275347619841
+    author: Garrett Johnson
+    authorLink: https://twitter.com/garrettkjohnson/
+    category:
+      - art
+    content: >
+      NASA engineer Garrett Johnson [put out the call for assistance](https://twitter.com/garrettkjohnson/status/1415027275347619841) in bringing the [new library for mesh sculpting](https://github.com/gkjohnson/three-mesh-bvh) ([demo here](https://gkjohnson.github.io/three-mesh-bvh/example/bundle/sculpt.html)) into WebXR.
+  -
+    title: VR at PBS!
+    url: https://vr.pbs.org/
+    author: Public Broadcasting System
+    authorLink: https://pbs.org/
+    category:
+      - experience
+    content: >
+      The coalition of around 350 television stations called PBS put together a [multi-viewer XR experience around their annual short film festival](https://vr.pbs.org/).  
+  -
+    title: Brushwork is Working
+    url: https://brushworkvr.com/
+    author: 
+    authorLink: 
+    category:
+      - experience
+    content: >
+      It's great to see that the VR press [picked](https://uploadvr.com/brushwork-vr-webxr-painting) [up](https://vrscout.com/news/vr-art-app-brushwork-available-free/) [Brushwork VR](https://brushworkvr.com/), an app for painting and sharing paintings in VR.
+  -
+    title: Read a Report on Your glTF
+    url: https://gltf.report/
+    author: Don McCurdy
+    authorLink: https://twitter.com/donrmccurdy/
+    category:
+      - tool
+    content: >
+      Prolific toolmaker Don McCurdy released [glTF-Report](https://gltf.report/), a browser-based tool for inspecting and manipulating art assets in the new standard for 3D scenes.
+  -
+    title: Refraction, Color Attenuation, and Volumetric Properties in glTF
+    url: https://www.khronos.org/news/press/new-gltf-extensions-raise-the-bar-on-3d-asset-visual-realism
+    author: Khronos
+    authorLink: https://www.khronos.org/
+    category:
+      - standard
+    content: >
+      New features landed in [glTF](https://www.khronos.org/gltf/) which brought the physically based rendering technology closer to photorealism. Their [sample viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) was updated to use the new properties.
+  -
+    title: Know You Know Mobile AR Features
+    url: https://twitter.com/OscarFalmer/status/1416327609085014018
+    author: Oscar Falmer
+    authorLink: https://twitter.com/OscarFalmer/
+    category:
+      - reference
+    content: >
+      Oscar Falmer updated [this handy spreadsheet](https://docs.google.com/spreadsheets/d/1S1qEyDRCqH_UkcSS4xVQLgcMSEpIu_mPtfHjsN02GNw/edit#gid=0) listing which AR features work on which mobile platforms.
+  -
+    title: Wonderland Is Even More Wonderful
+    url: https://wonderlandengine.com/news/release-0.8.6/
+    author: https://wonderlandengine.com/
+    authorLink: Wonderland Engine Team
+    category:
+      - engine
+    content: >
+      A new version of Wonderland arrived, most notably with skinning and animation support for FBX files. This is a common file format used in the 3D industry so this opens up more of the standard workflows used by technical artists. One point of interest: some feature development was sponsored by [Playko](https://www.playko.com/).
