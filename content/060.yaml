@@ -1,0 +1,77 @@
+date: 2021-07-27
+overview: >
+  This issue marks the first anniversary of the day that I took up the editor position for the Immersive Web Weekly. After 50 issues and one roller-coaster of a year for everyone on Earth, I'm happy to report that our collective work to create a wider web is gaining momentum with creators, users, and even the normally reluctant mainstream press. One of the most powerful web companies in the world just declared that it's pivoting to become a "metaverse company". Scrappy teams that use WebXR throughout their technologies are being pulled into the tech world's motherships through acquisition where they will spread the word about no-install, standards-based XR apps. XR events are no longer news-worthy because they're now such a common occurrence.
+    <br style="margin-bottom: 15px;" />
+    __You all are incredible and I love your work.__
+    <br style="margin-bottom: 15px;" />
+    Put on your party hat, strap on your dancing shoes, and make room for a slice of cake because it's time for another issue of the Immersive Web Weekly!
+summary: 
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
+links:
+  -
+    title: Rik Cabanier Unlocks The Editor Badge
+    url: https://lists.w3.org/Archives/Public/public-immersive-web/2021Jul/0001.html
+    author: Rik Cabanier
+    authorLink: https://twitter.com/rcabanier
+    category:
+      - standard
+    content: >
+      After years of dedicated work across two companies (Magic Leap and Facebook), Rik Cabanier has [accepted the official editor's role](https://lists.w3.org/Archives/Public/public-immersive-web/2021Jul/0001.html) for the WebXR specification, joining Nell Waliczek, Brandon Jones, and Manish Goregaokar as metaphorical parents of a core API for the immersive web.
+  -
+    title: Facebook All In on OpenXR
+    url: https://developer.oculus.com/blog/oculus-all-in-on-openxr-deprecates-proprietary-apis/
+    author: Oculus Developer Blog
+    authorLink: https://developer.oculus.com/blog/
+    category:
+      - standard
+    content: >
+      In August of 2022 the proprietary [Oculus APIs for mobile and PC VR will be deprecated](https://developer.oculus.com/blog/oculus-all-in-on-openxr-deprecates-proprietary-apis/) and OpenXR standard APIs will be used for all future development. The Unity and Unreal Engine plugins for Facebook's devices are moving to OpenXR. Let's hope that this kind of standards support will be standard operating procedure in [their new Metaverse division](https://www.theverge.com/22588022/mark-zuckerberg-facebook-ceo-metaverse-interview).
+  -
+    title: Epic Now Owns Sketchfab 
+    url: https://sketchfab.com/blogs/community/sketchfab-is-joining-the-epic-games-family
+    author:  Alban Denoyel
+    authorLink: https://twitter.com/albn/
+    category:
+      - consolidation
+    content: >
+      The leading market for web-compatible 3D assets, Sketchfab, [has been purchased](https://sketchfab.com/blogs/community/sketchfab-is-joining-the-epic-games-family) by one of the leading 3D engine companies, Epic.
+  -
+    title: WebXR Teased for Lynx
+    url: https://twitter.com/stanlarroque/status/1418204235246698496
+    author: Stan Larroque
+    authorLink: https://twitter.com/stanlarroque/
+    category:
+      - hardware
+    content: >
+      The leader of the [Lynx project](https://lynx-r.com/) to create an XR headset [teased](https://twitter.com/stanlarroque/status/1418204235246698496) that in an [upcoming YouTube livestream](https://www.youtube.com/watch?v=IxV17JXDkkI) (scheduled for July 29th at 10am Pacific) they will announce plans for WebXR support.
+  -
+    title: Crypto Adverts in WebXR
+    url: https://twitter.com/zestymarket/status/1419145027872296965
+    author: Zesty Market
+    authorLink: https://www.zesty.market/
+    category:
+      - market
+      - NFT
+    content: >
+      The Zesty Market social media team [declared support for NFT monetization of immersive web apps](https://twitter.com/zestymarket/status/1419145027872296965).
+  -
+    title: PlutoVR's App Mash-up
+    url: https://mait.pluto.app/tutorials/unityxrpk
+    author: PlutoVR
+    authorLink: https://www.pluto.app/
+    category:
+      - platform
+    content: >
+      Michael Hazani of PlutoVR [discussed](https://twitter.com/michaelhazani/status/1418660031252160513) their new [Multi Apps](https://mait.pluto.app/tutorials/unityxrpk) which allow multiple WebXR, Unreal Engine, and Unity applications to run side-by-side in the same XR space.      
+  -
+    title: Ada Rose Goes Down the Rabbit Hole
+    url: https://anchor.fm/vhiterabbit/episodes/Episode-039-with-Ada-Rose-Cannon-Upcoming-WebXR-features--WebXR-Privacy-and-PWAs-for-VR-e14uedg
+    author: Vhite Rabbit
+    authorLink: https://anchor.fm/vhiterabbit/
+    category:
+      - interview
+    content: >
+      Our illustrious co-chair, Ada Rose Cannon, [discussed the current and future state of the immersive web](https://anchor.fm/vhiterabbit/episodes/Episode-039-with-Ada-Rose-Cannon-Upcoming-WebXR-features--WebXR-Privacy-and-PWAs-for-VR-e14uedg) with the hosts of the Vhite Rabbit Podcast. 
