@@ -1,0 +1,86 @@
+date: 2021-08-03
+
+overview: >
+  Despite having a ton of fun, I took a break from playing [Worlds Demolisher](https://worldsdemolisher.totalviz.com/) to survey the hard work coming out of our community and friends it's amazing! More events are in production. More industries are finding out about WebXR. More teams are meeting in immersive spaces. More technologies are maturing.
+  <br style="margin-bottom: 15px;" />
+  Put down those wands, take off that headset, and let those batteries recharge because it's time for another issue of the Immersive Web Weekly!
+
+summary: More Summits, more CAD, more Mirrors, and more Voxels
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
+links:
+  -
+    title: You Get A Summit, You Get a Summit, And You Get A Summit!
+    url: https://twitter.com/webxrawards/status/1420185926941216771
+    author: WebXR Summit Series
+    authorLink: https://webxr.events/
+    category:
+      - event
+    content: >
+      The team that produced the Polys award show and the WebXR Developer Summit has [announced](https://twitter.com/webxrawards/status/1420185926941216771) two new events: the WebXR Business Summit (hosted by [Samantha Mathews](https://twitter.com/SamLoci)) and the WebXR Design Summit (hosted by [Kent Bye](https://twitter.com/kentbye)). They're coming soon on 14 September and 12 October, respectively, and [tickets are now available](https://webxr.events/).
+  -
+    title: The Web Can CAD
+    url: https://iq3connect.com/
+    author: iQ3Connect
+    authorLink: https://iq3connect.com/
+    category:
+      - CAD
+      - collaboration
+    content: >
+      Training and collaboration for CAD-heavy industries like automotive has typically been handled only by native apps but that's beginning to change with products like iQ3Connect. They [recently announced](https://vimeo.com/575943958) their support of high quality CAD in WebXR and are hosting a [free product workshop](https://iq3connect.com/webinars-calendar/scalable-xr-product-training-programs/) on 19 August. 
+  -
+    title: Robert Long Spills the Beans
+    url: https://devtools.fm/episode/10
+    author: Devtools.fm Podcast
+    authorLink: https://devtools.fm/
+    category:
+      - podcast
+    content: >
+      Ex-Mozilla engineer and current [Open Metaverse](https://twitter.com/open_metaverse) wonk Robert Long was interviewed by the Devtools.fm team about all things immersive web. 
+  -
+    title: A Soft Landing for Raspberry Dream Land
+    url: https://www.rdland.io/events
+    author: Raspberry Dream Land
+    authorLink: https://www.rdland.io/
+    category:
+      - platform
+    content: >
+      The [Raspberry Dream Land](https://www.rdland.io/) team announced the [soft launch](https://www.rdland.io/events) of their new platform for art events.
+  -
+    title: High School Students Drop In
+    url: https://blog.ed.ted.com/2021/07/16/a-new-immersive-learning-experience-for-the-21st-century-classroom/
+    author: Anthony White
+    authorLink: https://twitter.com/MrAWhite
+    category:
+      - education
+    content: >
+      In what seems like a trend, teachers like [Anthony White](https://twitter.com/MrAWhite/) are picking up WebXR and [creating new curricula](https://blog.ed.ted.com/2021/07/16/a-new-immersive-learning-experience-for-the-21st-century-classroom/).
+  -
+    title: Trello Mirrored on Frame
+    url: https://twitter.com/VirbelaHQ/status/1420805453831942155
+    author: Virbela's Frame Team
+    authorLink: https://www.virbela.com/
+    category:
+      - event
+    content: >
+      Trello's yearly all-hands meeting was [held in a mirror copy of their headquarters](https://twitter.com/VirbelaHQ/status/1420805453831942155) that was created and hosted by the Frame team at Virbela. 
+  -
+    title: Webaverse Completes the Digital Body Challenge
+    url: https://github.com/webaverse/app
+    author: Webaverse
+    authorLink: https://webaverse.com/
+    category:
+      - body
+    content: >
+      One consistent request since the beginning of XR on the web has been for "full" digital bodies with inverse kinematics for tracking, open source for portability, and support for de facto digital body standards like VRM and Ready Player Me. [Webaverse](https://github.com/webaverse/app) seems to have heard those requests and met the challenge. The open code natively supports VRM and apparently [Ready Player Me bodies can be converted to VRM](https://twitter.com/dankvr/status/1402476800022884357).
+  -
+    title: Three.js Orders Up New XR Rendering Quality
+    url: https://github.com/mrdoob/three.js/pull/22123
+    author: Dave Hill
+    authorLink: https://twitter.com/00davehill00
+    category:
+      - engine
+    content: >
+      The [new version of Three.js](https://github.com/mrdoob/three.js/releases/tag/r131), r131, includes [changes from Facebook's Dave Hill](https://github.com/mrdoob/three.js/pull/22123) that lower render times and thus open up the possibility of increased visual quality in WebXR experiences.
