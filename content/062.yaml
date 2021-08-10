@@ -1,0 +1,94 @@
+date: 2021-08-10
+overview: >
+  This week PlayCanvas enters the game, Ada Rose tells the story of WebXR, and a new platform is unveiled.
+  <br style="margin-bottom: 15px;" /> 
+  Save all files, double-check your markup, and fire up FTP because it's time for another issue of the Immersive Web Weekly!
+
+summary: js13kGames, Blockly for A-frame, and Flexible Framerates
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/) 😸
+
+links:
+  -
+    title: Let's Focus on Input
+    url: https://twitter.com/Tojiro/status/1422632893675827203
+    author: Brandon Jones
+    authorLink: https://twitter.com/Tojiro/
+    category:
+      - library
+    content: >
+      Our esteemed co-editor, Brandon Jones, [announced](https://twitter.com/Tojiro/status/1422632893675827203) (mere minutes after I published last week's IWW, 😿) that Vive Focus 3 controller models have landed in the [WebXR Input Profiles library](https://github.com/immersive-web/webxr-input-profiles).
+  -
+    title: Ada Tells Us How It Was, Is, and Will Be
+    url: https://youtu.be/t-uk8InHte4
+    author: Ada Rose Cannon
+    authorLink: https://twitter.com/AdaRoseCannon/
+    category:
+      - tutorial
+    content: >
+      Prolific co-chair Ada Rose Cannon published a [new video introduction](https://youtu.be/t-uk8InHte4) to the ins and outs of the immersive web.
+  -
+    title: PlayCanvas Paints Itself into js13kGames
+    url: https://twitter.com/js13kGames/status/1424802499740020736
+    author: Andrzej Mazur
+    authorLink: https://js13kgames.com/
+    category:
+      - contest
+    content: >
+      The [annual js13kGames](https://js13kgames.com/) contest for lightweight web apps has become a new tradition in the WebXR creator community. This year Andrzej has added PlayCanvas as an accepted engine, bringing the engine count up to four! The contest runs from August 13th to September 13th and they are looking for prize contributors so if your company has immersive-web-related products and you want to reach a large community of avid WebXR coders then [reach out](https://js13kgames.com/#contact) to Andrzej.
+  -
+    title: Drag and Drop Development
+    url: https://twitter.com/Misbahu_SZ/status/1424011237046865931
+    author: Misbahu S. Zubair
+    authorLink: https://twitter.com/Misbahu_SZ
+    category:
+      - experience
+    content: >
+      Visual programming languages have been around for decades but this week Misbahu S. Zubair [revealed](https://twitter.com/Misbahu_SZ/status/1424011237046865931) that they're working on support in the popular Blockly language for creating A-frame experiences.
+  -
+    title: More Magic from Matthieu
+    url: https://www.metaverses.io/
+    author: Metaverses
+    authorLink: https://www.metaverses.io/
+    category:
+      - platform
+    content: >
+      Long-time XR wizard Chris Matthieu [unveiled](https://twitter.com/chrismatthieu/status/1423354060825010180) [XRPANet](https://xrpa.net/)'s new immersive web platform, [Metaverses](https://www.metaverses.io/).
+  -
+    title: More XR for Docs for MDN
+    url: https://opencollective.com/open-web-docs/updates/open-web-docs-worklog-june-july-2021-edition
+    author: Open Collective
+    authorLink: https://opencollective.com/
+    category:
+      - documentation
+    content: >
+      The manager of web popular documentation site MDN, Open Collective, [blogged](https://opencollective.com/open-web-docs/updates/open-web-docs-worklog-june-july-2021-edition) that they're [working on better docs for WebXR](https://github.com/openwebdocs/project/issues/35).
+  -
+    title: Framerate from Facebook is Flexible
+    url: https://twitter.com/rcabanier/status/1425108936693149696
+    author: Rik Cabanier
+    authorLink: https://twitter.com/rcabanier/
+    category:
+      - browser
+    content: >
+      WebXR co-editor and Facebook browser engineer Rik Cabanier [mentioned](https://twitter.com/rcabanier/status/1425108936693149696) that the new Oculus Browser (v16.4) supports dynamic control of WebXR framerates which allows experiences to dial in the right drawing rate for experiences with varied graphics work. Lightweight graphics can run at the Quest's top speed (120hz) while heavier experiences can stick to 90hz.
+  -
+    title: Give Them The Biz
+    url: https://www.eventbrite.com/e/webxr-business-summit-town-hall-open-forum-tickets-166537186207
+    author: Samantha Mathews
+    authorLink: https://twitter.com/SamLoci
+    category:
+      - event
+    content: >
+      This August 24th [town hall event](https://www.eventbrite.com/e/webxr-business-summit-town-hall-open-forum-tickets-166537186207) will gather input from the immersive web business community about what should be covered in the upcoming WebXR Business Summit. When I hosted a similar summit (but for developers) we held a town hall and it was crucial in helping us plan so if you have ideas and needs for the business summit then it's a great idea to attend the town hall.
+  -
+    title: The "Last Mile" for CAD is Solved?
+    url: https://arbase.io/blogs/news-and-updates/arbase-is-live
+    author: Alan Kalbfleisch
+    authorLink: https://arbase.io/
+    category:
+      - CAD
+    content: >
+      Back in [issue 44](https://immersivewebweekly.com/issues/044/) I covered [ARBase](https://arbase.io/), an experimental plugin for the full-featured, browser-based CAD program, OnShape, that brings CAD into WebXR sessions. Well, ARBase is now live and in production [on the OnShape app store](https://appstore.onshape.com/apps/Rendering/P22A6LETENGBFNT5A2VGSTU3S6WBRLDX2C2R5UI=/description), allowing designers to save their work to the cloud and then share them with clients via WebXR.
+
