@@ -1,0 +1,87 @@
+date: 2021-08-17
+overview: >
+  For the past few months my work at Transmutable has been focused on low-level hardware design, development, and manufacturing so it has been a nice break each Tuesday morning to cover the cohesive and amazing experiences that you all have created.
+  <br style="margin-bottom: 15px;" />
+  Clean off your soldering tips, wipe down the bench, and fire up the HMD because it's time for another issue of the Immersive Web Weekly!
+
+summary: Unboring meetings, the artists' gaze, drones, and an animation festival
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
+links:
+  -
+    title: Video Heads and Teleportation
+    url: https://unboring.net/mr/
+    author: Arturo Paracuellos
+    authorLink: https://twitter.com/arturitu
+    category:
+      - experience
+    content: >
+      While it has been in development for a while, the [promotion](https://twitter.com/arturitu/status/1425000222111981571) of [Unboring MR](https://unboring.net/mr/) on the Oculus Explore page brought this progressive web app for socializing and meetings to more people's attention.
+  -
+    title: I See What You Did There
+    url: https://twitter.com/zach_geek/status/1426312301041311752
+    author: Zach Capalbo
+    authorLink: https://twitter.com/zach_geek/
+    category:
+      - experience
+      - art
+    content: >
+      Zach Capalbo [revealed](https://twitter.com/zach_geek/status/1426312301041311752) that in addition to several extensions to the painting functionality of [Vartiste](https://vartiste.xyz/), it's now possible in multi-painter mode to see the motion of other artists' heads and hands to increase your sense of co-location and co-creation.
+  -
+    title: Watch Me Watch You
+    url: https://twitter.com/WonderInteract1/status/1413240771679952898
+    author: VRLand
+    authorLink: https://vrland.io/
+    category:
+      - embodiment
+    content: >
+      The team at [VRLand](https://vrland.io/) continued to experiment with a variety of techniques for embodiment on the web and this week [revealed head tracking](https://twitter.com/WonderInteract1/status/1413240771679952898) mapped onto a their full digital bodies.
+  -
+    title: Model-viewer Gets Transparent about their Lights
+    url: https://twitter.com/modelviewer/status/1425144237532717056
+    author: The model-viewer team at Google
+    authorLink: https://modelviewer.dev/
+    category:
+      - library
+    content: >
+      The [new version of model-viewer](https://github.com/google/model-viewer/releases/tag/v1.8.0) (the custom HTML element for 3D models on the web) added new rendering capabilities from the glTF file format (snazzy transparency!), AR lighting estimation in WebXR sessions, as well as an extended programming interface to the 3D scenes read from model files.
+  -
+    title: Think Local, XR Global
+    url: https://sessionize.com/globalxrconferencecommunity
+    author: Global XR Conference
+    authorLink: https://globalxrconference.com/
+    category:
+      - event
+    content: >
+      The Global XR Conference put out a [call for organizers](https://sessionize.com/globalxrconferencecommunity) to put together local events for their umbrella event in early December.
+  -
+    title: An Extended Webinar about The Future of WebXR
+    url: https://aixr.org/event-listing/aixr-insights-live-on-the-horizon-looking-to-the-future-of-webxr/
+    author: The Academy of International Extended Reality
+    authorLink: https://aixr.org/
+    category:
+      - event
+    content: >
+      AIXR has regularly organized panel discussions among their members and announce this week that in [the August 24th event](https://aixr.org/event-listing/aixr-insights-live-on-the-horizon-looking-to-the-future-of-webxr/) the topic will be the future of WebXR.
+  -
+    title: You Don't Need a License to Fly This Drone
+    url: https://twitter.com/rvdleun/status/1427276321126821896
+    author: Ruben van der Leun
+    authorLink: https://twitter.com/rvdleun/
+    category:
+      - overlay
+      - experience
+    content: >
+      The new [WebXR DOM Overlays](https://immersive-web.github.io/dom-overlays/) implementation in Android Chrome was taken up by a variety of developers, including Ruben van der Leun who used [A-frame's overlay support](https://aframe.io/docs/1.2.0/components/webxr.html#overlayelement) to demonstrate [a fun drone practice app](https://twitter.com/rvdleun/status/1427276321126821896).
+  -
+    title: Live Your Life within "Other Lives"
+    url: https://www.animationnights.com/screening63/
+    author: Animation Nights New York
+    authorLink: https://www.animationnights.com/
+    category:
+      - animation
+      - event
+    content: >
+      ANNY announced that on August 22nd there will be a showing of their new animation series, ["Other Lives"](https://www.animationnights.com/screening63/).
