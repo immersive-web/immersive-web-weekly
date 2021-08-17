@@ -45,7 +45,7 @@ async function build (type) {
     // Update meta with some more values for our templates
     meta.issue = issue;
     meta.issueNum = parseInt(issue);
-    meta.permalink = `https://immersivewebweekly.com/docs/issues/${meta.issue}/`;
+    meta.permalink = `https://immersivewebweekly.com/issues/${meta.issue}/`;
     meta.date = moment.utc(meta.date).format('MMMM DD, YYYY');
 
     if (meta.signed) {
