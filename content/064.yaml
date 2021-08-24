@@ -1,0 +1,47 @@
+date: 2021-08-24
+overview: >
+  While I stayed thoroughly busy [building a small factory](https://www.youtube.com/watch?v=EH7LpjjyRNs), the searches that I use to find news items were a bit quiet this week which gives us an opportunity to relish that this community has helped to immerse people around the Earth in the amazing journey of five Paralympics athletes and the rush of dynamic art at MUTEK.
+  <br style="margin-bottom: 15px;" />
+  Enjoy!
+summary: 
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
+links:
+  -
+    title: Paralympians' story in XR
+    url: https://www.paralympic.org/raw-emotions
+    author: Phoriatech
+    authorLink: https://twitter.com/phoriatech/
+    category:
+      - experience
+    content: >
+      Phoriatech worked with Facebook and the Paralympics to tell [the uplifting stories of five athletes](https://www.paralympic.org/raw-emotions). 
+  -
+    title: Virtual MUTEK
+    url: https://virtual.mutek.org/en/montreal-2021
+    author: MUTEK
+    authorLink: https://mutek.org/
+    category:
+      - event
+    content: >
+      The decades-old electronic-music and audiovisual-performance festival, MUTEK, is now virtual and [runs from 24 August to 5 September](https://virtual.mutek.org/en/montreal-2021). This year it includes immersive experiences such as an art gallery.
+  -
+    title: Interoperability Demo Night
+    url: https://twitter.com/amoration/status/1428093696163999745
+    author: Open Metaverse Interoperability Group
+    authorLink: https://github.com/omigroup/OMI
+    category:
+      - event
+    content: >
+      The Open Metaverse Interoperability Group will [host a demo night](https://twitter.com/amoration/status/1428093696163999745) for projects that support interoperability among XR spaces.
+  -
+    title: 2D Platformer in VR
+    url: https://twitter.com/davrous/status/1428422834179739656
+    author: David Rousset
+    authorLink: https://twitter.com/davrous/
+    category:
+      - experience
+    content: >
+      Babylon.js contributor David Rousset [released](https://twitter.com/davrous/status/1428422834179739656) a [2D platformer game that you play in VR](https://playground.babylonjs.com/#LDB9FM).
