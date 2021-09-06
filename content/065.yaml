@@ -1,16 +1,95 @@
-date: 2021-08-31
+date: 2021-09-06
 overview: >
-  Overvew here in markdown
-summary: 
+  I took a bit of time away from [skiing](https://constructarcade.com/game/ski-fit-365/) and [sending love letters](https://youtu.be/cGF3H_JqrTA) to be amazed and awed by the progress in the wider web community. Three new modules hit the standards track, Apple triggered a discussion about declarative scenes, Kent Bye hit a milestone, and Ada Rose gave us loop-de-loops.
+  <br style="margin-bottom: 10px" />
+  Place your personal items below your seat, pull down the restraint bar, and get ready to scream because it's time for another issue of the Immersive Web Weekly!
+
+summary: First Public Drafts, WebGPU Origin Trial, and a Room-sized Roller Coaster
+
 signed: >
   [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: First Public Working Drafts of Depth Sensing, Hit Test, and DOM Overlay Modules 
+    url: https://www.w3.org/blog/news/archives/9238
+    author: W3C Immersive Web Groups
+    authorLink: https://github.com/immersive-web/
     category:
-      - Category here
+      - standard
     content: >
-      Summary content goes here in markdown
+      Three WebXR modules hit a big milestone, moving from the community group where specifications are incubated into the working group where specifications are turned into standards. At the same time, the specification documents were published as a "First Public Draft" to invite feedback from the wider web community. The [depth sensing module](https://www.w3.org/TR/2021/WD-webxr-depth-sensing-1-20210831/) provides an API to receive surface information about objects like walls and furniture in the physical world. The API described in the [hit test module](https://www.w3.org/TR/2021/WD-webxr-hit-test-1-20210831/) provides distance information between XR devices and physical objects. The [DOM Overlay module](https://www.w3.org/TR/2021/WD-webxr-dom-overlays-1-20210831/) gives creators the ability to place web content like 2D text, images, and controls on top of 3D scenes.
+  -
+    title: Apple Proposes <model> to Compliment WebXR
+    url: https://github.com/WebKit/explainers/tree/main/model
+    author: Dean Jackson of Apple
+    authorLink: https://twitter.com/grorgwork
+    category:
+      - standard
+    content: >
+      Long-time Safari engineer and occasional WebXR group contributor Dean Jackson created quite a stir by [proposing a new HTML element, `model`](https://github.com/WebKit/explainers/tree/main/model), which would parallel the existing `audio` and `video` elements but to provide 3D scene rendering instead of sound or flat video. It would appear, based on comments from Apple's head of WebKit engineering, [Maciej Stachowiak](https://twitter.com/othermaciej/), that [Apple remain committed to implementing WebXR](https://twitter.com/othermaciej/status/1432517526202687491) and the new element would be a declarative compliment to the more programmatic APIs like WebXR.
+  -
+    title: Mary Shelley's Gothic Mansion
+    url: https://shelley.sciencevr.com/
+    author: ScienceVR
+    authorLink: https://www.sciencevr.com/
+    category:
+      - experience
+    content: >
+      Join others in this experience to learn about Mary Wollstonecraft Shelley, a poet and the author of the early science fiction novel "Frankenstein".
+  -
+    title: Voices of VR Episode 1000
+    url: https://voicesofvr.com/1000-voices-of-vr-retrospective-on-the-ultimate-potential-of-virtual-reality/
+    author: Kent Bye
+    authorLink: https://twitter.com/kentbye/status/1431710961136648195
+    category:
+      - podcast
+    content: >
+      Kent Bye is arguably the most consistent and thorough journalist covering the current wave of XR culture in his podcast, Voices of VR. He recently published episode 1000 (!!) in the form of a retrospective on the [ultimate potential of virtual reality](https://voicesofvr.com/1000-voices-of-vr-retrospective-on-the-ultimate-potential-of-virtual-reality/) that includes interview excerpts from many of our community members.
+  -
+    title: Hello World for VR Render Streaming
+    url: https://www.youtube.com/watch?v=di18sWRlbFs
+    author: Vasanth Mohan
+    authorLink: https://twitter.com/FusedVR/
+    category:
+      - tutorial
+    content: >
+      Vasanth (aka Fuseman) released a [new video](https://www.youtube.com/watch?v=di18sWRlbFs) in his series about using Unity, render streaming, and WebXR to create experiences for web users as well as a video about [creating an archery experience](https://www.youtube.com/watch?v=Bc__t2MLarc). 
+  -
+    title: Video Textures in Mozilla Hubs
+    url: https://twitter.com/mozillahubs/status/1432820775849906180
+    author: Mozilla Hubs Team
+    authorLink: https://hubs.mozilla.com/
+    category:
+      - platform
+    content: >
+      It became possible to broadcast live feeds from in-world cameras onto object materials in Hubs. 
+  -
+    title: Croquet Ships
+    url: https://croquet.io/
+    author: 
+    authorLink: 
+    category:
+      - platform
+    content: >
+      [A global network of relay servers for rich media spaces](https://croquet.io/) went live and touts its ability to back dynamic experiences in XR.
+  -
+    title: Ada Rose's Roller Coaster
+    url: https://medium.com/samsung-internet-dev/use-new-augmented-reality-features-with-just-a-few-lines-of-code-with-webxr-and-aframe-c6f3f5789345
+    author: Ada Rose Cannon
+    authorLink: https://twitter.com/adaRoseCannon/
+    category:
+      - tutorial
+      - experience
+    content: >
+      Ada continues to provide high quality tutorials for XR creators, this time [delving into new module APIs](https://medium.com/samsung-internet-dev/use-new-augmented-reality-features-with-just-a-few-lines-of-code-with-webxr-and-aframe-c6f3f5789345) like lighting estimation, hit test, anchors, and DOM overlay. Perhaps the most fun aspect of this release is her [rollAR coaster demo](https://ada.is/rollAR-coaster/).
+  -
+    title: WebGPU Begins Chrome Origin Trial
+    url: https://twitter.com/chromiumdev/status/1432257883912216577
+    author: Google Chrome Team
+    authorLink: https://twitter.com/chromiumdev/
+    category:
+      - browser
+    content: >
+      <blockquote>After a decade of WebGL bringing 3D graphics to the web and enabling all sorts of new experiences, it's now time to upgrade the stack and help web developers take full advantage of modern graphics cards. WebGPU arrives just in time!  ~ <a href="https://twitter.com/mrdoob">Ricardo Cabella</a></blockquote>
+
