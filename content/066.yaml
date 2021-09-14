@@ -1,16 +1,48 @@
 date: 2021-09-14
 overview: >
-  Overvew here in markdown
-summary: 
+  As this email goes out our community is gathering for the [WebXR Business Summit](https://www.eventbrite.com/e/webxr-business-summit-tickets-164024179737) to discuss the applications and finances that will underpin commercial activity on the immersive web. Tickets are free and the event runs all day TODAY starting at 8am Pacific so tune in when you have a chance.
+  <br style="margin-bottom: 10px" />
+  Write up your business canvas, polish your pitch deck, and recruit your C-suite because it's time for another issue of the Immersive Web Weekly!
+
+summary: Business summit, OpenWebDocs, Funky gravity
+
 signed: >
-  [Trevor Flowers](https://trevor.smith.name/) from [Transmutable](https://transmutable.com/)
+  [Trevor Flowers](https://trevor.smith.name/), some random [YouTuber](https://www.youtube.com/channel/UCx5lDwkD0MvZmOir6ln-_rA)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Help With Our Immersive Web Springboard
+    url: https://twitter.com/AdaRoseCannon/status/1435168179244998663
+    author: Ada Rose Cannon
+    authorLink: https://twitter.com/AdaRoseCannon/
     category:
-      - Category here
+      - help needed
     content: >
-      Summary content goes here in markdown
+      Our illustrious co-chair, Ada, [put out the call](https://twitter.com/AdaRoseCannon/status/1435168179244998663) for help collecting inspirational content links for the community's web site, [ImmersiveWeb.dev](https://ImmersiveWeb.dev/). There is a [GitHub Issue](https://github.com/immersive-web/immersiveweb.dev/issues/61) to discuss what should be there to help new developers join the immersive web. You can also probably chat with her about it on her [Twitch stream](https://www.twitch.tv/adarosecannon) tomorrow at 4pm BST/8am PT.
+  -
+    title: OpenWebDocs Drops an Immersive Infobomb on MDN
+    url: https://opencollective.com/open-web-docs/updates/open-web-docs-worklog-august-2021-edition
+    author: OpenWebDocs
+    authorLink: https://openwebdocs.org/
+    category:
+      - documentation
+    content: >
+      The Open Web Docs team has contributed 2000+ pages to [MDN](https://developer.mozilla.org/en-US/) including 56 new pages about WebXR. Their [worklog](https://opencollective.com/open-web-docs/updates/open-web-docs-worklog-august-2021-edition) details which pages are fresh and new.
+  -
+    title: High Quality VR Streaming Meetup
+    url: https://www.meetup.com/ARVR-Creators/events/280755342/
+    author: AR/VR Creators Meetup
+    authorLink: https://www.meetup.com/ARVR-Creators/
+    category:
+      - event
+    content: >
+      The [AR/VR Creators Meetup](https://www.meetup.com/ARVR-Creators/) is hosting an [online event on September 23rd](https://www.meetup.com/ARVR-Creators/events/280755342/) featuring Vasanth Mohan (AKA [Fuseman](https://twitter.com/FusedVR)) to discuss his recent efforts to stream high-quality VR rendered in Unity into WebXR sessions.
+  -
+    title: Play Storage Space 13 in only 13k for js13KGames
+    url: https://js13kgames.com/entries/storage-space-13
+    author: Timmy Kokke
+    authorLink: https://twitter.com/Sorskoot
+    category:
+      - experience
+    content: >
+      Your spaceship is a terrible mess and gravity is funky! [Push around the boxes](https://js13kgames.com/entries/storage-space-13) to clear the deck to win this game for the [ongoing js13KGames contest](https://js13kgames.com/webxr).
