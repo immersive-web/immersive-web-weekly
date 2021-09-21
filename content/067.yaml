@@ -29,7 +29,7 @@ links:
     content: >
       Bruno Fanini [teased](https://twitter.com/phoenixbf/status/1438432047035527172) a demonstration of their [ATON library](https://github.com/phoenixbf/aton) for collaborative immersive web apps by loading multi-resolution 3D tiles from [Cesium](https://cesium.com/) to render a [section of Mars](https://github.com/NASA-AMMOS/3DTilesSampleData/tree/master/msl-dingo-gap) scanned by the Curiosity rover.
   -
-    title: Placebo Records Call For Immersive Musicans
+    title: Placebo Records Call For Immersive Musicians
     url: https://twitter.com/ur_phantasii/status/1438290474528280584
     author: Placebo Records
     authorLink: https://www.placebo-records.com/placebo-records
@@ -46,7 +46,7 @@ links:
     category:
       - browser
     content: >
-      The [meta-bug that tracks development of WebXR on WebKit](https://bugs.webkit.org/show_bug.cgi?id=208988) (the web engine used by Apple) shows that most of the dependencies are marked complete and what remains is testing-related. Undoubtedly, tests will reveal more bugs but this is still a bit of a milestone on the road to WebXR on iOS, padOS, and macOS.
+      The [meta-bug that tracks development of WebXR on WebKit](https://bugs.webkit.org/show_bug.cgi?id=208988) (the web engine used by Apple) shows that most of the dependencies are marked complete and what remains is testing-related. Undoubtedly, tests will reveal more bugs but this is still a bit of a milestone on the road to WebXR on iOS, padOS, and macOS. Combined with new WebGL2 support in Safari 15, this seems like forward motion for the immersive web on Apple devices.
   -
     title: UW Reality Lab Demo Day
     url: https://youtu.be/lnMXrhVglCo?t=94
@@ -56,4 +56,21 @@ links:
       - education
     content: >
       The University of Washington's Reality Lab [released a video of student presentations](https://youtu.be/lnMXrhVglCo?t=94) from the Spring session of [their lab](https://realitylab.uw.edu/) focused on XR, many of which use WebXR in part due to the pandemic lockdown. 
-
+  -
+    title: Beatboxes Make Money
+    url: https://zeblocks.com/beatboxes.html
+    author: Zeblocks
+    authorLink: https://zeblocks.com/
+    category:
+      - cash money
+    content: >
+      [Beatboxes](https://zeblocks.com/beatboxes.html) are 841 generated rooms available as NFTs on the Ethereum blockchain. While the general idea of A-frame experiences available as NFTs has been around for more than a year, Beatboxes is notable because the rooms have [apparently](https://opensea.io/collection/art-blocks-playground) been [purchased](https://dune.xyz/rantum/Art-Blocks?date=2021-06-15%2000%3A00%3A00&ProjectID=145) for a relatively large amount of money compared to other immersive web experiences.
+  -
+    title: Wonderland Releases More Wonder
+    url: https://wonderlandengine.com/news/release-0.8.8/
+    author: Wonderland Development Team
+    authorLink: https://wonderlandengine.com/
+    category:
+      - platform
+    content: >
+      The big feature in this release of the [Wonderland platform](https://wonderlandengine.com/) is runtime glTF loading which enables features like dynamic digital body loading, NFT-referenced model loading, and use of the [WebXR input profiles library](https://github.com/immersive-web/webxr-input-profiles) to show appropriate input controllers.
