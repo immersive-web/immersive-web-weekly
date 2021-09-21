@@ -1,16 +1,59 @@
 date: 2021-09-21
 overview: >
-  Overvew here in markdown
-summary: 
+  I took a moment away from [making 20 tiny Memex](https://youtu.be/Bq3YVh-Eqd4) to check in with activity on the immersive web and there's a lot going on! The WebKit team seems to be playing a solid game of catch-up, Khronos is looking forward to ubiquitous scanning, and creators continue to blow minds with new experiences.
+  <br style="margin-bottom: 15px;" />
+  Fill your gas canisters, check the light seals on your microfilm development chambers, and prep your documents for scanning into trails because it's time for another issue of the Immersive Web Weekly!
+
+summary: LIDAR, Dingo Gap, WebXR for WebKit, and UW Demo Day
+
 signed: >
   [Trevor Flowers](https://trevor.smith.name/), some random [YouTuber](https://www.youtube.com/channel/UCx5lDwkD0MvZmOir6ln-_rA)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Scans For The People
+    url: https://www.khronos.org/blog/will-lidar-break-the-3d-asset-creation-bottleneck
+    author: Sandy Ressler
+    authorLink: https://twitter.com/sressler
     category:
-      - Category here
+      - capture
     content: >
-      Summary content goes here in markdown
+      [This article](https://www.khronos.org/blog/will-lidar-break-the-3d-asset-creation-bottleneck) is a quick summary of LIDAR asset creation and how its greater availability could change major uses of WebXR like e-commerce.
+  -
+    title: A Sneak Peek of Dingo Gap
+    url: https://twitter.com/phoenixbf/status/1438432047035527172
+    author: Bruno Fanini
+    authorLink: https://twitter.com/phoenixbf/
+    category:
+      - demo
+    content: >
+      Bruno Fanini [teased](https://twitter.com/phoenixbf/status/1438432047035527172) a demonstration of their [ATON library](https://github.com/phoenixbf/aton) for collaborative immersive web apps by loading multi-resolution 3D tiles from [Cesium](https://cesium.com/) to render a [section of Mars](https://github.com/NASA-AMMOS/3DTilesSampleData/tree/master/msl-dingo-gap) scanned by the Curiosity rover.
+  -
+    title: Placebo Records Call For Immersive Musicans
+    url: https://twitter.com/ur_phantasii/status/1438290474528280584
+    author: Placebo Records
+    authorLink: https://www.placebo-records.com/placebo-records
+    category:
+      - open call
+    content: >
+      [Placebo Records](https://www.placebo-records.com/placebo-records) (a collective of alternative pop artists) [put out the call](https://twitter.com/ur_phantasii/status/1438290474528280584) for musicians interested in taking part in [Ur Phantasii](https://www.placebo-records.com/phantasii), their immersive web venue and hang out space. 
+  -
+    title: >
+      WebKit WebXR Support: Coming Soon?
+    url: https://bugs.webkit.org/show_bug.cgi?id=208988
+    author: WebKit Development Team 
+    authorLink: https://webkit.org/
+    category:
+      - browser
+    content: >
+      The [meta-bug that tracks development of WebXR on WebKit](https://bugs.webkit.org/show_bug.cgi?id=208988) (the web engine used by Apple) shows that most of the dependencies are marked complete and what remains is testing-related. Undoubtedly, tests will reveal more bugs but this is still a bit of a milestone on the road to WebXR on iOS, padOS, and macOS.
+  -
+    title: UW Reality Lab Demo Day
+    url: https://youtu.be/lnMXrhVglCo?t=94
+    author: UW Reality Lab
+    authorLink: https://realitylab.uw.edu/
+    category:
+      - education
+    content: >
+      The University of Washington's Reality Lab [released a video of student presentations](https://youtu.be/lnMXrhVglCo?t=94) from the Spring session of [their lab](https://realitylab.uw.edu/) focused on XR, many of which use WebXR in part due to the pandemic lockdown. 
+
