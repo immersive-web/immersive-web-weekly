@@ -1,0 +1,61 @@
+date: 2021-10-05
+overview: >
+  It is interesting times here in the <strike>metaverse</strike> immersive web, with AR features becoming more stable at the same time that [new hardware offerings](https://twitter.com/mrmaxm/status/1445070181898784773) tease a variety of openness and capability and the world of blockchains aggressively inserts itself into almost every aspect of the creative and technical community.
+  <br style="margin-bottom: 15px;"/>
+  [Buy a power plant](https://www.nbcnews.com/tech/tech-news/bitcoin-miners-align-fossil-fuel-firms-alarming-environmentalists-n1280060), turn on four-factor auth, and fire up your miner racks because it's time for another issue of the Immersive Web Weekly!
+
+summary: AR Basketball, Micro-Metaverses, Wearables, and Alpine Skiing
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), making [Twenty Tiny Memex](https://youtu.be/Bq3YVh-Eqd4)
+
+links:
+  -
+    title: bARsketball
+    url: https://twitter.com/AdaRoseCannon/status/1440637896147439616
+    author: Ada Rose Cannon
+    authorLink: https://twitter.com/AdaRoseCannon/
+    category:
+      - experience
+      - sportsball
+    content: >
+      Co-chair and XR powerhouse Ada Rose Cannon published [bARsketball](https://xr-basketball.glitch.me/), a demonstration of many AR features of WebXR. She also wrote up a [detailed blog post](https://medium.com/samsung-internet-dev/game-physics-on-the-web-in-aframe-628fbf7c32a3) about implementing game physics for XR experiences.      
+  -
+    title: >
+      Metaverse Tutorial Series One: Enter the Micro-Metaverse
+    url: https://github.com/i3games/hen-metaverse-tutorial-1/blob/main/Tutorial.md
+    author: Michael Straeubig
+    authorLink: https://twitter.com/crcdng
+    category:
+      - tutorial
+    content: >
+      The author of the [2021 VR Manifesto](https://twitter.com/crcdng/status/1409288033745186820) is writing a [series of tutorials](https://github.com/i3games/hen-metaverse-tutorial-1/blob/main/Tutorial.md) covering XR scenes backed by NFTs, cryptocurrency wallets and transactions, and smart contracts for interaction.
+  -
+    title: Vhite Rabbit interview Playko CEO
+    url: https://anchor.fm/vhiterabbit/episodes/Episode-41-with-Yin-Chien-Yeap---Ski-Fit-365--Emphasizing-with-Mass-Market-Consumers-and-WebXR-in-Unity-e17p7ld
+    author: Vhite Rabbit WebXR Podcast
+    authorLink: https://twitter.com/WebXRPodcast
+    category:
+      - podcast
+      - interview
+    content: >
+      Playko recently published [Ski Fit 365](https://constructarcade.com/game/ski-fit-365/) which [yin-chien yeap](https://twitter.com/yinch) discusses with the Vhite Rabbit team as well as the state of the immersive web and XR publishing.
+  -
+    title: Webaverse Teases Wearables
+    url: https://twitter.com/webaverse/status/1443353970425090051
+    author: Webaverse
+    authorLink: https://webaverse.com/
+    category:
+      - bodies
+    content: >
+      The ["Multiplatform Internet MMO built with NFTs"](https://webaverse.com/) is [making progress](https://twitter.com/webaverse/status/1443353970425090051) on fashion for digital bodies.
+  -
+    title: Design Summit Town Hall
+    url: https://www.youtube.com/watch?v=u-YvgUiUrWY
+    author: WebXR Events Team
+    authorLink: https://webxr.events/
+    category:
+      - event
+    content: >
+      In preparation for the October 12 [WebXR Design Summit](https://webxr.events/event/webxr-design-summit/), Kent Bye hosted a [two hour open town hall](https://www.youtube.com/watch?v=u-YvgUiUrWY) to discuss topics for the event as well as to get a sense of how people in the wider community think about design for AR and VR.
+
