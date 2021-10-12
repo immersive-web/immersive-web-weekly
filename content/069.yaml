@@ -1,0 +1,49 @@
+date: 2021-10-12
+overview: >
+  It was a bit hard to concentrate when editing this issue because the [WebXR Design Summit](https://www.youtube.com/watch?v=e0H6PQUKNbc) is currently hosting a series of panels with excellent people saying interesting things. At the same time, the [Lynx kickstarter](https://www.kickstarter.com/projects/stanlarroque/lynx) is fully funded, Magic Leap is showing [pics of v2](https://twitter.com/MadewMagicLeap/status/1447634952351268867), HTC is [teasing a new stand-alone](https://www.youtube.com/watch?v=EMmOwSl3IO4), and the [CombineReality](https://combinereality.com/) kickstarter is coming soon so the hardware space is heating up.
+  <br style="margin-bottom: 15px;" />
+  Exciting times!
+summary: 
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+links:
+  -
+    title: WebXR Design Summit is Happening Now
+    url: https://webxr.events/event/webxr-design-summit/
+    author: WebXR Summit Team
+    authorLink: https://webxr.events/
+    category:
+      - event
+    content: >
+      As we go to press the WebXR Summit team is gathering together a wide variety of speakers from our community. Tune in to the [YouTube livestream](https://www.youtube.com/watch?v=e0H6PQUKNbc) and check out [the schedule](https://webxr.events/event/webxr-design-summit/).
+  -
+    title: js13kGames Winners
+    url: https://js13kgames.com/#winners-webxr
+    author: js13kGames
+    authorLink: https://js13kgames.com/
+    category:
+      - contest
+      - game
+    content: >
+      With help from many judges in our community, the js13kGames contest has [announced the winners](https://twitter.com/js13kGames/status/1445424728458600451) in the WebXR games category. You can play them directly from the [contest page](https://js13kgames.com/#winners-webxr).
+  -
+    title: >
+      OnboardXR: Mythos and Monsters
+    url: https://www.eventbrite.com/e/onboardxr-mythos-and-monsters-tickets-184422461547
+    author: Brenden Bradley
+    authorLink: https://twitter.com/brendanAbradley/
+    category:
+      - event
+    content: >
+      <blockquote>OnBoardXR is a first-look incubator and anthology of short-form, stable showcases of live performance in a single event and web browser. The seasonal event is a self-driving sandbox open to participants wishing to prototype or experiment with live 3D/XR/VR/AR/Streaming virtual technologies.</blockquote>
+      FIVARS also has an [interview with Brenden](https://fivars.net/news/fivars-2021-spotlight-onboardxr-the-aquaians/) about producing events for the immersive web.
+  -
+    title: Spatial-audio Experiments with BabylonJS
+    url: https://playground.babylonjs.com/#SY0NY5#9
+    author: docEdub
+    authorLink: https://twitter.com/DocEdub
+    category:
+      - experience
+    content: >
+      The artist known as [docEdub](https://twitter.com/DocEdub/status/1447708212304678912) announced a [new experiment](https://playground.babylonjs.com/#SY0NY5#9) with spatial audio using CSound, WebAssembly, and BabylonJS.
+
