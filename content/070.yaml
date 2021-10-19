@@ -1,16 +1,50 @@
 date: 2021-10-19
 overview: >
-  Overvew here in markdown
-summary: 
+  I took a break from playing [whack-a-mole](https://acodedoer.github.io/aframe-whack-a-mole/) to check in on the immersive web community and wow are you all staying busy! I've heard from a fair number of people that recent announcements of new XR hardware (and a few that are coming soon) have renewed their optimism about the possibility of open and trustworthy XR on the web.
+  <br style="margin-bottom: 15px;" />
+  Burn your firmware, mill your injection molds, and submit your certification docs because it's time for another issue of the Immersive Web Weekly!
+
+summary: Decentraland, WebGPU tuts, and an art residency
+
 signed: >
   [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Camera Access Experiment
+    url: https://twitter.com/stspanho/status/1447511600294924292
+    author: Stijn Spanhove
+    authorLink: https://twitter.com/stspanho/
     category:
-      - Category here
+      - camera access
     content: >
-      Summary content goes here in markdown
+      A [new experiment in Android Chrome](https://twitter.com/stspanho/status/1447511600294924292):
+      <blockquote>"I'm using the camera access api to get the camera intrinsics and an image snapshot. This is sent to the <a href="https://immersal.com/">Immersal</a> services for localization. If it is successful, I can place a transparent 3d scan of the castle. The bullets and splashes interact with the placed castle."</blockquote>
+  -
+    title: Decentraland's Metaverse Festival
+    url: https://themetaversefestival.io/
+    author: Decentraland
+    authorLink: https://twitter.com/Decentraland
+    category:
+      - event
+    content: >
+      On October 21 to 24 the Decentraland team will produce [The Metaverse Festival](https://themetaversefestival.io/), "A four-day celebration of music, culture and creativity in the virtual social world of Decentraland, the Metaverse Festival is a grand collision of light, sound and portable toilets".
+  -
+    title: Brandon on WebGPU
+    url: https://toji.github.io/webgpu-best-practices/
+    author: Brandon Jones
+    authorLink: https://twitter.com/Tojiro/
+    category:
+      - tutorial
+    content: >
+      WebXR spec editor Brandon Jones [started a tutorial series](https://toji.github.io/webgpu-best-practices/) about WebGPU, the upcoming browser API that promises to bring higher quality graphics to XR experiences. 
+  -
+    title: Open Call for XR Artists
+    url: https://sat.qc.ca/en/news/open-call-for-web-vr-residency
+    author: Society for Arts and Technology
+    authorLink: https://sat.qc.ca/
+    category:
+      - residency
+    content: >
+      <blockquote>"Satellite, the virtual space of the Society for Arts and Technology, is happy to announce an <a href="https://sat.qc.ca/en/news/open-call-for-web-vr-residency">open call for web VR residency</a> to artists and creators in 2021-2022. The residency consists of an artistic creation in the virtual spaces of Satellite. Mozilla Hubs is currently Satellite's primary authoring platform, but the residency is open to creations on any other web VR platform. It is aimed at people interested in a multidisciplinary approach and with a strong motivation for Web XR experiences."</blockquote>
+
