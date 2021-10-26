@@ -1,16 +1,74 @@
 date: 2021-10-26
 overview: >
-  Overvew here in markdown
-summary: 
+  It's always a good week when [FIVARS](https://fivars.net/) is live but I took a break from those excellent experiences to search out news from the rest of our community. The Frame team is hard at work, our Facebook friends are hosting Connect, and ur-dev Mark Pesce updated a piece of history!
+  <br style="margin-bottom: 15px;" />
+  Batten down your hatches, trim your sails, and plumb the fathoms because it's time for another issue of the Immersive Web Weekly!
+
+summary: Gecko Is a Problem, Frame Beta Bodies, VRML Comeback, and PDFs in space
+
 signed: >
   [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Firefox Reality Is a Problem
+    url: https://twitter.com/shen/status/1450512463661830147
+    author: Shen Ye
+    authorLink: https://twitter.com/shen/
     category:
-      - Category here
+      - browser
     content: >
-      Summary content goes here in markdown
+      Today XR headset makers face a tough choice among immersive browsers: invest a considerable number of people to maintain a custom Google Chromium-based browser with great WebXR support (as Facebook does for the Quest) or port a Mozilla Gecko-based browser like Firefox Reality and deal with XR support that hasn't changed in any substantial way since Mozilla's Mixed Reality team was laid off more than a year ago.
+      <br style="margin-bottom: 15px;" />
+      Last week Shen Ye followed the path of the Pico team in revealing that HTC's new [Vive Flow headset](https://www.vive.com/eu/product/vive-flow/overview/) will ship with Firefox Reality and [Stan Larroque](https://twitter.com/stanlarroque) also announced in a YouTube livestream that the Lynx team is working on a Firefox Reality port for [their headset](https://lynx-r.com/).
+      <br style="margin-bottom: 15px;" />
+      HTC, Lynx, Pico and Mozilla do not intend, as far as I can tell, to update Gecko's WebXR implementation. The divergence between Chromium- and Gecko-based browsers has already fragmented the fetal immersive web, forcing developers to choose between supporting only one browser engine or writing what is effectively two separate rending and input handling paths for their code. If we want a healthy and open immersive web then this must change.
+      <br style="margin-bottom: 15px;" />
+      (editor's note for transparency: I was the original product manager for Firefox Reality but left Mozilla before the layoffs. I have donated to the Mozilla Foundation for more than a decade and continue to do so but have no equity or other financial ties.)
+  -
+    title: Original VRML Earth Demo
+    url: https://twitter.com/mpesce/status/1452408160354848769
+    author: Mark Pesce
+    authorLink: https://twitter.com/mpesce/
+    category:
+      - experience
+    content: >
+      One of the original VRML demos is now [available via WebXR](http://hyperreal.org/~mpesce/we5/we.html). It's not terribly splashy by today's standards but it's nice to see old friends.
+  -
+    title: Connect with Facebook
+    url: https://facebookconnect.com/
+    author: Facebook
+    authorLink: https://facebook.com/
+    category:
+      - event
+    content: >
+      This Thursday, 28 October, folks from the Facebook Reality Lab (and I assume our very own spec editor, [Rik Cabanier](https://twitter.com/rcabanier)) will host a [free and rather large online event](https://facebookconnect.com/) about XR. Previous Connect events have brought announcements of future hardware, a look into research work, and in-depth sessions about many aspects of making the immersive web. Perhaps this year we'll even learn about the [rebranding of the entire company](https://www.theverge.com/2021/10/19/22735612/facebook-change-company-name-metaverse) to focus on the metaverse and next year we will attend "Horizon Connect".
+  -
+    title: Fly in Frame
+    url: https://learn.framevr.io/post/beta3
+    author: The Frame Team
+    authorLink: https://framevr.io/
+    category:
+      - platform
+    content: >
+      The team that makes one of the more complete immersive web platforms, Frame, [announced a beta](https://learn.framevr.io/post/beta3) that includes better digital bodies (especially the eyes), quality scaling for environments so that they look better on more capable machines, and flying.
+  -
+    title: Touch the Vectors
+    url: https://mordric.github.io/Vectors2Life/
+    author: Jay Murphree
+    authorLink: https://github.com/mordric
+    category:
+      - education
+      - experience
+    content: >
+      Teacher Jay Murphree created [this educational site](https://mordric.github.io/Vectors2Life/) that uses WebXR and guided tutorials to teach vector mathematics in an immersive manner.
+  -
+    title: PDFs! In! Space!
+    url: https://kibila.com/
+    author: Kibila
+    authorLink: https://twitter.com/KibilaXR
+    category:
+      - experience
+    content: >
+      The immersive web continues to absorb file types, this time it's [PDFs](https://kibila.com/).
+
