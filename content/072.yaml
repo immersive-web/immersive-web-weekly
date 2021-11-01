@@ -1,0 +1,57 @@
+date: 2021-11-02
+overview: >
+  I just got back from living under a rock and playing [House of the Dead](https://constructarcade.com/game/house-of-the-dead/). Did anything interesting happen last week?
+  <br style="margin-bottom: 15px;" />
+  Just kidding. Thanks to Connect my timelines are on fire with hot takes about Meta, the metaverse, the immersive web, and all things XR. People who barely know that VR is "a tech thing" are asking questions. The standing searches that I use to populate this newsletter have at least an order of magnitude more results than previous weeks and I'm happy to say that a lot of people are looking to the immersive web running on web browsers as the best path toward something metaverse-ish.
+  <br style="margin-bottom: 15px;" />
+  If you are an advocate then now is a good time to go big. If you work in an org that isn't thinking about the immersive web then now is the time to talk to your skip level.
+  <br style="margin-bottom: 15px;" />
+  Strap on your chromed glasses, polish the metal pointy bits on your black leather jacket, and jack into your cyberdeck because it's time for another issue of the Immersive Web Weekly.
+
+summary: Team Meta, Feta, Meat, Meataverse
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+links:
+  -
+    title: Twenty Verses about Meta
+    url: https://meta.com/
+    author: Meta (nee Facebook)
+    authorLink: https://meta.com/
+    category:
+      - platform
+    content: >
+      The company formally known as Facebook is now focused on "the metaverse" as defined by Mark Zuckerberg and [mildly dismissed](https://www.youtube.com/watch?v=BnSUk0je6oo) by John Carmack. During Mark's [Connect keynote](https://facebookconnect.com/en-us/session/70f2a060-08ef-4aba-a500-3c0495e5519a/) he announced a new umbrella brand, Meta, and talked about spending their reported $10 billion per year budget to "build on the metaverse". It is unclear at this time what that means but as usual [Kent wrote a thread](https://twitter.com/kentbye/status/1453764237201842320) that covered the high order bits.
+      <br style="margin-bottom: 15px;" />
+      The Oculus browser team continued to make progress on WebXR and related specs. Community member Jacob Rossi [gave a talk](https://www.facebook.com/facebookrealitylabs/videos/4637130066326723/) about their new [Progressive Web App support](https://developer.oculus.com/pwa/) which will allow developers to submit their web apps (including WebXR apps) to their App Store and eventually their App Lab. Quest developers will be able to side load PWAs, as well.
+      <br style="margin-bottom: 15px;" />
+      For graphics developers, a few engineers from the browser team [presented tactical approaches to optimization](https://www.facebook.com/facebookrealitylabs/videos/573587777089806/) of immersive experiences.
+      <br style="margin-bottom: 15px;" />
+      A broad vision for what the team have in mind for hybrid physical/virtual workspaces was also [presented in this session](https://www.facebookconnect.com/en-us/session/e15fd390-4f1d-4e0e-9bda-756b863b4c02/) with the browser as the centerpiece.
+  -
+    title: The Seven Rules of the Metaverse
+    url: https://medium.com/meta-verses/the-seven-rules-of-the-metaverse-7d4e06fa864c
+    author: Toni Parisi
+    authorLink: https://twitter.com/auradeluxe/
+    category:
+      - essay
+    content: >
+      With suspiciously good timing, long time VR creator and current "ads and e-commerce" head at Unity, Toni Parisi, published [a succinct definition of "the metaverse"](https://medium.com/meta-verses/the-seven-rules-of-the-metaverse-7d4e06fa864c):
+      <blockquote>
+        Rule #1. There is only one Metaverse. <br />
+        Rule #2: The Metaverse is for everyone. <br />
+        Rule #3: Nobody controls the Metaverse. <br />
+        Rule #4: The Metaverse is open. <br />
+        Rule #5: The Metaverse is hardware-independent. <br />
+        Rule #6: The Metaverse is a Network. <br />
+        Rule #7: The Metaverse is the Internet. <br />
+      </blockquote>
+      There is nuance to these rules and it's worth reading the essay to get the full picture.
+  -
+    title: WebXR for Webex for Web Experiences!
+    url: https://projectworkplace.cisco.com/capabilities/hologram
+    author: Cisco
+    authorLink: https://cisco.com/
+    category:
+      - product
+    content: >
+      Cisco announced their [new WebXR-based plugin, Hologram](https://projectworkplace.cisco.com/capabilities/hologram) for the massive Webex conference system ecosystem. Details are light but they're accepting requests for demos.
