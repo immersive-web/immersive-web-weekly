@@ -1,0 +1,38 @@
+date: 2021-11-09
+overview: >
+  The discourse about the metaverse and Meta continues to froth up my timelines, with web3 ([sic](https://twitter.com/TrevorFSmith/status/1455873579329810440)) and the immersive web being floated as alternatives to scary walled gardens. As a result, it was good fun to take a break from [noodling with an idea](https://twitter.com/TrevorFSmith/status/1456032122553184258) and [making 1:6 scale Memex](https://twitter.com/TrevorFSmith/status/1457717329953918987) to find a few tasty links for you!
+  <br style="margin-bottom: 15px;" />
+  Degauss your CRTs, counterbalance your [Sword of Damocles](https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality), and check that your token ring has a terminator because it's time for another issue of the Immersive Web Weekly!
+summary: 
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+links:
+  -
+    title: Put PWAs on your Meta Quest
+    url: https://timmykokke.com/blog/2021-11-05-webxr-pwa-apk/
+    author: Timmy Kokke
+    authorLink: https://twitter.com/Sorskoot
+    category:
+      - tutorial
+    content: >
+      Timmy Kokke (AKA Sorskoot) [posted a quick tutorial](https://timmykokke.com/blog/2021-11-05-webxr-pwa-apk/) on sideloading a PWA onto your Meta Quest.
+  -
+    title: VTuber As A Library
+    url: https://github.com/yeemachine/kalidokit
+    author: Rich (AKA Kalidoface)
+    authorLink: https://twitter.com/yeemachine
+    category:
+      - digital body
+    content: >
+      The [VTuber](https://en.wikipedia.org/wiki/Virtual_YouTuber) community remains one of the most active explorers of digital bodies and this week one of their number released [KalidoKit](https://github.com/yeemachine/kalidokit), a face and body tracking library that uses Tensorflow.js to map VRM-based digital bodies in realtime in a browser.
+  -
+    title: 5th ANNY Best of Fest 
+    url: https://www.animationnights.com/5thannybestoffest-2021/
+    author: Animation Nights New York
+    authorLink: https://www.animationnights.com/
+    category:
+      - event
+    content: >
+      On 13 November ANNY will open their [seven day online event](https://www.animationnights.com/5thannybestoffest-2021/) celebrating animation with talks, WebXR experiences, and screenings of shorts. Tickets are $10.
+
+
