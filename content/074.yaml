@@ -1,16 +1,50 @@
 date: 2021-11-16
 overview: >
-  Overvew here in markdown
-summary: 
+  While I [detour into making miniature intellectual infrastructure](https://www.youtube.com/channel/UCx5lDwkD0MvZmOir6ln-_rA/videos) the pace of the immersive web continues to increase with more developers picking up on the narrative that the browser is solid ground on which to build a <strike>metaverse</strike> home.
+  <br style="margin-bottom: 15px;"/>
+  Bake your bricks, pound your pilings, and snap your chalk lines because it's time for another issue of the Immersive Web Weekly!
+
+summary: WebGPU for Three, Meta-meta-meta sounds, and Nifty receipts
+
 signed: >
   [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Toward a Faster Three.js
+    url: https://github.com/mrdoob/three.js/releases/tag/r134
+    author: The Three.js Community
+    authorLink: https://threejs.org/
     category:
-      - Category here
+      - engine
     content: >
-      Summary content goes here in markdown
+      It was exciting to see WebGPU-related support landing in the [latest Three.js](https://github.com/mrdoob/three.js/releases/tag/r134), with a [couple](https://github.com/mrdoob/three.js/pull/22653) of [PRs](https://github.com/mrdoob/three.js/pull/22688) from [Sunag](https://github.com/sunag) that use [WSGL](https://gpuweb.github.io/gpuweb/wgsl/).
+  -
+    title: Pixels About Math About Math About Audio 
+    url: https://twitter.com/anotherjesse/status/1459750908741439489
+    author: Jesse Andrews
+    authorLink: https://twitter.com/anotherjesse/
+    category:
+      - experience
+    content: >
+      Jesse Andrews got meta-meta about sound with this [fast Fourier transformation visualization demo](https://lets.m4ke.org/3fft/)
+      and [example code](https://github.com/anotherjesse/3fft).
+  -
+    title: ShoyuNFT provides Glitz for Nifty Receipts 
+    url: https://www.shoyunft.com/metaverse
+    author: Benoit Barre-Vitiello
+    authorLink: https://twitter.com/senbenito_
+    category:
+      - experience
+    content: >
+      This [blockchain + immersive web experience](https://www.shoyunft.com/metaverse) was used in several conversations about the potential of the [Agreement Bedrock](https://twitter.com/TrevorFSmith/status/1456032122553184258) for the web community.
+  -
+    title: Spatial Sensing and Selling of Fabulous Furniture
+    url: https://www.dabble.so/
+    author: Neil Mathew of Dabble
+    authorLink: https://www.dabble.so/
+    category:
+      - experience
+    content: >
+      Neil Mathew [announced](https://twitter.com/neilxm/status/1459238913248317441) that [Dabble](https://www.dabble.so/) is a new browser-based tool for designing built environments that is [incorporating portal display modes](https://www.dabble.so/labs) for in-situ visualization.
+
