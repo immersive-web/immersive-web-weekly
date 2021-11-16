@@ -30,6 +30,15 @@ links:
       Jesse Andrews got meta-meta about sound with this [fast Fourier transformation visualization demo](https://lets.m4ke.org/3fft/)
       and [example code](https://github.com/anotherjesse/3fft).
   -
+    title: 8th Wall goes Wider
+    url: https://www.8thwall.com/blog/post/59297774102/introducing-reality-engine-8th-wall-webar-moves-beyond-the-smartphone
+    author: 8th Wall
+    authorLink: https://www.8thwall.com/
+    category:
+      - engine
+    content: >
+      The 8th Wall AR Engine team announced that their [new release](https://www.8thwall.com/blog/post/59297774102/introducing-reality-engine-8th-wall-webar-moves-beyond-the-smartphone) is now [wider](https://potassiumes.org/wider-web/) than ever with support for immersive displays like Hololens and Quest in addition to their already solid support of portal mode displays on iOS and Android smartphones.
+  -
     title: ShoyuNFT provides Glitz for Nifty Receipts 
     url: https://www.shoyunft.com/metaverse
     author: Benoit Barre-Vitiello
@@ -47,4 +56,3 @@ links:
       - experience
     content: >
       Neil Mathew [announced](https://twitter.com/neilxm/status/1459238913248317441) that [Dabble](https://www.dabble.so/) is a new browser-based tool for designing built environments that is [incorporating portal display modes](https://www.dabble.so/labs) for in-situ visualization.
-
