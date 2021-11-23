@@ -1,16 +1,68 @@
 date: 2021-11-23
 overview: >
-  Overview goes here
-summary:
+  As the holiday season rolls in, newly excited analysts around the world watch for signals that XR is taking off while long-time creators of the immersive web continue to lay down crucial foundations. It's not a job filled with glory so if you're giving thanks this week then perhaps reach out with kudos to our spec editors, chairs, browser teams, and community contributors.
+  <br style="margin-bottom: 15px" />
+  Seal up those windows, insulate your walls, and snuggle into a pile of blankets because it's time for another toasty issue of the Immersive Web Weekly!
+  <br style="margin-bottom: 15px" />
+  Note: The IWW team (OK, it's just me) is taking off December for a bit of holiday rest and relaxation. I'll see you back here in 2022!
+
+summary: Svelte Cubed, Polycam, bower birds, and Web3XR
+
 signed: >
   [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Svelte, but Wider
+    url: https://svelte-cubed.vercel.app/
+    author: Rich Harris
+    authorLink: https://twitter.com/rich_harris
     category:
-      - Category here
+      - engine
     content: >
-      Summary content goes here in markdown
+      Svelte developer Rich Harris announced [Svelte Cubed](https://svelte-cubed.vercel.app/) (and [its source code](https://github.com/rich-harris/svelte-cubed)) which combined the slick page-creation tool, [Svelte](https://svelte.dev/), with graphics engine [Three.js](https://threejs.org/) to give web creators a sum greater than its parts.
+  -
+    title: Browser-based Polycam 
+    url: https://twitter.com/Polycam3D/status/1462889379479781376
+    author: Polycam
+    authorLink: https://poly.cam/
+    category:
+      - platform
+    content: >
+      Photogrammetry, typically the realm of native apps, joined the immersive web with Polycam's [announcement](https://twitter.com/Polycam3D/status/1462889379479781376) that they've ported their engine to browsers. Collect images using whatever camera you have on hand, upload them to the Polycam site, change a few settings, and then download the resulting 3D files for use in any application, native or browser-based.
+  -
+    title: Be In The Bower
+    url: https://twitter.com/thentrythis/status/1462735112962027524
+    author: David Griffiths
+    authorLink: https://twitter.com/nebogeo
+    category:
+      - experience
+    content: >
+      [This project](https://twitter.com/thentrythis/status/1462735112962027524) brought the amazing bowers created by birds into XR and was scripted in Scheme that is then transliterated into Javascript.
+  -
+    title: FIVARS 2022 Applications
+    url: https://filmfreeway.com/fivars
+    author: Festival of International Virtual & Augmented Reality Stories
+    authorLink: https://fivars.net/
+    category:
+      - event
+    content: >
+      The FIVARS team quietly announced that [applications are open](https://filmfreeway.com/fivars) for their February 2022 festival.
+  -
+    title: M3 Covers "Web3XR"
+    url: https://github.com/m3-org/research#m3-20
+    author: M3
+    authorLink: https://twitter.com/m3org
+    category:
+      - research
+    content: >
+      Open metaverse creators recently gathered in Twitter Spaces and the M3 team graciously [gathered notes and references](https://github.com/m3-org/research) to the interesting projects mentioned during the meetings.  
+  -
+    title: Mentorships For Art Installation and Performance
+    url: https://twitter.com/_Intermediate_/status/1461801818720243715
+    author: Inter/Mediate Educational New Media Festival
+    authorLink: http://www.intermediatefest.ca/
+    category:
+      - art
+    content: >
+      <blockquote>Parallel 04: UNION Immersed is a WebXR performance & installation mentorship guided by Kiran Bhumber ਕਿਰਨਦੀਪ ਕੌਰ ਭੰਬਰ and Nancy Lee 李南屏 and presented by Vancouver New Music, INTER/MEDIATE and CURRENT, in partnership with The Roundhouse. Ten artists from a range of backgrounds, including visual and sound design, creative writing, dance and media arts were selected to take part in this collaborative project developing WebXR environments using Mozilla Hubs.</blockquote>
