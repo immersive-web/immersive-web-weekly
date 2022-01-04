@@ -1,16 +1,39 @@
-date: 2022-01-01
+date: 2022-01-04
 overview: >
-  Overvew here in markdown
+  Happy 2022, friends of the immersive web! I hope that you all had a chance to take a break, think long-term thoughts, and then make plans for the next year.
+  <br style="margin-bottom: 15px;" />
+  <strong>This is not your usual issue of the IWW but instead a chance to engage with each other about where we are and where we're going.</strong>
+  <br style="margin-bottom: 15px;" />
+  Over the darkest days of Winter I had the chance to think more deeply about the Immersive Web Weekly, a publication that started in 2018! WebXR was still a dream. Native XR SDKs were a painful mess. The consumer market for immersive displays didn't exist. Neither web payment APIs nor blockchains had noticeable impact on the flow of money. A lot of great work was happening in academia, browser teams, standards groups, and the military but for most people immersive displays and all that come with them were science fiction.
+  <br style="margin-bottom: 15px;" />
+  As we roll into the year of the Tiger, the context of the immersive web is completely different. Building multi-user XR in Unity and Unreal Engine is approachable by even small teams. We've replicated the app store model from smart phones for VR content and that is now the dominant way to get paid as a creator. The massively dominant web engine, Chromium, implements not just the WebXR core but also many of its newer modules like depth sensing. Several browser teams (including Microsoft's!) are building immersive-first browsers based on that common code. Our point of collaboration is increasingly the code repo instead of the standards group. Aggregators (see below) have revealed a growing community of immersive web experience creators. Last year the Quest stand-alone VR rig sold more units than the XBox game console. Nearly every major market for XR hardware has two or more competing manufacturers. Finally, the rise of crypto has merged with the marketing fervor around the metaverse to give us the highly anticipated (and debated) "web3". 
+  <br style="margin-bottom: 15px;" />
+  <strong>All of these developments (but especially web3) make me question the purpose and value of the Immersive Web Weekly, for our community and for myself.</strong>
+  <br style="margin-bottom: 15px;" />
+  The press coverage and general interest in the metaverse since Mark Z's keynote has overwhelmed the search tools that I use to write the IWW and the conversation in most online places that I frequent. The deluge of money and excitement flowing through web3 has drowned out almost all consideration for aspects of the immersive web that were considered important in 2018.
+  <br style="margin-bottom: 15px;" />
+  One way to react would be to continue or increase our efforts to broadcast information about the original flavor of the immersive web which has only recently become a reasonably viable option for large scale work.
+  <br style="margin-bottom: 15px;" />
+  Another way to react would be to directly engage with the ideas and people of web3 and to highlight folks who are working for more than a fast buck or fame. (there are many, despite most news articles)
+  <br style="margin-bottom: 15px;" />
+  Or we could declare victory, retire the IWW, and use its resources (my time writing and your time reading) for other work.
+  <br style="margin-bottom: 15px;" />
+  What do *you* think? I'm always available at [trevor@transmutable.com](mailto:trevor@transmutable.com) and [@TrevorFSmith](https://twitter.com/TrevorFSmith) but if someone else is interested in organizing a real-time discussion then let me know.
+  <br style="margin-bottom: 15px;" />
+  If few people respond then I'll read that as a majority vote to declare victory and retire the IWW.
+
 summary: 
+
 signed: >
-  [Trevor Flowers](https://trevor.smith.name/), maker of [Twenty Tiny Memex by 2022](https://youtu.be/Bq3YVh-Eqd4)
+  [Trevor Flowers](https://trevor.smith.name/), maker of miniature furniture
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: The Extended Collection
+    url: https://extendedcollection.com/
+    author: Joseph Simpson
+    authorLink: https://twitter.com/vrhermit
     category:
-      - Category here
+      - aggregator
     content: >
-      Summary content goes here in markdown
+      The IWW generator scripts can't handle an issue with no links so [here's a link](https://extendedcollection.com/) to links about links.
