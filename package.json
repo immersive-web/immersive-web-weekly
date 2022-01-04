@@ -10,9 +10,9 @@
   "author": "W3C Immersive Web Community Group",
   "license": "MIT",
   "devDependencies": {
-    "handlebars": "^4.0.11",
-    "js-yaml": "^3.11.0",
-    "moment": "^2.22.1",
+    "handlebars": "^4.7.7",
+    "js-yaml": "^3.14.1",
+    "moment": "^2.29.1",
     "parse-domain": "^2.0.0",
     "showdown": "^1.8.6",
     "xmldom": "^0.1.27"
