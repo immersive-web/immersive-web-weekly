@@ -1,0 +1,107 @@
+date: 2022-01-11
+overview: >
+  Hello, friends of the immersive web!
+
+  Thank you to the over 100 (!) people who responded to my [request for comment](https://immersivewebweekly.com/issues/076/index.html) about how to move forward with this newsletter and coverage of the immersive web in general. After many conversations (and a long bath) I've decided to edit issues 77 and 78 of the IWW and then step down as editor in order to start [Transmutable News](https://transmutablenews.com/), a new site and weekly newsletter.
+  <br style="margin-bottom: 15px" />
+  I love the W3C community of people, the work that we do, and I'm grateful that Jordan Santell donated the IWW to the Immersive Web Community Group and gave me the unexpected opportunity to write about an exciting time for XR, the web, and a world in transition. It's because of this gift that I'm able to make the leap to build something new.
+  <br style="margin-bottom: 15px" />
+  Transmutable News will provide a few features that (for good reasons) aren't possible with the IWW:
+  <br style="margin-bottom: 15px" />
+  The first is that I can stop turning away the many people who have reached out to offer the resources that I need to cover my costs and to provide coverage on additional topics that are essential to understanding the immersive web. I enjoy writing the IWW as a gift but having a budget of any sort will be great. I'm looking forward to being able to eventually add features like job postings, project trackers, hardware and software reviews, and even in-person events (germs willing).
+  <br style="margin-bottom: 15px" />
+  The second new feature is that I'll be able to cover [the agreement bedrock](https://twitter.com/TrevorFSmith/status/1456032122553184258). The wave of hype around crypto, web3, NFTs, and the metaverse are drowning out crucial work from the people who are working towards the day when we have a solid, sane, and ecologically sound foundation on which to come to agreements. One aspect of this is economic, certainly, but the near-term decisions we make about identity, authority, and ownership will in many ways define the future direction of the immersive web.
+  <br style="margin-bottom: 15px" />
+  I hope that you can trust me to cover these topics in a thoughtful and ethical way and that you'll consider [subscribing](https://transmutablenews.com/) to the new weekly newsletter. 
+  <br style="margin-bottom: 15px" />
+  Whew, that was a wall of text so let's stop there. Fire up your grill, prep your sauces, and put on your apron because it's time for another issue of the Immersive Web Weekly!
+
+summary: Transmutable News, Glitch and Fastly, Oculus Browser Hits the Jackpot, and a weak joke about a TV show.
+
+signed: >
+  [Trevor Flowers](https://trevor.smith.name/), maker of miniature furniture
+
+links:
+  -
+    title: Glitch Gets Fast(ly) For XR
+    url: https://twitter.com/glitch/status/1478786568110411776
+    author: Glitch
+    authorLink: https://glitch.com/
+    category:
+      - platform
+    content: >
+      In the midst of Glitch's announcement about big changes to their editor they also announced that 3D art assets now have a live view in their editor and are hosted on Fastly's content delivery network. The A-frame community and other WebXR users have long used Glitch to share their work so it's nice to see that kind of 3D-specific support from a general purpose platform.
+  -
+    title: Up And To The Right
+    url: https://immersive-web.github.io/webxr-input-profiles/packages/assets/stats/
+    author: W3C Immersive Web Community Group
+    authorLink: https://immersive-web.github.io/
+    category:
+      - market
+    content: >
+      Spec editor Brandon Jones [noted](https://twitter.com/Tojiro/status/1480602416743542787) that at least [one indicator of immersive web usage](https://immersive-web.github.io/webxr-input-profiles/packages/assets/stats/) jumped up around December 25th and shows no sign of a slowdown. Based on the percentage of Oculus Touch v3 in that traffic, the Quest 2 seems to have the right combination of features and experiences to break into the mass consumer market that, until recently, was more of a goal than a reality.
+  -
+    title: Progressive Web Apps Leave the Browser
+    url: https://web.dev/pwas-on-oculus-2/
+    author: Thomas Steiner
+    authorLink: https://twitter.com/tomayac
+    category:
+      - pwa
+    content: >
+      A developer relations engineer at Google, Thomas Steiner, [explored the integration of PWAs](https://web.dev/pwas-on-oculus-2/) into Meta's app store and the user experience of discovering, installing, and using them outside of the Oculus Browser.
+  -
+    title: A Vue into 3D
+    url: https://radicalappdev.com/2021/11/23/a-vue-into-3d-introduction/
+    author: Joseph Simpson
+    authorLink: https://twitter.com/vrhermit
+    category:
+      - engine
+    content: >
+      Connecting a modern application framework like Vue to a modern 3D engine like Babylon.js is no small feat so Joseph Simpson is digging in and sharing the process in [this new blog series](https://radicalappdev.com/2021/11/23/a-vue-into-3d-introduction/).
+  -
+    title: Unifying Three.js
+    url: https://twitter.com/marcel_wiessler/status/1480553663315783680
+    author: Marcel Weissler
+    authorLink: https://twitter.com/marcel_wiessler
+    category:
+      - engine
+    content: >
+      The [Needle Tools](https://needle.tools/) team [revealed](https://twitter.com/marcel_wiessler/status/1480553663315783680) ([twice!](https://twitter.com/marcel_wiessler/status/1478333834097840132)) that they're creating a workflow to move assets from Unity into Three.js.
+  -
+    title: A Babylonian Makes a Call
+    url: https://twitter.com/davrous/status/1479580049275764741
+    author: David Rousset
+    authorLink: https://twitter.com/davrous/
+    category:
+      - interop
+    content: >
+      David Rousset [made a call](https://twitter.com/davrous/status/1479580049275764741) from a Babylon.js-rendered art gallery to a Microsoft Teams user by using the [Azure Communication Services APIs](https://docs.microsoft.com/en-us/azure/communication-services/overview).
+  -
+    title: Insert Name Joke Here
+    url: https://github.com/BabylonJS/Babylon.js/releases/tag/5.0.0-beta.3
+    author: Babylon.js Contributors
+    authorLink: https://github.com/BabylonJS/
+    category:
+      - engine
+      - joke
+    content: >
+      Ending what may be the longest duration I've ever held back a weak joke, today can I finally point out the obvious connection between [Babylon 5](https://www.imdb.com/title/tt0105946/) and [Babylon 5](https://github.com/BabylonJS/Babylon.js/releases/tag/5.0.0-beta.3). Hashtag dad jokes.
+  -
+    title: Buttery Smooth Hands in Frame
+    url: https://learn.framevr.io/post/january-2022
+    author: Frame
+    authorLink: https://framevr.io/
+    category:
+      - release
+    content: >
+      As per usual, the Frame team knocked down bugs and added features in [their new year's release](https://learn.framevr.io/post/january-2022), including the [release of a port](https://github.com/virbela/buffered-interpolation) of Three.js's motion smoothing code over to Babylon.js.
+  -
+    title: Togetherness as a Service
+    url: https://twitter.com/bpowtweets/status/1480671620071137288
+    author: Brandon Powers
+    authorLink: https://twitter.com/bpowtweets/
+    category:
+      - art
+    content: >
+      <blockquote>DUET: a movement ritual for virtual reality experienced by two participants in shared space with an audience watching on. Creating a moment of group spectacle from intimacy, DUET seeks to transform what VR and dance can be and who it's for.</blockquote>
+ 
