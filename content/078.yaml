@@ -1,16 +1,69 @@
 date: 2022-01-18
 overview: >
-  Overvew here in markdown
-summary: 
+  Though this is my last issue as editor of the Immersive Web Weekly (see [issue 77](https://immersivewebweekly.com/issues/077/index.html) for details) there are still many "firsts" ahead for the immersive web. There's no end to the end of hard work and lofty goals waiting for people in this community. Those specifications won't write themselves. Our events won't self-organize. VR rigs won't pop out of printers (yet).
+  <br style="margin-bottom: 15px;" />
+  The wider web community stands ready to amaze and confuse us by using our work in ways that we never considered. Thank all of you for amazing and confusing me for 68 issues.
+  <br style="margin-bottom: 15px;" />
+  Install your dependencies, generate your make files, and fire up your compiler because it's time for another issue of the Immersive Web Weekly!
+
+summary: SwiftXR, Clarion alley, Polys V2, and Tiles from the Big City
+
 signed: >
-  [Trevor Flowers](https://trevor.smith.name/), maker of miniature furniture
+  [Trevor Flowers](https://trevor.smith.name/), new editor of the [Transmutable News Weekly](https://buttondown.email/TransmutableNews)
+
 links:
   -
-    title: Link title here
-    url: https://example.com/link
-    author: Author here
-    authorLink: https://example.com/link-author
+    title: Swiftly Edit WebXR
+    url: https://swiftxr.io/
+    author: Hammed Arowosegbe
+    authorLink: https://www.linkedin.com/in/hammed-arowosegbe-648284148/
     category:
-      - Category here
+      - editor
     content: >
-      Summary content goes here in markdown
+      In his recent [2021 project review](https://twitter.com/HammedArrow/status/1482061750245728261), Hammed Arowosegbe casually mentioned building [SwiftXR](https://swiftxr.io/), an in-browser editor for WebXR scenes.
+  -
+    title: Get Clear on Clarion
+    url: https://glitch.com/~clarion-alley
+    author: Kieran Farr
+    authorLink: https://twitter.com/kfarr
+    category:
+      - photogrammetry
+    content: >
+      Kieran Farr from [3DStreet](https://www.3d.st/) posted a [remixable Glitch experience](https://glitch.com/~clarion-alley) in which you can walk through one of San Francisco's mural-laden alleys.
+  -
+    title: Julie Smithson and Sophia Moshaha to Host Polys V2
+    url: https://www.eventbrite.com/e/the-2nd-polys-webxr-awards-hosted-by-julie-smithson-with-sophia-moshaha-tickets-242041892817
+    author: Powersimple
+    authorLink: 
+    category:
+      - awards
+    content: >
+      The Powersimple team announced the second installment of the Polys, the WebXR awards show that highlights progressive people and projects in our community. Block out time on February 12th for a lovely celebration.
+      (they're presenting an award to me but I hope that won't scare you away) 
+  -
+    title: 1 City, 2 Realities
+    url: https://www.rem5forgood.com/1city2realities.html
+    author: HandsOn Twin Cities and REM5
+    authorLink: https://www.handsontwincities.org/
+    category:
+      - experience
+    content: >
+      A volunteer coordinator, [HandsOn Twin Cities](https://www.handsontwincities.org/), worked with XR studio [REM5](https://twitter.com/Rem5Studios) to create [1 City, 2 Realities](https://www.rem5forgood.com/1city2realities.html), an exhibition space highlighting racial inequalities in the US and their community. Participants were given access to the experience and then asked to participate in a [series of debriefs and conversations](https://www.eventbrite.com/e/community-1-city-2-realities-mlk-2022-tickets-231105070487).
+  -
+    title: Tiles of the City
+    url: https://nytimes.github.io/aframe-loader-3dtiles-component/
+    author: New York Times R&D
+    authorLink: https://rd.nytimes.com/
+    category:
+      - photogrammetry
+    content: >
+      The research and development wing of the New York Times released [demonstrations](https://nytimes.github.io/aframe-loader-3dtiles-component/) of and [source code](https://github.com/nytimes/aframe-loader-3dtiles-component) for a new platform that dynamically loads and unloads detailed photos captured in 3D. It depends on [Three.js](https://threejs.org/), [A-Frame](https://aframe.io/), and data from [Cesium](https://cesium.com/) in the [OGC 3D Tiles](https://www.ogc.org/standards/3DTiles) format.
+  -
+    title: Cannon Remixed
+    url: https://webdirections.org/remixed/schedule.php
+    author: Ada Rose Cannon
+    authorLink: https://ada.is/
+    category:
+      - talk
+    content: >
+      On January 21, our illustrious co-chair, Ada Rose Cannon, will present "The State of Augmented Reality in the Web Platform" at the Remixed conference. Tickets are [free and available](https://webdirections.org/remixed/index.php#register) now.
