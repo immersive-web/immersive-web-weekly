@@ -1,3 +1,8 @@
+# This repository has been archived
+
+Weekly newsletter has been deprecated.
+Please check [Immersive Web .dev](https://immersiveweb.dev/) or [Immersive Web Samples](https://immersive-web.github.io/webxr-samples/) sites for information of WebXR.
+
 # Immersive Web Weekly
 
 This repo contains the content for both the Immersive Web Weekly email newsletter and [ImmersiveWebWeekly.com](https://immersivewebweekly.com).
